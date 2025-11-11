@@ -1,5 +1,85 @@
 [
   {
+    "year": 2006,
+    "season": "winter",
+    "count": 43
+  },
+  {
+    "year": 2006,
+    "season": "spring",
+    "count": 75
+  },
+  {
+    "year": 2006,
+    "season": "summer",
+    "count": 33
+  },
+  {
+    "year": 2006,
+    "season": "fall",
+    "count": 61
+  },
+  {
+    "year": 2007,
+    "season": "winter",
+    "count": 51
+  },
+  {
+    "year": 2007,
+    "season": "spring",
+    "count": 61
+  },
+  {
+    "year": 2007,
+    "season": "summer",
+    "count": 34
+  },
+  {
+    "year": 2007,
+    "season": "fall",
+    "count": 49
+  },
+  {
+    "year": 2008,
+    "season": "winter",
+    "count": 51
+  },
+  {
+    "year": 2008,
+    "season": "spring",
+    "count": 63
+  },
+  {
+    "year": 2008,
+    "season": "summer",
+    "count": 34
+  },
+  {
+    "year": 2008,
+    "season": "fall",
+    "count": 54
+  },
+  {
+    "year": 2009,
+    "season": "winter",
+    "count": 53
+  },
+  {
+    "year": 2009,
+    "season": "spring",
+    "count": 53
+  },
+  {
+    "year": 2009,
+    "season": "summer",
+    "count": 44
+  },
+  {
+    "year": 2009,
+    "season": "fall",
+    "count": 56
+  },
+  {
     "year": 2010,
     "season": "winter",
     "count": 44
@@ -7,12 +87,12 @@
   {
     "year": 2010,
     "season": "spring",
-    "count": 54
+    "count": 56
   },
   {
     "year": 2010,
     "season": "summer",
-    "count": 38
+    "count": 41
   },
   {
     "year": 2010,
@@ -27,12 +107,12 @@
   {
     "year": 2011,
     "season": "spring",
-    "count": 82
+    "count": 86
   },
   {
     "year": 2011,
     "season": "summer",
-    "count": 54
+    "count": 57
   },
   {
     "year": 2011,
@@ -47,17 +127,17 @@
   {
     "year": 2012,
     "season": "spring",
-    "count": 68
+    "count": 71
   },
   {
     "year": 2012,
     "season": "summer",
-    "count": 47
+    "count": 50
   },
   {
     "year": 2012,
     "season": "fall",
-    "count": 67
+    "count": 66
   },
   {
     "year": 2013,
@@ -67,17 +147,17 @@
   {
     "year": 2013,
     "season": "spring",
-    "count": 74
+    "count": 75
   },
   {
     "year": 2013,
     "season": "summer",
-    "count": 60
+    "count": 68
   },
   {
     "year": 2013,
     "season": "fall",
-    "count": 69
+    "count": 68
   },
   {
     "year": 2014,
@@ -87,12 +167,12 @@
   {
     "year": 2014,
     "season": "spring",
-    "count": 81
+    "count": 82
   },
   {
     "year": 2014,
     "season": "summer",
-    "count": 55
+    "count": 58
   },
   {
     "year": 2014,
@@ -107,12 +187,12 @@
   {
     "year": 2015,
     "season": "spring",
-    "count": 73
+    "count": 76
   },
   {
     "year": 2015,
     "season": "summer",
-    "count": 71
+    "count": 72
   },
   {
     "year": 2015,
@@ -187,7 +267,7 @@
   {
     "year": 2019,
     "season": "spring",
-    "count": 67
+    "count": 62
   },
   {
     "year": 2019,
@@ -328,6 +408,11 @@
     "year": 2026,
     "season": "spring",
     "count": 24
+  },
+  {
+    "year": 2026,
+    "season": "summer",
+    "count": 0
   },
   {
     "year": 2026,

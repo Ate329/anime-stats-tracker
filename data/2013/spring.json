@@ -162,7 +162,7 @@
     "synopsis": "Youto Yokodera wants to be seen in a way different from most men: as a pervert. However, his lewd actions are often misinterpreted as good intentions, and people cannot see his true nature. Upon hearing rumors of a cat statue that can banish an unwanted trait, he searches for it and prays for his façade to be removed. But each wish comes at a price: those unwelcomed traits are transferred to someone else who desires them!\n\nAfter realizing that vocalizing his dirty thoughts is not the best thing, Youto decides to regain his lost traits by seeking out the person who received them. Unfortunately, he was not alone in praying to the cat statue, and now he must not only fix his life, but the lives of others as well.\n\n[Written by MAL Rewrite]",
     "episodes": 12,
     "score": 7.13,
-    "scored_by": 243512,
+    "scored_by": 243518,
     "type": "TV",
     "source": "Light novel",
     "studios": [
@@ -347,7 +347,7 @@
     "synopsis": "While in search of his precious friend, a young boy named Nai falls captive to a beautiful woman, whose looks are matched only by her taste for human flesh. Meanwhile Gareki, a clever thief, is in the midst of robbing her luxurious home. After causing a distraction, Gareki agrees to help Nai escape, but they are discovered upon the woman's return. As she transforms into a ghoulish monster, the boys flee.\n\nOn the run, Nai and Gareki are found by \"Circus,\" a government defense agency that deals with criminal activity too difficult for the police to handle and protects civilians from \"varuga\"—terrible monsters that devour humans for sustenance. In the hope that it will lead Nai to his missing friend, he and Gareki decide to join Circus. On their perilous journey, they face dangerous varuga and begin to uncover the secrets behind a shadowy organization known as Kafka.\n\n[Written by MAL Rewrite]",
     "episodes": 13,
     "score": 7.07,
-    "scored_by": 92336,
+    "scored_by": 92342,
     "type": "TV",
     "source": "Manga",
     "studios": [
@@ -454,7 +454,7 @@
     "synopsis": "The countdown to extinction begins on Sunday with the arrival of the Septentriones, otherworldly invaders set on the eradication of mankind. Caught in the crossfire, Hibiki Kuze and his friends join in the war for humanity's survival by signing contracts with demons to become \"Devil Summoners.\" Soon, their abilities attract the attention of JP's, an underground agency led by Yamato Houtsuin. Once recruited into JP's, Hibiki and his friends fight and bond alongside other ordinary citizens who are Devil Summoners. \n\nHowever, with each new day, another Septentrione appears to wreak havoc upon Japan. Even if many lives are lost in the process, before that night ends, the young summoners must defeat the invaders at all costs.\n\n[Written by MAL Rewrite]",
     "episodes": 13,
     "score": 6.83,
-    "scored_by": 81022,
+    "scored_by": 81025,
     "type": "TV",
     "source": "Game",
     "studios": [
@@ -597,7 +597,7 @@
     "synopsis": "Kiri Haimura has an obsession with beautiful hair—specifically, cutting it. This bizarre trait is what leads him to seek out a rumored long-haired ghost who lives in an abandoned house on a hill. However, he finds not a ghost, but a beautiful girl with long flowing hair named Iwai Mushanokouji, the \"Hair Queen,\" whose hair cannot be cut due to a family curse.\n\nIwai explains that there is a death game surrounding her, and that if she is killed by a cursed object, aptly named a \"Killing Good,\" the wielder gets their wish granted. After protecting Iwai from \"Authors\"—Killing Goods users—he learns there is in fact a Killing Good passed down in his own family: a pair of scissors used by his ancestor to commit murders. Naming the scissors \"The Severing Crime Edge,\" he finds that he is able to cut Iwai's cursed hair with them, setting her free to live a normal life. However, many Authors seek to kill the Hair Queen, and Kiri will have to protect her in this lethal game of fate.\n\n[Written by MAL Rewrite]",
     "episodes": 13,
     "score": 6.65,
-    "scored_by": 48799,
+    "scored_by": 48803,
     "type": "TV",
     "source": "Manga",
     "studios": [
@@ -883,7 +883,7 @@
     "synopsis": "After their encounter with Team Plasma, Satoshi, Iris and Dent start a new journey in the Decolora Islands.",
     "episodes": 20,
     "score": 6.34,
-    "scored_by": 27663,
+    "scored_by": 27664,
     "type": "TV",
     "source": "Game",
     "studios": [
@@ -1011,7 +1011,7 @@
     "synopsis": "The story is set in Aquafall, a fantasy world abound with water and greenery, and populated by dragons and fairies. Meteorites suddenly bring forth evil creatures that threaten all living things on the planet. The fairy Syrup assembles the Aquafall Defense Force, with three girls of the dragon clans as recruits. The story follows Syrup and the dragon girls Leviathan, Bahamut, and Jörmungandr as they work together to battle enemies and grow up.\n\n(Source: ANN)",
     "episodes": 13,
     "score": 6.27,
-    "scored_by": 11913,
+    "scored_by": 11914,
     "type": "TV",
     "source": "Game",
     "studios": [
@@ -2091,6 +2091,31 @@
     "is_japanese": true
   },
   {
+    "mal_id": 45133,
+    "title": "Jingling Meng Ye Luoli",
+    "title_english": "The Guardians of Carcosa",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1359/128364l.jpg",
+    "synopsis": "Queen Mandora ruled Carcosa Wonderland, because humans destroyed the natural environment wantonly, which seriously affected the survival of Wonderland and the safety of fairies. Mandora believes that humans are selfish. She does not believe that humans will consciously improve the protection of the environment, so she wants to rule the human world, turn humans into slaves, and re-manage the natural environment seriously damaged by humans. The Xinling Fairy believed that humans would save the environment by themselves, so she led the brave Warrior of Carcosa to fight against Queen Mandora.\n\n (Source: StarTimes ON)",
+    "episodes": 234,
+    "score": null,
+    "scored_by": null,
+    "type": "TV",
+    "source": "Unknown",
+    "studios": [],
+    "producers": [],
+    "genres": [
+      "Fantasy"
+    ],
+    "themes": [],
+    "aired_from": "2013-06-06T00:00:00+00:00",
+    "aired_to": null,
+    "url": "https://myanimelist.net/anime/45133/Jingling_Meng_Ye_Luoli",
+    "year": null,
+    "season": null,
+    "is_hentai": false,
+    "is_japanese": true
+  },
+  {
     "mal_id": 44393,
     "title": "Shen Shou Jin Gang 2: Tianshen De Shou",
     "title_english": null,
@@ -2111,6 +2136,31 @@
     "aired_from": "2013-05-01T00:00:00+00:00",
     "aired_to": null,
     "url": "https://myanimelist.net/anime/44393/Shen_Shou_Jin_Gang_2__Tianshen_De_Shou",
+    "year": null,
+    "season": null,
+    "is_hentai": false,
+    "is_japanese": true
+  },
+  {
+    "mal_id": 45520,
+    "title": "Kuaile Tuo Mo Ta: Baoxiao Cheng Yuhui",
+    "title_english": null,
+    "image_url": "https://cdn.myanimelist.net/images/anime/1973/115228l.jpg",
+    "synopsis": null,
+    "episodes": 38,
+    "score": null,
+    "scored_by": null,
+    "type": "TV",
+    "source": "Original",
+    "studios": [],
+    "producers": [],
+    "genres": [
+      "Adventure"
+    ],
+    "themes": [],
+    "aired_from": "2013-06-01T00:00:00+00:00",
+    "aired_to": "2013-01-01T00:00:00+00:00",
+    "url": "https://myanimelist.net/anime/45520/Kuaile_Tuo_Mo_Ta__Baoxiao_Cheng_Yuhui",
     "year": null,
     "season": null,
     "is_hentai": false,
@@ -2263,33 +2313,6 @@
     "aired_from": "2013-05-31T00:00:00+00:00",
     "aired_to": null,
     "url": "https://myanimelist.net/anime/46838/Dazhan_Ren_Xiong_Po",
-    "year": null,
-    "season": null,
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 62765,
-    "title": "Byeonsinjadongcha Tobot 10th Season",
-    "title_english": null,
-    "image_url": "https://cdn.myanimelist.net/images/anime/1866/152622l.jpg",
-    "synopsis": null,
-    "episodes": 16,
-    "score": null,
-    "scored_by": null,
-    "type": "TV",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "genres": [
-      "Sci-Fi"
-    ],
-    "themes": [
-      "Mecha"
-    ],
-    "aired_from": "2013-03-31T00:00:00+00:00",
-    "aired_to": "2013-01-01T00:00:00+00:00",
-    "url": "https://myanimelist.net/anime/62765/Byeonsinjadongcha_Tobot_10th_Season",
     "year": null,
     "season": null,
     "is_hentai": false,

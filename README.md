@@ -101,6 +101,20 @@ All data comes from [MyAnimeList](https://myanimelist.net/) via the [Jikan API](
 
 ---
 
+## 🗓️ To Do
+
+- [ ] **🌏 Chinese Translation**
+- [ ] **⭐ My Personal Recommendations** - :)
+- [ ] **🔍 Search Functionality** - Search anime by title across all seasons
+- [ ] **🌙 Dark Mode** - Toggle between light and dark themes
+- [ ] **📈 Trending** - See what's popular this season
+- [ ] **🎲 Random Anime** - Discover new anime with random picker
+- [ ] **📝 Notes** - Add personal notes to anime entries (maybe)
+
+Feel free to contribute!
+
+---
+
 ## ⚠️ Disclaimer
 
 This project is not affiliated with or endorsed by MyAnimeList. All anime data, images, and information are property of their respective owners. This is a fan-made tool created for educational purposes.

@@ -4,7 +4,9 @@
 
 A beautiful, free anime tracker that helps you explore seasonal anime from 2010 onwards. Automatically updated weekly with the latest releases!
 
-![Stack: 100% Free](https://img.shields.io/badge/Stack-Free%20100%25-brightgreen) ![Auto Updates](https://img.shields.io/badge/Updates-Automated-blue) ![Data Source](https://img.shields.io/badge/Data-MyAnimeList-2E51A2)
+🌐 **Live Site**: [anime.ate329.com](https://anime.ate329.com)
+
+![Stack: 100% Free](https://img.shields.io/badge/Stack-Free%20100%25-brightgreen) ![Auto Updates](https://img.shields.io/badge/Updates-Automated-blue) ![Data Source](https://img.shields.io/badge/Data-MyAnimeList-2E51A2) ![Open Source](https://img.shields.io/badge/Open%20Source-MIT-yellow)
 
 ---
 

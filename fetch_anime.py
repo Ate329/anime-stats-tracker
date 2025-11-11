@@ -18,7 +18,7 @@ def fetch_anime_data(current_years_only=False):
                                    If False, fetch all years from START_YEAR.
     """
     # Configuration: Starting year for data collection (change if needed)
-    START_YEAR = 2010
+    START_YEAR = 2006
     
     # Get current year
     current_year = datetime.date.today().year

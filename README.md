@@ -2,7 +2,7 @@
 
 **Discover TV anime organized by year and season**
 
-A beautiful, free anime tracker that helps you explore seasonal anime from 2010 onwards. Automatically updated weekly with the latest releases!
+A beautiful, free anime tracker that helps you explore seasonal anime from 2006 onwards. Automatically updated weekly with the latest releases!
 
 🌐 **Live Site**: [anime.ate329.com](https://anime.ate329.com)
 
@@ -12,7 +12,7 @@ A beautiful, free anime tracker that helps you explore seasonal anime from 2010 
 
 ## ✨ Features
 
-- 📅 **Browse by Season** - Explore anime from 2010 onwards
+- 📅 **Browse by Season** - Explore anime from 2006 onwards
 - 🎯 **Smart Filtering** - Genre filters with OR/AND logic
 - 📊 **Rich Information** - Studios, ratings, synopses, themes, and more
 - 💫 **Modern Design** - Smooth animations and responsive layout
@@ -25,7 +25,7 @@ A beautiful, free anime tracker that helps you explore seasonal anime from 2010 
 
 ### Browse Anime
 1. Visit the homepage
-2. Scroll through available years (2010-2026)
+2. Scroll through available years (2006-2026)
 3. Click on any season to view anime
 
 ### Filter Results
@@ -51,7 +51,7 @@ anime-season-tracker/
 ├── README.md              # This file
 ├── data/                  # Anime data (JSON)
 │   ├── manifest.json      # Index of all seasons
-│   ├── 2010/
+│   ├── 2006/
 │   │   ├── winter.json
 │   │   ├── spring.json
 │   │   ├── summer.json
@@ -68,7 +68,7 @@ anime-season-tracker/
 
 ## 📊 Data Coverage
 
-- **Years**: 2010 - now
+- **Years**: 2006 - now
 - **Total Seasons**: 67+ seasons
 - **Total Anime**: 4,000+ TV series
 - **Updates**: 

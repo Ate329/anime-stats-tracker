@@ -84,7 +84,7 @@ anime-season-tracker/
 
 ## 📈 Rating Trends
 
-Watch how anime ratings have evolved over time! This graph shows the average MyAnimeList rating for each season from 2010 onwards.
+Watch how anime ratings have evolved over time! This graph shows the average MyAnimeList rating for each season from 2006 onwards.
 
 ![Anime Rating Trend](assets/rating-trend.png)
 

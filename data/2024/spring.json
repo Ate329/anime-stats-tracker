@@ -726,11 +726,11 @@
     "background": "",
     "episodes": 12,
     "score": 7.31,
-    "scored_by": 76924,
+    "scored_by": 76956,
     "rank": 2864,
     "popularity": 1410,
-    "members": 191188,
-    "favorites": 835,
+    "members": 191252,
+    "favorites": 836,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -1618,6 +1618,60 @@
     "is_japanese": false
   },
   {
+    "mal_id": 55911,
+    "title": "The Fable",
+    "title_english": "The Fable",
+    "title_japanese": "ザ・ファブル",
+    "title_synonyms": [],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1254/141155l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/q9aY2YL6luU?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Fable, an assassin who works in organized crime, has been raised to the legendary status of a ruthless killer capable of murdering any man within six seconds. Six years after his debut, his boss fears that Fable has started to attract too much attention from the legal authorities, and he orders him to hide in Osaka for a year. Accompanied by his driver who assumes the identity of his sister, Fable is bound by a special condition: he must act as a civilian and not murder anyone lest he and his partner lose their lives.\n\nHowever, the seemingly well-deserved holiday soon takes a grim turn. Takeshi Ebihara, the second-in-command of the Osaka mafia that officially protects the assassin, sees Fable's presence as a threat and wants to remove him. Constantly monitored by the yakuza and regularly put in life-or-death situations, Fable has no other choice but to outwit Takeshi's schemes if he wants to stay alive.\n\n[Written by MAL Rewrite]",
+    "background": "",
+    "episodes": 25,
+    "score": 8.14,
+    "scored_by": 36271,
+    "rank": 498,
+    "popularity": 2349,
+    "members": 98463,
+    "favorites": 750,
+    "type": "TV",
+    "status": "Finished Airing",
+    "airing": false,
+    "approved": true,
+    "duration": "22 min per ep",
+    "rating": "R - 17+ (violence & profanity)",
+    "source": "Manga",
+    "studios": [
+      "Tezuka Productions"
+    ],
+    "producers": [
+      "VAP",
+      "Kodansha",
+      "Nippon Television Network",
+      "Audio Planning U"
+    ],
+    "licensors": [],
+    "genres": [
+      "Comedy",
+      "Suspense"
+    ],
+    "themes": [
+      "Adult Cast",
+      "Organized Crime"
+    ],
+    "demographics": [
+      "Seinen"
+    ],
+    "aired_from": "2024-04-07T00:00:00+00:00",
+    "aired_to": "2024-09-29T00:00:00+00:00",
+    "broadcast": "Sundays at 00:55 (JST)",
+    "url": "https://myanimelist.net/anime/55911/The_Fable",
+    "year": 2024,
+    "season": "spring",
+    "is_hentai": false,
+    "is_japanese": true
+  },
+  {
     "mal_id": 53410,
     "title": "Yuru Camp△ Season 3",
     "title_english": "Laid-Back Camp Season 3",
@@ -1672,60 +1726,6 @@
     "aired_to": "2024-06-20T00:00:00+00:00",
     "broadcast": "Thursdays at 23:00 (JST)",
     "url": "https://myanimelist.net/anime/53410/Yuru_Camp△_Season_3",
-    "year": 2024,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 55911,
-    "title": "The Fable",
-    "title_english": "The Fable",
-    "title_japanese": "ザ・ファブル",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1254/141155l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/q9aY2YL6luU?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "Fable, an assassin who works in organized crime, has been raised to the legendary status of a ruthless killer capable of murdering any man within six seconds. Six years after his debut, his boss fears that Fable has started to attract too much attention from the legal authorities, and he orders him to hide in Osaka for a year. Accompanied by his driver who assumes the identity of his sister, Fable is bound by a special condition: he must act as a civilian and not murder anyone lest he and his partner lose their lives.\n\nHowever, the seemingly well-deserved holiday soon takes a grim turn. Takeshi Ebihara, the second-in-command of the Osaka mafia that officially protects the assassin, sees Fable's presence as a threat and wants to remove him. Constantly monitored by the yakuza and regularly put in life-or-death situations, Fable has no other choice but to outwit Takeshi's schemes if he wants to stay alive.\n\n[Written by MAL Rewrite]",
-    "background": "",
-    "episodes": 25,
-    "score": 8.14,
-    "scored_by": 36250,
-    "rank": 498,
-    "popularity": 2351,
-    "members": 98413,
-    "favorites": 749,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "22 min per ep",
-    "rating": "R - 17+ (violence & profanity)",
-    "source": "Manga",
-    "studios": [
-      "Tezuka Productions"
-    ],
-    "producers": [
-      "VAP",
-      "Kodansha",
-      "Nippon Television Network",
-      "Audio Planning U"
-    ],
-    "licensors": [],
-    "genres": [
-      "Comedy",
-      "Suspense"
-    ],
-    "themes": [
-      "Adult Cast",
-      "Organized Crime"
-    ],
-    "demographics": [
-      "Seinen"
-    ],
-    "aired_from": "2024-04-07T00:00:00+00:00",
-    "aired_to": "2024-09-29T00:00:00+00:00",
-    "broadcast": "Sundays at 00:55 (JST)",
-    "url": "https://myanimelist.net/anime/55911/The_Fable",
     "year": 2024,
     "season": "spring",
     "is_hentai": false,
@@ -2144,10 +2144,10 @@
     "background": "Henjin no Salad Bowl was released on Blu-ray as two box collections from August 21, 2024, to September 25, 2024.",
     "episodes": 12,
     "score": 7.27,
-    "scored_by": 29636,
-    "rank": 3116,
-    "popularity": 2905,
-    "members": 69409,
+    "scored_by": 29646,
+    "rank": 3113,
+    "popularity": 2904,
+    "members": 69432,
     "favorites": 168,
     "type": "TV",
     "status": "Finished Airing",

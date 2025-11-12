@@ -36,10 +36,13 @@ jobs:
       - name: Generate all graphs
         run: python generate_graphs.py
       
+      - name: Export CSV data
+        run: python export_csv.py
+      
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Data: Weekly update for current years + all graphs'
+          commit_message: 'Data: Weekly update for current years + graphs + CSV exports'
           file_pattern: 'data/* assets/*'
           commit_user_name: 'Anime Tracker Bot'
           commit_user_email: 'bot@anime-tracker.local'

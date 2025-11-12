@@ -126,24 +126,56 @@ def fetch_anime_data(current_years_only=False):
                                     elif any(indicator in producer.lower() for producer in producer_names for indicator in chinese_indicators):
                                         is_likely_japanese = False
                                 
+                                # Extract demographics
+                                demographics = anime.get('demographics', [])
+                                demographic_names = [demo.get('name', '') for demo in demographics]
+                                
+                                # Extract licensors
+                                licensors = anime.get('licensors', [])
+                                licensor_names = [lic.get('name', '') for lic in licensors]
+                                
+                                # Extract trailer URL - prefer embed_url as fallback since url can be null
+                                trailer = anime.get('trailer', {})
+                                trailer_url = trailer.get('url') or trailer.get('embed_url') if trailer else None
+                                
+                                # Extract broadcast string
+                                broadcast = anime.get('broadcast', {})
+                                broadcast_string = broadcast.get('string') if broadcast else None
+                                
                                 anime_info = {
                                     'mal_id': anime.get('mal_id', 'N/A'),
                                     'title': anime.get('title', 'Unknown Title'),
                                     'title_english': anime.get('title_english'),
+                                    'title_japanese': anime.get('title_japanese'),
+                                    'title_synonyms': anime.get('title_synonyms', []),
                                     'image_url': anime.get('images', {}).get('jpg', {}).get('large_image_url', 
                                                 anime.get('images', {}).get('jpg', {}).get('image_url', '')),
+                                    'trailer_url': trailer_url,
                                     'synopsis': anime.get('synopsis', 'No synopsis available.'),
+                                    'background': anime.get('background'),
                                     'episodes': anime.get('episodes'),
                                     'score': anime.get('score'),
                                     'scored_by': anime.get('scored_by'),
+                                    'rank': anime.get('rank'),
+                                    'popularity': anime.get('popularity'),
+                                    'members': anime.get('members'),
+                                    'favorites': anime.get('favorites'),
                                     'type': anime_type,
+                                    'status': anime.get('status'),
+                                    'airing': anime.get('airing'),
+                                    'approved': anime.get('approved'),
+                                    'duration': anime.get('duration'),
+                                    'rating': anime.get('rating'),
                                     'source': anime.get('source', 'Unknown'),
                                     'studios': [studio.get('name') for studio in anime.get('studios', [])],
                                     'producers': producer_names,
+                                    'licensors': licensor_names,
                                     'genres': genre_names,
                                     'themes': [theme.get('name') for theme in anime.get('themes', [])],
+                                    'demographics': demographic_names,
                                     'aired_from': anime.get('aired', {}).get('from'),
                                     'aired_to': anime.get('aired', {}).get('to'),
+                                    'broadcast': broadcast_string,
                                     'url': anime.get('url', ''),
                                     'year': anime.get('year'),
                                     'season': anime.get('season'),

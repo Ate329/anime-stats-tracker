@@ -51,6 +51,7 @@ anime-season-tracker/
 ├── app.js                  # Frontend logic
 ├── fetch_anime.py          # Data fetching script
 ├── generate_graphs.py      # All graph generators (automated)
+├── export_csv.py           # CSV export script
 ├── requirements.txt        # Python dependencies
 ├── README.md               # This file
 ├── data/                   # Anime data (JSON)
@@ -64,6 +65,12 @@ anime-season-tracker/
 │   ├── seasonal-patterns.json             # Seasonal patterns data for web
 │   ├── studio-rankings.json               # Studio rankings data for web
 │   ├── collection-stats.json              # Overall collection statistics
+│   ├── csv/               # CSV exports for data analysis
+│   │   ├── all_anime.csv                  # All anime with complete details
+│   │   ├── ratings_by_season.csv          # Seasonal rating statistics
+│   │   ├── genre_statistics.csv           # Genre stats and ratings
+│   │   ├── studio_statistics.csv          # Studio stats and ratings
+│   │   └── yearly_summary.csv             # Year-by-year summary
 │   ├── 2006/
 │   │   ├── winter.json
 │   │   ├── spring.json
@@ -96,6 +103,35 @@ anime-season-tracker/
 - **Updates**: 
   - Weekly: Current & next year
   - Quarterly: All historical data
+
+---
+
+## 📥 CSV Data Exports
+
+All anime data is available in CSV format. [📖 View detailed CSV documentation →](data/csv/README.md)
+
+### Available CSV Files:
+
+1. **`all_anime.csv`** (4,500+ entries)
+   - Complete dataset with all anime details
+   - Includes: titles, scores, genres, studios, episodes, synopses, and more
+   - Multi-value fields separated by `|` (genres, studios, themes, demographics)
+
+2. **`ratings_by_season.csv`** (80+ entries)
+   - Seasonal rating statistics from Winter 2006 onwards
+   - Average, median, highest, and lowest scores per season
+
+3. **`genre_statistics.csv`** (20+ entries)
+   - Genre popularity and rating statistics
+   - Total anime count and score metrics per genre
+
+4. **`studio_statistics.csv`** (460+ entries)
+   - Studio productivity and quality metrics
+   - Total anime count and average ratings per studio
+
+5. **`yearly_summary.csv`** (20 entries)
+   - Year-by-year production statistics
+   - Total anime, ratings, unique genres, and studios per year
 
 ---
 

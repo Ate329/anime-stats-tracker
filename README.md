@@ -46,14 +46,20 @@ A beautiful, free anime tracker that helps you explore seasonal anime from 2006 
 ```
 anime-season-tracker/
 ├── index.html              # Main website
+├── data.html               # Data visualization page
 ├── app.js                  # Frontend logic
 ├── fetch_anime.py          # Data fetching script
-├── generate_rating_graph.py # Rating trend graph generator
+├── generate_graphs.py      # All graph generators (automated)
 ├── requirements.txt        # Python dependencies
 ├── README.md              # This file
 ├── data/                  # Anime data (JSON)
 │   ├── manifest.json      # Index of all seasons
 │   ├── rating-trend.json  # Rating trend data for web
+│   ├── genre-trends.json  # Genre trends (absolute) for web
+│   ├── genre-trends-percentage.json # Genre trends (%) for web
+│   ├── production-volume.json # Production volume data for web
+│   ├── seasonal-patterns.json # Seasonal patterns data for web
+│   ├── studio-rankings.json # Studio rankings data for web
 │   ├── 2006/
 │   │   ├── winter.json
 │   │   ├── spring.json
@@ -62,7 +68,12 @@ anime-season-tracker/
 │   ├── 2011/ ... 2026/    # More years
 │   └── ...
 ├── assets/
-│   └── rating-trend.png   # Rating trend graph for README
+│   ├── rating-trend.png   # Rating trend graph for README
+│   ├── genre-trends.png   # Genre trends (absolute) for README
+│   ├── genre-trends-percentage.png # Genre trends (%) for README
+│   ├── production-volume.png # Production volume graph for README
+│   ├── seasonal-patterns.png # Seasonal patterns graph for README
+│   └── studio-rankings.png # Studio rankings graph for README
 └── .github/
     └── workflows/         # GitHub Actions
         ├── update-current-years.yml  # Weekly updates + graph
@@ -82,11 +93,42 @@ anime-season-tracker/
 
 ---
 
-## 📈 Rating Trends
+## 📊 Data Insights & Trends
 
-Watch how anime ratings have evolved over time! This graph shows the average MyAnimeList rating for each season from 2006 onwards.
+Explore fascinating insights into the anime industry with automatically generated visualizations!
+
+### 📈 Average Rating Trend
+How anime ratings have evolved over time - the average MyAnimeList rating for each season since 2006.
 
 ![Anime Rating Trend](assets/rating-trend.png)
+
+### 🎭 Genre Trends Over Time
+The top 10 most popular anime genres - showing both absolute numbers and percentage of total production.
+
+**Absolute Numbers:**
+
+![Genre Trends](assets/genre-trends.png)
+
+**Percentage of Production:**
+
+![Genre Trends Percentage](assets/genre-trends-percentage.png)
+
+### 📊 Production Volume
+The total number of TV anime produced each year - tracking the industry's remarkable growth.
+
+![Production Volume](assets/production-volume.png)
+
+### 🗓️ Seasonal Patterns
+Which season historically has the best ratings and most anime? Find out the patterns!
+
+![Seasonal Patterns](assets/seasonal-patterns.png)
+
+### 🏢 Studio Rankings
+Compare the most prolific studios vs. the highest quality studios. Who makes the most anime? Who makes the best?
+
+![Studio Rankings](assets/studio-rankings.png)
+
+> 💡 **Interactive versions** of all these graphs are available on the [Data page](https://anime.ate329.com/data.html)
 
 ---
 

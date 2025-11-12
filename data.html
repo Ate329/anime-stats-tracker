@@ -88,10 +88,91 @@
             </div>
         </div>
 
-        <!-- More data sections can be added here in the future -->
-        <div class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">🔮 More Data Coming Soon</h2>
-            <p class="text-gray-600">We're working on adding more interesting insights and statistics about anime trends. Stay tuned!</p>
+        <!-- Genre Trends -->
+        <div id="genre-trends-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">🎭 Genre Trends Over Time</h2>
+            <p class="text-gray-600 mb-6">Top 10 most popular anime genres - comparing absolute numbers vs. percentage of production</p>
+            <div class="grid grid-cols-1 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Absolute Numbers</h3>
+                    <div class="relative" style="height: 450px;">
+                        <canvas id="genre-trends-chart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Percentage of Total Production</h3>
+                    <div class="relative" style="height: 450px;">
+                        <canvas id="genre-trends-percentage-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Production Volume -->
+        <div id="production-volume-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">📈 Anime Production Volume</h2>
+            <p class="text-gray-600 mb-6">Total number of TV anime produced each year - tracking industry growth</p>
+            <div class="relative" style="height: 400px;">
+                <canvas id="production-volume-chart"></canvas>
+            </div>
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+                <div class="bg-gray-50 rounded-lg p-3">
+                    <div class="text-2xl font-bold text-gray-900" id="total-anime">-</div>
+                    <div class="text-sm text-gray-600">Total Anime (2006-2026)</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-3">
+                    <div class="text-2xl font-bold text-blue-600" id="avg-per-year">-</div>
+                    <div class="text-sm text-gray-600">Average Per Year</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-3">
+                    <div class="text-2xl font-bold text-green-600" id="peak-year">-</div>
+                    <div class="text-sm text-gray-600">Peak Year</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seasonal Patterns -->
+        <div id="seasonal-patterns-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">🗓️ Seasonal Patterns</h2>
+            <p class="text-gray-600 mb-6">Which season historically has the best ratings and most anime?</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="relative" style="height: 350px;">
+                    <canvas id="seasonal-ratings-chart"></canvas>
+                </div>
+                <div class="relative" style="height: 350px;">
+                    <canvas id="seasonal-counts-chart"></canvas>
+                </div>
+            </div>
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+                <div class="bg-blue-50 rounded-lg p-3">
+                    <div class="text-xl font-bold text-blue-900" id="highest-rated-season">-</div>
+                    <div class="text-sm text-gray-600">Highest Rated Season</div>
+                </div>
+                <div class="bg-green-50 rounded-lg p-3">
+                    <div class="text-xl font-bold text-green-900" id="most-productive-season">-</div>
+                    <div class="text-sm text-gray-600">Most Productive Season</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Studio Rankings -->
+        <div id="studio-rankings-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">🏢 Studio Rankings</h2>
+            <p class="text-gray-600 mb-6">Compare the most prolific studios vs. the highest quality studios</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Top 15 by Production Volume</h3>
+                    <div class="relative" style="height: 500px;">
+                        <canvas id="studio-quantity-chart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Top 15 by Average Quality</h3>
+                    <div class="relative" style="height: 500px;">
+                        <canvas id="studio-quality-chart"></canvas>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -108,6 +189,13 @@
     <!-- Script -->
     <script>
         let ratingTrendChart = null;
+        let genreTrendsChart = null;
+        let genreTrendsPercentageChart = null;
+        let productionVolumeChart = null;
+        let seasonalRatingsChart = null;
+        let seasonalCountsChart = null;
+        let studioQuantityChart = null;
+        let studioQualityChart = null;
 
         /**
          * Load and display rating trend
@@ -266,9 +354,601 @@
             return result;
         }
 
+        /**
+         * Load and display genre trends
+         */
+        async function loadGenreTrends() {
+            try {
+                const response = await fetch('data/genre-trends.json');
+                if (!response.ok) {
+                    console.log('Genre trends data not available');
+                    document.getElementById('genre-trends-section').style.display = 'none';
+                    return;
+                }
+                
+                const trendData = await response.json();
+                const ctx = document.getElementById('genre-trends-chart').getContext('2d');
+                
+                // Create datasets for each genre
+                const colors = [
+                    '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6',
+                    '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+                ];
+                
+                const datasets = trendData.genres.map((genre, index) => ({
+                    label: genre,
+                    data: trendData.data[genre],
+                    borderColor: colors[index % colors.length],
+                    backgroundColor: 'transparent',
+                    borderWidth: 2.5,
+                    pointRadius: 3,
+                    pointHoverRadius: 5,
+                    tension: 0.3
+                }));
+                
+                genreTrendsChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: trendData.years,
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'right',
+                                labels: {
+                                    font: {
+                                        size: 11,
+                                        weight: '600'
+                                    },
+                                    boxWidth: 12,
+                                    padding: 10
+                                }
+                            },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.dataset.label + ': ' + context.parsed.y + ' anime';
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Year',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                ticks: {
+                                    maxRotation: 45,
+                                    minRotation: 45
+                                }
+                            },
+                            y: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Number of Anime',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        interaction: {
+                            mode: 'nearest',
+                            axis: 'x',
+                            intersect: false
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading genre trends:', error);
+                document.getElementById('genre-trends-section').style.display = 'none';
+            }
+        }
+
+        /**
+         * Load and display production volume
+         */
+        async function loadProductionVolume() {
+            try {
+                const response = await fetch('data/production-volume.json');
+                if (!response.ok) {
+                    console.log('Production volume data not available');
+                    document.getElementById('production-volume-section').style.display = 'none';
+                    return;
+                }
+                
+                const volumeData = await response.json();
+                
+                // Update statistics
+                document.getElementById('total-anime').textContent = volumeData.total_anime.toLocaleString();
+                document.getElementById('avg-per-year').textContent = volumeData.avg_per_year.toFixed(1);
+                document.getElementById('peak-year').textContent = volumeData.peak_year + ' (' + volumeData.peak_count + ')';
+                
+                // Create the chart
+                const ctx = document.getElementById('production-volume-chart').getContext('2d');
+                
+                productionVolumeChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: volumeData.years,
+                        datasets: [{
+                            label: 'Anime Count',
+                            data: volumeData.counts,
+                            backgroundColor: '#3b82f6',
+                            borderColor: '#2563eb',
+                            borderWidth: 1,
+                            borderRadius: 4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return 'Total Anime: ' + context.parsed.y;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Year',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                }
+                            },
+                            y: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Number of TV Anime',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading production volume:', error);
+                document.getElementById('production-volume-section').style.display = 'none';
+            }
+        }
+
+        /**
+         * Load and display seasonal patterns
+         */
+        async function loadSeasonalPatterns() {
+            try {
+                const response = await fetch('data/seasonal-patterns.json');
+                if (!response.ok) {
+                    console.log('Seasonal patterns data not available');
+                    document.getElementById('seasonal-patterns-section').style.display = 'none';
+                    return;
+                }
+                
+                const patternData = await response.json();
+                
+                // Update statistics
+                document.getElementById('highest-rated-season').textContent = 
+                    patternData.highest_rated_season.charAt(0).toUpperCase() + patternData.highest_rated_season.slice(1);
+                document.getElementById('most-productive-season').textContent = 
+                    patternData.most_productive_season.charAt(0).toUpperCase() + patternData.most_productive_season.slice(1);
+                
+                const seasons = patternData.seasons.map(s => s.charAt(0).toUpperCase() + s.slice(1));
+                const colors = ['#3b82f6', '#22c55e', '#f59e0b', '#ef4444'];
+                
+                // Chart 1: Average Ratings by Season
+                const ctx1 = document.getElementById('seasonal-ratings-chart').getContext('2d');
+                seasonalRatingsChart = new Chart(ctx1, {
+                    type: 'bar',
+                    data: {
+                        labels: seasons,
+                        datasets: [{
+                            label: 'Average Rating',
+                            data: Object.values(patternData.avg_scores),
+                            backgroundColor: colors,
+                            borderWidth: 0,
+                            borderRadius: 6
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Average Rating by Season',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return 'Avg Rating: ' + context.parsed.y.toFixed(2);
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                display: true,
+                                beginAtZero: false,
+                                min: 6.0,
+                                max: 7.5,
+                                title: {
+                                    display: true,
+                                    text: 'Rating',
+                                    font: {
+                                        size: 12,
+                                        weight: 'bold'
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+                
+                // Chart 2: Total Anime Count by Season
+                const ctx2 = document.getElementById('seasonal-counts-chart').getContext('2d');
+                seasonalCountsChart = new Chart(ctx2, {
+                    type: 'bar',
+                    data: {
+                        labels: seasons,
+                        datasets: [{
+                            label: 'Anime Count',
+                            data: Object.values(patternData.counts),
+                            backgroundColor: colors,
+                            borderWidth: 0,
+                            borderRadius: 6
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            title: {
+                                display: true,
+                                text: 'Total Anime by Season',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return 'Total: ' + context.parsed.y.toLocaleString();
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            y: {
+                                display: true,
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Count',
+                                    font: {
+                                        size: 12,
+                                        weight: 'bold'
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading seasonal patterns:', error);
+                document.getElementById('seasonal-patterns-section').style.display = 'none';
+            }
+        }
+
+        /**
+         * Load and display studio rankings
+         */
+        async function loadStudioRankings() {
+            try {
+                const response = await fetch('data/studio-rankings.json');
+                if (!response.ok) {
+                    console.log('Studio rankings data not available');
+                    document.getElementById('studio-rankings-section').style.display = 'none';
+                    return;
+                }
+                
+                const rankingData = await response.json();
+                
+                // Chart 1: Top Studios by Quantity
+                const ctx1 = document.getElementById('studio-quantity-chart').getContext('2d');
+                const studiosQty = rankingData.by_quantity.map(s => s.studio);
+                const countsQty = rankingData.by_quantity.map(s => s.count);
+                
+                studioQuantityChart = new Chart(ctx1, {
+                    type: 'bar',
+                    data: {
+                        labels: studiosQty,
+                        datasets: [{
+                            label: 'Anime Count',
+                            data: countsQty,
+                            backgroundColor: '#3b82f6',
+                            borderWidth: 0,
+                            borderRadius: 4
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return 'Total Anime: ' + context.parsed.x;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Number of Anime',
+                                    font: {
+                                        size: 12,
+                                        weight: 'bold'
+                                    }
+                                }
+                            },
+                            y: {
+                                display: true,
+                                ticks: {
+                                    font: {
+                                        size: 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+                
+                // Chart 2: Top Studios by Quality
+                const ctx2 = document.getElementById('studio-quality-chart').getContext('2d');
+                const studiosQual = rankingData.by_quality.map(s => s.studio);
+                const scoresQual = rankingData.by_quality.map(s => s.avg_score);
+                
+                studioQualityChart = new Chart(ctx2, {
+                    type: 'bar',
+                    data: {
+                        labels: studiosQual,
+                        datasets: [{
+                            label: 'Average Rating',
+                            data: scoresQual,
+                            backgroundColor: '#10b981',
+                            borderWidth: 0,
+                            borderRadius: 4
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        const studio = rankingData.by_quality[context.dataIndex];
+                                        return [
+                                            'Average Rating: ' + studio.avg_score.toFixed(2),
+                                            'Total Anime: ' + studio.count,
+                                            'Rated Anime: ' + studio.rated_count
+                                        ];
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                beginAtZero: false,
+                                min: 6.0,
+                                max: 8.5,
+                                title: {
+                                    display: true,
+                                    text: 'Average Rating',
+                                    font: {
+                                        size: 12,
+                                        weight: 'bold'
+                                    }
+                                }
+                            },
+                            y: {
+                                display: true,
+                                ticks: {
+                                    font: {
+                                        size: 10
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading studio rankings:', error);
+                document.getElementById('studio-rankings-section').style.display = 'none';
+            }
+        }
+
+        /**
+         * Load and display genre trends percentage
+         */
+        async function loadGenreTrendsPercentage() {
+            try {
+                const response = await fetch('data/genre-trends-percentage.json');
+                if (!response.ok) {
+                    console.log('Genre trends percentage data not available');
+                    return;
+                }
+                
+                const trendData = await response.json();
+                const ctx = document.getElementById('genre-trends-percentage-chart').getContext('2d');
+                
+                // Create datasets for each genre
+                const colors = [
+                    '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6',
+                    '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+                ];
+                
+                const datasets = trendData.genres.map((genre, index) => ({
+                    label: genre,
+                    data: trendData.data[genre],
+                    borderColor: colors[index % colors.length],
+                    backgroundColor: 'transparent',
+                    borderWidth: 2.5,
+                    pointRadius: 3,
+                    pointHoverRadius: 5,
+                    tension: 0.3
+                }));
+                
+                genreTrendsPercentageChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: trendData.years,
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                display: true,
+                                position: 'right',
+                                labels: {
+                                    font: {
+                                        size: 11,
+                                        weight: '600'
+                                    },
+                                    boxWidth: 12,
+                                    padding: 10
+                                }
+                            },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                                padding: 12,
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.dataset.label + ': ' + context.parsed.y.toFixed(2) + '%';
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Year',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                ticks: {
+                                    maxRotation: 45,
+                                    minRotation: 45
+                                }
+                            },
+                            y: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Percentage (%)',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        interaction: {
+                            mode: 'nearest',
+                            axis: 'x',
+                            intersect: false
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading genre trends percentage:', error);
+            }
+        }
+
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
             loadRatingTrend();
+            loadGenreTrends();
+            loadGenreTrendsPercentage();
+            loadProductionVolume();
+            loadSeasonalPatterns();
+            loadStudioRankings();
         });
     </script>
 </body>

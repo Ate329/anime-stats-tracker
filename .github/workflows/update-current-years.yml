@@ -33,13 +33,13 @@ jobs:
       - name: Run anime fetch script (current years only)
         run: python fetch_anime.py --current-years-only
       
-      - name: Generate rating trend graph
-        run: python generate_rating_graph.py
+      - name: Generate all graphs
+        run: python generate_graphs.py
       
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'Data: Weekly update for current years + rating graph'
+          commit_message: 'Data: Weekly update for current years + all graphs'
           file_pattern: 'data/* assets/*'
           commit_user_name: 'Anime Tracker Bot'
           commit_user_email: 'bot@anime-tracker.local'

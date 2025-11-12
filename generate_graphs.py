@@ -1,0 +1,588 @@
+"""
+Unified script to generate all anime data visualizations.
+Creates both static PNG images (for README) and JSON data (for interactive web charts).
+"""
+
+import json
+import pathlib
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from datetime import datetime
+from collections import defaultdict, Counter
+import statistics
+
+# Configuration
+DATA_DIR = pathlib.Path("data")
+ASSETS_DIR = pathlib.Path("assets")
+ASSETS_DIR.mkdir(exist_ok=True)
+
+def load_all_anime_data():
+    """Load all anime data from JSON files."""
+    all_anime = []
+    manifest_path = DATA_DIR / "manifest.json"
+    
+    with open(manifest_path, 'r', encoding='utf-8') as f:
+        manifest = json.load(f)
+    
+    for entry in manifest:
+        year = entry['year']
+        season = entry['season']
+        file_path = DATA_DIR / str(year) / f"{season}.json"
+        
+        if file_path.exists():
+            with open(file_path, 'r', encoding='utf-8') as f:
+                anime_list = json.load(f)
+                all_anime.extend(anime_list)
+    
+    return all_anime, manifest
+
+def generate_rating_trend():
+    """Generate rating trend visualization."""
+    print("\nGenerating rating trend...")
+    
+    # Read manifest
+    manifest_path = DATA_DIR / "manifest.json"
+    with open(manifest_path, 'r', encoding='utf-8') as f:
+        manifest = json.load(f)
+    
+    # Collect rating data
+    season_data = []
+    
+    for entry in manifest:
+        year = entry['year']
+        season = entry['season']
+        season_file = DATA_DIR / str(year) / f"{season}.json"
+        
+        if not season_file.exists():
+            continue
+        
+        with open(season_file, 'r', encoding='utf-8') as f:
+            anime_list = json.load(f)
+        
+        ratings = [anime['score'] for anime in anime_list if anime.get('score') is not None]
+        
+        if ratings:
+            avg_rating = statistics.mean(ratings)
+            season_month = {'winter': 1, 'spring': 4, 'summer': 7, 'fall': 10}
+            date = datetime(year, season_month.get(season, 1), 1)
+            
+            season_data.append({
+                'date': date,
+                'avg_rating': avg_rating,
+                'count': len(ratings),
+                'year': year,
+                'season': season
+            })
+            print(f"  {year} {season}: {avg_rating:.2f} (from {len(ratings)} rated anime)")
+    
+    # Sort by date
+    season_data.sort(key=lambda x: x['date'])
+    
+    # Prepare data for plotting
+    dates = [d['date'] for d in season_data]
+    ratings = [d['avg_rating'] for d in season_data]
+    
+    # Calculate moving average
+    window_size = 4
+    moving_avg = []
+    for i in range(len(ratings)):
+        if i < window_size - 1:
+            moving_avg.append(None)
+        else:
+            avg = statistics.mean(ratings[i - window_size + 1:i + 1])
+            moving_avg.append(avg)
+    
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    ax.plot(dates, ratings, marker='o', linewidth=2, markersize=4, 
+            label='Seasonal Average', color='#1f2937')
+    ax.plot(dates, moving_avg, linewidth=3, linestyle='--', 
+            label='Moving Average (4 seasons)', color='#ef4444')
+    
+    ax.set_title('Average Anime Rating Trend Over Time', fontsize=16, fontweight='bold', pad=20)
+    ax.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Average Rating (MAL Score)', fontsize=12, fontweight='bold')
+    ax.grid(True, alpha=0.3, linestyle='--')
+    ax.legend(loc='best', fontsize=10)
+    
+    # Format x-axis
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+    ax.xaxis.set_major_locator(mdates.YearLocator(1))
+    plt.gcf().autofmt_xdate()
+    
+    # Y-axis limits
+    min_rating = min(ratings)
+    max_rating = max(ratings)
+    ax.set_ylim(min_rating - 0.3, max_rating + 0.3)
+    
+    # Overall average line
+    overall_avg = statistics.mean(ratings)
+    ax.axhline(y=overall_avg, color='#10b981', linestyle=':', linewidth=2, 
+               label=f'Overall Average: {overall_avg:.2f}', alpha=0.6)
+    ax.legend(loc='best', fontsize=10)
+    
+    plt.tight_layout()
+    
+    # Save
+    output_path = ASSETS_DIR / "rating-trend.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved rating trend graph to {output_path}")
+    
+    # Save JSON for web
+    labels = []
+    prev_year = None
+    for d in season_data:
+        if d['year'] != prev_year:
+            labels.append(str(d['year']))
+            prev_year = d['year']
+        else:
+            labels.append('')
+    
+    web_data = {
+        'labels': labels,
+        'dates': [d['date'].strftime('%Y-%m-%d') for d in season_data],
+        'ratings': [round(d['avg_rating'], 2) for d in season_data],
+        'counts': [d['count'] for d in season_data],
+        'overall_average': round(overall_avg, 2),
+        'min_rating': round(min(ratings), 2),
+        'max_rating': round(max(ratings), 2)
+    }
+    
+    web_data_path = DATA_DIR / "rating-trend.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved rating trend data to {web_data_path}")
+
+def generate_genre_trends():
+    """Generate genre trends visualization."""
+    print("\nGenerating genre trends...")
+    all_anime, _ = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    genre_counts_by_year = defaultdict(lambda: defaultdict(int))
+    
+    for anime in all_anime:
+        year = anime.get('year')
+        if not year or year < 2006 or year > current_year:
+            continue
+        
+        genres = anime.get('genres', [])
+        for genre in genres:
+            if genre:
+                genre_counts_by_year[year][genre] += 1
+    
+    # Top 10 genres
+    all_genre_counts = Counter()
+    for year_data in genre_counts_by_year.values():
+        for genre, count in year_data.items():
+            all_genre_counts[genre] += count
+    
+    top_genres = [genre for genre, _ in all_genre_counts.most_common(10)]
+    
+    years = sorted(genre_counts_by_year.keys())
+    genre_data = {genre: [] for genre in top_genres}
+    
+    for year in years:
+        for genre in top_genres:
+            genre_data[genre].append(genre_counts_by_year[year].get(genre, 0))
+    
+    # Plot
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    colors = plt.cm.tab10(range(10))
+    for i, genre in enumerate(top_genres):
+        ax.plot(years, genre_data[genre], marker='o', label=genre, 
+                linewidth=2.5, markersize=5, color=colors[i])
+    
+    ax.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Number of Anime', fontsize=12, fontweight='bold')
+    ax.set_title('Genre Trends Over Time (Top 10 Genres)', fontsize=14, fontweight='bold', pad=20)
+    ax.legend(loc='upper left', fontsize=10, framealpha=0.9)
+    ax.grid(True, alpha=0.3, linestyle='--')
+    
+    ax.set_xticks(years)
+    ax.set_xticklabels(years, rotation=45, ha='right')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "genre-trends.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved genre trends graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'years': years,
+        'genres': top_genres,
+        'data': {genre: genre_data[genre] for genre in top_genres}
+    }
+    
+    web_data_path = DATA_DIR / "genre-trends.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved genre trends data to {web_data_path}")
+
+def generate_production_volume():
+    """Generate production volume visualization."""
+    print("\nGenerating production volume...")
+    _, manifest = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    volume_by_year = defaultdict(int)
+    for entry in manifest:
+        year = entry['year']
+        if 2006 <= year <= current_year:
+            volume_by_year[year] += entry['count']
+    
+    years = sorted(volume_by_year.keys())
+    counts = [volume_by_year[year] for year in years]
+    
+    # Growth rates
+    growth_rates = []
+    for i in range(1, len(counts)):
+        growth = ((counts[i] - counts[i-1]) / counts[i-1]) * 100
+        growth_rates.append(growth)
+    
+    # Plot
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(14, 10))
+    
+    # Plot 1: Volume
+    ax1.plot(years, counts, marker='o', linewidth=2.5, markersize=6, color='#2563eb')
+    ax1.fill_between(years, counts, alpha=0.3, color='#2563eb')
+    ax1.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax1.set_ylabel('Number of TV Anime', fontsize=12, fontweight='bold')
+    ax1.set_title('Anime Production Volume Over Time', fontsize=14, fontweight='bold', pad=20)
+    ax1.grid(True, alpha=0.3, linestyle='--')
+    ax1.set_xticks(years)
+    ax1.set_xticklabels([str(y) for y in years], rotation=45, ha='right')
+    
+    # Add ALL labels
+    for year, count in zip(years, counts):
+        ax1.annotate(f'{count}', xy=(year, count), xytext=(0, 10),
+                    textcoords='offset points', ha='center', fontsize=7)
+    
+    # Plot 2: Growth rate
+    ax2.bar(years[1:], growth_rates, color=['#22c55e' if g >= 0 else '#ef4444' for g in growth_rates])
+    ax2.axhline(y=0, color='black', linestyle='-', linewidth=0.8)
+    ax2.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax2.set_ylabel('Growth Rate (%)', fontsize=12, fontweight='bold')
+    ax2.set_title('Year-over-Year Growth Rate', fontsize=14, fontweight='bold', pad=20)
+    ax2.grid(True, alpha=0.3, linestyle='--', axis='y')
+    ax2.set_xticks(years[1:])
+    ax2.set_xticklabels([str(y) for y in years[1:]], rotation=45, ha='right')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "production-volume.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved production volume graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'years': years,
+        'counts': counts,
+        'growth_rates': growth_rates,
+        'total_anime': sum(counts),
+        'avg_per_year': round(sum(counts) / len(counts), 1),
+        'peak_year': years[counts.index(max(counts))],
+        'peak_count': max(counts)
+    }
+    
+    web_data_path = DATA_DIR / "production-volume.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved production volume data to {web_data_path}")
+
+def generate_genre_trends_percentage():
+    """Generate genre trends as percentage of total production."""
+    print("\nGenerating genre trends (percentage)...")
+    all_anime, _ = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    genre_counts_by_year = defaultdict(lambda: defaultdict(int))
+    total_by_year = defaultdict(int)
+    
+    for anime in all_anime:
+        year = anime.get('year')
+        if not year or year < 2006 or year > current_year:
+            continue
+        
+        total_by_year[year] += 1
+        genres = anime.get('genres', [])
+        for genre in genres:
+            if genre:
+                genre_counts_by_year[year][genre] += 1
+    
+    # Top 10 genres by total count
+    all_genre_counts = Counter()
+    for year_data in genre_counts_by_year.values():
+        for genre, count in year_data.items():
+            all_genre_counts[genre] += count
+    
+    top_genres = [genre for genre, _ in all_genre_counts.most_common(10)]
+    
+    years = sorted(genre_counts_by_year.keys())
+    genre_percentages = {genre: [] for genre in top_genres}
+    
+    for year in years:
+        total = total_by_year[year]
+        for genre in top_genres:
+            count = genre_counts_by_year[year].get(genre, 0)
+            percentage = (count / total * 100) if total > 0 else 0
+            genre_percentages[genre].append(percentage)
+    
+    # Plot
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    colors = plt.cm.tab10(range(10))
+    for i, genre in enumerate(top_genres):
+        ax.plot(years, genre_percentages[genre], marker='o', label=genre, 
+                linewidth=2.5, markersize=5, color=colors[i])
+    
+    ax.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Percentage of Total Anime (%)', fontsize=12, fontweight='bold')
+    ax.set_title('Genre Trends Over Time - Percentage (Top 10 Genres)', fontsize=14, fontweight='bold', pad=20)
+    ax.legend(loc='upper left', fontsize=10, framealpha=0.9)
+    ax.grid(True, alpha=0.3, linestyle='--')
+    
+    ax.set_xticks(years)
+    ax.set_xticklabels(years, rotation=45, ha='right')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "genre-trends-percentage.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved genre trends percentage graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'years': years,
+        'genres': top_genres,
+        'data': {genre: [round(p, 2) for p in genre_percentages[genre]] for genre in top_genres}
+    }
+    
+    web_data_path = DATA_DIR / "genre-trends-percentage.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved genre trends percentage data to {web_data_path}")
+
+def generate_seasonal_patterns():
+    """Generate seasonal patterns visualization."""
+    print("\nGenerating seasonal patterns...")
+    all_anime, _ = load_all_anime_data()
+    
+    season_order = ['winter', 'spring', 'summer', 'fall']
+    season_stats = {season: {'scores': [], 'count': 0} for season in season_order}
+    
+    for anime in all_anime:
+        season = anime.get('season')
+        score = anime.get('score')
+        
+        if season in season_order:
+            season_stats[season]['count'] += 1
+            if score:
+                season_stats[season]['scores'].append(score)
+    
+    season_avg_scores = {}
+    season_counts = {}
+    
+    for season in season_order:
+        scores = season_stats[season]['scores']
+        season_counts[season] = season_stats[season]['count']
+        season_avg_scores[season] = sum(scores) / len(scores) if scores else 0
+    
+    # Plot
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
+    
+    seasons_display = [s.capitalize() for s in season_order]
+    avg_scores = [season_avg_scores[s] for s in season_order]
+    colors = ['#3b82f6', '#22c55e', '#f59e0b', '#ef4444']
+    
+    # Chart 1: Ratings
+    bars1 = ax1.bar(seasons_display, avg_scores, color=colors, alpha=0.8)
+    ax1.set_ylabel('Average Rating', fontsize=12, fontweight='bold')
+    ax1.set_title('Average Anime Rating by Season', fontsize=14, fontweight='bold', pad=20)
+    ax1.set_ylim(6.0, 7.5)
+    ax1.grid(True, alpha=0.3, linestyle='--', axis='y')
+    
+    for bar, score in zip(bars1, avg_scores):
+        height = bar.get_height()
+        ax1.text(bar.get_x() + bar.get_width()/2., height,
+                f'{score:.2f}',
+                ha='center', va='bottom', fontweight='bold', fontsize=11)
+    
+    # Chart 2: Counts
+    counts = [season_counts[s] for s in season_order]
+    bars2 = ax2.bar(seasons_display, counts, color=colors, alpha=0.8)
+    ax2.set_ylabel('Total Anime Count', fontsize=12, fontweight='bold')
+    ax2.set_title('Total Anime Production by Season', fontsize=14, fontweight='bold', pad=20)
+    ax2.grid(True, alpha=0.3, linestyle='--', axis='y')
+    
+    for bar, count in zip(bars2, counts):
+        height = bar.get_height()
+        ax2.text(bar.get_x() + bar.get_width()/2., height,
+                f'{count}',
+                ha='center', va='bottom', fontweight='bold', fontsize=11)
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "seasonal-patterns.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved seasonal patterns graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'seasons': season_order,
+        'avg_scores': {season: round(season_avg_scores[season], 2) for season in season_order},
+        'counts': season_counts,
+        'highest_rated_season': max(season_avg_scores.items(), key=lambda x: x[1])[0],
+        'most_productive_season': max(season_counts.items(), key=lambda x: x[1])[0]
+    }
+    
+    web_data_path = DATA_DIR / "seasonal-patterns.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved seasonal patterns data to {web_data_path}")
+
+def generate_studio_rankings():
+    """Generate studio rankings visualization."""
+    print("\nGenerating studio rankings...")
+    all_anime, _ = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    studio_anime_counts = defaultdict(list)
+    
+    for anime in all_anime:
+        year = anime.get('year')
+        if not year or year < 2006 or year > current_year:
+            continue
+        
+        studios = anime.get('studios', [])
+        score = anime.get('score')
+        
+        for studio in studios:
+            if studio:
+                studio_anime_counts[studio].append({
+                    'score': score,
+                    'title': anime.get('title', '')
+                })
+    
+    # Calculate stats
+    studio_stats = {}
+    for studio, anime_list in studio_anime_counts.items():
+        total_count = len(anime_list)
+        scores = [a['score'] for a in anime_list if a['score'] is not None]
+        avg_score = sum(scores) / len(scores) if scores else 0
+        
+        studio_stats[studio] = {
+            'count': total_count,
+            'avg_score': avg_score,
+            'rated_count': len(scores)
+        }
+    
+    # Filter for quality (min 10 rated)
+    quality_studios = {
+        studio: stats for studio, stats in studio_stats.items()
+        if stats['rated_count'] >= 10
+    }
+    
+    top_by_quantity = sorted(studio_stats.items(), key=lambda x: x[1]['count'], reverse=True)[:15]
+    top_by_quality = sorted(quality_studios.items(), key=lambda x: x[1]['avg_score'], reverse=True)[:15]
+    
+    # Plot
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 8))
+    
+    # Chart 1: Quantity
+    studios_qty = [item[0] for item in top_by_quantity]
+    counts_qty = [item[1]['count'] for item in top_by_quantity]
+    
+    bars1 = ax1.barh(range(len(studios_qty)), counts_qty, color='#3b82f6')
+    ax1.set_yticks(range(len(studios_qty)))
+    ax1.set_yticklabels(studios_qty, fontsize=9)
+    ax1.set_xlabel('Number of Anime Produced', fontsize=12, fontweight='bold')
+    ax1.set_title('Top 15 Studios by Production Volume', fontsize=14, fontweight='bold', pad=20)
+    ax1.grid(True, alpha=0.3, linestyle='--', axis='x')
+    ax1.invert_yaxis()
+    
+    for i, (bar, count) in enumerate(zip(bars1, counts_qty)):
+        ax1.text(count, i, f' {count}', va='center', fontsize=9, fontweight='bold')
+    
+    # Chart 2: Quality
+    studios_qual = [item[0] for item in top_by_quality]
+    scores_qual = [item[1]['avg_score'] for item in top_by_quality]
+    rated_counts = [item[1]['rated_count'] for item in top_by_quality]
+    
+    bars2 = ax2.barh(range(len(studios_qual)), scores_qual, color='#10b981')
+    ax2.set_yticks(range(len(studios_qual)))
+    ax2.set_yticklabels(studios_qual, fontsize=9)
+    ax2.set_xlabel('Average Rating', fontsize=12, fontweight='bold')
+    ax2.set_title('Top 15 Studios by Average Quality', fontsize=14, fontweight='bold', pad=20)
+    ax2.set_xlim(6.0, 8.5)
+    ax2.grid(True, alpha=0.3, linestyle='--', axis='x')
+    ax2.invert_yaxis()
+    
+    for i, (bar, score, rated_count) in enumerate(zip(bars2, scores_qual, rated_counts)):
+        ax2.text(score, i, f' {score:.2f} ({rated_count} anime)', 
+                va='center', fontsize=8, fontweight='bold')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "studio-rankings.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved studio rankings graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'by_quantity': [
+            {
+                'studio': studio,
+                'count': stats['count'],
+                'avg_score': round(stats['avg_score'], 2) if stats['avg_score'] > 0 else None
+            }
+            for studio, stats in top_by_quantity
+        ],
+        'by_quality': [
+            {
+                'studio': studio,
+                'avg_score': round(stats['avg_score'], 2),
+                'count': stats['count'],
+                'rated_count': stats['rated_count']
+            }
+            for studio, stats in top_by_quality
+        ]
+    }
+    
+    web_data_path = DATA_DIR / "studio-rankings.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved studio rankings data to {web_data_path}")
+
+def main():
+    print("=" * 60)
+    print("Generating All Anime Data Visualizations")
+    print("=" * 60)
+    
+    generate_rating_trend()
+    generate_genre_trends()
+    generate_genre_trends_percentage()
+    generate_production_volume()
+    generate_seasonal_patterns()
+    generate_studio_rankings()
+    
+    print("\n" + "=" * 60)
+    print("[SUCCESS] All visualizations generated successfully!")
+    print("=" * 60)
+
+if __name__ == "__main__":
+    main()
+

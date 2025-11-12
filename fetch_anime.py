@@ -36,8 +36,27 @@ def fetch_anime_data(current_years_only=False):
     # Define seasons
     seasons = ["winter", "spring", "summer", "fall"]
     
+    # Load existing manifest to preserve data for years we're not fetching
+    manifest_path = pathlib.Path("data/manifest.json")
+    existing_manifest = []
+    if manifest_path.exists():
+        try:
+            with open(manifest_path, 'r', encoding='utf-8') as f:
+                existing_manifest = json.load(f)
+            print(f"Loaded existing manifest with {len(existing_manifest)} seasons")
+        except Exception as e:
+            print(f"Could not load existing manifest: {e}")
+    
     # Initialize manifest list
     available_seasons = []
+    
+    # Preserve entries for years we're NOT fetching
+    if current_years_only and existing_manifest:
+        years_to_fetch = set(years)
+        for entry in existing_manifest:
+            if entry['year'] not in years_to_fetch:
+                available_seasons.append(entry)
+        print(f"Preserved {len(available_seasons)} existing season entries from other years")
     
     # Base URL for Jikan API
     base_url = "https://api.jikan.moe/v4/seasons"
@@ -245,10 +264,12 @@ def fetch_anime_data(current_years_only=False):
                 print(f"[ERROR] Error fetching {year} {season}: {str(e)}")
                 continue
     
-    # Save manifest
-    manifest_path = pathlib.Path("data/manifest.json")
-    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    # Save manifest (sorted by year and season for consistency)
+    # Use a safe sorting method that handles unexpected season names
+    season_order = {season: i for i, season in enumerate(seasons)}
+    available_seasons.sort(key=lambda x: (x['year'], season_order.get(x['season'], 999)))
     
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(available_seasons, f, indent=2)
     
@@ -258,5 +279,11 @@ def fetch_anime_data(current_years_only=False):
 if __name__ == "__main__":
     # Check for command-line arguments
     current_years_only = '--current-years-only' in sys.argv
+    all_years = '--all-years' in sys.argv
+    
+    # If --all-years is specified, explicitly set current_years_only to False
+    if all_years:
+        current_years_only = False
+    
     fetch_anime_data(current_years_only=current_years_only)
 

@@ -6,6 +6,7 @@ Creates comprehensive CSV files from the JSON data.
 import json
 import csv
 import pathlib
+import statistics
 from datetime import datetime
 
 # Configuration
@@ -207,7 +208,7 @@ def export_ratings_by_season():
                 
                 if scores:
                     avg_score = sum(scores) / len(scores)
-                    median_score = sorted(scores)[len(scores) // 2]
+                    median_score = statistics.median(scores)
                     highest = max(scores)
                     lowest = min(scores)
                 else:
@@ -273,7 +274,7 @@ def export_genre_statistics():
             scores = genre_scores.get(genre, [])
             if scores:
                 avg = sum(scores) / len(scores)
-                median = sorted(scores)[len(scores) // 2]
+                median = statistics.median(scores)
                 highest = max(scores)
                 lowest = min(scores)
             else:
@@ -337,7 +338,7 @@ def export_studio_statistics():
             scores = studio_scores.get(studio, [])
             if scores:
                 avg = sum(scores) / len(scores)
-                median = sorted(scores)[len(scores) // 2]
+                median = statistics.median(scores)
                 highest = max(scores)
                 lowest = min(scores)
             else:

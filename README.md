@@ -51,15 +51,16 @@ anime-season-tracker/
 ├── fetch_anime.py          # Data fetching script
 ├── generate_graphs.py      # All graph generators (automated)
 ├── requirements.txt        # Python dependencies
-├── README.md              # This file
-├── data/                  # Anime data (JSON)
-│   ├── manifest.json      # Index of all seasons
-│   ├── rating-trend.json  # Rating trend data for web
-│   ├── genre-trends.json  # Genre trends (absolute) for web
-│   ├── genre-trends-percentage.json # Genre trends (%) for web
-│   ├── production-volume.json # Production volume data for web
-│   ├── seasonal-patterns.json # Seasonal patterns data for web
-│   ├── studio-rankings.json # Studio rankings data for web
+├── README.md               # This file
+├── data/                   # Anime data (JSON)
+│   ├── manifest.json       # Index of all seasons
+│   ├── rating-trend.json   # Rating trend data for web
+│   ├── genre-trends.json   # Genre trends (absolute) for web
+│   ├── genre-trends-percentage.json       # Genre trends (%) for web
+│   ├── production-volume.json             # Production volume data for web
+│   ├── seasonal-patterns.json             # Seasonal patterns data for web
+│   ├── studio-rankings.json               # Studio rankings data for web
+│   ├── collection-stats.json              # Overall collection statistics
 │   ├── 2006/
 │   │   ├── winter.json
 │   │   ├── spring.json

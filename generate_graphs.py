@@ -567,6 +567,82 @@ def generate_studio_rankings():
         json.dump(web_data, f, indent=2)
     print(f"[OK] Saved studio rankings data to {web_data_path}")
 
+def generate_collection_stats():
+    """Generate overall collection statistics."""
+    print("\nGenerating collection statistics...")
+    all_anime, manifest = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    # Filter to current year or earlier
+    valid_anime = [a for a in all_anime if a.get('year') and 2006 <= a.get('year') <= current_year]
+    
+    # Basic stats
+    total_anime = len(valid_anime)
+    total_seasons = len(manifest)
+    years_covered = sorted(set(entry['year'] for entry in manifest if 2006 <= entry['year'] <= current_year))
+    year_range = f"{min(years_covered)}-{max(years_covered)}"
+    
+    # Studios
+    all_studios = set()
+    for anime in valid_anime:
+        studios = anime.get('studios', [])
+        all_studios.update(studios)
+    all_studios.discard('')  # Remove empty strings
+    total_studios = len(all_studios)
+    
+    # Genres
+    all_genres = set()
+    for anime in valid_anime:
+        genres = anime.get('genres', [])
+        all_genres.update(genres)
+    all_genres.discard('')
+    total_genres = len(all_genres)
+    
+    # Rated vs Unrated
+    rated_anime = [a for a in valid_anime if a.get('score') is not None]
+    total_rated = len(rated_anime)
+    
+    # Average ratings
+    if rated_anime:
+        avg_rating = statistics.mean([a['score'] for a in rated_anime])
+    else:
+        avg_rating = 0
+    
+    # Average anime per season
+    avg_per_season = total_anime / len(years_covered) / 4 if years_covered else 0
+    
+    # Last updated
+    last_updated = datetime.now().strftime('%Y-%m-%d')
+    
+    stats = {
+        'total_anime': total_anime,
+        'total_seasons': total_seasons,
+        'year_range': year_range,
+        'years_covered': len(years_covered),
+        'total_studios': total_studios,
+        'total_genres': total_genres,
+        'total_rated': total_rated,
+        'rating_percentage': round((total_rated / total_anime * 100), 1) if total_anime > 0 else 0,
+        'average_rating': round(avg_rating, 2),
+        'avg_per_season': round(avg_per_season, 1),
+        'last_updated': last_updated
+    }
+    
+    # Save stats
+    stats_path = DATA_DIR / "collection-stats.json"
+    with open(stats_path, 'w', encoding='utf-8') as f:
+        json.dump(stats, f, indent=2)
+    print(f"[OK] Saved collection statistics to {stats_path}")
+    
+    # Print summary
+    print(f"\n  Total Anime: {total_anime:,}")
+    print(f"  Year Range: {year_range}")
+    print(f"  Total Seasons: {total_seasons}")
+    print(f"  Studios Tracked: {total_studios:,}")
+    print(f"  Genres: {total_genres}")
+    print(f"  Average Rating: {avg_rating:.2f}")
+
 def main():
     print("=" * 60)
     print("Generating All Anime Data Visualizations")
@@ -578,6 +654,7 @@ def main():
     generate_production_volume()
     generate_seasonal_patterns()
     generate_studio_rankings()
+    generate_collection_stats()
     
     print("\n" + "=" * 60)
     print("[SUCCESS] All visualizations generated successfully!")

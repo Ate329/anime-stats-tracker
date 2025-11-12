@@ -9,8 +9,36 @@ let allGenres = []; // All available genres for current season
 let filterMode = 'OR'; // 'OR' or 'AND' - default is OR
 let currentYear = null;
 let currentSeason = null;
+/**
+ * Load and display collection statistics
+ */
+async function loadCollectionStats() {
+    try {
+        const response = await fetch('data/collection-stats.json');
+        if (!response.ok) {
+            console.log('Collection stats not available');
+            return;
+        }
+        
+        const stats = await response.json();
+        
+        // Update stat displays
+        document.getElementById('stat-total-anime').textContent = stats.total_anime.toLocaleString();
+        document.getElementById('stat-year-range').textContent = stats.year_range;
+        document.getElementById('stat-seasons').textContent = stats.total_seasons;
+        document.getElementById('stat-studios').textContent = stats.total_studios.toLocaleString();
+        document.getElementById('stat-avg-rating').textContent = stats.average_rating.toFixed(2);
+        document.getElementById('stat-rated-percent').textContent = `${stats.rating_percentage}%`;
+        document.getElementById('stat-last-updated').textContent = stats.last_updated;
+        
+    } catch (error) {
+        console.error('Error loading collection stats:', error);
+    }
+}
+
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
+    loadCollectionStats();
     loadManifest();
     setupHentaiToggles();
     setupNotRatedToggle();

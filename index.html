@@ -267,6 +267,53 @@
 
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Collection Stats -->
+        <div id="collection-stats" class="mb-8 animate-fade-in">
+            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl border border-gray-200 p-6">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="text-3xl mr-2">📊</span>
+                    Collection Statistics
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+                    <!-- Total Anime -->
+                    <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="text-3xl font-bold text-blue-600" id="stat-total-anime">-</div>
+                        <div class="text-sm text-gray-600 mt-1">Total Anime</div>
+                    </div>
+                    
+                    <!-- Year Range -->
+                    <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="text-2xl font-bold text-green-600" id="stat-year-range">-</div>
+                        <div class="text-sm text-gray-600 mt-1">Year Range</div>
+                    </div>
+                    
+                    <!-- Total Seasons -->
+                    <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="text-3xl font-bold text-purple-600" id="stat-seasons">-</div>
+                        <div class="text-sm text-gray-600 mt-1">Seasons</div>
+                    </div>
+                    
+                    <!-- Studios -->
+                    <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="text-3xl font-bold text-orange-600" id="stat-studios">-</div>
+                        <div class="text-sm text-gray-600 mt-1">Studios</div>
+                    </div>
+                    
+                    <!-- Average Rating -->
+                    <div class="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                        <div class="text-3xl font-bold text-yellow-600" id="stat-avg-rating">-</div>
+                        <div class="text-sm text-gray-600 mt-1">Avg Rating</div>
+                    </div>
+                </div>
+                <div class="mt-4 text-sm text-gray-500 flex items-center justify-between">
+                    <span>
+                        <span class="font-medium" id="stat-rated-percent">-</span> of anime have ratings
+                    </span>
+                    <span>Last updated: <span class="font-medium" id="stat-last-updated">-</span></span>
+                </div>
+            </div>
+        </div>
+
         <!-- Home Page -->
         <div id="home-page">
             <!-- Years Container -->

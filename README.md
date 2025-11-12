@@ -65,7 +65,7 @@ anime-season-tracker/
 │   │   ├── spring.json
 │   │   ├── summer.json
 │   │   └── fall.json
-│   ├── 2011/ ... 2026/    # More years
+│   ├── 2007/ ... 2026/    # More years
 │   └── ...
 ├── assets/
 │   ├── rating-trend.png   # Rating trend graph for README

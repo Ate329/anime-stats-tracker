@@ -56,8 +56,10 @@ anime-season-tracker/
 ├── data/                   # Anime data (JSON)
 │   ├── manifest.json       # Index of all seasons
 │   ├── rating-trend.json   # Rating trend data for web
-│   ├── genre-trends.json   # Genre trends (absolute) for web
-│   ├── genre-trends-percentage.json       # Genre trends (%) for web
+│   ├── genre-trends.json   # Genre trends by year (absolute) for web
+│   ├── genre-trends-percentage.json       # Genre trends by year (%) for web
+│   ├── genre-trends-by-season.json        # Genre trends by season (absolute) for web
+│   ├── genre-trends-by-season-percentage.json  # Genre trends by season (%) for web
 │   ├── production-volume.json             # Production volume data for web
 │   ├── seasonal-patterns.json             # Seasonal patterns data for web
 │   ├── studio-rankings.json               # Studio rankings data for web
@@ -71,8 +73,10 @@ anime-season-tracker/
 │   └── ...
 ├── assets/
 │   ├── rating-trend.png   # Rating trend graph for README
-│   ├── genre-trends.png   # Genre trends (absolute) for README
-│   ├── genre-trends-percentage.png # Genre trends (%) for README
+│   ├── genre-trends.png   # Genre trends by year (absolute) for README
+│   ├── genre-trends-percentage.png # Genre trends by year (%) for README
+│   ├── genre-trends-by-season.png # Genre trends by season (absolute) for README
+│   ├── genre-trends-by-season-percentage.png # Genre trends by season (%) for README
 │   ├── production-volume.png # Production volume graph for README
 │   ├── seasonal-patterns.png # Seasonal patterns graph for README
 │   └── studio-rankings.png # Studio rankings graph for README
@@ -104,8 +108,8 @@ How anime ratings have evolved over time - the average MyAnimeList rating for ea
 
 ![Anime Rating Trend](assets/rating-trend.png)
 
-### 🎭 Genre Trends Over Time
-The top 10 most popular anime genres - showing both absolute numbers and percentage of total production.
+### 🎭 Genre Trends Over Time (By Year)
+The top 10 most popular anime genres tracked annually - showing both absolute numbers and percentage of total production.
 
 **Absolute Numbers:**
 
@@ -114,6 +118,17 @@ The top 10 most popular anime genres - showing both absolute numbers and percent
 **Percentage of Production:**
 
 ![Genre Trends Percentage](assets/genre-trends-percentage.png)
+
+### 🎭 Genre Trends Over Time (By Season)
+The same top 10 genres tracked seasonally for more granular trend analysis - 4x more data points!
+
+**Absolute Numbers:**
+
+![Genre Trends by Season](assets/genre-trends-by-season.png)
+
+**Percentage of Production:**
+
+![Genre Trends by Season Percentage](assets/genre-trends-by-season-percentage.png)
 
 ### 📊 Production Volume
 The total number of TV anime produced each year - tracking the industry's remarkable growth.

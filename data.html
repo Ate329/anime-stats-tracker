@@ -90,7 +90,7 @@
 
         <!-- Genre Trends -->
         <div id="genre-trends-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
-            <h2 class="text-2xl font-bold text-gray-900 mb-4">🎭 Genre Trends Over Time</h2>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">🎭 Genre Trends Over Time (By Year)</h2>
             <p class="text-gray-600 mb-6">Top 10 most popular anime genres - comparing absolute numbers vs. percentage of production</p>
             <div class="grid grid-cols-1 gap-6">
                 <div>
@@ -103,6 +103,26 @@
                     <h3 class="text-lg font-semibold text-gray-800 mb-3">Percentage of Total Production</h3>
                     <div class="relative" style="height: 450px;">
                         <canvas id="genre-trends-percentage-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Genre Trends By Season -->
+        <div id="genre-trends-by-season-section" class="bg-white rounded-lg border border-gray-200 p-6 mb-8 animate-fade-in">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">🎭 Genre Trends Over Time (By Season)</h2>
+            <p class="text-gray-600 mb-6">Top 10 most popular anime genres tracked seasonally for more granular trend analysis</p>
+            <div class="grid grid-cols-1 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Absolute Numbers</h3>
+                    <div class="relative" style="height: 450px;">
+                        <canvas id="genre-trends-by-season-chart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-3">Percentage of Total Production</h3>
+                    <div class="relative" style="height: 450px;">
+                        <canvas id="genre-trends-by-season-percentage-chart"></canvas>
                     </div>
                 </div>
             </div>
@@ -191,6 +211,8 @@
         let ratingTrendChart = null;
         let genreTrendsChart = null;
         let genreTrendsPercentageChart = null;
+        let genreTrendsBySeasonChart = null;
+        let genreTrendsBySeasonPercentageChart = null;
         let productionVolumeChart = null;
         let seasonalRatingsChart = null;
         let seasonalCountsChart = null;
@@ -941,11 +963,239 @@
             }
         }
 
+        /**
+         * Load and display genre trends by season
+         */
+        async function loadGenreTrendsBySeason() {
+            try {
+                const response = await fetch('data/genre-trends-by-season.json');
+                if (!response.ok) {
+                    console.log('Genre trends by season data not available');
+                    document.getElementById('genre-trends-by-season-section').style.display = 'none';
+                    return;
+                }
+                
+                const trendData = await response.json();
+                const ctx = document.getElementById('genre-trends-by-season-chart').getContext('2d');
+                
+                // Create datasets for each genre
+                const colors = [
+                    '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6',
+                    '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+                ];
+                
+                const datasets = trendData.genres.map((genre, index) => ({
+                    label: genre,
+                    data: trendData.data[genre],
+                    borderColor: colors[index % colors.length],
+                    backgroundColor: 'transparent',
+                    borderWidth: 2,
+                    pointRadius: 2,
+                    pointHoverRadius: 4,
+                    tension: 0.3
+                }));
+                
+                genreTrendsBySeasonChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: trendData.labels,
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                                labels: {
+                                    usePointStyle: true,
+                                    padding: 15,
+                                    font: {
+                                        size: 11
+                                    }
+                                }
+                            },
+                            title: {
+                                display: false
+                            },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                callbacks: {
+                                    title: function(tooltipItems) {
+                                        return tooltipItems[0].label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Season',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                ticks: {
+                                    maxRotation: 45,
+                                    minRotation: 45,
+                                    autoSkip: true,
+                                    maxTicksLimit: 20
+                                }
+                            },
+                            y: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Number of Anime',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        interaction: {
+                            mode: 'nearest',
+                            axis: 'x',
+                            intersect: false
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading genre trends by season:', error);
+                document.getElementById('genre-trends-by-season-section').style.display = 'none';
+            }
+        }
+
+        /**
+         * Load and display genre trends by season percentage
+         */
+        async function loadGenreTrendsBySeasonPercentage() {
+            try {
+                const response = await fetch('data/genre-trends-by-season-percentage.json');
+                if (!response.ok) {
+                    console.log('Genre trends by season percentage data not available');
+                    return;
+                }
+                
+                const trendData = await response.json();
+                const ctx = document.getElementById('genre-trends-by-season-percentage-chart').getContext('2d');
+                
+                // Create datasets for each genre
+                const colors = [
+                    '#3b82f6', '#ef4444', '#10b981', '#f59e0b', '#8b5cf6',
+                    '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+                ];
+                
+                const datasets = trendData.genres.map((genre, index) => ({
+                    label: genre,
+                    data: trendData.data[genre],
+                    borderColor: colors[index % colors.length],
+                    backgroundColor: 'transparent',
+                    borderWidth: 2,
+                    pointRadius: 2,
+                    pointHoverRadius: 4,
+                    tension: 0.3
+                }));
+                
+                genreTrendsBySeasonPercentageChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: trendData.labels,
+                        datasets: datasets
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                                labels: {
+                                    usePointStyle: true,
+                                    padding: 15,
+                                    font: {
+                                        size: 11
+                                    }
+                                }
+                            },
+                            title: {
+                                display: false
+                            },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                callbacks: {
+                                    title: function(tooltipItems) {
+                                        return tooltipItems[0].label;
+                                    },
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.y !== null) {
+                                            label += context.parsed.y.toFixed(2) + '%';
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Season',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                ticks: {
+                                    maxRotation: 45,
+                                    minRotation: 45,
+                                    autoSkip: true,
+                                    maxTicksLimit: 20
+                                }
+                            },
+                            y: {
+                                display: true,
+                                title: {
+                                    display: true,
+                                    text: 'Percentage of Total Anime (%)',
+                                    font: {
+                                        size: 14,
+                                        weight: 'bold'
+                                    }
+                                },
+                                beginAtZero: true
+                            }
+                        },
+                        interaction: {
+                            mode: 'nearest',
+                            axis: 'x',
+                            intersect: false
+                        }
+                    }
+                });
+            } catch (error) {
+                console.error('Error loading genre trends by season percentage:', error);
+            }
+        }
+
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
             loadRatingTrend();
             loadGenreTrends();
             loadGenreTrendsPercentage();
+            loadGenreTrendsBySeason();
+            loadGenreTrendsBySeasonPercentage();
             loadProductionVolume();
             loadSeasonalPatterns();
             loadStudioRankings();

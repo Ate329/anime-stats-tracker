@@ -373,6 +373,205 @@ def generate_genre_trends_percentage():
         json.dump(web_data, f, indent=2)
     print(f"[OK] Saved genre trends percentage data to {web_data_path}")
 
+def generate_genre_trends_by_season():
+    """Generate genre trends visualization by season."""
+    print("\nGenerating genre trends by season...")
+    all_anime, manifest = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    # Create season labels and count genres per season
+    season_labels = []
+    genre_counts_by_season = []
+    
+    for entry in manifest:
+        year = entry['year']
+        season = entry['season']
+        
+        if year < 2006 or year > current_year:
+            continue
+            
+        season_label = f"{season.capitalize()} {year}"
+        season_labels.append(season_label)
+        
+        # Count genres for this specific season
+        genre_count = defaultdict(int)
+        season_file = DATA_DIR / str(year) / f"{season}.json"
+        
+        if season_file.exists():
+            with open(season_file, 'r', encoding='utf-8') as f:
+                anime_list = json.load(f)
+            
+            for anime in anime_list:
+                genres = anime.get('genres', [])
+                for genre in genres:
+                    if genre:
+                        genre_count[genre] += 1
+        
+        genre_counts_by_season.append(genre_count)
+    
+    # Get top 10 genres overall
+    all_genre_counts = Counter()
+    for season_counts in genre_counts_by_season:
+        for genre, count in season_counts.items():
+            all_genre_counts[genre] += count
+    
+    top_genres = [genre for genre, _ in all_genre_counts.most_common(10)]
+    
+    # Build data structure
+    genre_data = {genre: [] for genre in top_genres}
+    for season_counts in genre_counts_by_season:
+        for genre in top_genres:
+            genre_data[genre].append(season_counts.get(genre, 0))
+    
+    # Plot
+    fig, ax = plt.subplots(figsize=(20, 8))
+    
+    colors = plt.cm.tab10(range(10))
+    for i, genre in enumerate(top_genres):
+        ax.plot(range(len(season_labels)), genre_data[genre], marker='o', label=genre, 
+                linewidth=2, markersize=3, color=colors[i])
+    
+    ax.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Number of Anime', fontsize=12, fontweight='bold')
+    ax.set_title('Genre Trends by Season (Top 10 Genres)', fontsize=14, fontweight='bold', pad=20)
+    ax.legend(loc='upper left', fontsize=10, framealpha=0.9)
+    ax.grid(True, alpha=0.3, linestyle='--')
+    
+    # Show only years on x-axis (at start of each year - Winter season)
+    year_positions = []
+    year_labels = []
+    for i, label in enumerate(season_labels):
+        if label.startswith('Winter'):
+            year = label.split()[-1]
+            year_positions.append(i)
+            year_labels.append(year)
+    
+    ax.set_xticks(year_positions)
+    ax.set_xticklabels(year_labels, rotation=45, ha='right')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "genre-trends-by-season.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved genre trends by season graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'labels': season_labels,
+        'genres': top_genres,
+        'data': {genre: genre_data[genre] for genre in top_genres}
+    }
+    
+    web_data_path = DATA_DIR / "genre-trends-by-season.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved genre trends by season data to {web_data_path}")
+
+def generate_genre_trends_by_season_percentage():
+    """Generate genre trends by season as percentage of total production."""
+    print("\nGenerating genre trends by season (percentage)...")
+    all_anime, manifest = load_all_anime_data()
+    
+    current_year = datetime.now().year
+    
+    # Create season labels and count genres per season
+    season_labels = []
+    genre_counts_by_season = []
+    total_by_season = []
+    
+    for entry in manifest:
+        year = entry['year']
+        season = entry['season']
+        
+        if year < 2006 or year > current_year:
+            continue
+            
+        season_label = f"{season.capitalize()} {year}"
+        season_labels.append(season_label)
+        
+        # Count genres for this specific season
+        genre_count = defaultdict(int)
+        season_file = DATA_DIR / str(year) / f"{season}.json"
+        total_count = 0
+        
+        if season_file.exists():
+            with open(season_file, 'r', encoding='utf-8') as f:
+                anime_list = json.load(f)
+            
+            total_count = len(anime_list)
+            for anime in anime_list:
+                genres = anime.get('genres', [])
+                for genre in genres:
+                    if genre:
+                        genre_count[genre] += 1
+        
+        genre_counts_by_season.append(genre_count)
+        total_by_season.append(total_count)
+    
+    # Get top 10 genres overall
+    all_genre_counts = Counter()
+    for season_counts in genre_counts_by_season:
+        for genre, count in season_counts.items():
+            all_genre_counts[genre] += count
+    
+    top_genres = [genre for genre, _ in all_genre_counts.most_common(10)]
+    
+    # Build data structure with percentages
+    genre_percentages = {genre: [] for genre in top_genres}
+    for i, season_counts in enumerate(genre_counts_by_season):
+        total = total_by_season[i]
+        for genre in top_genres:
+            count = season_counts.get(genre, 0)
+            percentage = (count / total * 100) if total > 0 else 0
+            genre_percentages[genre].append(percentage)
+    
+    # Plot
+    fig, ax = plt.subplots(figsize=(20, 8))
+    
+    colors = plt.cm.tab10(range(10))
+    for i, genre in enumerate(top_genres):
+        ax.plot(range(len(season_labels)), genre_percentages[genre], marker='o', label=genre, 
+                linewidth=2, markersize=3, color=colors[i])
+    
+    ax.set_xlabel('Year', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Percentage of Total Anime (%)', fontsize=12, fontweight='bold')
+    ax.set_title('Genre Trends by Season - Percentage (Top 10 Genres)', fontsize=14, fontweight='bold', pad=20)
+    ax.legend(loc='upper left', fontsize=10, framealpha=0.9)
+    ax.grid(True, alpha=0.3, linestyle='--')
+    
+    # Show only years on x-axis (at start of each year - Winter season)
+    year_positions = []
+    year_labels = []
+    for i, label in enumerate(season_labels):
+        if label.startswith('Winter'):
+            year = label.split()[-1]
+            year_positions.append(i)
+            year_labels.append(year)
+    
+    ax.set_xticks(year_positions)
+    ax.set_xticklabels(year_labels, rotation=45, ha='right')
+    
+    plt.tight_layout()
+    
+    output_path = ASSETS_DIR / "genre-trends-by-season-percentage.png"
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"[OK] Saved genre trends by season percentage graph to {output_path}")
+    
+    # Save JSON
+    web_data = {
+        'labels': season_labels,
+        'genres': top_genres,
+        'data': {genre: [round(p, 2) for p in genre_percentages[genre]] for genre in top_genres}
+    }
+    
+    web_data_path = DATA_DIR / "genre-trends-by-season-percentage.json"
+    with open(web_data_path, 'w', encoding='utf-8') as f:
+        json.dump(web_data, f, indent=2)
+    print(f"[OK] Saved genre trends by season percentage data to {web_data_path}")
+
 def generate_seasonal_patterns():
     """Generate seasonal patterns visualization."""
     print("\nGenerating seasonal patterns...")
@@ -651,6 +850,8 @@ def main():
     generate_rating_trend()
     generate_genre_trends()
     generate_genre_trends_percentage()
+    generate_genre_trends_by_season()
+    generate_genre_trends_by_season_percentage()
     generate_production_volume()
     generate_seasonal_patterns()
     generate_studio_rankings()

@@ -98,7 +98,7 @@ anime-season-tracker/
 ## 📊 Data Coverage
 
 - **Years**: 2006 - now
-- **Total Seasons**: 67+ seasons
+- **Total Seasons**: 80+ seasons
 - **Total Anime**: 4,000+ TV series
 - **Updates**: 
   - Weekly: Current & next year

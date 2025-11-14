@@ -450,60 +450,62 @@ function createAnimeCard(anime) {
                 </div>` : 
                 ''}
         </div>
-        <div class="p-3 space-y-2 flex flex-col flex-grow">
-            <div>
-                <h3 class="font-semibold text-sm line-clamp-2 mb-0.5" style="color: var(--text-primary);" title="${anime.title}">
-                    ${anime.title}
-                </h3>
-                ${englishTitle ? 
-                    `<p class="text-xs line-clamp-1" style="color: var(--text-secondary);" title="${englishTitle}">${englishTitle}</p>` 
-                    : ''}
-            </div>
-            
-            <div class="flex items-center justify-between text-xs">
-                <span class="font-medium" style="color: var(--text-primary);">${score}</span>
-                ${scoredBy ? `<span style="color: var(--text-secondary);">${scoredBy}</span>` : ''}
-            </div>
-            
-            <div class="space-y-1 text-xs">
-                <div class="flex">
-                    <span style="color: var(--text-secondary);" class="min-w-[60px]">Studio:</span>
-                    <span style="color: var(--text-primary);" class="font-medium line-clamp-1">${studios}</span>
+        <div class="p-3 flex flex-col flex-grow">
+            <div class="space-y-2 flex-grow">
+                <div>
+                    <h3 class="font-semibold text-sm line-clamp-2 mb-0.5" style="color: var(--text-primary);" title="${anime.title}">
+                        ${anime.title}
+                    </h3>
+                    ${englishTitle ? 
+                        `<p class="text-xs line-clamp-1" style="color: var(--text-secondary);" title="${englishTitle}">${englishTitle}</p>` 
+                        : ''}
                 </div>
-                <div class="flex">
-                    <span style="color: var(--text-secondary);" class="min-w-[60px]">Source:</span>
-                    <span style="color: var(--text-primary);">${source}</span>
+                
+                <div class="flex items-center justify-between text-xs">
+                    <span class="font-medium" style="color: var(--text-primary);">${score}</span>
+                    ${scoredBy ? `<span style="color: var(--text-secondary);">${scoredBy}</span>` : ''}
                 </div>
-                <div class="flex">
-                    <span style="color: var(--text-secondary);" class="min-w-[60px]">Aired:</span>
-                    <span style="color: var(--text-primary);">${airedFrom}</span>
+                
+                <div class="space-y-1 text-xs">
+                    <div class="flex">
+                        <span style="color: var(--text-secondary);" class="min-w-[60px]">Studio:</span>
+                        <span style="color: var(--text-primary);" class="font-medium line-clamp-1">${studios}</span>
+                    </div>
+                    <div class="flex">
+                        <span style="color: var(--text-secondary);" class="min-w-[60px]">Source:</span>
+                        <span style="color: var(--text-primary);">${source}</span>
+                    </div>
+                    <div class="flex">
+                        <span style="color: var(--text-secondary);" class="min-w-[60px]">Aired:</span>
+                        <span style="color: var(--text-primary);">${airedFrom}</span>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="text-xs">
-                <div style="color: var(--text-secondary);" class="mb-1">Genres:</div>
-                <div style="color: var(--text-primary);" class="line-clamp-2">${genres}</div>
-            </div>
-            
-            ${themes ? `
+                
                 <div class="text-xs">
-                    <div style="color: var(--text-secondary);" class="mb-1">Themes:</div>
-                    <div style="color: var(--text-primary);" class="line-clamp-2">${themes}</div>
+                    <div style="color: var(--text-secondary);" class="mb-1">Genres:</div>
+                    <div style="color: var(--text-primary);" class="line-clamp-2">${genres}</div>
                 </div>
-            ` : ''}
-            
-            <div class="synopsis-container">
-                <p class="synopsis-text text-xs leading-relaxed ${showReadMore ? 'line-clamp-3' : ''}" style="color: var(--text-secondary);" data-full-text="${synopsis.replace(/"/g, '&quot;')}">${synopsisPreview}</p>
-                ${showReadMore ? 
-                    `<button class="read-more-btn text-xs font-medium mt-1 hover:underline" style="color: var(--text-primary);">
-                        Read more
-                    </button>` 
-                    : ''}
+                
+                ${themes ? `
+                    <div class="text-xs">
+                        <div style="color: var(--text-secondary);" class="mb-1">Themes:</div>
+                        <div style="color: var(--text-primary);" class="line-clamp-2">${themes}</div>
+                    </div>
+                ` : ''}
+                
+                <div class="synopsis-container">
+                    <p class="synopsis-text text-xs leading-relaxed ${showReadMore ? 'line-clamp-3' : ''}" style="color: var(--text-secondary);" data-full-text="${synopsis.replace(/"/g, '&quot;')}">${synopsisPreview}</p>
+                    ${showReadMore ? 
+                        `<button class="read-more-btn text-xs font-medium mt-1 hover:underline" style="color: var(--text-primary);">
+                            Read more
+                        </button>` 
+                        : ''}
+                </div>
             </div>
             
             ${anime.url ? 
                 `<a href="${anime.url}" target="_blank" 
-                    class="block text-center text-xs bg-gray-900 text-white py-2 rounded hover:bg-gray-800 transition-colors mt-auto">
+                    class="block text-center text-xs bg-gray-900 text-white py-2 rounded hover:bg-gray-800 transition-colors mt-2">
                     View on MyAnimeList →
                 </a>` : 
                 ''}

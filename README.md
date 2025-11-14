@@ -232,7 +232,7 @@ All data comes from [MyAnimeList](https://myanimelist.net/) via the [Jikan API](
 
 - [ ] **🌏 Chinese Translation**
 - [ ] **📡 RSS Support** - Subscribe to new anime releases
-- [ ] **Minor bug fixes** - Keep the button to MAL always at the bottom of the box
+- [x] **Minor bug fixes** - Keep the button to MAL always at the bottom of the box
 - [ ] **⭐ My Personal Recommendations** - :)
 - [ ] **🔍 Search Functionality** - Search anime by title across all seasons
 - [x] **🌙 Dark Mode** - Toggle between light and dark themes

@@ -160,74 +160,114 @@
     <main class="max-w-7xl mx-auto px-4 py-8 flex-grow">
         <!-- Random Anime Picker Section -->
         <div id="picker-section" class="mb-8 animate-fade-in">
-            <h1 class="text-4xl font-bold text-center mb-4" style="color: var(--text-primary);">Random Anime Picker</h1>
-            <p class="text-center text-lg mb-8" style="color: var(--text-secondary);">Find your next favorite anime!</p>
-
-            <!-- Filter container -->
-            <div id="filter-container" class="max-w-2xl mx-auto space-y-4 mb-8">
-                <div id="genre-filters" class="flex flex-wrap gap-2 justify-center">
-                    <!-- Genre buttons will be inserted here by JS -->
+            <div class="rounded-xl p-8" style="background-color: var(--bg-secondary); border: 2px solid var(--border-color); box-shadow: 0 4px 6px var(--shadow);">
+                <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Fine-tune your random pick</h2>
+                        <p class="text-sm mt-1" style="color: var(--text-secondary);">Use the same filters from the individual season page</p>
+                    </div>
+                    <button id="get-random-anime" class="px-6 py-3 rounded-lg font-semibold transition-colors bg-gray-900 text-white hover:bg-gray-800">
+                        🎲 Get Random Anime
+                    </button>
                 </div>
-            </div>
 
-            <div class="text-center">
-                <button id="get-random-anime" class="px-8 py-4 rounded-xl font-semibold text-lg transition-all" style="background-color: var(--button-bg); color: var(--button-text); border: 1px solid var(--border-color);">
-                    🎲 Get Random Anime
-                </button>
+                <div class="grid gap-8 lg:grid-cols-2">
+                    <!-- Content Filters + Rating -->
+                    <div class="space-y-6">
+                        <div class="rounded-lg p-4" style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color);">
+                            <div class="flex items-center justify-between mb-4">
+                                <div>
+                                    <h3 class="font-semibold" style="color: var(--text-primary);">Show Mature Content</h3>
+                                    <p class="text-sm" style="color: var(--text-secondary);">Include anime tagged as adult content</p>
+                                </div>
+                                <label class="relative inline-flex items-center cursor-pointer">
+                                    <input type="checkbox" id="picker-hentai-toggle" class="sr-only peer">
+                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gray-900"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div>
+                                    <h3 class="font-semibold" style="color: var(--text-primary);">Hide Not Rated</h3>
+                                    <p class="text-sm" style="color: var(--text-secondary);">Ignore anime without community scores</p>
+                                </div>
+                                <label class="relative inline-flex items-center cursor-pointer">
+                                    <input type="checkbox" id="picker-not-rated-toggle" class="sr-only peer" checked>
+                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gray-900"></div>
+                                </label>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h3 class="font-semibold" style="color: var(--text-primary);">Japanese Anime Only</h3>
+                                    <p class="text-sm" style="color: var(--text-secondary);">Exclude non-Japanese productions</p>
+                                </div>
+                                <label class="relative inline-flex items-center cursor-pointer">
+                                    <input type="checkbox" id="picker-japanese-toggle" class="sr-only peer" checked>
+                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gray-900"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="rounded-lg p-4" style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color);">
+                            <label class="block text-sm font-semibold mb-2" style="color: var(--text-primary);">
+                                Minimum Rating: <span id="rating-display" class="font-bold">0.0</span>
+                            </label>
+                            <input type="range" id="random-rating" min="0" max="10" step="0.1" value="0" class="w-full accent-gray-900">
+                            <div class="flex justify-between text-xs mt-2" style="color: var(--text-secondary);">
+                                <span>0.0</span>
+                                <span>5.0</span>
+                                <span>10.0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Genre Filter -->
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="font-semibold" style="color: var(--text-primary);">Filter by Genre</h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm" style="color: var(--text-secondary);">Filter mode:</span>
+                                <div class="flex rounded-lg overflow-hidden" style="border: 1px solid var(--border-color);">
+                                    <button id="filter-mode-or" class="filter-mode-btn px-3 py-1 text-sm font-medium bg-gray-900 text-white">
+                                        OR
+                                    </button>
+                                    <button id="filter-mode-and" class="filter-mode-btn px-3 py-1 text-sm font-medium bg-white text-gray-700 hover:bg-gray-50">
+                                        AND
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="filter-mode-description" class="text-xs mb-4" style="color: var(--text-secondary);">
+                            Show anime with <strong>any</strong> of the selected genres
+                        </p>
+                        <div id="genre-filters" class="flex flex-wrap gap-2">
+                            <!-- Genre buttons will be inserted here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- Random Anime Result Section -->
-        <div id="result-section" class="hidden animate-fade-in">
-            <div id="random-anime-card" class="rounded-xl shadow-lg overflow-hidden transition-all duration-300" style="background-color: var(--bg-secondary); border: 1px solid var(--border-color);">
-                <div class="flex flex-col md:flex-row">
-                    <!-- Image Column -->
-                    <div class="md:w-1/3 relative">
-                        <img id="anime-image" src="https://via.placeholder.com/400x600?text=Loading..." alt="Anime Poster" class="w-full h-64 md:h-full object-cover">
-                        <div id="anime-season" class="absolute top-4 left-4 bg-gray-900 text-white px-3 py-2 rounded-lg text-sm font-medium">&nbsp;</div>
-                        <div id="anime-episodes" class="absolute top-4 right-4 bg-black/75 text-white px-3 py-2 rounded-lg text-sm font-medium">&nbsp;</div>
-                    </div>
-                    <!-- Details Column -->
-                    <div class="md:w-2/3 p-6 flex flex-col justify-between">
-                        <div>
-                            <h2 id="anime-title" class="text-3xl font-bold mb-2" style="color: var(--text-primary);">&nbsp;</h2>
-                            <div class="flex items-center mb-4">
-                                <div id="anime-score-container" class="flex items-center mr-6">
-                                    <svg class="w-6 h-6 text-yellow-400 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
-                                    <span id="anime-score" class="text-xl font-bold" style="color: var(--text-secondary);">&nbsp;</span>
-                                </div>
-                                <div id="anime-rating-container" class="flex items-center">
-                                    <span id="anime-rating" class="px-3 py-1 rounded-full text-sm font-semibold" style="background-color: var(--bg-primary); color: var(--text-secondary);">&nbsp;</span>
-                                </div>
-                            </div>
-                            <p id="anime-synopsis" class="mb-4 text-base leading-relaxed max-h-48 overflow-y-auto" style="color: var(--text-secondary);">&nbsp;</p>
-                        </div>
-                        <div class="pt-4 mt-4" style="border-top: 1px solid var(--border-color);">
-                            <div class="grid grid-cols-2 gap-4 text-sm">
-                                <div>
-                                    <p class="font-semibold" style="color: var(--text-primary);">Studio</p>
-                                    <p id="anime-studio" style="color: var(--text-secondary);">&nbsp;</p>
-                                </div>
-                                <div>
-                                    <p class="font-semibold" style="color: var(--text-primary);">Source</p>
-                                    <p id="anime-source" style="color: var(--text-secondary);">&nbsp;</p>
-                                </div>
-                                <div>
-                                    <p class="font-semibold" style="color: var(--text-primary);">Genres</p>
-                                    <p id="anime-genres" style="color: var(--text-secondary);">&nbsp;</p>
-                                </div>
-                                <div>
-                                    <p class="font-semibold" style="color: var(--text-primary);">Themes</p>
-                                    <p id="anime-themes" style="color: var(--text-secondary);">&nbsp;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Random Anime Result -->
+        <div id="random-result-section" class="hidden animate-fade-in">
+            <div class="max-w-5xl mx-auto">
+                <!-- Loading Indicator -->
+                <div id="random-loading" class="hidden text-center py-16 rounded-xl mb-6" style="background-color: var(--bg-secondary); border: 2px solid var(--border-color);">
+                    <div class="inline-block animate-spin rounded-full h-16 w-16 border-4 border-gray-200 border-t-blue-600 mb-4"></div>
+                    <p class="text-xl font-semibold" style="color: var(--text-secondary);">Finding a random anime...</p>
                 </div>
-            </div>
-            <div id="controls-section" class="flex justify-center space-x-4 mt-8">
-                <button id="get-another-button" class="px-6 py-3 rounded-xl font-semibold transition-all" style="background-color: var(--button-bg); color: var(--button-text); border: 1px solid var(--border-color);">🎲 Get Another</button>
-                <button id="back-button" class="px-6 py-3 rounded-xl font-semibold transition-all" style="background-color: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-color);">← Back to Picker</button>
+                
+                <!-- Result Card -->
+                <div id="random-result-card"></div>
+                
+                <!-- Action Buttons -->
+                <div class="mt-6 flex gap-4 justify-center">
+                    <button id="get-another-random" class="px-6 py-2.5 rounded-lg font-medium transition-colors hover:opacity-80" style="background-color: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--border-color);">
+                        🎲 Get Another
+                    </button>
+                    <button id="close-random" class="px-6 py-2.5 rounded-lg font-medium transition-colors hover:opacity-80" style="background-color: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--border-color);">
+                        ← Back to Picker
+                    </button>
+                </div>
             </div>
         </div>
     </main>

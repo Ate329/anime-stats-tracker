@@ -108,7 +108,7 @@ def clean_existing_data():
     print(f"\n[SUMMARY] Cleaned {files_cleaned} file(s), removed {total_duplicates} total duplicate(s)")
     print("="*60)
 
-def fetch_anime_data(current_years_only=False):
+def fetch_anime_data(current_years_only=False, specific_years=None):
     """
     Fetches anime data from Jikan API and organizes it by year and season.
     Creates a manifest.json file listing all available season data.
@@ -119,6 +119,7 @@ def fetch_anime_data(current_years_only=False):
     Args:
         current_years_only (bool): If True, only fetch current and next year.
                                    If False, fetch all years from START_YEAR.
+        specific_years (list): If provided, only fetch data for these specific years.
     """
     # Configuration: Starting year for data collection (change if needed)
     START_YEAR = 2006
@@ -127,7 +128,11 @@ def fetch_anime_data(current_years_only=False):
     current_year = datetime.date.today().year
     
     # Define years to fetch based on mode
-    if current_years_only:
+    if specific_years:
+        # Fetch only specific years
+        years = specific_years
+        print(f"Mode: Specific years ({', '.join(map(str, years))})")
+    elif current_years_only:
         # Only fetch current and next year (for weekly updates)
         years = list(range(current_year, current_year + 2))
         print(f"Mode: Current years only ({current_year}, {current_year + 1})")
@@ -154,7 +159,7 @@ def fetch_anime_data(current_years_only=False):
     available_seasons = []
     
     # Preserve entries for years we're NOT fetching
-    if current_years_only and existing_manifest:
+    if (current_years_only or specific_years) and existing_manifest:
         years_to_fetch = set(years)
         for entry in existing_manifest:
             if entry['year'] not in years_to_fetch:
@@ -396,6 +401,18 @@ if __name__ == "__main__":
     all_years = '--all-years' in sys.argv
     clean_data = '--clean' in sys.argv
     
+    # Check for --year argument
+    specific_years = None
+    for arg in sys.argv:
+        if arg.startswith('--year='):
+            year_str = arg.split('=')[1]
+            # Support comma-separated years or a single year
+            if ',' in year_str:
+                specific_years = [int(y.strip()) for y in year_str.split(',')]
+            else:
+                specific_years = [int(year_str)]
+            break
+    
     # If --clean is specified, run the cleanup function and exit
     if clean_data:
         clean_existing_data()
@@ -405,5 +422,5 @@ if __name__ == "__main__":
     if all_years:
         current_years_only = False
     
-    fetch_anime_data(current_years_only=current_years_only)
+    fetch_anime_data(current_years_only=current_years_only, specific_years=specific_years)
 

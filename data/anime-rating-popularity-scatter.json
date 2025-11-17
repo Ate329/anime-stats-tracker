@@ -10875,7 +10875,7 @@
       "title": "Kono Subarashii Sekai ni Shukufuku wo!",
       "score": 8.09,
       "popularity": 39,
-      "members": 2106342,
+      "members": 2106524,
       "mal_id": 30831
     },
     {
@@ -10910,7 +10910,7 @@
       "title": "Musaigen no Phantom World",
       "score": 6.85,
       "popularity": 427,
-      "members": 577425,
+      "members": 577463,
       "mal_id": 31442
     },
     {
@@ -10931,7 +10931,7 @@
       "title": "Durarara!!x2 Ketsu",
       "score": 8.05,
       "popularity": 660,
-      "members": 398078,
+      "members": 398101,
       "mal_id": 27833
     },
     {
@@ -11185,6 +11185,818 @@
       "popularity": 13473,
       "members": 1437,
       "mal_id": 33846
+    },
+    {
+      "title": "Boku no Hero Academia",
+      "score": 7.83,
+      "popularity": 7,
+      "members": 3229655,
+      "mal_id": 31964
+    },
+    {
+      "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "score": 8.24,
+      "popularity": 23,
+      "members": 2393810,
+      "mal_id": 31240
+    },
+    {
+      "title": "Bungou Stray Dogs",
+      "score": 7.8,
+      "popularity": 89,
+      "members": 1521010,
+      "mal_id": 31478
+    },
+    {
+      "title": "JoJo no Kimyou na Bouken Part 4: Diamond wa Kudakenai",
+      "score": 8.5,
+      "popularity": 129,
+      "members": 1228526,
+      "mal_id": 31933
+    },
+    {
+      "title": "Koutetsujou no Kabaneri",
+      "score": 7.28,
+      "popularity": 237,
+      "members": 869461,
+      "mal_id": 28623
+    },
+    {
+      "title": "Sakamoto desu ga?",
+      "score": 7.54,
+      "popularity": 262,
+      "members": 816891,
+      "mal_id": 32542
+    },
+    {
+      "title": "Kiznaiver",
+      "score": 7.36,
+      "popularity": 282,
+      "members": 786276,
+      "mal_id": 31798
+    },
+    {
+      "title": "Netoge no Yome wa Onnanoko ja Nai to Omotta?",
+      "score": 6.67,
+      "popularity": 418,
+      "members": 585503,
+      "mal_id": 31404
+    },
+    {
+      "title": "Sousei no Onmyouji",
+      "score": 7.29,
+      "popularity": 449,
+      "members": 544748,
+      "mal_id": 32105
+    },
+    {
+      "title": "Magi: Sinbad no Bouken (TV)",
+      "score": 7.83,
+      "popularity": 487,
+      "members": 510427,
+      "mal_id": 31741
+    },
+    {
+      "title": "Tanaka-kun wa Itsumo Kedaruge",
+      "score": 7.8,
+      "popularity": 492,
+      "members": 505382,
+      "mal_id": 32093
+    },
+    {
+      "title": "Gakusen Toshi Asterisk 2nd Season",
+      "score": 6.98,
+      "popularity": 551,
+      "members": 458169,
+      "mal_id": 31737
+    },
+    {
+      "title": "Hundred",
+      "score": 6.3,
+      "popularity": 671,
+      "members": 392840,
+      "mal_id": 31338
+    },
+    {
+      "title": "Flying Witch",
+      "score": 7.5,
+      "popularity": 953,
+      "members": 283509,
+      "mal_id": 31376
+    },
+    {
+      "title": "Big Order (TV)",
+      "score": 5.35,
+      "popularity": 1126,
+      "members": 243048,
+      "mal_id": 31904
+    },
+    {
+      "title": "Mayoiga",
+      "score": 5.49,
+      "popularity": 1215,
+      "members": 224349,
+      "mal_id": 32438
+    },
+    {
+      "title": "Joker Game",
+      "score": 7.02,
+      "popularity": 1248,
+      "members": 217914,
+      "mal_id": 31405
+    },
+    {
+      "title": "Uchuu Patrol Luluco",
+      "score": 7.52,
+      "popularity": 1641,
+      "members": 159444,
+      "mal_id": 32681
+    },
+    {
+      "title": "Super Lovers",
+      "score": 6.7,
+      "popularity": 1692,
+      "members": 152826,
+      "mal_id": 31680
+    },
+    {
+      "title": "Kuromukuro",
+      "score": 7.12,
+      "popularity": 1709,
+      "members": 151036,
+      "mal_id": 32245
+    },
+    {
+      "title": "Gyakuten Saiban: Sono \"Shinjitsu\", Igi Ari!",
+      "score": 6.54,
+      "popularity": 1757,
+      "members": 146543,
+      "mal_id": 31630
+    },
+    {
+      "title": "Ushio to Tora (TV) 2nd Season",
+      "score": 7.88,
+      "popularity": 1825,
+      "members": 139376,
+      "mal_id": 31098
+    },
+    {
+      "title": "Aggressive Retsuko",
+      "score": 7.62,
+      "popularity": 2145,
+      "members": 113204,
+      "mal_id": 32977
+    },
+    {
+      "title": "High School Fleet",
+      "score": 7.3,
+      "popularity": 2171,
+      "members": 110598,
+      "mal_id": 31500
+    },
+    {
+      "title": "Seisen Cerberus: Ryuukoku no Fatalit\u00e9s",
+      "score": 5.58,
+      "popularity": 2220,
+      "members": 106814,
+      "mal_id": 32595
+    },
+    {
+      "title": "Terra Formars: Revenge",
+      "score": 6.63,
+      "popularity": 2361,
+      "members": 97574,
+      "mal_id": 31430
+    },
+    {
+      "title": "Shounen Maid",
+      "score": 7.27,
+      "popularity": 2493,
+      "members": 89615,
+      "mal_id": 32175
+    },
+    {
+      "title": "Honobono Log",
+      "score": 7.33,
+      "popularity": 2550,
+      "members": 86030,
+      "mal_id": 33241
+    },
+    {
+      "title": "Anne Happy\u266a",
+      "score": 6.94,
+      "popularity": 2610,
+      "members": 83198,
+      "mal_id": 31080
+    },
+    {
+      "title": "Macross \u0394",
+      "score": 7.28,
+      "popularity": 2617,
+      "members": 82761,
+      "mal_id": 28013
+    },
+    {
+      "title": "Kuma Miko",
+      "score": 6.31,
+      "popularity": 2687,
+      "members": 79350,
+      "mal_id": 31804
+    },
+    {
+      "title": "Endride",
+      "score": 5.58,
+      "popularity": 2715,
+      "members": 77733,
+      "mal_id": 32608
+    },
+    {
+      "title": "Bakuon!!",
+      "score": 6.51,
+      "popularity": 2932,
+      "members": 68481,
+      "mal_id": 30795
+    },
+    {
+      "title": "Bishoujo Senshi Sailor Moon Crystal Season III",
+      "score": 7.77,
+      "popularity": 2965,
+      "members": 66917,
+      "mal_id": 31733
+    },
+    {
+      "title": "Sansha Sanyou",
+      "score": 7.09,
+      "popularity": 2995,
+      "members": 65713,
+      "mal_id": 31564
+    },
+    {
+      "title": "Kidou Senshi Gundam Unicorn RE:0096",
+      "score": 7.65,
+      "popularity": 4000,
+      "members": 38865,
+      "mal_id": 32792
+    },
+    {
+      "title": "Concrete Revolutio: Choujin Gensou - The Last Song",
+      "score": 6.97,
+      "popularity": 4031,
+      "members": 38327,
+      "mal_id": 32313
+    },
+    {
+      "title": "12-sai.: Chicchana Mune no Tokimeki",
+      "score": 6.4,
+      "popularity": 4070,
+      "members": 37508,
+      "mal_id": 32601
+    },
+    {
+      "title": "Beyblade Burst",
+      "score": 6.67,
+      "popularity": 4078,
+      "members": 37290,
+      "mal_id": 31049
+    },
+    {
+      "title": "Kyoukai no Rinne 2nd Season",
+      "score": 7.14,
+      "popularity": 4112,
+      "members": 36618,
+      "mal_id": 31610
+    },
+    {
+      "title": "Wagamama High Spec",
+      "score": 5.38,
+      "popularity": 4205,
+      "members": 35092,
+      "mal_id": 31439
+    },
+    {
+      "title": "Pan de Peace!",
+      "score": 5.66,
+      "popularity": 4250,
+      "members": 34343,
+      "mal_id": 31498
+    },
+    {
+      "title": "Onigiri",
+      "score": 5.33,
+      "popularity": 4339,
+      "members": 32835,
+      "mal_id": 32606
+    },
+    {
+      "title": "Aikatsu Stars!",
+      "score": 7.62,
+      "popularity": 5139,
+      "members": 22235,
+      "mal_id": 32717
+    },
+    {
+      "title": "Kagewani: Shou",
+      "score": 6.41,
+      "popularity": 5387,
+      "members": 19871,
+      "mal_id": 32682
+    },
+    {
+      "title": "Tonkatsu DJ Agetarou",
+      "score": 7.13,
+      "popularity": 5911,
+      "members": 15458,
+      "mal_id": 31370
+    },
+    {
+      "title": "Usakame",
+      "score": 5.76,
+      "popularity": 6139,
+      "members": 13980,
+      "mal_id": 32454
+    },
+    {
+      "title": "Ragnastrike Angels",
+      "score": 4.3,
+      "popularity": 6192,
+      "members": 13704,
+      "mal_id": 33021
+    },
+    {
+      "title": "Cardfight!! Vanguard G: Stride Gate-hen",
+      "score": 6.73,
+      "popularity": 6682,
+      "members": 11412,
+      "mal_id": 32802
+    },
+    {
+      "title": "Bishoujo Yuugi Unit Crane Game Girls",
+      "score": 4.4,
+      "popularity": 7492,
+      "members": 8650,
+      "mal_id": 32906
+    },
+    {
+      "title": "Hakuouki: Otogisoushi",
+      "score": 6.59,
+      "popularity": 8206,
+      "members": 6856,
+      "mal_id": 32011
+    },
+    {
+      "title": "Kaitou Joker 3rd Season",
+      "score": 7.24,
+      "popularity": 8737,
+      "members": 5924,
+      "mal_id": 31670
+    },
+    {
+      "title": "Future Card Buddyfight Triple D",
+      "score": 6.58,
+      "popularity": 9013,
+      "members": 5433,
+      "mal_id": 32785
+    },
+    {
+      "title": "Bonobono (TV 2016)",
+      "score": 6.43,
+      "popularity": 9964,
+      "members": 4069,
+      "mal_id": 32353
+    },
+    {
+      "title": "Neko Neko Nihonshi",
+      "score": 6.2,
+      "popularity": 10272,
+      "members": 3677,
+      "mal_id": 32572
+    },
+    {
+      "title": "Shounen Ashibe: Go! Go! Goma-chan",
+      "score": 6.14,
+      "popularity": 10808,
+      "members": 3146,
+      "mal_id": 32571
+    },
+    {
+      "title": "Duel Masters VSRF",
+      "score": 5.49,
+      "popularity": 12525,
+      "members": 1918,
+      "mal_id": 32582
+    },
+    {
+      "title": "Battle Spirits: Double Drive",
+      "score": 5.73,
+      "popularity": 12591,
+      "members": 1878,
+      "mal_id": 32670
+    },
+    {
+      "title": "Aware! Meisaku-kun",
+      "score": 6.06,
+      "popularity": 14853,
+      "members": 1004,
+      "mal_id": 32956
+    },
+    {
+      "title": "Asa da yo! Kaishain",
+      "score": 5.52,
+      "popularity": 14893,
+      "members": 993,
+      "mal_id": 33044
+    },
+    {
+      "title": "Neko mo, Onda-ke",
+      "score": 4.95,
+      "popularity": 15934,
+      "members": 750,
+      "mal_id": 32999
+    },
+    {
+      "title": "Turning Mecard W",
+      "score": 6.13,
+      "popularity": 16274,
+      "members": 693,
+      "mal_id": 35542
+    },
+    {
+      "title": "Ji Jia Shou Shen: Baolie Feiche",
+      "score": 5.9,
+      "popularity": 18046,
+      "members": 488,
+      "mal_id": 42740
+    },
+    {
+      "title": "Power Battle Watch Car",
+      "score": 5.94,
+      "popularity": 18437,
+      "members": 457,
+      "mal_id": 38611
+    },
+    {
+      "title": "Porong Porong Pororo 6",
+      "score": 5.84,
+      "popularity": 18649,
+      "members": 442,
+      "mal_id": 36530
+    },
+    {
+      "title": "Mob Psycho 100",
+      "score": 8.49,
+      "popularity": 28,
+      "members": 2261475,
+      "mal_id": 32182
+    },
+    {
+      "title": "Saiki Kusuo no \u03a8-nan",
+      "score": 8.41,
+      "popularity": 132,
+      "members": 1216977,
+      "mal_id": 33255
+    },
+    {
+      "title": "Shokugeki no Souma: Ni no Sara",
+      "score": 8.06,
+      "popularity": 136,
+      "members": 1192038,
+      "mal_id": 32282
+    },
+    {
+      "title": "ReLIFE",
+      "score": 7.96,
+      "popularity": 151,
+      "members": 1116746,
+      "mal_id": 30015
+    },
+    {
+      "title": "Orange",
+      "score": 7.63,
+      "popularity": 227,
+      "members": 883610,
+      "mal_id": 32729
+    },
+    {
+      "title": "91 Days",
+      "score": 7.82,
+      "popularity": 286,
+      "members": 778502,
+      "mal_id": 32998
+    },
+    {
+      "title": "Nanatsu no Taizai: Seisen no Shirushi",
+      "score": 6.95,
+      "popularity": 294,
+      "members": 760391,
+      "mal_id": 31722
+    },
+    {
+      "title": "New Game!",
+      "score": 7.55,
+      "popularity": 565,
+      "members": 449994,
+      "mal_id": 31953
+    },
+    {
+      "title": "Berserk",
+      "score": 6.34,
+      "popularity": 676,
+      "members": 389735,
+      "mal_id": 32379
+    },
+    {
+      "title": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai-hen",
+      "score": 7.21,
+      "popularity": 704,
+      "members": 374557,
+      "mal_id": 32189
+    },
+    {
+      "title": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou-hen",
+      "score": 7.35,
+      "popularity": 776,
+      "members": 343828,
+      "mal_id": 33028
+    },
+    {
+      "title": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
+      "score": 7.63,
+      "popularity": 779,
+      "members": 342883,
+      "mal_id": 31764
+    },
+    {
+      "title": "Tales of Zestiria the Cross",
+      "score": 7.21,
+      "popularity": 788,
+      "members": 341226,
+      "mal_id": 30911
+    },
+    {
+      "title": "Amaama to Inazuma",
+      "score": 7.53,
+      "popularity": 797,
+      "members": 337727,
+      "mal_id": 32828
+    },
+    {
+      "title": "Handa-kun",
+      "score": 7.33,
+      "popularity": 830,
+      "members": 325971,
+      "mal_id": 32648
+    },
+    {
+      "title": "Kono Bijutsu-bu ni wa Mondai ga Aru!",
+      "score": 7.16,
+      "popularity": 840,
+      "members": 322236,
+      "mal_id": 31952
+    },
+    {
+      "title": "Masou Gakuen HxH",
+      "score": 6.11,
+      "popularity": 875,
+      "members": 313102,
+      "mal_id": 31845
+    },
+    {
+      "title": "Servamp",
+      "score": 6.87,
+      "popularity": 899,
+      "members": 304533,
+      "mal_id": 31229
+    },
+    {
+      "title": "Taboo Tattoo",
+      "score": 5.73,
+      "popularity": 901,
+      "members": 304030,
+      "mal_id": 29758
+    },
+    {
+      "title": "Yi Ren Zhi Xia",
+      "score": 6.82,
+      "popularity": 1227,
+      "members": 221484,
+      "mal_id": 33421
+    },
+    {
+      "title": "Rewrite",
+      "score": 6.64,
+      "popularity": 1245,
+      "members": 218361,
+      "mal_id": 31716
+    },
+    {
+      "title": "Qualidea Code",
+      "score": 6.46,
+      "popularity": 1319,
+      "members": 204949,
+      "mal_id": 32360
+    },
+    {
+      "title": "D.Gray-man Hallow",
+      "score": 7.68,
+      "popularity": 1368,
+      "members": 197970,
+      "mal_id": 32370
+    },
+    {
+      "title": "Love Live! Sunshine!!",
+      "score": 7.39,
+      "popularity": 1399,
+      "members": 192260,
+      "mal_id": 32526
+    },
+    {
+      "title": "Days",
+      "score": 7.16,
+      "popularity": 1715,
+      "members": 150554,
+      "mal_id": 32494
+    },
+    {
+      "title": "Arslan Senki (TV): Fuujin Ranbu",
+      "score": 7.49,
+      "popularity": 1730,
+      "members": 148682,
+      "mal_id": 31821
+    },
+    {
+      "title": "Fukigen na Mononokean",
+      "score": 7.42,
+      "popularity": 1812,
+      "members": 140706,
+      "mal_id": 32696
+    },
+    {
+      "title": "Fate/kaleid liner Prisma\u2606Illya 3rei!!",
+      "score": 7.48,
+      "popularity": 1856,
+      "members": 136972,
+      "mal_id": 31706
+    },
+    {
+      "title": "Hatsukoi Monster",
+      "score": 5.43,
+      "popularity": 2082,
+      "members": 117998,
+      "mal_id": 31109
+    },
+    {
+      "title": "Amanchu!",
+      "score": 7.23,
+      "popularity": 2383,
+      "members": 96188,
+      "mal_id": 31771
+    },
+    {
+      "title": "Fudanshi Koukou Seikatsu",
+      "score": 6.51,
+      "popularity": 2723,
+      "members": 77403,
+      "mal_id": 33222
+    },
+    {
+      "title": "Bananya",
+      "score": 6.76,
+      "popularity": 2807,
+      "members": 73796,
+      "mal_id": 32664
+    },
+    {
+      "title": "Cheer Danshi!!",
+      "score": 6.66,
+      "popularity": 2987,
+      "members": 66212,
+      "mal_id": 32483
+    },
+    {
+      "title": "Ange Vierge",
+      "score": 5.98,
+      "popularity": 3189,
+      "members": 58188,
+      "mal_id": 32171
+    },
+    {
+      "title": "Battery",
+      "score": 5.72,
+      "popularity": 3316,
+      "members": 54411,
+      "mal_id": 32947
+    },
+    {
+      "title": "B-Project: Kodou*Ambitious",
+      "score": 6.58,
+      "popularity": 3540,
+      "members": 48403,
+      "mal_id": 33046
+    },
+    {
+      "title": "Regalia: The Three Sacred Stars",
+      "score": 5.97,
+      "popularity": 4441,
+      "members": 31120,
+      "mal_id": 32961
+    },
+    {
+      "title": "Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!",
+      "score": 7,
+      "popularity": 4451,
+      "members": 30963,
+      "mal_id": 31417
+    },
+    {
+      "title": "Tsukiuta. The Animation",
+      "score": 6.88,
+      "popularity": 4597,
+      "members": 28817,
+      "mal_id": 33037
+    },
+    {
+      "title": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari 2nd",
+      "score": 6.31,
+      "popularity": 5178,
+      "members": 21875,
+      "mal_id": 32301
+    },
+    {
+      "title": "Scared Rider Xechs",
+      "score": 5.26,
+      "popularity": 5189,
+      "members": 21677,
+      "mal_id": 33113
+    },
+    {
+      "title": "Ozmafia!!",
+      "score": 5.46,
+      "popularity": 5203,
+      "members": 21543,
+      "mal_id": 32697
+    },
+    {
+      "title": "Time Travel Shoujo: Mari Waka to 8-nin no Kagakusha-tachi",
+      "score": 6.49,
+      "popularity": 5573,
+      "members": 18037,
+      "mal_id": 33341
+    },
+    {
+      "title": "Onara Gorou",
+      "score": 5.53,
+      "popularity": 5892,
+      "members": 15607,
+      "mal_id": 33274
+    },
+    {
+      "title": "Show By Rock!! Short!!",
+      "score": 6.46,
+      "popularity": 5966,
+      "members": 15016,
+      "mal_id": 32039
+    },
+    {
+      "title": "Mahou Shoujo? Naria\u2606Girls",
+      "score": 3.9,
+      "popularity": 7083,
+      "members": 9928,
+      "mal_id": 33394
+    },
+    {
+      "title": "Puzzle & Dragons Cross",
+      "score": 6.49,
+      "popularity": 7289,
+      "members": 9219,
+      "mal_id": 32772
+    },
+    {
+      "title": "Sinbi Apartment: Ghost Ball Bimil",
+      "score": 6.84,
+      "popularity": 12050,
+      "members": 2213,
+      "mal_id": 38923
+    },
+    {
+      "title": "PJ Berri no Mogumogu Munyamunya",
+      "score": 5.58,
+      "popularity": 16529,
+      "members": 657,
+      "mal_id": 33835
+    },
+    {
+      "title": "Kkoma Bus Tayo 4",
+      "score": 5.68,
+      "popularity": 19217,
+      "members": 398,
+      "mal_id": 38074
+    },
+    {
+      "title": "Power Battle Watch Car Season 2",
+      "score": 5.9,
+      "popularity": 19425,
+      "members": 382,
+      "mal_id": 38612
     },
     {
       "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
@@ -11449,7 +12261,7 @@
       "title": "Soushin Shoujo Matoi",
       "score": 6.72,
       "popularity": 4496,
-      "members": 30427,
+      "members": 30428,
       "mal_id": 33668
     },
     {
@@ -11637,7 +12449,7 @@
     {
       "title": "3-nen D-gumi Glass no Kamen",
       "score": 4.68,
-      "popularity": 11226,
+      "popularity": 11230,
       "members": 2786,
       "mal_id": 33975
     },
@@ -24711,7 +25523,7 @@
       "mal_id": 60551
     }
   ],
-  "mean_score": 6.89,
-  "mean_popularity": 4207.7,
-  "total_anime": 3530
+  "mean_score": 6.88,
+  "mean_popularity": 4211.4,
+  "total_anime": 3646
 }

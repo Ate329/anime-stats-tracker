@@ -1,5 +1,56 @@
 [
   {
+    "mal_id": 52480,
+    "title": "Tantei wa Mou, Shindeiru. Season 2",
+    "title_english": "The Detective Is Already Dead Season 2",
+    "title_japanese": "探偵はもう、死んでいる。Season2",
+    "title_synonyms": [
+      "Tanmoshi"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1784/151131l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/mHO3ZjEVNbU?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Second season of Tantei wa Mou, Shindeiru.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 3659,
+    "members": 46000,
+    "favorites": 312,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "PG-13 - Teens 13 or older",
+    "source": "Light novel",
+    "studios": [
+      "ENGI"
+    ],
+    "producers": [
+      "Kadokawa"
+    ],
+    "licensors": [],
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Romance"
+    ],
+    "themes": [
+      "Detective"
+    ],
+    "demographics": [],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/52480/Tantei_wa_Mou_Shindeiru_Season_2",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true
+  },
+  {
     "mal_id": 61048,
     "title": "Neko to Ryuu",
     "title_english": "The Cat and the Dragon",
@@ -13,8 +64,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 11325,
-    "members": 2709,
+    "popularity": 11224,
+    "members": 2792,
     "favorites": 11,
     "type": "TV",
     "status": "Not yet aired",

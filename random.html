@@ -91,14 +91,51 @@
             transform: translateX(30px);
         }
         
-        /* Animations */
+        /* Keyframe Animations (Matched with index.html) */
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        /* Animation Classes */
         .animate-fade-in {
-            animation: fadeIn 0.5s ease-out;
+            animation: fadeIn 0.6s ease-out;
+        }
+        
+        .animate-slide-in-up {
+            animation: slideInUp 0.6s ease-out;
+        }
+        
+        .animate-scale-in {
+            animation: scaleIn 0.5s ease-out;
         }
 
         /* Custom Scrollbar for Genres */
@@ -156,14 +193,14 @@
 
         <!-- PICKER SECTION -->
         <div id="picker-section" class="animate-fade-in">
-            <div class="rounded-xl overflow-hidden" style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); box-shadow: 0 4px 6px var(--shadow);">
+            <div class="rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg" style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); box-shadow: 0 4px 6px var(--shadow);">
                 
                 <div class="p-6 md:p-8 grid md:grid-cols-2 gap-8 md:gap-12">
                     <!-- Left Column: Settings -->
                     <div class="space-y-8">
                         <!-- Toggles -->
                         <div class="space-y-4">
-                            <div class="flex items-center justify-between p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
+                            <div class="flex items-center justify-between p-4 rounded-lg transition-colors hover:bg-opacity-80" style="background-color: var(--bg-tertiary);">
                                 <div>
                                     <h3 class="font-semibold" style="color: var(--text-primary);">Mature Content</h3>
                                     <p class="text-xs mt-0.5" style="color: var(--text-secondary);">Show adult content</p>
@@ -174,7 +211,7 @@
                                 </label>
                             </div>
                             
-                            <div class="flex items-center justify-between p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
+                            <div class="flex items-center justify-between p-4 rounded-lg transition-colors hover:bg-opacity-80" style="background-color: var(--bg-tertiary);">
                                 <div>
                                     <h3 class="font-semibold" style="color: var(--text-primary);">Hide Not Rated</h3>
                                     <p class="text-xs mt-0.5" style="color: var(--text-secondary);">Exclude unrated anime</p>
@@ -187,7 +224,7 @@
                         </div>
 
                         <!-- Rating Slider -->
-                        <div class="p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
+                        <div class="p-4 rounded-lg transition-colors hover:bg-opacity-80" style="background-color: var(--bg-tertiary);">
                             <label class="flex justify-between mb-3 items-center">
                                 <span class="font-semibold" style="color: var(--text-primary);">Minimum Score</span>
                                 <span id="rating-display" class="font-bold px-2 py-1 rounded text-sm bg-gray-900 text-white">0.0</span>
@@ -213,10 +250,10 @@
                         </div>
                         <p id="filter-mode-description" class="text-xs mb-3 hidden"></p>
                         
-                        <div class="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 border flex-grow" style="border-color: var(--border-color);">
+                        <div class="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 border flex-grow transition-colors" style="border-color: var(--border-color);">
                             <div id="genre-filters" class="flex flex-wrap gap-2 max-h-[280px] overflow-y-auto pr-1 custom-scrollbar content-start">
                                 <!-- Buttons injected by JS -->
-                                <div class="w-full text-center py-8 text-sm text-gray-400">Loading genres...</div>
+                                <div class="w-full text-center py-8 text-sm text-gray-400 animate-pulse">Loading genres...</div>
                             </div>
                         </div>
                     </div>
@@ -224,7 +261,7 @@
 
                 <!-- Footer Action -->
                 <div class="p-6 bg-gray-50 dark:bg-gray-800/30 border-t text-center" style="border-color: var(--border-color);">
-                    <button id="get-random-anime" class="px-10 py-3.5 bg-gray-900 text-white font-bold text-lg rounded-lg hover:bg-gray-800 transition-transform transform hover:scale-105 shadow-md hover:shadow-lg">
+                    <button id="get-random-anime" class="px-10 py-3.5 bg-gray-900 text-white font-bold text-lg rounded-lg hover:bg-gray-800 transition-all transform hover:scale-105 shadow-md hover:shadow-lg active:scale-95">
                         🎲 Find Random Anime
                     </button>
                 </div>
@@ -232,10 +269,10 @@
         </div>
 
         <!-- RESULT SECTION (Hidden) -->
-        <div id="random-result-section" class="hidden animate-fade-in">
+        <div id="random-result-section" class="hidden animate-scale-in">
             <div class="max-w-3xl mx-auto">
                 <!-- Navigation -->
-                <button id="close-random" class="mb-6 flex items-center gap-2 text-sm font-medium hover:underline transition-colors" style="color: var(--text-secondary);">
+                <button id="close-random" class="mb-6 flex items-center gap-2 text-sm font-medium hover:underline transition-colors opacity-80 hover:opacity-100" style="color: var(--text-secondary);">
                     ← Back to Filters
                 </button>
 
@@ -246,11 +283,11 @@
                 </div>
                 
                 <!-- Result Card Container -->
-                <div id="random-result-card"></div>
+                <div id="random-result-card" class="transform transition-all duration-300"></div>
                 
                 <!-- Action Buttons -->
                 <div class="mt-8 flex gap-4 justify-center">
-                    <button id="get-another-random" class="px-8 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-gray-800 shadow-md transition-transform hover:scale-105">
+                    <button id="get-another-random" class="px-8 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-gray-800 shadow-md transition-all transform hover:scale-105 active:scale-95">
                         🔄 Spin Again
                     </button>
                 </div>
@@ -259,15 +296,15 @@
 
     </main>
 
-    <!-- Footer -->
-    <footer class="mt-auto py-8 border-t" style="background-color: var(--bg-secondary); border-color: var(--border-color);">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p class="text-sm" style="color: var(--text-secondary);">
-                Data source: <a href="https://myanimelist.net/" target="_blank" class="font-medium hover:underline" style="color: var(--text-primary);">MyAnimeList</a> via Jikan API
+    <!-- Footer (Exact match from index.html) -->
+    <footer class="mt-auto" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-sm" style="color: var(--text-secondary);">
+            <p>Data from <a href="https://jikan.moe/" target="_blank" class="hover:underline" style="color: var(--text-primary);">Jikan API</a> • Updated automatically</p>
+            <p class="mt-2">
+                This project is open source • 
+                <a href="https://github.com/Ate329/anime-season-tracker" target="_blank" class="hover:underline" style="color: var(--text-primary);">View on GitHub</a>
             </p>
-            <p class="text-xs mt-2" style="color: var(--text-secondary);">
-                Auto-updated via GitHub Actions • <a href="https://github.com/yourusername/anime-season-tracker" class="hover:underline">View Source</a>
-            </p>
+            <p class="mt-1">Created by <a href="https://github.com/Ate329" target="_blank" class="hover:underline" style="color: var(--text-primary);">@Ate329</a></p>
         </div>
     </footer>
 

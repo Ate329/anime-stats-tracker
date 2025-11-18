@@ -11,11 +11,11 @@
     "background": "Mangaka Horikoushi Kouhei has noted that American superhero comics are the inspiration for the series, and has based character pages on logos for Marvel and DC comic characters.",
     "episodes": 13,
     "score": 7.83,
-    "scored_by": 2191598,
-    "rank": 1015,
+    "scored_by": 2191804,
+    "rank": 1014,
     "popularity": 7,
-    "members": 3229655,
-    "favorites": 54255,
+    "members": 3229968,
+    "favorites": 54265,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -53,7 +53,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31240,
@@ -70,11 +71,11 @@
     "background": "Re:Zero kara Hajimeru Isekai Seikatsu adapts the first nine volumes of Tappei Nagatsuki's light novel series of the same title. An edited version of the series, titled Re:Zero kara Hajimeru Isekai Seikatsu: Shin Henshuu-ban (Re: Zero -Starting Life In Another World- Director's Cut), received a rebroadcast starting January 1, 2020. Twenty-five episodes of the original series were combined into thirteen 49-minute long episodes with some scenes being slightly extended. The last four minutes of episode 13 featured new scenes that were later included at the beginning of the second season.",
     "episodes": 25,
     "score": 8.24,
-    "scored_by": 1527996,
+    "scored_by": 1528164,
     "rank": 360,
     "popularity": 23,
-    "members": 2393810,
-    "favorites": 73797,
+    "members": 2394057,
+    "favorites": 73802,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -115,7 +116,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31478,
@@ -132,11 +134,11 @@
     "background": "This season adapts chapters 1 through 14 of the manga.",
     "episodes": 12,
     "score": 7.8,
-    "scored_by": 773908,
+    "scored_by": 773976,
     "rank": 1079,
     "popularity": 89,
-    "members": 1521010,
-    "favorites": 28747,
+    "members": 1521152,
+    "favorites": 28755,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -181,7 +183,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31933,
@@ -198,11 +201,11 @@
     "background": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai is a full adaptation of the fourth part of the JoJo no Kimyou na Bouken manga series.",
     "episodes": 39,
     "score": 8.5,
-    "scored_by": 848020,
+    "scored_by": 848116,
     "rank": 154,
     "popularity": 129,
-    "members": 1228526,
-    "favorites": 42521,
+    "members": 1228675,
+    "favorites": 42525,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -239,7 +242,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 28623,
@@ -253,10 +257,10 @@
     "background": "The series won the 2016 Newtype Anime Awards for Best TV Anime.",
     "episodes": 12,
     "score": 7.28,
-    "scored_by": 454181,
-    "rank": 3044,
+    "scored_by": 454231,
+    "rank": 3043,
     "popularity": 237,
-    "members": 869461,
+    "members": 869549,
     "favorites": 3896,
     "type": "TV",
     "status": "Finished Airing",
@@ -298,7 +302,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32542,
@@ -314,10 +319,10 @@
     "background": "",
     "episodes": 12,
     "score": 7.54,
-    "scored_by": 409065,
+    "scored_by": 409100,
     "rank": 1889,
     "popularity": 262,
-    "members": 816891,
+    "members": 816950,
     "favorites": 2817,
     "type": "TV",
     "status": "Finished Airing",
@@ -357,7 +362,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31798,
@@ -371,10 +377,10 @@
     "background": "",
     "episodes": 12,
     "score": 7.36,
-    "scored_by": 376521,
+    "scored_by": 376541,
     "rank": 2613,
     "popularity": 282,
-    "members": 786276,
+    "members": 786327,
     "favorites": 5222,
     "type": "TV",
     "status": "Finished Airing",
@@ -412,7 +418,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31404,
@@ -429,10 +436,10 @@
     "background": "Netoge no Yome wa Onnanoko ja Nai to Omotta? adapts the first 4 novels of Shibai Kineko's light novel series of the same title.",
     "episodes": 12,
     "score": 6.67,
-    "scored_by": 302051,
-    "rank": 6271,
+    "scored_by": 302086,
+    "rank": 6269,
     "popularity": 418,
-    "members": 585503,
+    "members": 585558,
     "favorites": 1292,
     "type": "TV",
     "status": "Finished Airing",
@@ -475,7 +482,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32105,
@@ -489,10 +497,10 @@
     "background": "",
     "episodes": 50,
     "score": 7.29,
-    "scored_by": 226222,
+    "scored_by": 226237,
     "rank": 2995,
     "popularity": 449,
-    "members": 544748,
+    "members": 544789,
     "favorites": 3111,
     "type": "TV",
     "status": "Finished Airing",
@@ -533,7 +541,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31741,
@@ -547,10 +556,10 @@
     "background": "Episodes 2 through 6 of the television series are renamed versions of the OVAs. Episodes 1 and 7 through 13 will be new animation not featured in the previous OVAs.",
     "episodes": 13,
     "score": 7.83,
-    "scored_by": 271828,
-    "rank": 1024,
+    "scored_by": 271843,
+    "rank": 1023,
     "popularity": 487,
-    "members": 510427,
+    "members": 510460,
     "favorites": 1595,
     "type": "TV",
     "status": "Finished Airing",
@@ -584,7 +593,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32093,
@@ -642,7 +652,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31737,
@@ -658,10 +669,10 @@
     "background": "",
     "episodes": 12,
     "score": 6.98,
-    "scored_by": 265620,
-    "rank": 4629,
+    "scored_by": 265630,
+    "rank": 4628,
     "popularity": 551,
-    "members": 458169,
+    "members": 458192,
     "favorites": 787,
     "type": "TV",
     "status": "Finished Airing",
@@ -705,7 +716,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31338,
@@ -719,10 +731,10 @@
     "background": "Hundred adapts the first four novels of Jun Misaki's light novel series of the same title.",
     "episodes": 12,
     "score": 6.3,
-    "scored_by": 200691,
-    "rank": 8525,
+    "scored_by": 200702,
+    "rank": 8527,
     "popularity": 671,
-    "members": 392840,
+    "members": 392862,
     "favorites": 692,
     "type": "TV",
     "status": "Finished Airing",
@@ -765,7 +777,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31376,
@@ -823,7 +836,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31904,
@@ -839,10 +853,10 @@
     "background": "",
     "episodes": 10,
     "score": 5.35,
-    "scored_by": 113310,
+    "scored_by": 113314,
     "rank": 13077,
-    "popularity": 1126,
-    "members": 243048,
+    "popularity": 1127,
+    "members": 243056,
     "favorites": 264,
     "type": "TV",
     "status": "Finished Airing",
@@ -880,7 +894,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32438,
@@ -894,10 +909,10 @@
     "background": "",
     "episodes": 12,
     "score": 5.49,
-    "scored_by": 113051,
+    "scored_by": 113054,
     "rank": 12618,
     "popularity": 1215,
-    "members": 224349,
+    "members": 224363,
     "favorites": 302,
     "type": "TV",
     "status": "Finished Airing",
@@ -939,7 +954,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31405,
@@ -953,10 +969,10 @@
     "background": "The series was awarded the 2016 Nogizaka46 Award (a Monthly Newtype Joint Special Award).",
     "episodes": 12,
     "score": 7.02,
-    "scored_by": 91033,
-    "rank": 4447,
-    "popularity": 1248,
-    "members": 217914,
+    "scored_by": 91040,
+    "rank": 4446,
+    "popularity": 1249,
+    "members": 217930,
     "favorites": 613,
     "type": "TV",
     "status": "Finished Airing",
@@ -998,7 +1014,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32681,
@@ -1057,7 +1074,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31680,
@@ -1071,10 +1089,10 @@
     "background": "",
     "episodes": 10,
     "score": 6.7,
-    "scored_by": 81318,
-    "rank": 6091,
+    "scored_by": 81327,
+    "rank": 6088,
     "popularity": 1692,
-    "members": 152826,
+    "members": 152849,
     "favorites": 1072,
     "type": "TV",
     "status": "Finished Airing",
@@ -1109,7 +1127,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32245,
@@ -1167,7 +1186,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31630,
@@ -1183,11 +1203,11 @@
     "background": "",
     "episodes": 24,
     "score": 6.54,
-    "scored_by": 62284,
+    "scored_by": 62286,
     "rank": 7063,
     "popularity": 1757,
-    "members": 146543,
-    "favorites": 543,
+    "members": 146549,
+    "favorites": 542,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -1226,7 +1246,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31098,
@@ -1242,10 +1263,10 @@
     "background": "",
     "episodes": 13,
     "score": 7.88,
-    "scored_by": 69140,
-    "rank": 904,
+    "scored_by": 69143,
+    "rank": 905,
     "popularity": 1825,
-    "members": 139376,
+    "members": 139384,
     "favorites": 327,
     "type": "TV",
     "status": "Finished Airing",
@@ -1285,7 +1306,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32977,
@@ -1299,10 +1321,10 @@
     "background": "Aggressive Retsuko aired in the Ousama no Brunch program on TBS, which aired between 12:00 p.m. and 2:00 p.m. on Saturdays.",
     "episodes": 100,
     "score": 7.62,
-    "scored_by": 53955,
-    "rank": 1571,
+    "scored_by": 53958,
+    "rank": 1572,
     "popularity": 2145,
-    "members": 113204,
+    "members": 113213,
     "favorites": 685,
     "type": "TV",
     "status": "Finished Airing",
@@ -1334,7 +1356,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31500,
@@ -1350,10 +1373,10 @@
     "background": "",
     "episodes": 12,
     "score": 7.3,
-    "scored_by": 46216,
-    "rank": 2950,
+    "scored_by": 46218,
+    "rank": 2952,
     "popularity": 2171,
-    "members": 110598,
+    "members": 110605,
     "favorites": 904,
     "type": "TV",
     "status": "Finished Airing",
@@ -1393,7 +1416,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32595,
@@ -1409,10 +1433,10 @@
     "background": "",
     "episodes": 13,
     "score": 5.58,
-    "scored_by": 41846,
-    "rank": 12333,
+    "scored_by": 41847,
+    "rank": 12335,
     "popularity": 2220,
-    "members": 106814,
+    "members": 106813,
     "favorites": 113,
     "type": "TV",
     "status": "Finished Airing",
@@ -1446,7 +1470,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31430,
@@ -1512,7 +1537,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32175,
@@ -1528,10 +1554,10 @@
     "background": "",
     "episodes": 12,
     "score": 7.27,
-    "scored_by": 38370,
-    "rank": 3085,
+    "scored_by": 38376,
+    "rank": 3084,
     "popularity": 2493,
-    "members": 89615,
+    "members": 89629,
     "favorites": 402,
     "type": "TV",
     "status": "Finished Airing",
@@ -1571,7 +1597,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 33241,
@@ -1585,10 +1612,10 @@
     "background": "The animated shorts are an adaptation of Naka Fukamachi's illustrated book, which was published in 2014.",
     "episodes": 10,
     "score": 7.33,
-    "scored_by": 36688,
-    "rank": 2803,
+    "scored_by": 36689,
+    "rank": 2802,
     "popularity": 2550,
-    "members": 86030,
+    "members": 86038,
     "favorites": 353,
     "type": "TV",
     "status": "Finished Airing",
@@ -1618,7 +1645,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31080,
@@ -1634,10 +1662,10 @@
     "background": "",
     "episodes": 12,
     "score": 6.94,
-    "scored_by": 35161,
-    "rank": 4806,
+    "scored_by": 35164,
+    "rank": 4805,
     "popularity": 2610,
-    "members": 83198,
+    "members": 83207,
     "favorites": 269,
     "type": "TV",
     "status": "Finished Airing",
@@ -1679,7 +1707,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 28013,
@@ -1693,10 +1722,10 @@
     "background": "",
     "episodes": 26,
     "score": 7.28,
-    "scored_by": 28533,
-    "rank": 3051,
+    "scored_by": 28536,
+    "rank": 3049,
     "popularity": 2617,
-    "members": 82761,
+    "members": 82772,
     "favorites": 553,
     "type": "TV",
     "status": "Finished Airing",
@@ -1735,7 +1764,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31804,
@@ -1749,10 +1779,10 @@
     "background": "",
     "episodes": 12,
     "score": 6.31,
-    "scored_by": 32200,
+    "scored_by": 32203,
     "rank": 8455,
     "popularity": 2687,
-    "members": 79350,
+    "members": 79357,
     "favorites": 89,
     "type": "TV",
     "status": "Finished Airing",
@@ -1787,7 +1817,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32608,
@@ -1801,10 +1832,10 @@
     "background": "",
     "episodes": 24,
     "score": 5.58,
-    "scored_by": 25653,
-    "rank": 12310,
+    "scored_by": 25654,
+    "rank": 12312,
     "popularity": 2715,
-    "members": 77733,
+    "members": 77738,
     "favorites": 70,
     "type": "TV",
     "status": "Finished Airing",
@@ -1844,7 +1875,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 30795,
@@ -1858,11 +1890,11 @@
     "background": "",
     "episodes": 12,
     "score": 6.51,
-    "scored_by": 25513,
-    "rank": 7223,
+    "scored_by": 25515,
+    "rank": 7224,
     "popularity": 2932,
-    "members": 68481,
-    "favorites": 155,
+    "members": 68486,
+    "favorites": 156,
     "type": "TV",
     "status": "Finished Airing",
     "airing": false,
@@ -1900,7 +1932,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31733,
@@ -1917,10 +1950,10 @@
     "background": "",
     "episodes": 13,
     "score": 7.77,
-    "scored_by": 31228,
+    "scored_by": 31230,
     "rank": 1151,
-    "popularity": 2965,
-    "members": 66917,
+    "popularity": 2966,
+    "members": 66921,
     "favorites": 383,
     "type": "TV",
     "status": "Finished Airing",
@@ -1955,7 +1988,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31564,
@@ -2009,7 +2043,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32792,
@@ -2025,10 +2060,10 @@
     "background": "",
     "episodes": 22,
     "score": 7.65,
-    "scored_by": 17704,
-    "rank": 1496,
+    "scored_by": 17706,
+    "rank": 1497,
     "popularity": 4000,
-    "members": 38865,
+    "members": 38870,
     "favorites": 197,
     "type": "TV",
     "status": "Finished Airing",
@@ -2068,7 +2103,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32313,
@@ -2082,10 +2118,10 @@
     "background": "",
     "episodes": 11,
     "score": 6.97,
-    "scored_by": 14430,
-    "rank": 4684,
-    "popularity": 4031,
-    "members": 38327,
+    "scored_by": 14431,
+    "rank": 4680,
+    "popularity": 4032,
+    "members": 38331,
     "favorites": 88,
     "type": "TV",
     "status": "Finished Airing",
@@ -2127,7 +2163,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32601,
@@ -2144,10 +2181,10 @@
     "background": "",
     "episodes": 12,
     "score": 6.4,
-    "scored_by": 17482,
+    "scored_by": 17484,
     "rank": 7953,
     "popularity": 4070,
-    "members": 37508,
+    "members": 37511,
     "favorites": 66,
     "type": "TV",
     "status": "Finished Airing",
@@ -2185,7 +2222,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31049,
@@ -2199,10 +2237,10 @@
     "background": "",
     "episodes": 51,
     "score": 6.67,
-    "scored_by": 22343,
-    "rank": 6301,
+    "scored_by": 22349,
+    "rank": 6299,
     "popularity": 4078,
-    "members": 37290,
+    "members": 37294,
     "favorites": 229,
     "type": "TV",
     "status": "Finished Airing",
@@ -2237,7 +2275,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": true
   },
   {
     "mal_id": 31610,
@@ -2292,7 +2331,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31439,
@@ -2306,10 +2346,10 @@
     "background": "Wagamama High Spec is set after Madosoft's third game, officially abbreviated as Wagahigh. The visual novel game has five authors: Mojasubii, Ryusuke Mutsu, Nissy, Coyote Hayama, and Hato. On April 28, 2016, the game's full version was released for Windows. A sequel developed by Madosoft titled Wagamama High Spec Over Clock was released on August 25, 2017 for Windows.",
     "episodes": 12,
     "score": 5.38,
-    "scored_by": 14541,
+    "scored_by": 14542,
     "rank": 12989,
-    "popularity": 4205,
-    "members": 35092,
+    "popularity": 4206,
+    "members": 35095,
     "favorites": 30,
     "type": "TV",
     "status": "Finished Airing",
@@ -2339,7 +2379,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 31498,
@@ -2355,10 +2396,10 @@
     "background": "",
     "episodes": 13,
     "score": 5.66,
-    "scored_by": 16145,
-    "rank": 12017,
+    "scored_by": 16148,
+    "rank": 12018,
     "popularity": 4250,
-    "members": 34343,
+    "members": 34347,
     "favorites": 40,
     "type": "TV",
     "status": "Finished Airing",
@@ -2391,7 +2432,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32606,
@@ -2409,9 +2451,9 @@
     "episodes": 13,
     "score": 5.33,
     "scored_by": 10542,
-    "rank": 13121,
+    "rank": 13123,
     "popularity": 4339,
-    "members": 32835,
+    "members": 32838,
     "favorites": 41,
     "type": "TV",
     "status": "Finished Airing",
@@ -2447,7 +2489,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32717,
@@ -2497,7 +2540,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32682,
@@ -2511,10 +2555,10 @@
     "background": "",
     "episodes": 13,
     "score": 6.41,
-    "scored_by": 8396,
-    "rank": 7896,
+    "scored_by": 8397,
+    "rank": 7897,
     "popularity": 5387,
-    "members": 19871,
+    "members": 19872,
     "favorites": 20,
     "type": "TV",
     "status": "Finished Airing",
@@ -2544,7 +2588,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": false
   },
   {
     "mal_id": 31370,
@@ -2596,7 +2641,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32454,
@@ -2610,10 +2656,10 @@
     "background": "",
     "episodes": 12,
     "score": 5.76,
-    "scored_by": 6659,
+    "scored_by": 6661,
     "rank": 11543,
-    "popularity": 6139,
-    "members": 13980,
+    "popularity": 6138,
+    "members": 13984,
     "favorites": 8,
     "type": "TV",
     "status": "Finished Airing",
@@ -2645,7 +2691,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 33021,
@@ -2659,10 +2706,10 @@
     "background": "",
     "episodes": 12,
     "score": 4.3,
-    "scored_by": 5308,
-    "rank": 14285,
+    "scored_by": 5309,
+    "rank": 14287,
     "popularity": 6192,
-    "members": 13704,
+    "members": 13705,
     "favorites": 14,
     "type": "TV",
     "status": "Finished Airing",
@@ -2690,7 +2737,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32802,
@@ -2705,7 +2753,7 @@
     "episodes": 24,
     "score": 6.73,
     "scored_by": 5268,
-    "rank": 5922,
+    "rank": 5921,
     "popularity": 6682,
     "members": 11412,
     "favorites": 17,
@@ -2735,7 +2783,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32906,
@@ -2751,9 +2800,9 @@
     "background": "",
     "episodes": 13,
     "score": 4.4,
-    "scored_by": 4136,
-    "rank": 14258,
-    "popularity": 7492,
+    "scored_by": 4137,
+    "rank": 14260,
+    "popularity": 7493,
     "members": 8650,
     "favorites": 6,
     "type": "TV",
@@ -2784,7 +2833,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32011,
@@ -2798,10 +2848,10 @@
     "background": "",
     "episodes": 12,
     "score": 6.59,
-    "scored_by": 2238,
+    "scored_by": 2239,
     "rank": 6777,
-    "popularity": 8206,
-    "members": 6856,
+    "popularity": 8207,
+    "members": 6857,
     "favorites": 10,
     "type": "TV",
     "status": "Finished Airing",
@@ -2832,7 +2882,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": false
   },
   {
     "mal_id": 31670,
@@ -2851,7 +2902,7 @@
     "scored_by": 2699,
     "rank": 3241,
     "popularity": 8737,
-    "members": 5924,
+    "members": 5925,
     "favorites": 14,
     "type": "TV",
     "status": "Finished Airing",
@@ -2887,7 +2938,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": true
   },
   {
     "mal_id": 32785,
@@ -2902,7 +2954,7 @@
     "episodes": 51,
     "score": 6.58,
     "scored_by": 2621,
-    "rank": 6855,
+    "rank": 6856,
     "popularity": 9013,
     "members": 5433,
     "favorites": 10,
@@ -2933,7 +2985,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32353,
@@ -2948,8 +3001,8 @@
     "episodes": null,
     "score": 6.43,
     "scored_by": 791,
-    "rank": 7774,
-    "popularity": 9964,
+    "rank": 7776,
+    "popularity": 9965,
     "members": 4069,
     "favorites": 19,
     "type": "TV",
@@ -2982,7 +3035,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32572,
@@ -2997,8 +3051,8 @@
     "episodes": 32,
     "score": 6.2,
     "scored_by": 712,
-    "rank": 9148,
-    "popularity": 10272,
+    "rank": 9144,
+    "popularity": 10273,
     "members": 3677,
     "favorites": 8,
     "type": "TV",
@@ -3030,7 +3084,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": true
   },
   {
     "mal_id": 32571,
@@ -3046,10 +3101,10 @@
     "background": "",
     "episodes": 32,
     "score": 6.14,
-    "scored_by": 1001,
-    "rank": 9461,
-    "popularity": 10808,
-    "members": 3146,
+    "scored_by": 1002,
+    "rank": 9463,
+    "popularity": 10809,
+    "members": 3147,
     "favorites": 8,
     "type": "TV",
     "status": "Finished Airing",
@@ -3080,59 +3135,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 32582,
-    "title": "Duel Masters VSRF",
-    "title_english": "Duel Masters Versus Revolution Final",
-    "title_japanese": "デュエル・マスターズVSRF",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/4/79117l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/rIdLEifn894?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "It is the sequel of Versus Revolution, continuing the chain of events after the battle between the Invaders and Revolutionary. It is also the last season and conclusion of the Versus saga in the anime\n\nThe 'V' mark that was once on Katta Kirifuda's forehead hides a mysterious force. However, the power was sealed off.\n\nEven though the impact of removing the seal does not do much, but Hamukatsu starts to talk! Plus more hamsters that are like Hamukatsu starts to appear!\n\nThey were then told about a secret organization, the \"Rare Killers\", with the members being transfer students of the school! What is the mystery of the hamsters like Hamukatsu and who exactly are the Rare Killers?\n\nThe final battle is about to start! \n\n(Source: Duel Masters Wikia)",
-    "background": "It is the sequel of Versus Revolution, continuing the chain of events after the battle between the Invaders and Revolutionary. It is also the last season and conclusion of the Versus saga in the anime.",
-    "episodes": 51,
-    "score": 5.49,
-    "scored_by": 444,
-    "rank": 12610,
-    "popularity": 12525,
-    "members": 1918,
-    "favorites": 5,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "24 min per ep",
-    "rating": "PG-13 - Teens 13 or older",
-    "source": "Original",
-    "studios": [
-      "Ascension"
-    ],
-    "producers": [
-      "TV Tokyo",
-      "Shogakukan-Shueisha Productions",
-      "Studio Hibari"
-    ],
-    "licensors": [],
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-03T00:00:00+00:00",
-    "aired_to": "2017-03-26T00:00:00+00:00",
-    "broadcast": "Sundays at 08:30 (JST)",
-    "url": "https://myanimelist.net/anime/32582/Duel_Masters_VSRF",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32670,
@@ -3149,7 +3153,7 @@
     "episodes": 51,
     "score": 5.73,
     "scored_by": 419,
-    "rank": 11647,
+    "rank": 11650,
     "popularity": 12591,
     "members": 1878,
     "favorites": 3,
@@ -3179,7 +3183,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32956,
@@ -3229,7 +3234,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": true
   },
   {
     "mal_id": 33044,
@@ -3247,7 +3253,7 @@
     "score": 5.52,
     "scored_by": 167,
     "rank": 12510,
-    "popularity": 14893,
+    "popularity": 14892,
     "members": 993,
     "favorites": 2,
     "type": "TV",
@@ -3276,103 +3282,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 32944,
-    "title": "CoCO & NiCO",
-    "title_english": null,
-    "title_japanese": "CoCO & NiCO",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/4/79044l.jpg",
-    "trailer_url": null,
-    "synopsis": "CoCO and her sister NiCO are under training to become graceful and elegant cat princesses. They are watched over and trained by the strict but caring Lady Oppenheimer. CoCO and NiCO keeps Lady Oppenheimer quite busy as they try their best to learn the ways of a princess, and have fun with a little mischief along the way.\n\n(Source: Japan International Broadcasting)",
-    "background": "",
-    "episodes": 39,
-    "score": null,
-    "scored_by": null,
-    "rank": 20759,
-    "popularity": 15360,
-    "members": 874,
-    "favorites": 2,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "1 min per ep",
-    "rating": "G - All Ages",
-    "source": "Original",
-    "studios": [
-      "Kachidoki Studio"
-    ],
-    "producers": [
-      "Sony Music Entertainment",
-      "MMDGP",
-      "Tokyo MX"
-    ],
-    "licensors": [],
-    "genres": [
-      "Comedy"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-08T00:00:00+00:00",
-    "aired_to": "2017-02-03T00:00:00+00:00",
-    "broadcast": "Fridays at Unknown",
-    "url": "https://myanimelist.net/anime/32944/CoCO___NiCO",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 32568,
-    "title": "Kamiwaza Wanda",
-    "title_english": null,
-    "title_japanese": "カミワザ・ワンダ",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/10/79365l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/NX__PQ8HV9o?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "The story is set in a world where every event has been turned into programs, and mysterious monsters known as \"Promin\" maintain the world. However, many Promin who have turned into bugs known as \"Bugmin\" are responsible for many of the world's real-life bugs. Left alone, they may eventually turn into a big problem. The boy Yuuto encounters the space dog Wanda, and the pair use a camera-like device and key items to capture Bugmin. Promin themselves are able to do things like \"accelerate objects,\" \"spew fire,\" or \"create objects,\" through an ability known as \"Kamiwaza\" (miracle), and are able to fend off Bugmin with it. At first, the Bugmin only cause small, bothersome things, but it will soon elevate into a global scale threat. Can one boy and one dog save the world?\n\n(Source: ANN)",
-    "background": "",
-    "episodes": 47,
-    "score": null,
-    "scored_by": null,
-    "rank": 17707,
-    "popularity": 15931,
-    "members": 750,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "24 min per ep",
-    "rating": "PG - Children",
-    "source": "Original",
-    "studios": [
-      "TMS Entertainment"
-    ],
-    "producers": [
-      "TBS"
-    ],
-    "licensors": [],
-    "genres": [
-      "Sci-Fi"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-23T00:00:00+00:00",
-    "aired_to": "2017-03-25T00:00:00+00:00",
-    "broadcast": "Saturdays at 07:00 (JST)",
-    "url": "https://myanimelist.net/anime/32568/Kamiwaza_Wanda",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 32999,
@@ -3387,8 +3298,8 @@
     "episodes": 12,
     "score": 4.95,
     "scored_by": 205,
-    "rank": 13809,
-    "popularity": 15934,
+    "rank": 13813,
+    "popularity": 15937,
     "members": 750,
     "favorites": 0,
     "type": "TV",
@@ -3420,7 +3331,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 35542,
@@ -3438,8 +3350,8 @@
     "episodes": 26,
     "score": 6.13,
     "scored_by": 205,
-    "rank": 9548,
-    "popularity": 16274,
+    "rank": 9547,
+    "popularity": 16275,
     "members": 693,
     "favorites": 2,
     "type": "TV",
@@ -3470,55 +3382,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 32876,
-    "title": "Nameko: Sekai no Tomodachi",
-    "title_english": null,
-    "title_japanese": "なめこ～せかいのともだち～",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/13/78819l.jpg",
-    "trailer_url": null,
-    "synopsis": "Nameko Forest gathers nameko from all over the world. They form the Nameko Universal Ranger (NUR) to convey the charm of the forest. It's an everyday life of inviting new nameko with unique personalities to the forests. What incident will happen today?",
-    "background": "",
-    "episodes": 26,
-    "score": null,
-    "scored_by": null,
-    "rank": 18977,
-    "popularity": 16511,
-    "members": 660,
-    "favorites": 1,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "3 min per ep",
-    "rating": "G - All Ages",
-    "source": "Game",
-    "studios": [
-      "Studio Deen"
-    ],
-    "producers": [
-      "Zexcs",
-      "BeeWorks"
-    ],
-    "licensors": [],
-    "genres": [
-      "Comedy"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-10T00:00:00+00:00",
-    "aired_to": "2017-02-12T00:00:00+00:00",
-    "broadcast": "Sundays at 17:00 (JST)",
-    "url": "https://myanimelist.net/anime/32876/Nameko__Sekai_no_Tomodachi",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": true
   },
   {
     "mal_id": 42740,
@@ -3536,7 +3401,7 @@
     "score": 5.9,
     "scored_by": 133,
     "rank": 10816,
-    "popularity": 18046,
+    "popularity": 18051,
     "members": 488,
     "favorites": 0,
     "type": "TV",
@@ -3566,56 +3431,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 33002,
-    "title": "Panpaka Pants W-O-New!",
-    "title_english": null,
-    "title_japanese": "パンパカパンツ WおNEW！",
-    "title_synonyms": [
-      "Panpaka Pantsu W-O-New!"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/6/79173l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/hGOm5R4qN0Y?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "Sequel to Panpaka Pants O-New!. It follows a young underwear-wearing pig and his adventures.",
-    "background": "",
-    "episodes": 26,
-    "score": null,
-    "scored_by": null,
-    "rank": 19396,
-    "popularity": 18185,
-    "members": 478,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "5 min per ep",
-    "rating": "G - All Ages",
-    "source": "Original",
-    "studios": [
-      "DLE"
-    ],
-    "producers": [
-      "Shizuoka Broadcasting System"
-    ],
-    "licensors": [],
-    "genres": [
-      "Comedy"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-02T00:00:00+00:00",
-    "aired_to": "2016-10-15T00:00:00+00:00",
-    "broadcast": "Saturdays at 05:25 (JST)",
-    "url": "https://myanimelist.net/anime/33002/Panpaka_Pants_W-O-New",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": false
   },
   {
     "mal_id": 38611,
@@ -3630,8 +3447,8 @@
     "episodes": 13,
     "score": 5.94,
     "scored_by": 161,
-    "rank": 10589,
-    "popularity": 18437,
+    "rank": 10591,
+    "popularity": 18439,
     "members": 457,
     "favorites": 1,
     "type": "TV",
@@ -3660,7 +3477,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": true
   },
   {
     "mal_id": 36530,
@@ -3676,8 +3494,8 @@
     "score": 5.84,
     "scored_by": 146,
     "rank": 11142,
-    "popularity": 18649,
-    "members": 442,
+    "popularity": 18641,
+    "members": 443,
     "favorites": 0,
     "type": "TV",
     "status": "Finished Airing",
@@ -3701,7 +3519,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": true
   },
   {
     "mal_id": 33188,
@@ -3716,8 +3535,8 @@
     "episodes": 8,
     "score": null,
     "scored_by": null,
-    "rank": 15335,
-    "popularity": 19084,
+    "rank": 15340,
+    "popularity": 19082,
     "members": 410,
     "favorites": 0,
     "type": "TV",
@@ -3745,58 +3564,8 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 33099,
-    "title": "Washimo 4th Season",
-    "title_english": null,
-    "title_japanese": "わしも-wasimo-(第4シリーズ)",
-    "title_synonyms": [
-      "Wasimo 4"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1598/119066l.jpg",
-    "trailer_url": null,
-    "synopsis": "Fourth season of the Washimo series.",
-    "background": "",
-    "episodes": 44,
-    "score": null,
-    "scored_by": null,
-    "rank": 16076,
-    "popularity": 19421,
-    "members": 383,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "10 min per ep",
-    "rating": "G - All Ages",
-    "source": "Picture book",
-    "studios": [
-      "Studio Deen"
-    ],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Comedy",
-      "Sci-Fi",
-      "Slice of Life"
-    ],
-    "themes": [
-      "School"
-    ],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-04T00:00:00+00:00",
-    "aired_to": "2016-09-13T00:00:00+00:00",
-    "broadcast": "Mondays at 18:00 (JST)",
-    "url": "https://myanimelist.net/anime/33099/Washimo_4th_Season",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
     "mal_id": 33479,
@@ -3813,8 +3582,8 @@
     "episodes": 20,
     "score": null,
     "scored_by": null,
-    "rank": 18929,
-    "popularity": 19822,
+    "rank": 18931,
+    "popularity": 19825,
     "members": 357,
     "favorites": 0,
     "type": "TV",
@@ -3839,260 +3608,27 @@
     "year": 2016,
     "season": "spring",
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": true,
+    "is_kid": false
   },
   {
-    "mal_id": 34664,
-    "title": "Capsule Boy",
-    "title_english": "Capsule Hero",
-    "title_japanese": "캡슐보이",
+    "mal_id": 34677,
+    "title": "Xiong Chumo: Qiu Ri Tuantuanzhuan",
+    "title_english": "Boonie Bears: Autumn Awesomeness",
+    "title_japanese": "熊出没之秋日团团转",
     "title_synonyms": [
-      "Dan Dan Xiaozi"
+      "Autumn Awesomeness of Boonie Bears"
     ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/10/83625l.jpg",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/83645l.jpg",
     "trailer_url": null,
-    "synopsis": "6.5-centimeter tall Degirdians fall to Earth in their spacecraft while chasing fugitives. Their spaceship transforms into a capsule toy stand near a toy store and a human boy accidentally takes home one of the aliens thinking it's a capsule toy. They befriend a human boy and try to figure out a way to get home all while fighting off the evil alien.",
-    "background": "",
-    "episodes": 26,
-    "score": null,
-    "scored_by": null,
-    "rank": 20506,
-    "popularity": 20305,
-    "members": 323,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "24 min per ep",
-    "rating": "G - All Ages",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Sci-Fi"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-05-15T00:00:00+00:00",
-    "aired_to": "2016-12-02T00:00:00+00:00",
-    "broadcast": "Fridays at 14:30 (JST)",
-    "url": "https://myanimelist.net/anime/34664/Capsule_Boy",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 38128,
-    "title": "Zhu Zhu Xia: Guang Ming Shou Wei Zhe",
-    "title_english": "GG Bond Season 11",
-    "title_japanese": "猪猪侠 光明守卫者",
-    "title_synonyms": [
-      "GG Bond 11"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1475/93355l.jpg",
-    "trailer_url": null,
-    "synopsis": "Twin City, as legend has it, is an evil city which was born at the time when Crystal City was created. There is a mirror-like lake above the city which has a horrifying power. It enables people to face the darkest side deep within their hearts. This darkness manifests as the person's opposite. The heroes must send these malicious beings back to their realm before they tear Crystal City apart.",
+    "synopsis": "Seventh season of Boonie Bears.",
     "background": "",
     "episodes": 52,
-    "score": null,
-    "scored_by": null,
-    "rank": 17193,
-    "popularity": 20372,
-    "members": 320,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "15 min per ep",
-    "rating": "G - All Ages",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Sci-Fi"
-    ],
-    "themes": [
-      "Super Power"
-    ],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-29T00:00:00+00:00",
-    "aired_to": "2016-08-24T00:00:00+00:00",
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/38128/Zhu_Zhu_Xia__Guang_Ming_Shou_Wei_Zhe",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 48323,
-    "title": "Zombie Dumb",
-    "title_english": "ZOMBIEDUMB",
-    "title_japanese": "좀비덤",
-    "title_synonyms": [
-      "Jombideom"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1188/114504l.jpg",
-    "trailer_url": null,
-    "synopsis": null,
-    "background": "",
-    "episodes": 15,
-    "score": null,
-    "scored_by": null,
-    "rank": 17232,
-    "popularity": 22569,
-    "members": 203,
-    "favorites": 1,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "15 min per ep",
-    "rating": "PG - Children",
-    "source": "Original",
-    "studios": [
-      "ANYZAC"
-    ],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Comedy",
-      "Supernatural"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-16T00:00:00+00:00",
-    "aired_to": "2016-07-23T00:00:00+00:00",
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/48323/Zombie_Dumb",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 48218,
-    "title": "Athlon Tobot",
-    "title_english": "Athlon Tobot",
-    "title_japanese": "애슬론 또봇",
-    "title_synonyms": [
-      "Aeseullon Ttobos"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1855/126943l.jpg",
-    "trailer_url": null,
-    "synopsis": "Athlon Tobot is a sports-themed spin-off series of Tobot set in the same universe.\n\nElementary school student and Robot Racing super-fan Kyle Hughes finally gets the chance to live out his dreams, and joins the League with Alpha, Beta and Theta— the three Athlons built by his mother, Dr. Hughes. \n\nUnfortunately he soon discovers that his former idol Mavrik Stone, famous Robot Racing Champion and media darling, is actually a super-villain responsible for the slew of rigged and sabotaged races that have been cropping up in the competition. Kyle is determined to protect the sport he loves and with the help of his family and his friend Tori Wade, he embarks on a mission to weed out corruption from the League and reveal Mavrik for the cheater he truly is. \n\nThe best way for Team Athlon to do that? Make it as far as they can in the racing competition.\n\n(Source: Tobot Wiki)",
-    "background": "",
-    "episodes": 8,
-    "score": null,
-    "scored_by": null,
-    "rank": 20007,
-    "popularity": 23167,
-    "members": 178,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "20 min per ep",
-    "rating": "PG - Children",
-    "source": "Unknown",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Sci-Fi",
-      "Sports"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-03-24T00:00:00+00:00",
-    "aired_to": "2016-05-25T00:00:00+00:00",
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/48218/Athlon_Tobot",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 44466,
-    "title": "Yuanqi Zhengjiu Dui",
-    "title_english": null,
-    "title_japanese": "元气拯救队",
-    "title_synonyms": [
-      "RoboSaviors",
-      "Variety Machine Beasts 4"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1918/122287l.jpg",
-    "trailer_url": null,
-    "synopsis": null,
-    "background": "",
-    "episodes": 52,
-    "score": null,
-    "scored_by": null,
-    "rank": 16981,
-    "popularity": 24320,
-    "members": 142,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "23 min per ep",
-    "rating": "PG - Children",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Sci-Fi"
-    ],
-    "themes": [
-      "Mecha"
-    ],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-05-09T00:00:00+00:00",
-    "aired_to": "2016-07-01T00:00:00+00:00",
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/44466/Yuanqi_Zhengjiu_Dui",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 48298,
-    "title": "Yong-gamhan Sobangcha Ray",
-    "title_english": "Fire Engine, Ray",
-    "title_japanese": "용감한 소방차 레이",
-    "title_synonyms": [
-      "Ray's Fire Station"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1044/130276l.jpg",
-    "trailer_url": null,
-    "synopsis": null,
-    "background": "",
-    "episodes": 26,
-    "score": null,
-    "scored_by": null,
-    "rank": 16906,
-    "popularity": 25331,
-    "members": 120,
+    "score": 5.77,
+    "scored_by": 132,
+    "rank": 11492,
+    "popularity": 19943,
+    "members": 348,
     "favorites": 0,
     "type": "TV",
     "status": "Finished Airing",
@@ -4101,111 +3637,26 @@
     "duration": "13 min per ep",
     "rating": "PG - Children",
     "source": "Original",
-    "studios": [],
+    "studios": [
+      "Fantawild Animation"
+    ],
     "producers": [],
     "licensors": [],
     "genres": [
-      "Fantasy"
-    ],
-    "themes": [
-      "Anthropomorphic"
-    ],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-05-30T00:00:00+00:00",
-    "aired_to": "2016-08-23T00:00:00+00:00",
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/48298/Yong-gamhan_Sobangcha_Ray",
-    "year": 2016,
-    "season": "spring",
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 44493,
-    "title": "Zhandou Ba Ling Shou",
-    "title_english": null,
-    "title_japanese": "战斗吧灵兽",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1386/122331l.jpg",
-    "trailer_url": null,
-    "synopsis": null,
-    "background": "",
-    "episodes": 52,
-    "score": null,
-    "scored_by": null,
-    "rank": 17066,
-    "popularity": 26431,
-    "members": 103,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "23 min per ep",
-    "rating": "PG - Children",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [],
-    "themes": [
-      "Mecha"
-    ],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2016-04-21T00:00:00+00:00",
-    "aired_to": null,
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/44493/Zhandou_Ba_Ling_Shou",
-    "year": null,
-    "season": null,
-    "is_hentai": false,
-    "is_japanese": true
-  },
-  {
-    "mal_id": 45418,
-    "title": "Xiao Ji Caihong",
-    "title_english": "Rainbow Chicks",
-    "title_japanese": "小鸡彩虹",
-    "title_synonyms": [],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1120/126127l.jpg",
-    "trailer_url": null,
-    "synopsis": null,
-    "background": "",
-    "episodes": 117,
-    "score": null,
-    "scored_by": null,
-    "rank": 16369,
-    "popularity": 28007,
-    "members": 84,
-    "favorites": 0,
-    "type": "TV",
-    "status": "Finished Airing",
-    "airing": false,
-    "approved": true,
-    "duration": "5 min per ep",
-    "rating": "PG - Children",
-    "source": "Original",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Fantasy"
+      "Comedy"
     ],
     "themes": [],
     "demographics": [
       "Kids"
     ],
-    "aired_from": "2016-05-01T00:00:00+00:00",
-    "aired_to": null,
+    "aired_from": "2016-06-09T00:00:00+00:00",
+    "aired_to": "2016-01-01T00:00:00+00:00",
     "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/45418/Xiao_Ji_Caihong",
+    "url": "https://myanimelist.net/anime/34677/Xiong_Chumo__Qiu_Ri_Tuantuanzhuan",
     "year": null,
     "season": null,
     "is_hentai": false,
-    "is_japanese": true
+    "is_japanese": false,
+    "is_kid": true
   }
 ]

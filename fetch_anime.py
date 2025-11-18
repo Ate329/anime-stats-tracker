@@ -211,6 +211,11 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                                 if anime_type != 'TV':
                                     continue
                                 
+                                # Identify "Kids" demographic (for quality filtering later)
+                                demographics = anime.get('demographics', [])
+                                demographic_names = [demo.get('name', '') for demo in demographics]
+                                is_kid = 'Kids' in demographic_names
+                                
                                 # Check for hentai genre
                                 genres = anime.get('genres', [])
                                 genre_names = [genre.get('name', '') for genre in genres]
@@ -222,13 +227,30 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                                 studios = anime.get('studios', [])
                                 studio_names = [s.get('name', '') for s in studios]
                                 
+                                # Extract title_japanese early for detection
+                                title_japanese = anime.get('title_japanese')
+                                
+                                # Check for Japanese Kana (Hiragana/Katakana) in the Japanese title
+                                # This is a very strong indicator of Japanese language/origin
+                                # Chinese donghua usually have Hanzi (Chinese characters) only, with no Kana
+                                has_kana = False
+                                if title_japanese:
+                                    for char in title_japanese:
+                                        # Hiragana (0x3040-0x309F) or Katakana (0x30A0-0x30FF)
+                                        if '\u3040' <= char <= '\u309f' or '\u30a0' <= char <= '\u30ff':
+                                            has_kana = True
+                                            break
+                                
                                 # Major Japanese anime studios (if produced by these, it's Japanese anime)
                                 japanese_studios = [
                                     'a-1 pictures', 'trigger', 'mappa', 'ufotable', 'bones', 'kyoto animation',
                                     'madhouse', 'wit studio', 'production i.g', 'cloverworks', 'shaft', 'j.c.staff',
                                     'toei animation', 'studio deen', 'david production', 'sunrise', 'gainax',
                                     'pierrot', 'silver link', 'lerche', 'kinema citrus', 'white fox', 'doga kobo',
-                                    'p.a. works', 'studio ghibli', 'tms entertainment', 'olm', 'toho animation'
+                                    'p.a. works', 'studio ghibli', 'tms entertainment', 'olm', 'toho animation',
+                                    'shin-ei animation', 'nippon animation', 'tezuka productions', 'tatsunoko production',
+                                    'bandai namco', 'lidenfilms', 'maho film', 'nut', 'geek toys', 'zero-g',
+                                    'feel.', 'zexcs', 'project no.9', 'c-station', 'tnk', 'shuka', 'lay-duce'
                                 ]
                                 
                                 # Check if it's produced by a Japanese studio
@@ -237,32 +259,15 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                                     for studio in studio_names
                                 )
                                 
-                                # Japanese Filter Logic:
-                                # - Japanese studio = SUFFICIENT to mark as Japanese (definitely Japanese)
-                                # - Japanese studio ≠ NECESSARY (non-Japanese studio doesn't mean non-Japanese)
-                                # - Default assumption: Japanese unless proven otherwise
+                                # Origin Detection Logic:
+                                # We assume it is Japanese ONLY if we have positive evidence:
+                                # 1. Produced by a known Japanese studio
+                                # 2. Has Japanese Kana characters in the Japanese title (Chinese titles are usually Hanzi-only)
+                                #
+                                # If neither is true (No Major Studio + No Kana), we treat it as "Potential Non-Japanese/Indie"
+                                # and subject it to the stricter Quality/Popularity filters.
                                 
-                                if has_japanese_studio:
-                                    # Japanese studio → definitely Japanese anime
-                                    is_likely_japanese = True
-                                else:
-                                    # No Japanese studio → still might be Japanese
-                                    # Default to True, only mark False if clear non-Japanese indicators
-                                    is_likely_japanese = True
-                                    
-                                    # Check for Korean/Chinese production indicators
-                                    korean_indicators = ['netmarble', 'kakao', 'naver', 'webtoon', 'd&c media']
-                                    chinese_indicators = ['tencent', 'bilibili', 'haoliners']
-                                    
-                                    # Only mark as non-Japanese if clear Korean/Chinese production
-                                    if any(indicator in producer.lower() for producer in producer_names for indicator in korean_indicators):
-                                        is_likely_japanese = False
-                                    elif any(indicator in producer.lower() for producer in producer_names for indicator in chinese_indicators):
-                                        is_likely_japanese = False
-                                
-                                # Extract demographics
-                                demographics = anime.get('demographics', [])
-                                demographic_names = [demo.get('name', '') for demo in demographics]
+                                is_likely_japanese = has_japanese_studio or has_kana
                                 
                                 # Extract licensors
                                 licensors = anime.get('licensors', [])
@@ -314,7 +319,8 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                                     'year': anime.get('year'),
                                     'season': anime.get('season'),
                                     'is_hentai': is_hentai,
-                                    'is_japanese': is_likely_japanese
+                                    'is_japanese': is_likely_japanese,
+                                    'is_kid': is_kid
                                 }
                                 anime_list.append(anime_info)
                                 seen_mal_ids.add(mal_id)  # Mark this anime as seen
@@ -336,6 +342,70 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                         print(f"  [ERROR] Status {response.status_code}")
                         has_next_page = False
                 
+                # Post-processing: Smart Filter for "Actual Anime"
+                if anime_list:
+                    # 1. Identify "Core Anime" vs "Suspect Content"
+                    # Core Anime = Japanese & Not Kids (The standard for "Real Anime")
+                    # Suspect = Kids Anime (Pokemon or Random Cartoon?) OR Non-Japanese (Link Click or Random Cartoon?)
+                    
+                    core_anime = [a for a in anime_list if a['is_japanese'] and not a['is_kid']]
+                    
+                    # 2. Calculate thresholds based on CORE anime (to set the quality bar)
+                    # If no core anime (very rare), fallback to full list
+                    ref_list = core_anime if core_anime else anime_list
+                    
+                    scores = [a['score'] for a in ref_list if a['score'] is not None]
+                    member_counts = [a['members'] for a in ref_list if a['members'] is not None]
+                    
+                    avg_score = sum(scores) / len(scores) if scores else 0
+                    
+                    # Median Members of Core Anime
+                    median_members = 0
+                    if member_counts:
+                        sorted_members = sorted(member_counts)
+                        median_members = sorted_members[len(sorted_members) // 2]
+                    
+                    # Define Thresholds
+                    # Score: 1.0 point below average
+                    score_threshold = avg_score - 1.0 if avg_score > 0 else 0
+                    # Popularity: Median of Core Anime (Top 50% of standard anime)
+                    member_threshold = median_members
+                    
+                    print(f"  [FILTER stats] Reference Set: {len(ref_list)} core anime")
+                    print(f"  [FILTER stats] Core Avg Score: {avg_score:.2f}, Core Median Members: {median_members}")
+                    
+                    filtered_list = []
+                    dropped_count = 0
+                    
+                    for anime in anime_list:
+                        # Determine if this anime needs to prove itself
+                        # It is 'suspect' if it is NOT (Japanese AND Not-Kids)
+                        # i.e. It IS (Non-Japanese OR Kids)
+                        is_suspect = not (anime['is_japanese'] and not anime['is_kid'])
+                        
+                        if is_suspect:
+                            score = anime['score'] or 0
+                            members = anime['members'] or 0
+                            
+                            # Pass if:
+                            # 1. Popular enough (Matches Core Median)
+                            # 2. High Quality enough (Close to Core Avg)
+                            
+                            is_popular = members >= member_threshold
+                            is_quality = score >= score_threshold
+                            
+                            if not (is_popular or is_quality):
+                                # Fails both -> Likely "Random Cartoon"
+                                dropped_count += 1
+                                # print(f"    [DROP] {anime['title']} (Kid:{anime['is_kid']}, JP:{anime['is_japanese']}, Mem:{members}, Sc:{score})")
+                                continue
+                        
+                        filtered_list.append(anime)
+                    
+                    if dropped_count > 0:
+                        print(f"  [FILTER] Dropped {dropped_count} 'suspect' anime (kids/non-JP) below quality thresholds")
+                    anime_list = filtered_list
+
                 # Data preservation: save new data or keep existing data
                 data_path = pathlib.Path(f"data/{year}")
                 data_path.mkdir(parents=True, exist_ok=True)

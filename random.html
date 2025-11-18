@@ -11,6 +11,7 @@
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <script>
         (function() {
             try {
@@ -29,7 +30,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
         }
         
-        /* Dark Mode Variables and Styles */
+        /* Dark Mode Variables and Styles (Matched with index.html) */
         :root {
             --bg-primary: #f9fafb;
             --bg-secondary: #ffffff;
@@ -40,8 +41,6 @@
             --border-color-light: #d1d5db;
             --shadow: rgba(0, 0, 0, 0.1);
             --shadow-hover: rgba(0, 0, 0, 0.15);
-            --gradient-from: #dbeafe;
-            --gradient-to: #fae8ff;
         }
         
         .dark {
@@ -54,8 +53,6 @@
             --border-color-light: #4b5563;
             --shadow: rgba(0, 0, 0, 0.3);
             --shadow-hover: rgba(0, 0, 0, 0.5);
-            --gradient-from: #1e3a8a;
-            --gradient-to: #581c87;
         }
         
         body {
@@ -94,56 +91,48 @@
             transform: translateX(30px);
         }
         
-        /* Keyframe Animations */
+        /* Animations */
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
-        @keyframes slideInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        /* Animation Classes */
         .animate-fade-in {
-            animation: fadeIn 0.6s ease-out;
+            animation: fadeIn 0.5s ease-out;
         }
-        
-        .animate-slide-in-up {
-            animation: slideInUp 0.6s ease-out;
+
+        /* Custom Scrollbar for Genres */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: var(--border-color-light);
+            border-radius: 20px;
         }
     </style>
 </head>
 <body class="min-h-screen transition-colors duration-300 flex flex-col">
+    
     <!-- Header -->
     <header class="sticky top-0 z-50 shadow-md animate-fade-in" style="background-color: var(--bg-secondary); border-bottom: 1px solid var(--border-color);">
         <div class="max-w-7xl mx-auto px-4 py-6">
             <div class="flex items-center justify-between flex-wrap gap-4">
-                <div>
-                    <h1 class="text-3xl font-bold" style="color: var(--text-primary);">🎲 Random Anime Picker</h1>
-                    <p class="text-sm mt-1" style="color: var(--text-secondary);">Discover something new from every season</p>
+                <div class="flex items-center gap-2">
+                    <a href="index.html" class="text-2xl font-bold no-underline hover:opacity-80 transition-opacity" style="color: var(--text-primary);">
+                        🎬 Anime Season Tracker
+                    </a>
                 </div>
                 <nav class="flex gap-3 items-center">
-                    <a href="index.html" class="px-4 py-2 rounded-lg transition-colors" style="background-color: var(--bg-tertiary); color: var(--text-primary);">
+                    <a href="index.html" class="px-4 py-2 rounded-lg transition-colors font-medium" style="background-color: var(--bg-tertiary); color: var(--text-primary);">
                         Home
                     </a>
-                    <a href="data.html" class="px-4 py-2 rounded-lg transition-colors" style="background-color: var(--bg-tertiary); color: var(--text-primary);">
+                    <a href="data.html" class="px-4 py-2 rounded-lg transition-colors font-medium" style="background-color: var(--bg-tertiary); color: var(--text-primary);">
                         Data
                     </a>
-                    <a href="random.html" class="px-4 py-2 bg-gray-900 text-white rounded-lg">
+                    <a href="random.html" class="px-4 py-2 bg-gray-900 text-white rounded-lg font-medium shadow-sm">
                         Random
                     </a>
                     <div class="theme-toggle" id="theme-toggle" role="button" aria-label="Toggle dark mode">
@@ -157,38 +146,38 @@
     </header>
 
     <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 py-8 flex-grow">
-        <!-- Random Anime Picker Section -->
-        <div id="picker-section" class="mb-8 animate-fade-in">
-            <div class="rounded-xl p-8" style="background-color: var(--bg-secondary); border: 2px solid var(--border-color); box-shadow: 0 4px 6px var(--shadow);">
-                <div class="flex flex-wrap items-start justify-between gap-6 mb-6">
-                    <div>
-                        <h2 class="text-2xl font-bold" style="color: var(--text-primary);">Fine-tune your random pick</h2>
-                        <p class="text-sm mt-1" style="color: var(--text-secondary);">Use the same filters from the individual season page</p>
-                    </div>
-                    <button id="get-random-anime" class="px-6 py-3 rounded-lg font-semibold transition-colors bg-gray-900 text-white hover:bg-gray-800">
-                        🎲 Get Random Anime
-                    </button>
-                </div>
+    <main class="max-w-5xl mx-auto px-4 py-10 flex-grow w-full">
+        
+        <!-- Page Title -->
+        <div class="text-center mb-10 animate-fade-in">
+            <h1 class="text-3xl md:text-4xl font-bold mb-3" style="color: var(--text-primary);">Random Anime Picker</h1>
+            <p class="text-lg" style="color: var(--text-secondary);">Filter your preferences and find something new to watch</p>
+        </div>
 
-                <div class="grid gap-8 lg:grid-cols-2">
-                    <!-- Content Filters + Rating -->
-                    <div class="space-y-6">
-                        <div class="rounded-lg p-4" style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color);">
-                            <div class="flex items-center justify-between mb-4">
+        <!-- PICKER SECTION -->
+        <div id="picker-section" class="animate-fade-in">
+            <div class="rounded-xl overflow-hidden" style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); box-shadow: 0 4px 6px var(--shadow);">
+                
+                <div class="p-6 md:p-8 grid md:grid-cols-2 gap-8 md:gap-12">
+                    <!-- Left Column: Settings -->
+                    <div class="space-y-8">
+                        <!-- Toggles -->
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
                                 <div>
-                                    <h3 class="font-semibold" style="color: var(--text-primary);">Show Mature Content</h3>
-                                    <p class="text-sm" style="color: var(--text-secondary);">Include anime tagged as adult content</p>
+                                    <h3 class="font-semibold" style="color: var(--text-primary);">Mature Content</h3>
+                                    <p class="text-xs mt-0.5" style="color: var(--text-secondary);">Show adult content</p>
                                 </div>
                                 <label class="relative inline-flex items-center cursor-pointer">
                                     <input type="checkbox" id="picker-hentai-toggle" class="sr-only peer">
                                     <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gray-900"></div>
                                 </label>
                             </div>
-                            <div class="flex items-center justify-between mb-4">
+                            
+                            <div class="flex items-center justify-between p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
                                 <div>
                                     <h3 class="font-semibold" style="color: var(--text-primary);">Hide Not Rated</h3>
-                                    <p class="text-sm" style="color: var(--text-secondary);">Ignore anime without community scores</p>
+                                    <p class="text-xs mt-0.5" style="color: var(--text-secondary);">Exclude unrated anime</p>
                                 </div>
                                 <label class="relative inline-flex items-center cursor-pointer">
                                     <input type="checkbox" id="picker-not-rated-toggle" class="sr-only peer" checked>
@@ -197,78 +186,87 @@
                             </div>
                         </div>
 
-                        <div class="rounded-lg p-4" style="background-color: var(--bg-tertiary); border: 1px solid var(--border-color);">
-                            <label class="block text-sm font-semibold mb-2" style="color: var(--text-primary);">
-                                Minimum Rating: <span id="rating-display" class="font-bold">0.0</span>
+                        <!-- Rating Slider -->
+                        <div class="p-4 rounded-lg" style="background-color: var(--bg-tertiary);">
+                            <label class="flex justify-between mb-3 items-center">
+                                <span class="font-semibold" style="color: var(--text-primary);">Minimum Score</span>
+                                <span id="rating-display" class="font-bold px-2 py-1 rounded text-sm bg-gray-900 text-white">0.0</span>
                             </label>
-                            <input type="range" id="random-rating" min="0" max="10" step="0.1" value="0" class="w-full accent-gray-900">
-                            <div class="flex justify-between text-xs mt-2" style="color: var(--text-secondary);">
-                                <span>0.0</span>
-                                <span>5.0</span>
+                            <input type="range" id="random-rating" min="0" max="10" step="0.1" value="0" class="w-full accent-gray-900 h-2 bg-gray-300 rounded-lg appearance-none cursor-pointer">
+                            <div class="flex justify-between text-xs mt-2 font-medium" style="color: var(--text-secondary);">
+                                <span>Any Score</span>
                                 <span>10.0</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Genre Filter -->
-                    <div>
-                        <div class="flex items-center justify-between mb-3">
-                            <h3 class="font-semibold" style="color: var(--text-primary);">Filter by Genre</h3>
-                            <div class="flex items-center gap-2">
-                                <span class="text-sm" style="color: var(--text-secondary);">Filter mode:</span>
-                                <div class="flex rounded-lg overflow-hidden" style="border: 1px solid var(--border-color);">
-                                    <button id="filter-mode-or" class="filter-mode-btn px-3 py-1 text-sm font-medium bg-gray-900 text-white">
-                                        OR
-                                    </button>
-                                    <button id="filter-mode-and" class="filter-mode-btn px-3 py-1 text-sm font-medium bg-white text-gray-700 hover:bg-gray-50">
-                                        AND
-                                    </button>
-                                </div>
+                    <!-- Right Column: Genres -->
+                    <div class="flex flex-col h-full">
+                        <div class="flex justify-between items-center mb-4">
+                            <h3 class="font-semibold text-lg" style="color: var(--text-primary);">Genres</h3>
+                            
+                            <!-- Mode Toggle -->
+                            <div class="flex rounded-md overflow-hidden border" style="border-color: var(--border-color);">
+                                <button id="filter-mode-or" class="px-3 py-1 text-xs font-bold bg-gray-900 text-white transition-colors">ANY</button>
+                                <button id="filter-mode-and" class="px-3 py-1 text-xs font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition-colors">ALL</button>
                             </div>
                         </div>
-                        <p id="filter-mode-description" class="text-xs mb-4" style="color: var(--text-secondary);">
-                            Show anime with <strong>any</strong> of the selected genres
-                        </p>
-                        <div id="genre-filters" class="flex flex-wrap gap-2">
-                            <!-- Genre buttons will be inserted here -->
+                        <p id="filter-mode-description" class="text-xs mb-3 hidden"></p>
+                        
+                        <div class="bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 border flex-grow" style="border-color: var(--border-color);">
+                            <div id="genre-filters" class="flex flex-wrap gap-2 max-h-[280px] overflow-y-auto pr-1 custom-scrollbar content-start">
+                                <!-- Buttons injected by JS -->
+                                <div class="w-full text-center py-8 text-sm text-gray-400">Loading genres...</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Footer Action -->
+                <div class="p-6 bg-gray-50 dark:bg-gray-800/30 border-t text-center" style="border-color: var(--border-color);">
+                    <button id="get-random-anime" class="px-10 py-3.5 bg-gray-900 text-white font-bold text-lg rounded-lg hover:bg-gray-800 transition-transform transform hover:scale-105 shadow-md hover:shadow-lg">
+                        🎲 Find Random Anime
+                    </button>
+                </div>
             </div>
         </div>
 
-        <!-- Random Anime Result -->
+        <!-- RESULT SECTION (Hidden) -->
         <div id="random-result-section" class="hidden animate-fade-in">
-            <div class="max-w-5xl mx-auto">
+            <div class="max-w-3xl mx-auto">
+                <!-- Navigation -->
+                <button id="close-random" class="mb-6 flex items-center gap-2 text-sm font-medium hover:underline transition-colors" style="color: var(--text-secondary);">
+                    ← Back to Filters
+                </button>
+
                 <!-- Loading Indicator -->
-                <div id="random-loading" class="hidden text-center py-16 rounded-xl mb-6" style="background-color: var(--bg-secondary); border: 2px solid var(--border-color);">
-                    <div class="inline-block animate-spin rounded-full h-16 w-16 border-4 border-gray-200 border-t-blue-600 mb-4"></div>
-                    <p class="text-xl font-semibold" style="color: var(--text-secondary);">Finding a random anime...</p>
+                <div id="random-loading" class="hidden text-center py-16 rounded-xl mb-6" style="background-color: var(--bg-secondary); border: 1px solid var(--border-color);">
+                    <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-gray-200 border-t-gray-900 mb-4"></div>
+                    <p class="text-lg font-medium" style="color: var(--text-primary);">Picking a winner...</p>
                 </div>
                 
-                <!-- Result Card -->
+                <!-- Result Card Container -->
                 <div id="random-result-card"></div>
                 
                 <!-- Action Buttons -->
-                <div class="mt-6 flex gap-4 justify-center">
-                    <button id="get-another-random" class="px-6 py-2.5 rounded-lg font-medium transition-colors hover:opacity-80" style="background-color: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--border-color);">
-                        🎲 Get Another
-                    </button>
-                    <button id="close-random" class="px-6 py-2.5 rounded-lg font-medium transition-colors hover:opacity-80" style="background-color: var(--bg-tertiary); color: var(--text-primary); border: 1px solid var(--border-color);">
-                        ← Back to Picker
+                <div class="mt-8 flex gap-4 justify-center">
+                    <button id="get-another-random" class="px-8 py-3 bg-gray-900 text-white font-bold rounded-lg hover:bg-gray-800 shadow-md transition-transform hover:scale-105">
+                        🔄 Spin Again
                     </button>
                 </div>
             </div>
         </div>
+
     </main>
 
     <!-- Footer -->
-    <footer class="mt-auto py-6" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+    <footer class="mt-auto py-8 border-t" style="background-color: var(--bg-secondary); border-color: var(--border-color);">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <p class="text-sm" style="color: var(--text-secondary);">
-                Data from <a href="https://myanimelist.net/" target="_blank" class="hover:underline" style="color: var(--text-primary);">MyAnimeList</a> • 
-                Auto-updated via GitHub Actions • 
-                <a href="https://github.com" target="_blank" class="hover:underline" style="color: var(--text-primary);">View Source</a>
+                Data source: <a href="https://myanimelist.net/" target="_blank" class="font-medium hover:underline" style="color: var(--text-primary);">MyAnimeList</a> via Jikan API
+            </p>
+            <p class="text-xs mt-2" style="color: var(--text-secondary);">
+                Auto-updated via GitHub Actions • <a href="https://github.com/yourusername/anime-season-tracker" class="hover:underline">View Source</a>
             </p>
         </div>
     </footer>
@@ -276,6 +274,7 @@
     <!-- Scripts -->
     <script src="random.js"></script>
     <script>
+        // Theme Script (Copied logic from index.html)
         (function() {
             const html = document.documentElement;
             const themeToggle = document.getElementById('theme-toggle');
@@ -284,20 +283,12 @@
             const applyTheme = (isDark) => {
                 if (isDark) {
                     html.classList.add('dark');
-                    if (themeIcon) {
-                        themeIcon.textContent = '🌙';
-                    }
+                    if (themeIcon) themeIcon.textContent = '🌙';
                 } else {
                     html.classList.remove('dark');
-                    if (themeIcon) {
-                        themeIcon.textContent = '☀️';
-                    }
+                    if (themeIcon) themeIcon.textContent = '☀️';
                 }
-                try {
-                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-                } catch (error) {
-                    console.warn('Unable to persist theme preference.', error);
-                }
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
             };
 
             let storedTheme = 'light';
@@ -310,12 +301,11 @@
 
             if (themeToggle) {
                 themeToggle.addEventListener('click', () => {
-                    const nextIsDark = !html.classList.contains('dark');
-                    applyTheme(nextIsDark);
+                    const isDark = !html.classList.contains('dark');
+                    applyTheme(isDark);
                 });
             }
         })();
     </script>
 </body>
 </html>
-

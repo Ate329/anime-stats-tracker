@@ -7,6 +7,7 @@ let allAnimeCache = []; // Cache all anime for reuse
 let allAnimePromise = null; // Track in-flight data fetch
 let showHentai = false; // Default OFF
 let hideNotRated = true; // Default ON
+
 /**
  * Load the manifest of all available seasons
  */
@@ -102,7 +103,7 @@ async function loadGenres() {
 }
 
 /**
- * Render genre filter buttons (copied from app.js)
+ * Render genre filter buttons (Simple style matching index.html)
  */
 function renderGenreFilters() {
     const container = document.getElementById('genre-filters');
@@ -110,24 +111,25 @@ function renderGenreFilters() {
     
     if (allGenres.length === 0) {
         const p = document.createElement('p');
-        p.className = 'text-sm';
-        p.style.color = 'var(--text-secondary)';
+        p.className = 'text-sm w-full text-center text-gray-400 italic';
         p.textContent = 'No genres available';
         container.appendChild(p);
         return;
     }
     
+    // Common button class
+    const btnClass = 'px-3 py-1.5 rounded-md text-xs font-bold uppercase tracking-wide transition-colors border';
+    
     // Add "All" button
     const allBtn = document.createElement('button');
-    allBtn.className = 'genre-btn px-3 py-1 rounded-lg text-sm font-medium';
-    if (selectedGenres.size === 0) {
-        allBtn.className += ' bg-gray-900 text-white';
-        allBtn.style.border = '1px solid #111827';
+    const isAllSelected = selectedGenres.size === 0;
+    
+    if (isAllSelected) {
+        allBtn.className = `${btnClass} bg-gray-900 text-white border-gray-900`;
     } else {
-        allBtn.style.backgroundColor = 'var(--bg-secondary)';
-        allBtn.style.color = 'var(--text-primary)';
-        allBtn.style.border = '1px solid var(--border-color)';
+        allBtn.className = `${btnClass} bg-gray-100 text-gray-600 border-transparent hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600`;
     }
+    
     allBtn.textContent = 'All';
     allBtn.addEventListener('click', () => {
         selectedGenres.clear();
@@ -139,15 +141,13 @@ function renderGenreFilters() {
     allGenres.forEach(genre => {
         const btn = document.createElement('button');
         const isSelected = selectedGenres.has(genre);
-        btn.className = 'genre-btn px-3 py-1 rounded-lg text-sm font-medium';
+        
         if (isSelected) {
-            btn.className += ' bg-gray-900 text-white';
-            btn.style.border = '1px solid #111827';
+            btn.className = `${btnClass} bg-gray-900 text-white border-gray-900`;
         } else {
-            btn.style.backgroundColor = 'var(--bg-secondary)';
-            btn.style.color = 'var(--text-primary)';
-            btn.style.border = '1px solid var(--border-color)';
+            btn.className = `${btnClass} bg-gray-100 text-gray-600 border-transparent hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600`;
         }
+        
         btn.textContent = genre;
         btn.addEventListener('click', () => {
             if (isSelected) {
@@ -162,7 +162,7 @@ function renderGenreFilters() {
 }
 
 /**
- * Setup filter mode toggle (copied from app.js)
+ * Setup filter mode toggle (Simple Style)
  */
 function setupFilterModeToggle() {
     const orBtn = document.getElementById('filter-mode-or');
@@ -172,15 +172,19 @@ function setupFilterModeToggle() {
     const updateFilterMode = (mode) => {
         filterMode = mode;
         
+        // Button Classes
+        const activeClass = 'px-3 py-1 text-xs font-bold bg-gray-900 text-white transition-colors';
+        const inactiveClass = 'px-3 py-1 text-xs font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600 transition-colors';
+        
         // Update button styles
         if (mode === 'OR') {
-            orBtn.className = 'filter-mode-btn px-3 py-1 text-sm font-medium bg-gray-900 text-white';
-            andBtn.className = 'filter-mode-btn px-3 py-1 text-sm font-medium bg-white text-gray-700 hover:bg-gray-50';
-            descriptionEl.innerHTML = 'Show anime with <strong>any</strong> of the selected genres';
+            orBtn.className = activeClass;
+            andBtn.className = inactiveClass;
+            if (descriptionEl) descriptionEl.innerHTML = 'Show anime with <strong>any</strong> of the selected genres';
         } else {
-            orBtn.className = 'filter-mode-btn px-3 py-1 text-sm font-medium bg-white text-gray-700 hover:bg-gray-50';
-            andBtn.className = 'filter-mode-btn px-3 py-1 text-sm font-medium bg-gray-900 text-white';
-            descriptionEl.innerHTML = 'Show anime with <strong>all</strong> of the selected genres';
+            orBtn.className = inactiveClass;
+            andBtn.className = activeClass;
+            if (descriptionEl) descriptionEl.innerHTML = 'Show anime with <strong>all</strong> of the selected genres';
         }
     };
     
@@ -497,4 +501,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupContentFilters();
     setupRandomPicker();
 });
-

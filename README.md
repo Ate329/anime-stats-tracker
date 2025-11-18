@@ -249,7 +249,7 @@ All data comes from [MyAnimeList](https://myanimelist.net/) via the [Jikan API](
 - [x] **🔍 Search Functionality** - Search anime by title across all seasons
 - [x] **🌙 Dark Mode** - Toggle between light and dark themes
 - [x] **📈 Trending** - See what's popular this season
-- [ ] **🎲 Random Anime** - Discover new anime with random picker
+- [x] **🎲 Random Anime** - Discover new anime with random picker
 - [ ] **📝 Notes** - Add personal notes to anime entries (maybe)
 
 Feel free to contribute!

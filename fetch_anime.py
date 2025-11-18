@@ -250,7 +250,16 @@ def fetch_anime_data(current_years_only=False, specific_years=None):
                                     'p.a. works', 'studio ghibli', 'tms entertainment', 'olm', 'toho animation',
                                     'shin-ei animation', 'nippon animation', 'tezuka productions', 'tatsunoko production',
                                     'bandai namco', 'lidenfilms', 'maho film', 'nut', 'geek toys', 'zero-g',
-                                    'feel.', 'zexcs', 'project no.9', 'c-station', 'tnk', 'shuka', 'lay-duce'
+                                    'feel.', 'zexcs', 'project no.9', 'c-station', 'tnk', 'shuka', 'lay-duce',
+                                    'artland', 'brain\'s base', 'gohands', 'manglobe', '8bit', 'satelight', 
+                                    'studio gokumi', 'axsi', 'bibury', 'studio 3hz', 'troyca', 'pine jam', 'c2c',
+                                    'studio blanc', 'diomedea', 'fanworks', 'geno studio', 'seven arcs',
+                                    'science saru', 'studio 4°c', 'studio khara', 'xebec', 'actas', 'ajia-do',
+                                    'asread', 'c-station', 'connect', 'domerica', 'drive', 'emt squared',
+                                    'encourage films', 'ezόla', 'felix film', 'gallop', 'gonzo', 'hoods entertainment',
+                                    'jumanji', 'lapin track', 'millepensee', 'naz', 'nomad', 'platinum vision',
+                                    'production reed', 'studio comet', 'studio kai', 'studio palette', 'synergysp',
+                                    'telecom animation film', 'typhoon graphics', 'yostar pictures'
                                 ]
                                 
                                 # Check if it's produced by a Japanese studio

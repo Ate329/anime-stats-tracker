@@ -59,23 +59,23 @@ TRANSLATIONS = {
         'year': '年份',
         'avg_rating': '平均评分',
         'seasonal_avg': '季度平均',
-        'moving_avg': '移动平均 (4季度)',
-        'overall_avg': '总平均',
-        'genre_trend_title': '十大类型趋势随时间变化',
-        'count': '动画数量',
+        'moving_avg': '移动平均线（4季）',
+        'overall_avg': '总体平均',
+        'genre_trend_title': '十大类型趋势',
+        'count': '数量',
         'production_title': '年度动画产量',
-        'total_anime': '动画总数',
-        'seasonal_rating_title': '季节性模式：平均评分',
-        'seasonal_volume_title': '季节性模式：产量',
-        'season': '季节',
-        'studio_scatter_title': '制作公司表现：产量 vs 质量',
-        'studio_count': '制作动画数量',
-        'studio_rank_qty': '产量前 15 名制作公司',
-        'studio_rank_qual': '质量前 15 名制作公司',
-        'studio_scatter_filtered': '制作公司表现 (过滤: 5+ 动画)',
-        'popularity_rank': '热度排名',
+        'total_anime': '总数',
+        'seasonal_rating_title': '各季度平均评分',
+        'seasonal_volume_title': '各季度产量',
+        'season': '季度',
+        'studio_scatter_title': '制作公司表现：数量 vs 质量',
+        'studio_count': '作品数量',
+        'studio_rank_qty': '产量 TOP 15 制作公司',
+        'studio_rank_qual': '质量 TOP 15 制作公司',
+        'studio_scatter_filtered': '制作公司表现（筛选：5部以上）',
+        'popularity_rank': '人气排名',
         'score': '评分',
-        'rating_vs_popularity_title': '动画评分 vs 热度',
+        'rating_vs_popularity_title': '动画评分 vs 人气',
     }
 }
 
@@ -106,6 +106,12 @@ def load_all_anime_data():
         if file_path.exists():
             with open(file_path, 'r', encoding='utf-8') as f:
                 anime_list = json.load(f)
+                # Inject season and year if missing (crucial for Bangumi data)
+                for anime in anime_list:
+                    if 'season' not in anime:
+                        anime['season'] = season
+                    if 'year' not in anime:
+                        anime['year'] = year
                 all_anime.extend(anime_list)
     
     return all_anime, manifest
@@ -466,11 +472,15 @@ def generate_genre_trends_by_season():
     
     current_year = datetime.now().year
     
+    # Sort manifest chronologically
+    season_month = {'winter': 1, 'spring': 4, 'summer': 7, 'fall': 10}
+    manifest_sorted = sorted(manifest, key=lambda x: (x['year'], season_month.get(x['season'], 0)))
+    
     # Create season labels and count genres per season
     season_labels = []
     genre_counts_by_season = []
     
-    for entry in manifest:
+    for entry in manifest_sorted:
         year = entry['year']
         season = entry['season']
         
@@ -562,12 +572,16 @@ def generate_genre_trends_by_season_percentage():
     
     current_year = datetime.now().year
     
+    # Sort manifest chronologically
+    season_month = {'winter': 1, 'spring': 4, 'summer': 7, 'fall': 10}
+    manifest_sorted = sorted(manifest, key=lambda x: (x['year'], season_month.get(x['season'], 0)))
+    
     # Create season labels and count genres per season
     season_labels = []
     genre_counts_by_season = []
     total_by_season = []
     
-    for entry in manifest:
+    for entry in manifest_sorted:
         year = entry['year']
         season = entry['season']
         
@@ -694,7 +708,11 @@ def generate_seasonal_patterns():
     bars1 = ax1.bar(seasons_display, avg_scores, color=colors, alpha=0.8)
     ax1.set_ylabel(TEXT['avg_rating'], fontsize=12, fontweight='bold')
     ax1.set_title(TEXT['seasonal_rating_title'], fontsize=14, fontweight='bold', pad=20)
-    ax1.set_ylim(6.0, 7.5)
+    # Dynamic y-axis based on data
+    min_score = min(avg_scores)
+    max_score = max(avg_scores)
+    padding = (max_score - min_score) * 0.2 if max_score > min_score else 0.5
+    ax1.set_ylim(max(0, min_score - padding), max_score + padding)
     ax1.grid(True, alpha=0.3, linestyle='--', axis='y')
     
     for bar, score in zip(bars1, avg_scores):
@@ -811,7 +829,11 @@ def generate_studio_rankings():
     ax2.set_yticklabels(studios_qual, fontsize=9)
     ax2.set_xlabel(TEXT['avg_rating'], fontsize=12, fontweight='bold')
     ax2.set_title(TEXT['studio_rank_qual'], fontsize=14, fontweight='bold', pad=20)
-    ax2.set_xlim(6.0, 8.5)
+    # Dynamic x-axis based on data
+    min_score = min(scores_qual)
+    max_score = max(scores_qual)
+    padding = (max_score - min_score) * 0.15 if max_score > min_score else 0.5
+    ax2.set_xlim(max(0, min_score - padding), max_score + padding)
     ax2.grid(True, alpha=0.3, linestyle='--', axis='x')
     ax2.invert_yaxis()
     

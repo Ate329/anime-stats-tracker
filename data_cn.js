@@ -129,7 +129,7 @@ async function loadRatingTrend() {
                         fill: true
                     },
                     {
-                        label: '移动平均 (4 季度)',
+                        label: '移动平均线（4季）',
                         data: movingAvg,
                         borderColor: '#ef4444',
                         backgroundColor: 'transparent',
@@ -318,7 +318,7 @@ async function loadGenreTrends() {
                         padding: 12,
                         callbacks: {
                             label: function (context) {
-                                return context.dataset.label + ': ' + context.parsed.y + ' 部动画';
+                                return context.dataset.label + ': ' + context.parsed.y + ' 部';
                             }
                         }
                     }
@@ -343,7 +343,7 @@ async function loadGenreTrends() {
                         display: true,
                         title: {
                             display: true,
-                            text: '动画数量',
+                            text: '数量',
                             font: {
                                 size: 14,
                                 weight: 'bold'
@@ -526,8 +526,8 @@ async function loadSeasonalPatterns() {
                     y: {
                         display: true,
                         beginAtZero: false,
-                        min: 6.0,
-                        max: 7.5,
+                        suggestedMin: Math.max(0, Math.min(...Object.values(patternData.avg_scores)) - 0.3),
+                        suggestedMax: Math.max(...Object.values(patternData.avg_scores)) + 0.3,
                         title: {
                             display: true,
                             text: '评分',
@@ -658,7 +658,7 @@ async function loadStudioRankings() {
                         beginAtZero: true,
                         title: {
                             display: true,
-                            text: '动画数量',
+                            text: '作品数量',
                             font: {
                                 size: 12,
                                 weight: 'bold'
@@ -721,8 +721,8 @@ async function loadStudioRankings() {
                     x: {
                         display: true,
                         beginAtZero: false,
-                        min: 6.0,
-                        max: 8.5,
+                        suggestedMin: Math.max(0, Math.min(...scoresQual) - 0.5),
+                        suggestedMax: Math.max(...scoresQual) + 0.3,
                         title: {
                             display: true,
                             text: '平均评分',

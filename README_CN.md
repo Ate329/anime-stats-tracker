@@ -1,6 +1,12 @@
+# 🎬 Anime Season Tracker
+
+**[中文](README_CN.md)** | **[English](README.md)**
+
+![Stack: 100% Free](https://img.shields.io/badge/Stack-Free%20100%25-brightgreen) ![Auto Updates](https://img.shields.io/badge/Updates-Automated-blue) ![Data Source](https://img.shields.io/badge/Data-MyAnimeList-2E51A2) ![Open Source](https://img.shields.io/badge/Open%20Source-MIT-yellow)
+
 一个美观、免费的动画追踪工具，帮助您探索 2006 年至今的季度动画。每周自动更新最新发布！
 
-🌐 **在线站点**: [anime.ate329.com](https://anime.ate329.com)    
+🌐 **网站**: [anime.ate329.com](https://anime.ate329.com)    
 
 ---
 

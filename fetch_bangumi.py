@@ -25,7 +25,7 @@ def get_subject_ids(year, month):
         # - Tag: Japan (日本)
         # - Airtime: Specific Year-Month
         # Note: We removed 'tv/' to include Movies/OVAs/etc. if they have the Japan tag.
-        url = f"https://bgm.tv/anime/browser/%E6%97%A5%E6%9C%AC/airtime/{year}-{month}?page={page}"
+        url = f"https://bgm.tv/anime/browser/%E6%97%A5%E6%9C%AC/tv/airtime/{year}-{month}?page={page}"
         print(f"Scanning {url}...")
         
         try:

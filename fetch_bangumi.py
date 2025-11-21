@@ -300,24 +300,35 @@ def get_infobox_value(data, keys):
 def fetch_season(year, season):
     """
     Fetches all anime for a specific season.
+    Fetches data for all 3 months of the season.
     """
-    season_months = {
+    season_start_months = {
         "winter": 1,
         "spring": 4,
         "summer": 7,
         "fall": 10
     }
     
-    month = season_months.get(season.lower())
-    if not month:
+    start_month = season_start_months.get(season.lower())
+    if not start_month:
         print(f"[ERROR] Invalid season: {season}")
         return []
         
-    # 1. Get IDs
-    ids = get_subject_ids(year, month)
-    if not ids:
+    # Fetch for all 3 months of the season
+    all_ids = set()
+    
+    for i in range(3):
+        month = start_month + i
+        print(f"Fetching IDs for {year}-{month}...")
+        ids = get_subject_ids(year, month)
+        all_ids.update(ids)
+        
+    if not all_ids:
         print(f"No subjects found for {year} {season}")
         return []
+        
+    # Convert back to list
+    ids = list(all_ids)
         
     anime_list = []
     print(f"Fetching details for {len(ids)} subjects...")

@@ -12,10 +12,10 @@
     "fall": 6.97
   },
   "counts": {
-    "winter": 872,
-    "spring": 1140,
-    "summer": 803,
-    "fall": 1040
+    "winter": 870,
+    "spring": 1139,
+    "summer": 804,
+    "fall": 1041
   },
   "highest_rated_season": "fall",
   "most_productive_season": "spring"

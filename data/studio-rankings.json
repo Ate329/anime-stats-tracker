@@ -7,8 +7,8 @@
     },
     {
       "studio": "Studio Deen",
-      "count": 115,
-      "avg_score": 6.88
+      "count": 114,
+      "avg_score": 6.89
     },
     {
       "studio": "A-1 Pictures",
@@ -42,7 +42,7 @@
     },
     {
       "studio": "DLE",
-      "count": 78,
+      "count": 77,
       "avg_score": 5.78
     },
     {
@@ -72,8 +72,8 @@
     },
     {
       "studio": "Satelight",
-      "count": 54,
-      "avg_score": 6.93
+      "count": 55,
+      "avg_score": 6.91
     }
   ],
   "by_quality": [
@@ -133,7 +133,7 @@
     },
     {
       "studio": "MAPPA",
-      "avg_score": 7.49,
+      "avg_score": 7.48,
       "count": 53,
       "rated_count": 53
     },

@@ -2,9 +2,9 @@
   "studios": [
     {
       "name": "Studio Deen",
-      "avg_rating": 6.88,
-      "anime_count": 115,
-      "rated_count": 114
+      "avg_rating": 6.89,
+      "anime_count": 114,
+      "rated_count": 113
     },
     {
       "name": "Manglobe",
@@ -146,9 +146,9 @@
     },
     {
       "name": "Satelight",
-      "avg_rating": 6.93,
-      "anime_count": 54,
-      "rated_count": 54
+      "avg_rating": 6.91,
+      "anime_count": 55,
+      "rated_count": 55
     },
     {
       "name": "TMS Entertainment",
@@ -165,8 +165,8 @@
     {
       "name": "DLE",
       "avg_rating": 5.78,
-      "anime_count": 78,
-      "rated_count": 47
+      "anime_count": 77,
+      "rated_count": 46
     },
     {
       "name": "Tatsunoko Production",
@@ -302,7 +302,7 @@
     },
     {
       "name": "SILVER LINK.",
-      "avg_rating": 6.92,
+      "avg_rating": 6.93,
       "anime_count": 70,
       "rated_count": 70
     },
@@ -416,7 +416,7 @@
     },
     {
       "name": "MAPPA",
-      "avg_rating": 7.49,
+      "avg_rating": 7.48,
       "anime_count": 53,
       "rated_count": 53
     },
@@ -506,13 +506,13 @@
     },
     {
       "name": "Studio 3Hz",
-      "avg_rating": 7.03,
-      "anime_count": 11,
-      "rated_count": 11
+      "avg_rating": 6.91,
+      "anime_count": 12,
+      "rated_count": 12
     },
     {
       "name": "Pie in the sky",
-      "avg_rating": 6.55,
+      "avg_rating": 6.56,
       "anime_count": 10,
       "rated_count": 7
     },
@@ -619,7 +619,7 @@
       "rated_count": 8
     }
   ],
-  "mean_rating": 6.9,
+  "mean_rating": 6.89,
   "mean_count": 30.3,
   "total_studios": 103,
   "min_anime_count": 10

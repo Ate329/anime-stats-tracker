@@ -7,10 +7,12 @@ import json
 import pathlib
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.font_manager as fm
 from datetime import datetime
 from collections import defaultdict, Counter
 import statistics
 import argparse
+import platform
 
 # Parse arguments
 parser = argparse.ArgumentParser(description='Generate anime data visualizations.')
@@ -82,13 +84,82 @@ TRANSLATIONS = {
 TEXT = TRANSLATIONS[args.lang]
 
 # Font Configuration for Chinese
+def setup_chinese_font():
+    """Setup Chinese/Japanese font support for matplotlib."""
+    # Font candidates in order of preference
+    font_candidates = [
+        'Microsoft YaHei',      # Windows Chinese font
+        'SimHei',               # Windows Chinese font (bold)
+        'SimSun',               # Windows Chinese font
+        'STSong',               # Mac Chinese font
+        'STHeiti',              # Mac Chinese font
+        'Arial Unicode MS',     # Cross-platform Unicode font
+        'Noto Sans CJK SC',     # Google Noto font (if installed)
+        'Noto Sans CJK TC',     # Google Noto font (Traditional)
+        'Noto Sans CJK JP',     # Google Noto font (Japanese)
+        'WenQuanYi Micro Hei',  # Linux Chinese font
+        'WenQuanYi Zen Hei',    # Linux Chinese font
+    ]
+    
+    # Get all available fonts (create a set for faster lookup)
+    available_fonts = {f.name for f in fm.fontManager.ttflist}
+    
+    # Find first available CJK font
+    selected_font = None
+    for font_name in font_candidates:
+        if font_name in available_fonts:
+            selected_font = font_name
+            print(f"  Using font: {font_name}")
+            break
+    
+    if selected_font:
+        # Set the font explicitly as the first choice
+        plt.rcParams['font.sans-serif'] = [selected_font] + [f for f in plt.rcParams['font.sans-serif'] if f != selected_font]
+        plt.rcParams['font.serif'] = [selected_font] + [f for f in plt.rcParams['font.serif'] if f != selected_font]
+    else:
+        # Try to find any font that might support CJK by checking font properties
+        print("  Warning: No standard CJK font found, searching for alternatives...")
+        cjk_fonts = []
+        cjk_keywords = ['cjk', 'chinese', 'japanese', 'korean', 'han', 'yahei', 'simhei', 'simsun', 'noto', 'wenquanyi', 'microsoft yahei']
+        for font in fm.fontManager.ttflist:
+            font_name_lower = font.name.lower()
+            # Check if font name contains CJK-related keywords
+            if any(keyword in font_name_lower for keyword in cjk_keywords):
+                cjk_fonts.append(font.name)
+        
+        if cjk_fonts:
+            selected_font = cjk_fonts[0]
+            print(f"  Using alternative font: {selected_font}")
+            plt.rcParams['font.sans-serif'] = [selected_font] + [f for f in plt.rcParams['font.sans-serif'] if f != selected_font]
+        else:
+            print("  Warning: No CJK-capable font found! Chinese/Japanese text may display as boxes.")
+            print("  Consider:")
+            print("    1. Installing a CJK font like 'Noto Sans CJK SC'")
+            print("    2. Rebuilding matplotlib font cache: python -c 'import matplotlib.font_manager; matplotlib.font_manager._rebuild()'")
+    
+    # Fix minus sign display
+    plt.rcParams['axes.unicode_minus'] = False
+    # Better math rendering
+    plt.rcParams['mathtext.fontset'] = 'stix'
+    
+    # Force matplotlib to use the selected font
+    if selected_font:
+        # Set default font family for all text
+        plt.rcParams['font.family'] = 'sans-serif'
+        # Ensure the font is used
+        try:
+            # Test if the font can render Chinese characters
+            test_font = fm.findfont(fm.FontProperties(family=selected_font))
+            if test_font:
+                print(f"  Font file found: {test_font}")
+        except Exception as e:
+            print(f"  Warning: Could not verify font file: {e}")
+    
+    return selected_font
+
 if args.lang == 'cn':
-    # Try Chinese fonts in order of preference
-    plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei', 'STSong', 'STHeiti', 'Arial Unicode MS', 'sans-serif']
-    plt.rcParams['axes.unicode_minus'] = False  # Fix minus sign display
-    # Increase font rendering quality
-    plt.rcParams['font.serif'] = ['Microsoft YaHei', 'SimHei', 'STSong', 'serif']
-    plt.rcParams['mathtext.fontset'] = 'stix'  # Better math rendering
+    print("Configuring Chinese/Japanese font support...")
+    setup_chinese_font()
 
 def load_all_anime_data():
     """Load all anime data from JSON files."""

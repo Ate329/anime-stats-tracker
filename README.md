@@ -250,9 +250,9 @@ Chinese data comes from [Bangumi](https://bgm.tv/) - a Chinese ACG community dat
 
 ## 🗓️ To Do
 
-- [x] **🌏 Chinese Translation** - (Data page has not been fixed)
 - [ ] **⭐ My Personal Recommendations :)**
 - [ ] **📡 RSS Support** - Subscribe to new anime releases
+- [x] **🌏 Chinese Translation**
 - [x] **🔍 Search Functionality** - Search anime by title across all seasons
 - [x] **🌙 Dark Mode** - Toggle between light and dark themes
 - [x] **📈 Trending** - See what's popular this season

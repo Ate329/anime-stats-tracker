@@ -1010,6 +1010,16 @@ def generate_studio_scatter():
     # Plot scatter points
     scatter = ax.scatter(avg_ratings, anime_counts, alpha=0.6, s=50, c='#3b82f6', edgecolors='white', linewidth=0.5)
     
+    # Dynamic axis limits with padding
+    min_x, max_x = min(avg_ratings), max(avg_ratings)
+    min_y, max_y = min(anime_counts), max(anime_counts)
+    
+    x_padding = (max_x - min_x) * 0.1 if max_x > min_x else 0.5
+    y_padding = (max_y - min_y) * 0.1 if max_y > min_y else 5
+    
+    ax.set_xlim(max(0, min_x - x_padding), max_x + x_padding)
+    ax.set_ylim(max(0, min_y - y_padding), max_y + y_padding)
+    
     # Add mean lines
     ax.axvline(x=mean_rating, color='#ef4444', linestyle='--', linewidth=2.5, 
                label=f'Mean Rating: {mean_rating:.2f}', alpha=0.8)
@@ -1134,6 +1144,16 @@ def generate_studio_scatter_filtered():
     
     # Plot scatter points
     scatter = ax.scatter(avg_ratings, anime_counts, alpha=0.6, s=50, c='#3b82f6', edgecolors='white', linewidth=0.5)
+    
+    # Dynamic axis limits with padding
+    min_x, max_x = min(avg_ratings), max(avg_ratings)
+    min_y, max_y = min(anime_counts), max(anime_counts)
+    
+    x_padding = (max_x - min_x) * 0.1 if max_x > min_x else 0.5
+    y_padding = (max_y - min_y) * 0.1 if max_y > min_y else 5
+    
+    ax.set_xlim(max(0, min_x - x_padding), max_x + x_padding)
+    ax.set_ylim(max(0, min_y - y_padding), max_y + y_padding)
     
     # Add mean lines
     ax.axvline(x=mean_rating, color='#ef4444', linestyle='--', linewidth=2.5, 
@@ -1261,6 +1281,16 @@ def generate_studio_scatter_filtered_10():
     
     # Plot scatter points
     scatter = ax.scatter(avg_ratings, anime_counts, alpha=0.6, s=50, c='#3b82f6', edgecolors='white', linewidth=0.5)
+    
+    # Dynamic axis limits with padding
+    min_x, max_x = min(avg_ratings), max(avg_ratings)
+    min_y, max_y = min(anime_counts), max(anime_counts)
+    
+    x_padding = (max_x - min_x) * 0.1 if max_x > min_x else 0.5
+    y_padding = (max_y - min_y) * 0.1 if max_y > min_y else 5
+    
+    ax.set_xlim(max(0, min_x - x_padding), max_x + x_padding)
+    ax.set_ylim(max(0, min_y - y_padding), max_y + y_padding)
     
     # Add mean lines
     ax.axvline(x=mean_rating, color='#ef4444', linestyle='--', linewidth=2.5, 

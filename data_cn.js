@@ -779,25 +779,64 @@ async function loadStudioScatter() {
             rated_count: s.rated_count
         }));
 
+        // Calculate dynamic axis limits
+        const xValues = scatterPoints.map(p => p.x);
+        const yValues = scatterPoints.map(p => p.y);
+        const minX = Math.min(...xValues);
+        const maxX = Math.max(...xValues);
+        const minY = Math.min(...yValues);
+        const maxY = Math.max(...yValues);
+
+        const xPadding = (maxX - minX) * 0.1 || 0.5;
+        const yPadding = (maxY - minY) * 0.1 || 5;
+
+        const xMinLimit = Math.max(0, minX - xPadding);
+        const xMaxLimit = maxX + xPadding;
+        const yMinLimit = Math.max(0, minY - yPadding);
+        const yMaxLimit = maxY + yPadding;
+
         studioScatterChart = new Chart(ctx, {
             type: 'scatter',
             data: {
-                datasets: [{
-                    label: '制作公司',
-                    data: scatterPoints,
-                    backgroundColor: 'rgba(59, 130, 246, 0.6)',
-                    borderColor: '#3b82f6',
-                    borderWidth: 1,
-                    pointRadius: 5,
-                    pointHoverRadius: 7
-                }]
+                datasets: [
+                    {
+                        label: '制作公司',
+                        data: scatterPoints,
+                        backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                        borderColor: '#3b82f6',
+                        borderWidth: 1,
+                        pointRadius: 5,
+                        pointHoverRadius: 7
+                    },
+                    {
+                        label: '平均评分',
+                        data: [{ x: scatterData.mean_rating, y: yMinLimit }, { x: scatterData.mean_rating, y: yMaxLimit }],
+                        type: 'line',
+                        borderColor: '#ef4444',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    },
+                    {
+                        label: '平均产量',
+                        data: [{ x: xMinLimit, y: scatterData.mean_count }, { x: xMaxLimit, y: scatterData.mean_count }],
+                        type: 'line',
+                        borderColor: '#22c55e',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        display: false
+                        display: true,
+                        position: 'top'
                     },
                     title: {
                         display: true,
@@ -812,6 +851,7 @@ async function loadStudioScatter() {
                         padding: 12,
                         callbacks: {
                             label: function (context) {
+                                if (context.dataset.type === 'line') return context.dataset.label + ': ' + (context.parsed.x === scatterData.mean_rating ? scatterData.mean_rating.toFixed(2) : scatterData.mean_count.toFixed(1));
                                 const point = context.raw;
                                 return point.studio + ': ' + point.x.toFixed(2) + ' 分, ' + point.y + ' 部动画';
                             }
@@ -830,8 +870,8 @@ async function loadStudioScatter() {
                                 weight: 'bold'
                             }
                         },
-                        min: 5.0,
-                        max: 9.0
+                        min: xMinLimit,
+                        max: xMaxLimit
                     },
                     y: {
                         title: {
@@ -842,7 +882,8 @@ async function loadStudioScatter() {
                                 weight: 'bold'
                             }
                         },
-                        beginAtZero: true
+                        min: yMinLimit,
+                        max: yMaxLimit
                     }
                 }
             }
@@ -882,25 +923,64 @@ async function loadStudioScatterFiltered() {
             rated_count: s.rated_count
         }));
 
+        // Calculate dynamic axis limits
+        const xValues = scatterPoints.map(p => p.x);
+        const yValues = scatterPoints.map(p => p.y);
+        const minX = Math.min(...xValues);
+        const maxX = Math.max(...xValues);
+        const minY = Math.min(...yValues);
+        const maxY = Math.max(...yValues);
+
+        const xPadding = (maxX - minX) * 0.1 || 0.5;
+        const yPadding = (maxY - minY) * 0.1 || 5;
+
+        const xMinLimit = Math.max(0, minX - xPadding);
+        const xMaxLimit = maxX + xPadding;
+        const yMinLimit = Math.max(0, minY - yPadding);
+        const yMaxLimit = maxY + yPadding;
+
         studioScatterFilteredChart = new Chart(ctx, {
             type: 'scatter',
             data: {
-                datasets: [{
-                    label: '制作公司 (5+ 动画)',
-                    data: scatterPoints,
-                    backgroundColor: 'rgba(59, 130, 246, 0.6)',
-                    borderColor: '#3b82f6',
-                    borderWidth: 1,
-                    pointRadius: 5,
-                    pointHoverRadius: 7
-                }]
+                datasets: [
+                    {
+                        label: '制作公司 (5+ 动画)',
+                        data: scatterPoints,
+                        backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                        borderColor: '#3b82f6',
+                        borderWidth: 1,
+                        pointRadius: 5,
+                        pointHoverRadius: 7
+                    },
+                    {
+                        label: '平均评分',
+                        data: [{ x: scatterData.mean_rating, y: yMinLimit }, { x: scatterData.mean_rating, y: yMaxLimit }],
+                        type: 'line',
+                        borderColor: '#ef4444',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    },
+                    {
+                        label: '平均产量',
+                        data: [{ x: xMinLimit, y: scatterData.mean_count }, { x: xMaxLimit, y: scatterData.mean_count }],
+                        type: 'line',
+                        borderColor: '#22c55e',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        display: false
+                        display: true,
+                        position: 'top'
                     },
                     title: {
                         display: true,
@@ -915,6 +995,7 @@ async function loadStudioScatterFiltered() {
                         padding: 12,
                         callbacks: {
                             label: function (context) {
+                                if (context.dataset.type === 'line') return context.dataset.label + ': ' + (context.parsed.x === scatterData.mean_rating ? scatterData.mean_rating.toFixed(2) : scatterData.mean_count.toFixed(1));
                                 const point = context.raw;
                                 return point.studio + ': ' + point.x.toFixed(2) + ' 分, ' + point.y + ' 部动画';
                             }
@@ -933,8 +1014,8 @@ async function loadStudioScatterFiltered() {
                                 weight: 'bold'
                             }
                         },
-                        min: 5.0,
-                        max: 9.0
+                        min: xMinLimit,
+                        max: xMaxLimit
                     },
                     y: {
                         title: {
@@ -945,7 +1026,8 @@ async function loadStudioScatterFiltered() {
                                 weight: 'bold'
                             }
                         },
-                        beginAtZero: true
+                        min: yMinLimit,
+                        max: yMaxLimit
                     }
                 }
             }
@@ -985,25 +1067,64 @@ async function loadStudioScatterFiltered10() {
             rated_count: s.rated_count
         }));
 
+        // Calculate dynamic axis limits
+        const xValues = scatterPoints.map(p => p.x);
+        const yValues = scatterPoints.map(p => p.y);
+        const minX = Math.min(...xValues);
+        const maxX = Math.max(...xValues);
+        const minY = Math.min(...yValues);
+        const maxY = Math.max(...yValues);
+
+        const xPadding = (maxX - minX) * 0.1 || 0.5;
+        const yPadding = (maxY - minY) * 0.1 || 5;
+
+        const xMinLimit = Math.max(0, minX - xPadding);
+        const xMaxLimit = maxX + xPadding;
+        const yMinLimit = Math.max(0, minY - yPadding);
+        const yMaxLimit = maxY + yPadding;
+
         studioScatterFiltered10Chart = new Chart(ctx, {
             type: 'scatter',
             data: {
-                datasets: [{
-                    label: '制作公司 (10+ 动画)',
-                    data: scatterPoints,
-                    backgroundColor: 'rgba(59, 130, 246, 0.6)',
-                    borderColor: '#3b82f6',
-                    borderWidth: 1,
-                    pointRadius: 5,
-                    pointHoverRadius: 7
-                }]
+                datasets: [
+                    {
+                        label: '制作公司 (10+ 动画)',
+                        data: scatterPoints,
+                        backgroundColor: 'rgba(59, 130, 246, 0.6)',
+                        borderColor: '#3b82f6',
+                        borderWidth: 1,
+                        pointRadius: 5,
+                        pointHoverRadius: 7
+                    },
+                    {
+                        label: '平均评分',
+                        data: [{ x: scatterData.mean_rating, y: yMinLimit }, { x: scatterData.mean_rating, y: yMaxLimit }],
+                        type: 'line',
+                        borderColor: '#ef4444',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    },
+                    {
+                        label: '平均产量',
+                        data: [{ x: xMinLimit, y: scatterData.mean_count }, { x: xMaxLimit, y: scatterData.mean_count }],
+                        type: 'line',
+                        borderColor: '#22c55e',
+                        borderWidth: 2,
+                        borderDash: [5, 5],
+                        pointRadius: 0,
+                        fill: false
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
                     legend: {
-                        display: false
+                        display: true,
+                        position: 'top'
                     },
                     title: {
                         display: true,
@@ -1018,6 +1139,7 @@ async function loadStudioScatterFiltered10() {
                         padding: 12,
                         callbacks: {
                             label: function (context) {
+                                if (context.dataset.type === 'line') return context.dataset.label + ': ' + (context.parsed.x === scatterData.mean_rating ? scatterData.mean_rating.toFixed(2) : scatterData.mean_count.toFixed(1));
                                 const point = context.raw;
                                 return point.studio + ': ' + point.x.toFixed(2) + ' 分, ' + point.y + ' 部动画';
                             }
@@ -1036,8 +1158,8 @@ async function loadStudioScatterFiltered10() {
                                 weight: 'bold'
                             }
                         },
-                        min: 5.0,
-                        max: 9.0
+                        min: xMinLimit,
+                        max: xMaxLimit
                     },
                     y: {
                         title: {
@@ -1048,7 +1170,8 @@ async function loadStudioScatterFiltered10() {
                                 weight: 'bold'
                             }
                         },
-                        beginAtZero: true
+                        min: yMinLimit,
+                        max: yMaxLimit
                     }
                 }
             }

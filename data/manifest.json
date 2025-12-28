@@ -397,7 +397,7 @@
   {
     "year": 2025,
     "season": "fall",
-    "count": 69
+    "count": 68
   },
   {
     "year": 2026,
@@ -407,16 +407,16 @@
   {
     "year": 2026,
     "season": "spring",
-    "count": 40
+    "count": 47
   },
   {
     "year": 2026,
     "season": "summer",
-    "count": 4
+    "count": 9
   },
   {
     "year": 2026,
     "season": "fall",
-    "count": 4
+    "count": 6
   }
 ]

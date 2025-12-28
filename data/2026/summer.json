@@ -1,5 +1,55 @@
 [
   {
+    "mal_id": 60636,
+    "title": "Bleach: Sennen Kessen-hen - Kashin-tan",
+    "title_english": "Bleach: Thousand-Year Blood War - The Calamity",
+    "title_japanese": "BLEACH 千年血戦篇-禍進譚-",
+    "title_synonyms": [],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1653/154517l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/W99Ef2LkyOg?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Final part of Bleach: Sennen Kessen-hen.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 3015,
+    "members": 65353,
+    "favorites": 336,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "R - 17+ (violence & profanity)",
+    "source": "Manga",
+    "studios": [
+      "Pierrot Films"
+    ],
+    "producers": [
+      "Zack Promotion"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "themes": [],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/60636/Bleach__Sennen_Kessen-hen_-_Kashin-tan",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 52480,
     "title": "Tantei wa Mou, Shindeiru. Season 2",
     "title_english": "The Detective Is Already Dead Season 2",
@@ -15,8 +65,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3653,
-    "members": 46431,
+    "popularity": 3650,
+    "members": 46618,
     "favorites": 316,
     "type": "TV",
     "status": "Not yet aired",
@@ -65,8 +115,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 5056,
-    "members": 23353,
+    "popularity": 5020,
+    "members": 23678,
     "favorites": 25,
     "type": "TV",
     "status": "Not yet aired",
@@ -101,6 +151,60 @@
     "is_kid": false
   },
   {
+    "mal_id": 60059,
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "title_english": "The Elusive Samurai Season 2",
+    "title_japanese": "逃げ上手の若君 第二期",
+    "title_synonyms": [
+      "Nigewaka"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1341/154515l.jpg",
+    "trailer_url": null,
+    "synopsis": "Second season of Nige Jouzu no Wakagimi.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 5111,
+    "members": 22727,
+    "favorites": 13,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "R - 17+ (violence & profanity)",
+    "source": "Manga",
+    "studios": [
+      "CloverWorks"
+    ],
+    "producers": [
+      "Aniplex"
+    ],
+    "licensors": [],
+    "genres": [
+      "Adventure",
+      "Comedy"
+    ],
+    "themes": [
+      "Historical",
+      "Samurai"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/60059/Nige_Jouzu_no_Wakagimi_2nd_Season",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 61169,
     "title": "Black Torch",
     "title_english": "Black Torch",
@@ -114,9 +218,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 6966,
-    "members": 10447,
-    "favorites": 52,
+    "popularity": 6827,
+    "members": 10967,
+    "favorites": 53,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -150,6 +254,59 @@
     "is_kid": false
   },
   {
+    "mal_id": 60552,
+    "title": "Kabushikigaisha Magi-Lumière 2nd Season",
+    "title_english": "Magilumiere Magical Girls Inc. Season 2",
+    "title_japanese": "株式会社マジルミエ 第2期",
+    "title_synonyms": [
+      "Magilumiere Co. Ltd.",
+      "Kabushikigaisha Magilumiere"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1780/150951l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/ZBfelsvQguA?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Second season of Kabushikigaisha Magi-Lumière.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 9115,
+    "members": 5358,
+    "favorites": 3,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "PG-13 - Teens 13 or older",
+    "source": "Manga",
+    "studios": [
+      "J.C.Staff"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Action"
+    ],
+    "themes": [
+      "Adult Cast",
+      "Mahou Shoujo",
+      "Workplace"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/60552/Kabushikigaisha_Magi-Lumière_2nd_Season",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 61048,
     "title": "Neko to Ryuu",
     "title_english": "The Cat and the Dragon",
@@ -163,9 +320,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 10389,
-    "members": 3593,
-    "favorites": 14,
+    "popularity": 10236,
+    "members": 3803,
+    "favorites": 15,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -187,6 +344,106 @@
     "aired_to": null,
     "broadcast": "Unknown",
     "url": "https://myanimelist.net/anime/61048/Neko_to_Ryuu",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 61483,
+    "title": "Tenmaku no Jaadugar",
+    "title_english": "Jaadugar: A Witch in Mongolia",
+    "title_japanese": "天幕のジャードゥーガル",
+    "title_synonyms": [
+      "Tenmaku no Jadugar",
+      "Tenmaku no Jadoogar",
+      "A Witch's Life in Mongol"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1624/154658l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/13Cx2wYys64?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "In the harem of the Khan, wisdom is beauty. The time: the thirteenth century. The place: Yeke Mongol Ulus, the greatest empire the world has ever known. The woman: Fatima, hailing from Persia, where medical technique and scientific knowledge have been perfected beyond all precedent. Fatima's desire for a stage where she can put her knowledge to work has brought her to the palace of the Mongols, where she falls under the wing of Töregene, the sixth wife of Ögedei, the second Great Khan—a mighty woman with complicated feelings about the direction of the empire. These two women are the axel upon which the politics of the palace, and soon the very world, will turn...\n\n(Source: Yen Press)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 11619,
+    "members": 3053,
+    "favorites": 0,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "Science SARU"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Drama"
+    ],
+    "themes": [
+      "Historical"
+    ],
+    "demographics": [],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/61483/Tenmaku_no_Jaadugar",
+    "year": 2026,
+    "season": "summer",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 62289,
+    "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+    "title_english": null,
+    "title_japanese": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+    "title_synonyms": [
+      "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires",
+      "The Furious Princess Decided to Take Revenge"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1580/154642l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/DIeeesNOthA?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Elizabeth Leiston, the daughter of Haldoria's powerful prime minister, is the picture of a refined noble lady and the perfect future queen. But when her fiancé publicly humiliates her, calls off their engagement, and starts spreading nasty rumors about her, Elizabeth reaches her breaking point. Why should her only friend be her loyal maid, and why should she continue to serve a country that doesn't respect her? Elizabeth concludes she won't stand it any longer and will bring down the kingdom, even if it's the last thing she does! As such, she uses her quick wit and, more importantly, her seven magic grimoires to embark on a quest for revenge. And let her tell you, there will be hell to pay!\n\n(Source: J-Novel Club)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 14211,
+    "members": 1208,
+    "favorites": 2,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Light novel",
+    "studios": [
+      "Studio Comet"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "themes": [
+      "Villainess"
+    ],
+    "demographics": [],
+    "aired_from": "2026-07-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/62289/Buchigire_Reijou_wa_Houfuku_wo_Chikaimashita_Madousho_no_Chikara_de_Sokoku_wo_Tatakitsubushimasu",
     "year": 2026,
     "season": "summer",
     "is_hentai": false,

@@ -26,7 +26,7 @@
     },
     {
       "name": "Studio Hibari",
-      "avg_rating": 6.83,
+      "avg_rating": 6.84,
       "anime_count": 22,
       "rated_count": 22
     },
@@ -206,7 +206,7 @@
     },
     {
       "name": "Nippon Animation",
-      "avg_rating": 6.76,
+      "avg_rating": 6.77,
       "anime_count": 21,
       "rated_count": 17
     },
@@ -332,9 +332,9 @@
     },
     {
       "name": "Kachidoki Studio",
-      "avg_rating": 5.62,
+      "avg_rating": 5.63,
       "anime_count": 33,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "GoHands",
@@ -512,7 +512,7 @@
     },
     {
       "name": "Pie in the sky",
-      "avg_rating": 6.56,
+      "avg_rating": 6.58,
       "anime_count": 10,
       "rated_count": 7
     },
@@ -554,7 +554,7 @@
     },
     {
       "name": "Zero-G",
-      "avg_rating": 6.85,
+      "avg_rating": 6.86,
       "anime_count": 26,
       "rated_count": 26
     },
@@ -614,7 +614,7 @@
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.13,
+      "avg_rating": 6.17,
       "anime_count": 10,
       "rated_count": 8
     }

@@ -23,7 +23,7 @@
     {
       "studio": "Madhouse",
       "count": 101,
-      "avg_score": 7.46
+      "avg_score": 7.48
     },
     {
       "studio": "TMS Entertainment",
@@ -32,7 +32,7 @@
     },
     {
       "studio": "Toei Animation",
-      "count": 83,
+      "count": 84,
       "avg_score": 7.06
     },
     {
@@ -63,7 +63,7 @@
     {
       "studio": "Doga Kobo",
       "count": 65,
-      "avg_score": 7.1
+      "avg_score": 7.12
     },
     {
       "studio": "Bones",
@@ -79,7 +79,7 @@
   "by_quality": [
     {
       "studio": "Shuka",
-      "avg_score": 8.04,
+      "avg_score": 8.06,
       "count": 10,
       "rated_count": 10
     },
@@ -133,14 +133,20 @@
     },
     {
       "studio": "MAPPA",
-      "avg_score": 7.5,
+      "avg_score": 7.51,
       "count": 55,
-      "rated_count": 54
+      "rated_count": 55
+    },
+    {
+      "studio": "Madhouse",
+      "avg_score": 7.48,
+      "count": 101,
+      "rated_count": 99
     },
     {
       "studio": "David Production",
       "avg_score": 7.48,
-      "count": 27,
+      "count": 28,
       "rated_count": 27
     },
     {
@@ -148,12 +154,6 @@
       "avg_score": 7.47,
       "count": 42,
       "rated_count": 42
-    },
-    {
-      "studio": "Madhouse",
-      "avg_score": 7.46,
-      "count": 101,
-      "rated_count": 98
     },
     {
       "studio": "TROYCA",

@@ -7,6 +7,12 @@
       "rated_count": 37
     },
     {
+      "name": "ILCA",
+      "avg_rating": 5.26,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
       "name": "FelixFilm",
       "avg_rating": 6.04,
       "anime_count": 5,
@@ -19,14 +25,8 @@
       "rated_count": 10
     },
     {
-      "name": "ILCA",
-      "avg_rating": 5.25,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
       "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.76,
+      "avg_rating": 5.74,
       "anime_count": 7,
       "rated_count": 7
     },

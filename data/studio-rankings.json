@@ -72,14 +72,14 @@
     },
     {
       "studio": "Satelight",
-      "count": 56,
+      "count": 57,
       "avg_score": 6.91
     }
   ],
   "by_quality": [
     {
       "studio": "Shuka",
-      "avg_score": 8.06,
+      "avg_score": 8.09,
       "count": 10,
       "rated_count": 10
     },
@@ -138,16 +138,16 @@
       "rated_count": 55
     },
     {
-      "studio": "Madhouse",
-      "avg_score": 7.48,
-      "count": 101,
-      "rated_count": 99
-    },
-    {
       "studio": "David Production",
       "avg_score": 7.48,
       "count": 28,
       "rated_count": 27
+    },
+    {
+      "studio": "Madhouse",
+      "avg_score": 7.48,
+      "count": 101,
+      "rated_count": 99
     },
     {
       "studio": "Shaft",

@@ -153,7 +153,7 @@
     {
       "name": "Satelight",
       "avg_rating": 6.91,
-      "anime_count": 56,
+      "anime_count": 57,
       "rated_count": 55
     },
     {
@@ -254,7 +254,7 @@
     },
     {
       "name": "asread.",
-      "avg_rating": 6.74,
+      "avg_rating": 6.73,
       "anime_count": 13,
       "rated_count": 13
     },
@@ -392,13 +392,13 @@
     },
     {
       "name": "Project No.9",
-      "avg_rating": 6.57,
+      "avg_rating": 6.58,
       "anime_count": 33,
       "rated_count": 32
     },
     {
       "name": "Seven",
-      "avg_rating": 6.12,
+      "avg_rating": 6.11,
       "anime_count": 25,
       "rated_count": 25
     },
@@ -470,9 +470,9 @@
     },
     {
       "name": "ILCA",
-      "avg_rating": 5.72,
-      "anime_count": 19,
-      "rated_count": 19
+      "avg_rating": 5.7,
+      "anime_count": 18,
+      "rated_count": 18
     },
     {
       "name": "Trigger",
@@ -501,7 +501,7 @@
     {
       "name": "Lay-duce",
       "avg_rating": 6.95,
-      "anime_count": 12,
+      "anime_count": 13,
       "rated_count": 12
     },
     {
@@ -542,7 +542,7 @@
     },
     {
       "name": "Shuka",
-      "avg_rating": 8.06,
+      "avg_rating": 8.09,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -631,6 +631,12 @@
       "rated_count": 10
     },
     {
+      "name": "CygamesPictures",
+      "avg_rating": 7.78,
+      "anime_count": 10,
+      "rated_count": 9
+    },
+    {
       "name": "Maho Film",
       "avg_rating": 6.84,
       "anime_count": 14,
@@ -668,19 +674,19 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.28,
+      "avg_rating": 6.27,
       "anime_count": 11,
       "rated_count": 8
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.13,
+      "avg_rating": 6.12,
       "anime_count": 13,
       "rated_count": 9
     }
   ],
   "mean_rating": 6.9,
-  "mean_count": 29.4,
-  "total_studios": 113,
+  "mean_count": 29.2,
+  "total_studios": 114,
   "min_anime_count": 10
 }

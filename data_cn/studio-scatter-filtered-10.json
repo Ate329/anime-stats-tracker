@@ -7,16 +7,16 @@
       "rated_count": 37
     },
     {
+      "name": "ILCA",
+      "avg_rating": 5.26,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
       "name": "MAPPA",
       "avg_rating": 6.63,
       "anime_count": 10,
       "rated_count": 10
-    },
-    {
-      "name": "ILCA",
-      "avg_rating": 5.25,
-      "anime_count": 11,
-      "rated_count": 11
     },
     {
       "name": "A-1 Pictures",

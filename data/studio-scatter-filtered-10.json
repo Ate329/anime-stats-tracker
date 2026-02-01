@@ -87,7 +87,7 @@
     {
       "name": "Kyoto Animation",
       "avg_rating": 7.87,
-      "anime_count": 29,
+      "anime_count": 30,
       "rated_count": 29
     },
     {
@@ -177,7 +177,7 @@
     {
       "name": "Tatsunoko Production",
       "avg_rating": 6.7,
-      "anime_count": 38,
+      "anime_count": 39,
       "rated_count": 36
     },
     {
@@ -189,7 +189,7 @@
     {
       "name": "Brain's Base",
       "avg_rating": 7.24,
-      "anime_count": 48,
+      "anime_count": 49,
       "rated_count": 47
     },
     {
@@ -320,9 +320,9 @@
     },
     {
       "name": "Kinema Citrus",
-      "avg_rating": 7.13,
+      "avg_rating": 7.11,
       "anime_count": 32,
-      "rated_count": 31
+      "rated_count": 32
     },
     {
       "name": "TYO Animations",
@@ -488,7 +488,7 @@
     },
     {
       "name": "NAZ",
-      "avg_rating": 6.35,
+      "avg_rating": 6.34,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -518,7 +518,7 @@
     },
     {
       "name": "TROYCA",
-      "avg_rating": 7.44,
+      "avg_rating": 7.43,
       "anime_count": 16,
       "rated_count": 15
     },
@@ -542,7 +542,7 @@
     },
     {
       "name": "Shuka",
-      "avg_rating": 8.09,
+      "avg_rating": 8.1,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -591,7 +591,7 @@
     {
       "name": "Zero-G",
       "avg_rating": 6.86,
-      "anime_count": 26,
+      "anime_count": 28,
       "rated_count": 26
     },
     {
@@ -644,9 +644,9 @@
     },
     {
       "name": "ENGI",
-      "avg_rating": 6.91,
+      "avg_rating": 7.0,
       "anime_count": 14,
-      "rated_count": 12
+      "rated_count": 13
     },
     {
       "name": "Yokohama Animation Lab",
@@ -656,37 +656,37 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.43,
+      "avg_rating": 7.42,
       "anime_count": 16,
       "rated_count": 13
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.75,
+      "avg_rating": 6.72,
       "anime_count": 10,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.75,
+      "avg_rating": 6.72,
       "anime_count": 10,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.27,
+      "avg_rating": 6.19,
       "anime_count": 11,
-      "rated_count": 8
+      "rated_count": 9
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.12,
+      "avg_rating": 6.06,
       "anime_count": 13,
-      "rated_count": 9
+      "rated_count": 10
     }
   ],
   "mean_rating": 6.9,
-  "mean_count": 29.2,
+  "mean_count": 29.3,
   "total_studios": 114,
   "min_anime_count": 10
 }

@@ -79,14 +79,14 @@
   "by_quality": [
     {
       "studio": "Shuka",
-      "avg_score": 8.09,
+      "avg_score": 8.1,
       "count": 10,
       "rated_count": 10
     },
     {
       "studio": "Kyoto Animation",
       "avg_score": 7.87,
-      "count": 29,
+      "count": 30,
       "rated_count": 29
     },
     {
@@ -157,13 +157,13 @@
     },
     {
       "studio": "TROYCA",
-      "avg_score": 7.44,
+      "avg_score": 7.43,
       "count": 16,
       "rated_count": 15
     },
     {
       "studio": "Studio KAI",
-      "avg_score": 7.43,
+      "avg_score": 7.42,
       "count": 16,
       "rated_count": 13
     }

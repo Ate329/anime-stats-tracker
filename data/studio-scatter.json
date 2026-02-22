@@ -2,8 +2,8 @@
   "studios": [
     {
       "name": "Studio Deen",
-      "avg_rating": 6.89,
-      "anime_count": 118,
+      "avg_rating": 6.88,
+      "anime_count": 119,
       "rated_count": 117
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "name": "SynergySP",
-      "avg_rating": 7.0,
+      "avg_rating": 6.99,
       "anime_count": 32,
       "rated_count": 32
     },
@@ -218,7 +218,7 @@
     },
     {
       "name": "Tezuka Productions",
-      "avg_rating": 7.09,
+      "avg_rating": 7.08,
       "anime_count": 24,
       "rated_count": 22
     },
@@ -255,7 +255,7 @@
     {
       "name": "Tatsunoko Production",
       "avg_rating": 6.7,
-      "anime_count": 39,
+      "anime_count": 40,
       "rated_count": 36
     },
     {
@@ -279,7 +279,7 @@
     {
       "name": "Brain's Base",
       "avg_rating": 7.24,
-      "anime_count": 49,
+      "anime_count": 50,
       "rated_count": 47
     },
     {
@@ -812,7 +812,7 @@
     },
     {
       "name": "Seven",
-      "avg_rating": 6.11,
+      "avg_rating": 6.1,
       "anime_count": 25,
       "rated_count": 25
     },
@@ -986,7 +986,7 @@
     },
     {
       "name": "Orange",
-      "avg_rating": 7.39,
+      "avg_rating": 7.38,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -1173,7 +1173,7 @@
     {
       "name": "EMT Squared",
       "avg_rating": 6.23,
-      "anime_count": 30,
+      "anime_count": 31,
       "rated_count": 29
     },
     {
@@ -1827,7 +1827,7 @@
     {
       "name": "Studio CANDY BOX",
       "avg_rating": 6.78,
-      "anime_count": 3,
+      "anime_count": 4,
       "rated_count": 3
     },
     {
@@ -1940,13 +1940,13 @@
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.72,
+      "avg_rating": 6.71,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.72,
+      "avg_rating": 6.71,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -2120,7 +2120,7 @@
     },
     {
       "name": "Gekkou",
-      "avg_rating": 6.53,
+      "avg_rating": 6.52,
       "anime_count": 9,
       "rated_count": 8
     },
@@ -2162,7 +2162,7 @@
     },
     {
       "name": "CompTown",
-      "avg_rating": 6.84,
+      "avg_rating": 6.83,
       "anime_count": 3,
       "rated_count": 3
     },
@@ -2234,13 +2234,13 @@
     },
     {
       "name": "East Fish Studio",
-      "avg_rating": 6.89,
+      "avg_rating": 6.88,
       "anime_count": 5,
       "rated_count": 5
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.17,
+      "avg_rating": 6.15,
       "anime_count": 12,
       "rated_count": 9
     },
@@ -2270,7 +2270,7 @@
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.04,
+      "avg_rating": 6.03,
       "anime_count": 14,
       "rated_count": 10
     },
@@ -2288,7 +2288,7 @@
     },
     {
       "name": "Ga-Crew",
-      "avg_rating": 7.09,
+      "avg_rating": 7.08,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -2348,7 +2348,7 @@
     },
     {
       "name": "Bones Film",
-      "avg_rating": 7.99,
+      "avg_rating": 7.98,
       "anime_count": 6,
       "rated_count": 4
     },
@@ -2426,7 +2426,7 @@
     },
     {
       "name": "Atelier Peuplier",
-      "avg_rating": 7.49,
+      "avg_rating": 7.46,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -2438,19 +2438,19 @@
     },
     {
       "name": "Qzil.la",
-      "avg_rating": 7.12,
+      "avg_rating": 7.1,
       "anime_count": 2,
       "rated_count": 1
     },
     {
       "name": "Nyan Pollution",
-      "avg_rating": 6.57,
+      "avg_rating": 6.54,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Doraku",
-      "avg_rating": 5.55,
+      "avg_rating": 5.43,
       "anime_count": 1,
       "rated_count": 1
     }

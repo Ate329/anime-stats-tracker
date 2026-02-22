@@ -7,10 +7,10 @@
       "rated_count": 38
     },
     {
-      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.76,
-      "anime_count": 7,
-      "rated_count": 7
+      "name": "FelixFilm",
+      "avg_rating": 5.98,
+      "anime_count": 5,
+      "rated_count": 5
     },
     {
       "name": "ILCA",
@@ -25,10 +25,16 @@
       "rated_count": 10
     },
     {
-      "name": "FelixFilm",
-      "avg_rating": 6.02,
-      "anime_count": 5,
-      "rated_count": 5
+      "name": "P.A.WORKS",
+      "avg_rating": 6.74,
+      "anime_count": 8,
+      "rated_count": 8
+    },
+    {
+      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
+      "avg_rating": 5.76,
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "A-1 Pictures",
@@ -287,12 +293,6 @@
       "avg_rating": 5.46,
       "anime_count": 9,
       "rated_count": 9
-    },
-    {
-      "name": "P.A.WORKS",
-      "avg_rating": 6.89,
-      "anime_count": 7,
-      "rated_count": 7
     },
     {
       "name": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",

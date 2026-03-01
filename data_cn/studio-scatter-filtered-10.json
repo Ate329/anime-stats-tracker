@@ -2,19 +2,25 @@
   "studios": [
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.06,
+      "avg_rating": 6.33,
       "anime_count": 38,
       "rated_count": 38
     },
     {
+      "name": "Production I.G",
+      "avg_rating": 6.6,
+      "anime_count": 22,
+      "rated_count": 22
+    },
+    {
       "name": "ILCA",
-      "avg_rating": 5.23,
+      "avg_rating": 5.15,
       "anime_count": 11,
       "rated_count": 11
     },
     {
       "name": "MAPPA",
-      "avg_rating": 6.63,
+      "avg_rating": 6.64,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -89,12 +95,6 @@
       "avg_rating": 7.25,
       "anime_count": 12,
       "rated_count": 12
-    },
-    {
-      "name": "Production I.G",
-      "avg_rating": 6.91,
-      "anime_count": 21,
-      "rated_count": 21
     },
     {
       "name": "J.C.STAFF",
@@ -176,7 +176,7 @@
     }
   ],
   "mean_rating": 6.26,
-  "mean_count": 18.0,
+  "mean_count": 18.1,
   "total_studios": 29,
   "min_anime_count": 10
 }

@@ -99,7 +99,7 @@
     {
       "name": "OLM",
       "avg_rating": 6.8,
-      "anime_count": 111,
+      "anime_count": 112,
       "rated_count": 106
     },
     {
@@ -308,7 +308,7 @@
     },
     {
       "name": "SILVER LINK.",
-      "avg_rating": 6.92,
+      "avg_rating": 6.91,
       "anime_count": 72,
       "rated_count": 71
     },
@@ -321,7 +321,7 @@
     {
       "name": "Kinema Citrus",
       "avg_rating": 7.11,
-      "anime_count": 32,
+      "anime_count": 33,
       "rated_count": 32
     },
     {
@@ -333,7 +333,7 @@
     {
       "name": "Dongwoo A&E",
       "avg_rating": 7.02,
-      "anime_count": 10,
+      "anime_count": 11,
       "rated_count": 10
     },
     {
@@ -524,7 +524,7 @@
     },
     {
       "name": "Felix Film",
-      "avg_rating": 7.12,
+      "avg_rating": 7.11,
       "anime_count": 15,
       "rated_count": 13
     },
@@ -542,7 +542,7 @@
     },
     {
       "name": "Shuka",
-      "avg_rating": 8.12,
+      "avg_rating": 8.13,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -591,12 +591,12 @@
     {
       "name": "Zero-G",
       "avg_rating": 6.86,
-      "anime_count": 28,
+      "anime_count": 29,
       "rated_count": 26
     },
     {
       "name": "Typhoon Graphics",
-      "avg_rating": 6.39,
+      "avg_rating": 6.38,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -626,7 +626,7 @@
     },
     {
       "name": "Okuruto Noboru",
-      "avg_rating": 6.78,
+      "avg_rating": 6.77,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -638,14 +638,14 @@
     },
     {
       "name": "Maho Film",
-      "avg_rating": 6.84,
+      "avg_rating": 6.85,
       "anime_count": 15,
       "rated_count": 14
     },
     {
       "name": "ENGI",
-      "avg_rating": 7.02,
-      "anime_count": 14,
+      "avg_rating": 7.03,
+      "anime_count": 15,
       "rated_count": 13
     },
     {
@@ -656,7 +656,7 @@
     },
     {
       "name": "Yokohama Animation Lab",
-      "avg_rating": 6.74,
+      "avg_rating": 6.75,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -668,26 +668,26 @@
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.71,
+      "avg_rating": 6.72,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.71,
+      "avg_rating": 6.72,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.15,
-      "anime_count": 12,
+      "avg_rating": 6.14,
+      "anime_count": 13,
       "rated_count": 9
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.03,
-      "anime_count": 14,
+      "avg_rating": 6.01,
+      "anime_count": 15,
       "rated_count": 10
     }
   ],

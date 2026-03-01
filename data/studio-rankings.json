@@ -12,7 +12,7 @@
     },
     {
       "studio": "OLM",
-      "count": 111,
+      "count": 112,
       "avg_score": 6.8
     },
     {
@@ -48,7 +48,7 @@
     {
       "studio": "SILVER LINK.",
       "count": 72,
-      "avg_score": 6.92
+      "avg_score": 6.91
     },
     {
       "studio": "LIDENFILMS",
@@ -79,7 +79,7 @@
   "by_quality": [
     {
       "studio": "Shuka",
-      "avg_score": 8.12,
+      "avg_score": 8.13,
       "count": 10,
       "rated_count": 10
     },

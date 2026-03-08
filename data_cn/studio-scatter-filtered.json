@@ -1,16 +1,10 @@
 {
   "studios": [
     {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 6.22,
-      "anime_count": 6,
-      "rated_count": 6
-    },
-    {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.33,
-      "anime_count": 38,
-      "rated_count": 38
+      "name": "GoHands",
+      "avg_rating": 4.74,
+      "anime_count": 5,
+      "rated_count": 5
     },
     {
       "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
@@ -19,28 +13,40 @@
       "rated_count": 7
     },
     {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.32,
+      "anime_count": 38,
+      "rated_count": 38
+    },
+    {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 6.22,
+      "anime_count": 6,
+      "rated_count": 6
+    },
+    {
+      "name": "MADHOUSE",
+      "avg_rating": 6.95,
+      "anime_count": 25,
+      "rated_count": 25
+    },
+    {
       "name": "Production I.G",
       "avg_rating": 6.6,
       "anime_count": 22,
       "rated_count": 22
     },
     {
-      "name": "FelixFilm",
-      "avg_rating": 5.98,
-      "anime_count": 5,
-      "rated_count": 5
+      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
+      "avg_rating": 5.69,
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "P.A.WORKS",
-      "avg_rating": 6.77,
+      "avg_rating": 6.79,
       "anime_count": 8,
       "rated_count": 8
-    },
-    {
-      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.76,
-      "anime_count": 7,
-      "rated_count": 7
     },
     {
       "name": "ILCA",
@@ -53,6 +59,12 @@
       "avg_rating": 6.64,
       "anime_count": 10,
       "rated_count": 10
+    },
+    {
+      "name": "FelixFilm",
+      "avg_rating": 5.98,
+      "anime_count": 5,
+      "rated_count": 5
     },
     {
       "name": "A-1 Pictures",
@@ -227,12 +239,6 @@
       "avg_rating": 6.7,
       "anime_count": 7,
       "rated_count": 7
-    },
-    {
-      "name": "MADHOUSE",
-      "avg_rating": 6.91,
-      "anime_count": 24,
-      "rated_count": 24
     },
     {
       "name": "\u65ed\u30d7\u30ed\u30c0\u30af\u30b7\u30e7\u30f3",
@@ -493,8 +499,8 @@
       "rated_count": 6
     }
   ],
-  "mean_rating": 6.13,
-  "mean_count": 10.8,
-  "total_studios": 82,
+  "mean_rating": 6.12,
+  "mean_count": 10.7,
+  "total_studios": 83,
   "min_anime_count": 5
 }

@@ -7,7 +7,7 @@
     "title_synonyms": [
       "Welcome to Demon School! Iruma-kun: IruMafia Edition"
     ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1214/155284l.jpg",
+    "image_url": "https://myanimelist.net/images/anime/1214/155284l.jpg",
     "trailer_url": null,
     "synopsis": "In this brand-new spinoff of the runaway hit series, Iruma is a dirt-poor but unfailingly cheerful young boy who grows up in a ruthless city slum. One day, Iruma gives an injured old man his last loaf of bread and nurses the stranger back to health—only to find out that the elder gent is none other than Don Sullivan, head of the Babyl Mafia! Soon after, Don Sullivan comes back, whisks Iruma away, and begs the boy to become his grandson. And just like that, Iruma begins his new life as the next in line to lead a gigantic gang of—dare we say—demonic mafiosos!\n\n(Source: Kodansha USA)",
     "background": "",
@@ -15,9 +15,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 7300,
-    "members": 9619,
-    "favorites": 17,
+    "popularity": 7196,
+    "members": 10000,
+    "favorites": 18,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -41,6 +41,104 @@
     "aired_to": null,
     "broadcast": "Unknown",
     "url": "https://myanimelist.net/anime/63419/Mairimashita_Iruma-kun__If_Episode_of_Mafia",
+    "year": 2027,
+    "season": "winter",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 61324,
+    "title": "BanG Dream! It's MyGO!!!!! / Ave Mujica",
+    "title_english": null,
+    "title_japanese": "BanG Dream! It's MyGO!!!!! BanG Dream! Ave Mujica 続編",
+    "title_synonyms": [],
+    "image_url": "https://myanimelist.net/images/anime/1278/155747l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/fROu-xdvWhM?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Sequel to BanG Dream! Ave Mujica and BanG Dream! It's MyGO!!!!!.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 9120,
+    "members": 5520,
+    "favorites": 13,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "PG-13 - Teens 13 or older",
+    "source": "Mixed media",
+    "studios": [],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Drama"
+    ],
+    "themes": [
+      "Music"
+    ],
+    "demographics": [],
+    "aired_from": "2027-01-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/61324/BanG_Dream_Its_MyGO___Ave_Mujica",
+    "year": 2027,
+    "season": "winter",
+    "is_hentai": false,
+    "is_japanese": false,
+    "is_kid": false
+  },
+  {
+    "mal_id": 62605,
+    "title": "Matsurika Kanriden",
+    "title_english": null,
+    "title_japanese": "茉莉花官吏伝",
+    "title_synonyms": [
+      "The Legend of Bureaucrat Matsurika"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1327/155810l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/UkiFIcxXTxk?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Matsurika, a lady-in-waiting in the imperial palace, has a special talent—an excellent memory. One day, she is asked to act as a practice partner for a nobleman's arranged meeting, only to discover that her partner is none other than Emperor Hakuyou himself, who wished to try a matchmaking meeting. Impressed by her skill, the emperor unexpectedly tells her to \"go pass the imperial examination first.\" Thus begins the tale of a girl singled out by the emperor in this Chinese-style Cinderella story.\n\n(Source: MAL News)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 13413,
+    "members": 1558,
+    "favorites": 2,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Light novel",
+    "studios": [
+      "Maho Film"
+    ],
+    "producers": [
+      "Kadokawa"
+    ],
+    "licensors": [],
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ],
+    "themes": [
+      "Historical"
+    ],
+    "demographics": [
+      "Shoujo"
+    ],
+    "aired_from": "2027-01-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/62605/Matsurika_Kanriden",
     "year": 2027,
     "season": "winter",
     "is_hentai": false,

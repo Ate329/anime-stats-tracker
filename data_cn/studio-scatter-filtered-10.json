@@ -2,9 +2,15 @@
   "studios": [
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.33,
+      "avg_rating": 6.32,
       "anime_count": 38,
       "rated_count": 38
+    },
+    {
+      "name": "MADHOUSE",
+      "avg_rating": 6.95,
+      "anime_count": 25,
+      "rated_count": 25
     },
     {
       "name": "Production I.G",
@@ -77,12 +83,6 @@
       "avg_rating": 6.62,
       "anime_count": 23,
       "rated_count": 23
-    },
-    {
-      "name": "MADHOUSE",
-      "avg_rating": 6.91,
-      "anime_count": 24,
-      "rated_count": 24
     },
     {
       "name": "\u30e9\u30a4\u30c7\u30f3\u30d5\u30a3\u30eb\u30e0",

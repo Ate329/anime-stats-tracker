@@ -2,13 +2,13 @@
   "studios": [
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.32,
+      "avg_rating": 6.24,
       "anime_count": 38,
       "rated_count": 38
     },
     {
       "name": "MADHOUSE",
-      "avg_rating": 6.95,
+      "avg_rating": 6.93,
       "anime_count": 25,
       "rated_count": 25
     },
@@ -20,13 +20,13 @@
     },
     {
       "name": "ILCA",
-      "avg_rating": 5.15,
+      "avg_rating": 5.18,
       "anime_count": 11,
       "rated_count": 11
     },
     {
       "name": "MAPPA",
-      "avg_rating": 6.64,
+      "avg_rating": 6.65,
       "anime_count": 10,
       "rated_count": 10
     },

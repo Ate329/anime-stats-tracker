@@ -7,26 +7,26 @@
       "rated_count": 5
     },
     {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 6.26,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.24,
+      "anime_count": 38,
+      "rated_count": 38
+    },
+    {
       "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
       "avg_rating": 5.3,
       "anime_count": 7,
       "rated_count": 7
     },
     {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.32,
-      "anime_count": 38,
-      "rated_count": 38
-    },
-    {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 6.22,
-      "anime_count": 6,
-      "rated_count": 6
-    },
-    {
       "name": "MADHOUSE",
-      "avg_rating": 6.95,
+      "avg_rating": 6.93,
       "anime_count": 25,
       "rated_count": 25
     },
@@ -38,33 +38,33 @@
     },
     {
       "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.69,
+      "avg_rating": 5.8,
       "anime_count": 7,
       "rated_count": 7
-    },
-    {
-      "name": "P.A.WORKS",
-      "avg_rating": 6.79,
-      "anime_count": 8,
-      "rated_count": 8
-    },
-    {
-      "name": "ILCA",
-      "avg_rating": 5.15,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "MAPPA",
-      "avg_rating": 6.64,
-      "anime_count": 10,
-      "rated_count": 10
     },
     {
       "name": "FelixFilm",
       "avg_rating": 5.98,
       "anime_count": 5,
       "rated_count": 5
+    },
+    {
+      "name": "ILCA",
+      "avg_rating": 5.18,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
+      "name": "MAPPA",
+      "avg_rating": 6.65,
+      "anime_count": 10,
+      "rated_count": 10
+    },
+    {
+      "name": "P.A.WORKS",
+      "avg_rating": 6.79,
+      "anime_count": 8,
+      "rated_count": 8
     },
     {
       "name": "A-1 Pictures",

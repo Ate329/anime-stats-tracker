@@ -57,7 +57,7 @@
     {
       "name": "Studio Comet",
       "avg_rating": 6.82,
-      "anime_count": 26,
+      "anime_count": 27,
       "rated_count": 24
     },
     {
@@ -206,7 +206,7 @@
     },
     {
       "name": "A.C.G.T.",
-      "avg_rating": 6.58,
+      "avg_rating": 6.57,
       "anime_count": 14,
       "rated_count": 14
     },
@@ -393,7 +393,7 @@
     {
       "name": "Project No.9",
       "avg_rating": 6.58,
-      "anime_count": 33,
+      "anime_count": 34,
       "rated_count": 32
     },
     {
@@ -410,9 +410,9 @@
     },
     {
       "name": "SANZIGEN",
-      "avg_rating": 6.87,
+      "avg_rating": 6.89,
       "anime_count": 24,
-      "rated_count": 23
+      "rated_count": 24
     },
     {
       "name": "Encourage Films",
@@ -464,7 +464,7 @@
     },
     {
       "name": "Orange",
-      "avg_rating": 7.38,
+      "avg_rating": 7.37,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -507,7 +507,7 @@
     {
       "name": "Polygon Pictures",
       "avg_rating": 6.77,
-      "anime_count": 13,
+      "anime_count": 14,
       "rated_count": 13
     },
     {
@@ -554,7 +554,7 @@
     },
     {
       "name": "EMT Squared",
-      "avg_rating": 6.23,
+      "avg_rating": 6.24,
       "anime_count": 31,
       "rated_count": 29
     },
@@ -596,7 +596,7 @@
     },
     {
       "name": "Typhoon Graphics",
-      "avg_rating": 6.37,
+      "avg_rating": 6.36,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -668,27 +668,27 @@
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.71,
+      "avg_rating": 6.7,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.71,
+      "avg_rating": 6.7,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.14,
-      "anime_count": 13,
-      "rated_count": 9
+      "avg_rating": 6.29,
+      "anime_count": 12,
+      "rated_count": 8
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.02,
-      "anime_count": 15,
-      "rated_count": 10
+      "avg_rating": 6.14,
+      "anime_count": 14,
+      "rated_count": 9
     }
   ],
   "mean_rating": 6.9,

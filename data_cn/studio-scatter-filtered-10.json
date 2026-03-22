@@ -2,9 +2,15 @@
   "studios": [
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.24,
+      "avg_rating": 6.26,
       "anime_count": 38,
       "rated_count": 38
+    },
+    {
+      "name": "Production I.G",
+      "avg_rating": 7.01,
+      "anime_count": 22,
+      "rated_count": 22
     },
     {
       "name": "MADHOUSE",
@@ -13,14 +19,8 @@
       "rated_count": 25
     },
     {
-      "name": "Production I.G",
-      "avg_rating": 6.6,
-      "anime_count": 22,
-      "rated_count": 22
-    },
-    {
       "name": "ILCA",
-      "avg_rating": 5.18,
+      "avg_rating": 5.19,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -175,7 +175,7 @@
       "rated_count": 14
     }
   ],
-  "mean_rating": 6.26,
+  "mean_rating": 6.27,
   "mean_count": 18.1,
   "total_studios": 29,
   "min_anime_count": 10

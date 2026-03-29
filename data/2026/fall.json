@@ -16,9 +16,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 2685,
-    "members": 82268,
-    "favorites": 194,
+    "popularity": 2650,
+    "members": 83968,
+    "favorites": 198,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -65,9 +65,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 2707,
-    "members": 81110,
-    "favorites": 441,
+    "popularity": 2705,
+    "members": 81471,
+    "favorites": 443,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -110,16 +110,16 @@
     "title_english": "Blue Box Season 2",
     "title_japanese": "アオのハコ Season2",
     "title_synonyms": [],
-    "image_url": "https://myanimelist.net/images/anime/1103/156123l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/2uDo63GhZtc?enablejsapi=1&wmode=opaque&autoplay=1",
+    "image_url": "https://myanimelist.net/images/anime/1976/156319l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/h4amrgzStvU?enablejsapi=1&wmode=opaque&autoplay=1",
     "synopsis": "Second season of Ao no Hako.",
     "background": "",
     "episodes": null,
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3583,
-    "members": 49072,
+    "popularity": 3570,
+    "members": 49613,
     "favorites": 173,
     "type": "TV",
     "status": "Not yet aired",
@@ -128,8 +128,12 @@
     "duration": "Unknown",
     "rating": "PG-13 - Teens 13 or older",
     "source": "Manga",
-    "studios": [],
-    "producers": [],
+    "studios": [
+      "Electric Circus"
+    ],
+    "producers": [
+      "Unlimited Produce by TMS"
+    ],
     "licensors": [],
     "genres": [
       "Romance",
@@ -143,9 +147,9 @@
     "demographics": [
       "Shounen"
     ],
-    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_from": "2026-10-04T00:00:00+00:00",
     "aired_to": null,
-    "broadcast": "Unknown",
+    "broadcast": "Saturdays at 16:30 (JST)",
     "url": "https://myanimelist.net/anime/61323/Ao_no_Hako_Season_2",
     "year": 2026,
     "season": "fall",
@@ -169,8 +173,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3616,
-    "members": 48511,
+    "popularity": 3613,
+    "members": 48649,
     "favorites": 328,
     "type": "TV",
     "status": "Not yet aired",
@@ -219,8 +223,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 5384,
-    "members": 20943,
+    "popularity": 5372,
+    "members": 21231,
     "favorites": 76,
     "type": "TV",
     "status": "Not yet aired",
@@ -254,6 +258,114 @@
     "is_kid": false
   },
   {
+    "mal_id": 63367,
+    "title": "Dragon Ball Super: Beerus",
+    "title_english": "Dragon Ball Super: Beerus",
+    "title_japanese": "ドラゴンボール超 ビルス",
+    "title_synonyms": [],
+    "image_url": "https://myanimelist.net/images/anime/1015/155108l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/UkQnfgxZ5vc?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Dragon Ball Super: Beerus, a project that was started a few years ago, is the newly ENHANCED edition of the anime Dragon Ball Super. ENHANCED by the latest visual expression, every scene, especially the battle scenes, is even more immersive, providing a more faithful and detailed reproduction of the original work by Akira Toriyama, and it will deliver a quality that is sure to fully satisfy audiences.\n\n(Source: Official website)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 6230,
+    "members": 14270,
+    "favorites": 27,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "PG-13 - Teens 13 or older",
+    "source": "Manga",
+    "studios": [
+      "Toei Animation"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "themes": [
+      "Martial Arts"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63367/Dragon_Ball_Super__Beerus",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 63801,
+    "title": "Ranma ½ (2024) 3rd Season",
+    "title_english": "Ranma ½ (2024) Season 3",
+    "title_japanese": "らんま1/2 第3期",
+    "title_synonyms": [
+      "Ranma 1/2 (2024) 3rd Season"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1450/156287l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/MnYDGUBUzJQ?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Third season of Ranma ½ (2024).",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 7693,
+    "members": 8557,
+    "favorites": 3,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "PG-13 - Teens 13 or older",
+    "source": "Manga",
+    "studios": [
+      "MAPPA"
+    ],
+    "producers": [
+      "Shogakukan-Shueisha Productions",
+      "dugout"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance",
+      "Ecchi"
+    ],
+    "themes": [
+      "Magical Sex Shift",
+      "Martial Arts",
+      "School"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63801/Ranma_½_2024_3rd_Season",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 61153,
     "title": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu",
     "title_english": "A Tale of the Secret Saint",
@@ -262,7 +374,7 @@
       "A Tale of the Great Saint",
       "The Reincarnated Great Saint Hides That She's a Saint"
     ],
-    "image_url": "https://myanimelist.net/images/anime/1667/148703l.jpg",
+    "image_url": "https://myanimelist.net/images/anime/1454/156338l.jpg",
     "trailer_url": "https://www.youtube-nocookie.com/embed/TQYVI-xvGeA?enablejsapi=1&wmode=opaque&autoplay=1",
     "synopsis": "Fia always dreamed of becoming a knight. Born into a family of knights, she's the least talented among them, but she still clutches to her hope and trains with everything she has. When the day comes for her to slay a small demon and prove her worth, she ends up face to face with a dragon instead! A deadly injury makes her life flash before her eyes... and she suddenly remembers her former life, when she was a powerful Saint in a bygone era who defeated the Demon King. That life ended in pain because of who she was, making her fear ever becoming a Saint again. Now that the magic from her previous life has been rekindled, she may become a more powerful knight than she ever dreamed–if only she can survive long enough!\n\n(Source: Seven Seas Entertainment)",
     "background": "",
@@ -270,8 +382,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 7817,
-    "members": 8133,
+    "popularity": 7777,
+    "members": 8290,
     "favorites": 9,
     "type": "TV",
     "status": "Not yet aired",
@@ -305,22 +417,125 @@
     "is_kid": false
   },
   {
+    "mal_id": 59204,
+    "title": "Magic Knight Rayearth (2026)",
+    "title_english": null,
+    "title_japanese": "魔法騎士レイアース",
+    "title_synonyms": [
+      "Mahou Kishi Rayearth"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1679/152682l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/IWnj91xAq7o?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "New anime project for Magic Knight Rayearth to celebrate the anime's 30th anniversary.",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 8001,
+    "members": 7710,
+    "favorites": 26,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "E&H Production"
+    ],
+    "producers": [
+      "Unlimited Produce by TMS"
+    ],
+    "licensors": [],
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "themes": [
+      "Isekai"
+    ],
+    "demographics": [
+      "Shoujo"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Wednesdays at 23:45 (JST)",
+    "url": "https://myanimelist.net/anime/59204/Magic_Knight_Rayearth_2026",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 63293,
+    "title": "Hotaru no Yomeiri",
+    "title_english": null,
+    "title_japanese": "ホタルの嫁入り",
+    "title_synonyms": [
+      "Firefly Wedding"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1889/156269l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/feXx-UG9iZk?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Satoko, the eldest daughter of the honorable Kirigaya family, has received many marriage proposals from men captivated by her beauty and grace. However, she has turned them all down due to her secret heart defect. Despite her condition, Satoko is still willing to find a husband to ease her beloved father's concerns.\n\nWhile on a stroll, Satoko is kidnapped by a group of mercenaries, one of them being Shinpei Gotou—a legendary assassin tasked with executing her. Satoko tries to bribe Gotou into freeing her, but it proves unsuccessful. Out of options, Satoko makes a desperate gamble: under the pretense of love at first sight, she asks him to marry her.\n\nUnexpectedly, Gotou takes the bait and vows to protect her. As the couple escapes to freedom, Satoko struggles to keep up the ruse and make sense of the mysterious man she has eloped with.\n\n[Written by MAL Rewrite]",
+    "background": "Hotaru no Yomeiri aired on Fuji TV's noitaminA block.",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 8450,
+    "members": 6769,
+    "favorites": 26,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Web manga",
+    "studios": [
+      "David Production"
+    ],
+    "producers": [
+      "Shogakukan"
+    ],
+    "licensors": [],
+    "genres": [
+      "Romance"
+    ],
+    "themes": [
+      "Historical"
+    ],
+    "demographics": [],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Fridays at 23:30 (JST)",
+    "url": "https://myanimelist.net/anime/63293/Hotaru_no_Yomeiri",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 54344,
     "title": "Mahou Shoujo Ikusei Keikaku: Restart",
     "title_english": null,
     "title_japanese": "魔法少女育成計画 restart",
     "title_synonyms": [],
     "image_url": "https://myanimelist.net/images/anime/1711/152746l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/34ubb-j0kbI?enablejsapi=1&wmode=opaque&autoplay=1",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/iD1hmEvGQmM?enablejsapi=1&wmode=opaque&autoplay=1",
     "synopsis": "The deadly game is back!\n\nOnce again, sixteen Magical Girls have been assembled for a high-stakes challenge. Every three days, their Magical Phone pulls them into an RPG-like simulation where they have to work together to fight enemies, solve puzzles, and earn Magical Candy to advance. A staggering ten billion yen reward awaits them at the end—but only for the players who land the finishing blow. With such a tantalizing prize on the line, it's only a matter of time before the girls turn on each other—and if their hit points drop to zero, a game over will be the least of their worries... \n\n(Source: Mahou Shoujo Ikusei Keikaku Wiki, edited)",
     "background": "",
     "episodes": null,
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 8955,
-    "members": 5861,
-    "favorites": 10,
+    "popularity": 8871,
+    "members": 6019,
+    "favorites": 11,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -355,49 +570,112 @@
     "is_kid": false
   },
   {
-    "mal_id": 63293,
-    "title": "Hotaru no Yomeiri",
+    "mal_id": 61014,
+    "title": "Toaru Anbu no Item",
     "title_english": null,
-    "title_japanese": "ホタルの嫁入り",
+    "title_japanese": "とある暗部の少女共棲",
     "title_synonyms": [
-      "Firefly Wedding"
+      "Toaru Anbu no Shoujo Kyousei",
+      "A Certain Dark Side's Item"
     ],
-    "image_url": "https://myanimelist.net/images/anime/1069/154957l.jpg",
-    "trailer_url": null,
-    "synopsis": "Satoko, the eldest daughter of the honorable Kirigaya family, has received many marriage proposals from men captivated by her beauty and grace. However, she has turned them all down due to her secret heart defect. Despite her condition, Satoko is still willing to find a husband to ease her beloved father's concerns.\n\nWhile on a stroll, Satoko is kidnapped by a group of mercenaries, one of them being Shinpei Gotou—a legendary assassin tasked with executing her. Satoko tries to bribe Gotou into freeing her, but it proves unsuccessful. Out of options, Satoko makes a desperate gamble: under the pretense of love at first sight, she asks him to marry her.\n\nUnexpectedly, Gotou takes the bait and vows to protect her. As the couple escapes to freedom, Satoko struggles to keep up the ruse and make sense of the mysterious man she has eloped with.\n\n[Written by MAL Rewrite]",
-    "background": "Hotaru no Yomeiri aired on Fuji TV's noitaminA block.",
+    "image_url": "https://myanimelist.net/images/anime/1459/155570l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/YdxZUe-kclA?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "In Academy City, where supernatural abilities are part of everyday science, the city's peace is upheld by an unseen force—the dark side. Among the covert operatives is ITEM, a four-member elite unit. With Rikou Takitsubo's tracking abilities, Frenda Seivelun's explosive expertise, Saiai Kinuhata's impenetrable defense, and Shizuri Mugino's overwhelming power as one of Academy City's seven Level 5 espers, they navigate the city's underbelly, taking on secret missions that never make the headlines.\n\nAs their latest assignment unfolds, the team moves with precision, unaware that their actions are setting the stage for a tragedy that will test their bonds of trust, friendship, and survival in the unforgiving darkness of Academy City.\n\n(Source: MAL News)",
+    "background": "",
     "episodes": null,
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 9452,
-    "members": 5038,
-    "favorites": 18,
+    "popularity": 9855,
+    "members": 4488,
+    "favorites": 10,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
     "approved": true,
     "duration": "Unknown",
     "rating": null,
-    "source": "Web manga",
+    "source": "Light novel",
     "studios": [
-      "David Production"
+      "J.C.Staff"
     ],
     "producers": [
-      "Shogakukan"
+      "NBCUniversal Entertainment Japan"
     ],
     "licensors": [],
     "genres": [
-      "Romance"
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
     ],
     "themes": [
-      "Historical"
+      "Super Power",
+      "Urban Fantasy"
     ],
     "demographics": [],
     "aired_from": "2026-10-01T00:00:00+00:00",
     "aired_to": null,
     "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/63293/Hotaru_no_Yomeiri",
+    "url": "https://myanimelist.net/anime/61014/Toaru_Anbu_no_Item",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 63098,
+    "title": "Psyren",
+    "title_english": "Psyren",
+    "title_japanese": "PSYЯEN -サイレン-",
+    "title_synonyms": [
+      "Siren"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1698/156325l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/u6R2b6knS4o?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Ageha Yoshina is a self-confident high school student who helps others for a fee. On his way back from a job, he finds a strange calling card with the word \"Psyren\" imprinted left behind in a phone booth and decides to keep it, unaware of its purpose. The very next day, Ageha discovers that his classmate Sakurako Amamiya has the exact same calling card in her possession. When he questions her, Sakurako asks him to save her, signaling the day his troubles begin.\n\nConfused by the circumstances of this encounter, Ageha realizes something is wrong when Sakurako goes missing. In an attempt to figure out what is happening, he decides to call the number provided on the calling card and is asked a series of questions by a mysterious voice, ending with a final, cryptic question: \"Would you like to go to Psyren?\" Thus begins two teenagers' participation in a game of life or death within a strange world inhabited by monsters called Taboo. Granted the ability to use psychic powers known as PSI, the duo fight to return to the place they call home.\n\n[Written by MAL Rewrite]",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 10001,
+    "members": 4286,
+    "favorites": 42,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "Satelight"
+    ],
+    "producers": [
+      "REMOW"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Romance",
+      "Sci-Fi",
+      "Supernatural",
+      "Suspense"
+    ],
+    "themes": [
+      "High Stakes Game",
+      "Psychological",
+      "Strategy Game",
+      "Super Power"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63098/Psyren",
     "year": 2026,
     "season": "fall",
     "is_hentai": false,
@@ -420,8 +698,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 10849,
-    "members": 3304,
+    "popularity": 10606,
+    "members": 3555,
     "favorites": 15,
     "type": "TV",
     "status": "Not yet aired",
@@ -456,6 +734,60 @@
     "is_kid": false
   },
   {
+    "mal_id": 56733,
+    "title": "Magical★Explorer",
+    "title_english": "Magical★Explorer",
+    "title_japanese": "マジカル★エクスプロ",
+    "title_synonyms": [
+      "Magical Explorer: Reborn as a Side Character in a Fantasy Dating Sim",
+      "Magical Explorer: Reincarnated as an Eroge Hero's Friend",
+      "I'll Live Freely With My Eroge Knowledge."
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1414/156298l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/M7bR4FznTN4?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Reincarnated as a character in the legendary erotic game, “Magical Explorer,” it doesn’t take long for our hero to discover that he’s been designated the unlucky side-character rather than the game’s lady-killer protagonist. Not to worry, though! Armed with his vast knowledge of the game (and a few cheats) he’ll do whatever it takes to win the hearts of the game’s heroines and emerge as the most accomplished student at the Sorcerer's Academy!\n\n(Source: Yen Press)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 10788,
+    "members": 3387,
+    "favorites": 8,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Light novel",
+    "studios": [
+      "White Fox"
+    ],
+    "producers": [
+      "Aniplex"
+    ],
+    "licensors": [],
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Ecchi"
+    ],
+    "themes": [
+      "Harem"
+    ],
+    "demographics": [],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/56733/Magical★Explorer",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 62590,
     "title": "Hotel Inhumans 2nd Season",
     "title_english": "Hotel Inhumans Season 2",
@@ -469,8 +801,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 11168,
-    "members": 3034,
+    "popularity": 11096,
+    "members": 3102,
     "favorites": 2,
     "type": "TV",
     "status": "Not yet aired",
@@ -504,6 +836,105 @@
     "is_kid": false
   },
   {
+    "mal_id": 60948,
+    "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
+    "title_english": null,
+    "title_japanese": "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい",
+    "title_synonyms": [
+      "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1334/156252l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/6J7MHu2O7Vw?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Sato Takahiro was an ordinary office worker and hobbyist gamer until the day he woke up on a spaceship–one that strangely resembled a craft from a favorite space-shooter game. With a decked-out ship, a crew full of babes, and a fantastic universe to explore, he's going to make the most of his good luck and create the life he's always dreamed of!\n\n(Source: Seven Seas Entertainment)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 11635,
+    "members": 2677,
+    "favorites": 10,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Light novel",
+    "studios": [
+      "Studio A-CAT"
+    ],
+    "producers": [
+      "Hayate"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "themes": [
+      "Isekai",
+      "Space"
+    ],
+    "demographics": [],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/60948/Mezametara_Saikyou_Soubi_to_Uchuusenmochi_Datta_node_Ikkodate_Mezashite_Youhei_toshite_Jiyuu_ni_Ikitai",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 61999,
+    "title": "Shuiro no Kamen",
+    "title_english": "The Vermilion Mask",
+    "title_japanese": "朱色の仮面",
+    "title_synonyms": [],
+    "image_url": "https://myanimelist.net/images/anime/1249/156304l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/gL7Lo-FvWIs?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "The mask brings calamity. The mask revels in slaughter. The mask has a will of its own... Pelle, a traveling mask merchant, possesses the ability to craft mysterious masks that give its wearers unique powers. In a city shrouded in an eerie atmosphere, he encounters Sonah, a mysterious young girl. As revelations unfold and inner conflicts arise, a young boy takes his first steps forward! Immerse yourself in a thrilling mask battle fantasy!\n\n(Source: Orange Inc.)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 12250,
+    "members": 2264,
+    "favorites": 11,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "100studio"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "themes": [],
+    "demographics": [
+      "Seinen"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Saturdays at 17:30 (JST)",
+    "url": "https://myanimelist.net/anime/61999/Shuiro_no_Kamen",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 61140,
     "title": "Gensou Suikoden",
     "title_english": "Suikoden: The Anime",
@@ -517,9 +948,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 12873,
-    "members": 1840,
-    "favorites": 10,
+    "popularity": 12800,
+    "members": 1911,
+    "favorites": 11,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -565,8 +996,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 13619,
-    "members": 1487,
+    "popularity": 13275,
+    "members": 1652,
     "favorites": 1,
     "type": "TV",
     "status": "Not yet aired",
@@ -607,7 +1038,7 @@
     "title_english": null,
     "title_japanese": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
     "title_synonyms": [],
-    "image_url": "https://myanimelist.net/images/anime/1530/154497l.jpg",
+    "image_url": "https://myanimelist.net/images/anime/1475/156294l.jpg",
     "trailer_url": "https://www.youtube-nocookie.com/embed/thH6fqX7qKo?enablejsapi=1&wmode=opaque&autoplay=1",
     "synopsis": "Sequel to Shin Tennis no Oujisama: U-17 World Cup Semifinal.",
     "background": "",
@@ -615,8 +1046,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 13942,
-    "members": 1367,
+    "popularity": 13884,
+    "members": 1398,
     "favorites": 1,
     "type": "TV",
     "status": "Not yet aired",
@@ -664,8 +1095,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 14313,
-    "members": 1242,
+    "popularity": 14185,
+    "members": 1295,
     "favorites": 3,
     "type": "TV",
     "status": "Not yet aired",
@@ -698,6 +1129,157 @@
     "is_kid": false
   },
   {
+    "mal_id": 62696,
+    "title": "Choujun! Choujou-senpai",
+    "title_english": null,
+    "title_japanese": "超巡!超条先輩",
+    "title_synonyms": [
+      "Super Psychic Policeman Chojo"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1351/152531l.jpg",
+    "trailer_url": null,
+    "synopsis": "In Chinjuku, the city that never sleeps, there is a psychic senior police officer who has powers beyond human comprehension! His name is Meguru Choujou! Along with his judo expert partner Nao Ippongi, this hilarious duo will keep the streets clean by any means necessary!\n\n(Source: MANGA Plus)",
+    "background": "Choujun! Choujou-senpai aired on Kansai TV and Fuji TV's Ka-Anival!! block.",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 14526,
+    "members": 1190,
+    "favorites": 2,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "Arvo Animation"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Comedy",
+      "Supernatural"
+    ],
+    "themes": [
+      "Gag Humor"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Tuesdays at 23:00 (JST)",
+    "url": "https://myanimelist.net/anime/62696/Choujun_Choujou-senpai",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": false,
+    "is_kid": false
+  },
+  {
+    "mal_id": 62615,
+    "title": "Tetsuryou! Meet with Tetsudou Musume",
+    "title_english": null,
+    "title_japanese": "てつりょー！meet with 鉄道むすめ",
+    "title_synonyms": [
+      "Tetsuryo! Meet with Railroad Girls"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1489/156321l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/lXmAdRvMlbI?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Misaki, a university student, feeling the weight of everyday life and uncertain about her future, she longs for adventure and something she can be truly passionate about.\n\nAt the start of the new day on campus, members of the Travel Train Club (commonly known as the Tetsuryo Club) invite Misaki to join them, as she steps into the world of railways, Misaki's heart beats with excitement for the journey that awaits her.\n\n(Source: MAL News)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 14698,
+    "members": 1140,
+    "favorites": 4,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Original",
+    "studios": [
+      "East Fish Studio"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Slice of Life"
+    ],
+    "themes": [
+      "Adult Cast",
+      "CGDCT"
+    ],
+    "demographics": [],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/62615/Tetsuryou_Meet_with_Tetsudou_Musume",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 63751,
+    "title": "Tank Chair",
+    "title_english": null,
+    "title_japanese": "TANK CHAIR-戦車椅子-",
+    "title_synonyms": [
+      "Sensha Isu"
+    ],
+    "image_url": "https://myanimelist.net/images/anime/1302/156145l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/CdzLcwU9pVo?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Shizuka takes on the most dangerous of assassin jobs, but she's not the one doing the killing. Rather, it's her brother, Nagi, a strong assassin who took a bullet to protect his sister, leaving him in a comatose state and having to use a wheelchair. However, Shizuka has figured out the key to waking her brother up: he must be faced with killing intent! Thus begins a violent journey of recovery, battling the most dangerous foes!\n\n(Source: Kodansha USA)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 15297,
+    "members": 975,
+    "favorites": 3,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Web manga",
+    "studios": [
+      "Polygon Pictures"
+    ],
+    "producers": [
+      "Bandai Namco Filmworks"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action"
+    ],
+    "themes": [
+      "Gore",
+      "Super Power"
+    ],
+    "demographics": [],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63751/Tank_Chair",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": false,
+    "is_kid": false
+  },
+  {
     "mal_id": 63713,
     "title": "Junket Bank",
     "title_english": null,
@@ -711,8 +1293,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 15950,
-    "members": 813,
+    "popularity": 15434,
+    "members": 939,
     "favorites": 1,
     "type": "TV",
     "status": "Not yet aired",
@@ -748,103 +1330,6 @@
     "is_kid": false
   },
   {
-    "mal_id": 63053,
-    "title": "Kyoufu Collector",
-    "title_english": "Horror Collector",
-    "title_japanese": "恐怖コレクター",
-    "title_synonyms": [],
-    "image_url": "https://myanimelist.net/images/anime/1494/153994l.jpg",
-    "trailer_url": null,
-    "synopsis": "The internet is full of creepypastas, cryptid sightings, tales of paranormal activity, and unsolved disappearances. These are mostly rumors and pranks fueled by trolls—entertainment. But the unlucky few learn the hard way that some legends are true. Many of these unfortunate souls are doomed, but their luck may change if they cross paths with the boy in the red hood. He roams from town to town and appears wherever strange things occur. Is he a light in the dark? Or living proof that monsters are all too real...?\n\n(Source: Yen Press)",
-    "background": "",
-    "episodes": null,
-    "score": null,
-    "scored_by": null,
-    "rank": null,
-    "popularity": 16769,
-    "members": 676,
-    "favorites": 2,
-    "type": "TV",
-    "status": "Not yet aired",
-    "airing": false,
-    "approved": true,
-    "duration": "Unknown",
-    "rating": null,
-    "source": "Novel",
-    "studios": [],
-    "producers": [],
-    "licensors": [],
-    "genres": [
-      "Horror",
-      "Mystery",
-      "Supernatural"
-    ],
-    "themes": [],
-    "demographics": [
-      "Kids"
-    ],
-    "aired_from": "2026-10-01T00:00:00+00:00",
-    "aired_to": null,
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/63053/Kyoufu_Collector",
-    "year": 2026,
-    "season": "fall",
-    "is_hentai": false,
-    "is_japanese": true,
-    "is_kid": true
-  },
-  {
-    "mal_id": 63751,
-    "title": "Tank Chair",
-    "title_english": null,
-    "title_japanese": "TANK CHAIR-戦車椅子-",
-    "title_synonyms": [
-      "Sensha Isu"
-    ],
-    "image_url": "https://myanimelist.net/images/anime/1302/156145l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/CdzLcwU9pVo?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "Shizuka takes on the most dangerous of assassin jobs, but she's not the one doing the killing. Rather, it's her brother, Nagi, a strong assassin who took a bullet to protect his sister, leaving him in a comatose state and having to use a wheelchair. However, Shizuka has figured out the key to waking her brother up: he must be faced with killing intent! Thus begins a violent journey of recovery, battling the most dangerous foes!\n\n(Source: Kodansha USA)",
-    "background": "",
-    "episodes": null,
-    "score": null,
-    "scored_by": null,
-    "rank": null,
-    "popularity": 16900,
-    "members": 658,
-    "favorites": 2,
-    "type": "TV",
-    "status": "Not yet aired",
-    "airing": false,
-    "approved": true,
-    "duration": "Unknown",
-    "rating": null,
-    "source": "Web manga",
-    "studios": [
-      "Polygon Pictures"
-    ],
-    "producers": [
-      "Bandai Namco Filmworks"
-    ],
-    "licensors": [],
-    "genres": [
-      "Action"
-    ],
-    "themes": [
-      "Gore",
-      "Super Power"
-    ],
-    "demographics": [],
-    "aired_from": "2026-10-01T00:00:00+00:00",
-    "aired_to": null,
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/63751/Tank_Chair",
-    "year": 2026,
-    "season": "fall",
-    "is_hentai": false,
-    "is_japanese": false,
-    "is_kid": false
-  },
-  {
     "mal_id": 63712,
     "title": "Tensei Goblin dakedo Shitsumon Aru?",
     "title_english": null,
@@ -853,15 +1338,15 @@
       "So What's Wrong with Getting Reborn as a Goblin?"
     ],
     "image_url": "https://myanimelist.net/images/anime/1008/156031l.jpg",
-    "trailer_url": null,
+    "trailer_url": "https://www.youtube-nocookie.com/embed/V4K-kG3hEJc?enablejsapi=1&wmode=opaque&autoplay=1",
     "synopsis": "Office worker Akira Yagami's altruistic nature usually gets him the short end of the stick. When he dies after saving a kid from oncoming traffic...he reincarnates in another world as a goblin?! Normally, goblins only live for seven days, but Akira's newfound powers let him defy the species' normal life span... and are the key to his path to becoming the strongest goblin ever!\n\n(Source: Yen Press)",
     "background": "",
     "episodes": null,
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 18045,
-    "members": 531,
+    "popularity": 16111,
+    "members": 786,
     "favorites": 0,
     "type": "TV",
     "status": "Not yet aired",
@@ -897,5 +1382,51 @@
     "is_hentai": false,
     "is_japanese": true,
     "is_kid": false
+  },
+  {
+    "mal_id": 63053,
+    "title": "Kyoufu Collector",
+    "title_english": "Horror Collector",
+    "title_japanese": "恐怖コレクター",
+    "title_synonyms": [],
+    "image_url": "https://myanimelist.net/images/anime/1494/153994l.jpg",
+    "trailer_url": null,
+    "synopsis": "The internet is full of creepypastas, cryptid sightings, tales of paranormal activity, and unsolved disappearances. These are mostly rumors and pranks fueled by trolls—entertainment. But the unlucky few learn the hard way that some legends are true. Many of these unfortunate souls are doomed, but their luck may change if they cross paths with the boy in the red hood. He roams from town to town and appears wherever strange things occur. Is he a light in the dark? Or living proof that monsters are all too real...?\n\n(Source: Yen Press)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 16541,
+    "members": 716,
+    "favorites": 4,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Novel",
+    "studios": [],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Supernatural"
+    ],
+    "themes": [],
+    "demographics": [
+      "Kids"
+    ],
+    "aired_from": "2026-10-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63053/Kyoufu_Collector",
+    "year": 2026,
+    "season": "fall",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": true
   }
 ]

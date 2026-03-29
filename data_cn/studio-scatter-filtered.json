@@ -7,16 +7,10 @@
       "rated_count": 5
     },
     {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 6.33,
-      "anime_count": 7,
-      "rated_count": 7
-    },
-    {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.26,
-      "anime_count": 38,
-      "rated_count": 38
+      "name": "Production I.G",
+      "avg_rating": 7.01,
+      "anime_count": 22,
+      "rated_count": 22
     },
     {
       "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
@@ -25,16 +19,28 @@
       "rated_count": 7
     },
     {
-      "name": "Production I.G",
-      "avg_rating": 7.01,
-      "anime_count": 22,
-      "rated_count": 22
-    },
-    {
       "name": "MADHOUSE",
       "avg_rating": 6.93,
       "anime_count": 25,
       "rated_count": 25
+    },
+    {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 5.8,
+      "anime_count": 6,
+      "rated_count": 6
+    },
+    {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.26,
+      "anime_count": 38,
+      "rated_count": 38
+    },
+    {
+      "name": "FelixFilm",
+      "avg_rating": 6.0,
+      "anime_count": 5,
+      "rated_count": 5
     },
     {
       "name": "P.A.WORKS",
@@ -43,26 +49,26 @@
       "rated_count": 8
     },
     {
-      "name": "ILCA",
-      "avg_rating": 5.19,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "FelixFilm",
-      "avg_rating": 5.98,
-      "anime_count": 5,
-      "rated_count": 5
-    },
-    {
       "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.8,
+      "avg_rating": 5.79,
       "anime_count": 7,
       "rated_count": 7
     },
     {
+      "name": "ILCA",
+      "avg_rating": 5.18,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
+      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
+      "avg_rating": 3.06,
+      "anime_count": 8,
+      "rated_count": 8
+    },
+    {
       "name": "MAPPA",
-      "avg_rating": 6.65,
+      "avg_rating": 6.67,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -83,12 +89,6 @@
       "avg_rating": 7.28,
       "anime_count": 6,
       "rated_count": 6
-    },
-    {
-      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
-      "avg_rating": 3.5,
-      "anime_count": 7,
-      "rated_count": 7
     },
     {
       "name": "DLE",
@@ -499,7 +499,7 @@
       "rated_count": 6
     }
   ],
-  "mean_rating": 6.14,
+  "mean_rating": 6.13,
   "mean_count": 10.7,
   "total_studios": 83,
   "min_anime_count": 5

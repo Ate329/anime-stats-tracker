@@ -1,12 +1,6 @@
 {
   "studios": [
     {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.26,
-      "anime_count": 38,
-      "rated_count": 38
-    },
-    {
       "name": "Production I.G",
       "avg_rating": 7.01,
       "anime_count": 22,
@@ -19,14 +13,20 @@
       "rated_count": 25
     },
     {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.26,
+      "anime_count": 38,
+      "rated_count": 38
+    },
+    {
       "name": "ILCA",
-      "avg_rating": 5.19,
+      "avg_rating": 5.18,
       "anime_count": 11,
       "rated_count": 11
     },
     {
       "name": "MAPPA",
-      "avg_rating": 6.65,
+      "avg_rating": 6.67,
       "anime_count": 10,
       "rated_count": 10
     },

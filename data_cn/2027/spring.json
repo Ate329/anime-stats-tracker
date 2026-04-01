@@ -9,13 +9,12 @@
     "scored_by": 1,
     "rank": 0,
     "popularity": 0,
-    "members": 134,
+    "members": 211,
     "genres": [
-      "悬疑",
-      "治愈"
+      "悬疑"
     ],
     "studios": [
-      "TOHO animation STUDIO×OLM"
+      "OLM"
     ],
     "source": [
       "日向夏（ヒーロー文庫／イマジカインフォス刊）"
@@ -27,5 +26,34 @@
     "themes": [],
     "demographics": [],
     "url": "https://bgm.tv/subject/599893"
+  },
+  {
+    "mal_id": 590685,
+    "title": "幼儿园战争",
+    "title_japanese": "幼稚園WARS",
+    "image_url": "https://lain.bgm.tv/pic/cover/l/47/f3/590685_lpJ7p.jpg",
+    "synopsis": "政治家、世界企業の社長、石油王、ハリウッドスター…。\r\n世界の重鎮の子どもが通うブラック幼稚園。\r\nここでは政府の命令により、減刑と引きかえに犯罪者が“特殊教諭”として子どもを守っていた。\r\n元殺し屋・リタは絶賛彼氏募集中の新人教諭。\r\nある日、子どもを狙った殺し屋が現れるが、それが超イケメンで!?\r\n世界一“安全”な幼稚園で繰り広げられるバイオレンスアクションラブコメディ！開幕！",
+    "score": 0,
+    "scored_by": 0,
+    "rank": 0,
+    "popularity": 0,
+    "members": 152,
+    "genres": [
+      "喜剧",
+      "爱情"
+    ],
+    "studios": [
+      "サンライズ x FelixFilm"
+    ],
+    "source": [
+      "千葉侑生（集英社「少年ジャンプ＋」連載）"
+    ],
+    "aired_from": null,
+    "year": null,
+    "is_hentai": false,
+    "title_english": "",
+    "themes": [],
+    "demographics": [],
+    "url": "https://bgm.tv/subject/590685"
   }
 ]

@@ -7,33 +7,33 @@
     },
     {
       "studio": "SHAFT",
-      "count": 40,
-      "avg_score": 7.35
+      "count": 41,
+      "avg_score": 7.37
     },
     {
       "studio": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
       "count": 38,
-      "avg_score": 6.26
+      "avg_score": 6.28
     },
     {
       "studio": "MADHOUSE",
       "count": 25,
-      "avg_score": 6.93
+      "avg_score": 6.92
     },
     {
       "studio": "A-1 Pictures",
-      "count": 24,
-      "avg_score": 6.46
+      "count": 25,
+      "avg_score": 6.5
     },
     {
       "studio": "SILVER LINK.",
-      "count": 23,
-      "avg_score": 6.62
+      "count": 25,
+      "avg_score": 6.57
     },
     {
       "studio": "Production I.G",
       "count": 22,
-      "avg_score": 7.01
+      "avg_score": 7.0
     },
     {
       "studio": "NHK\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba",
@@ -43,12 +43,17 @@
     {
       "studio": "GONZO",
       "count": 20,
-      "avg_score": 6.36
+      "avg_score": 6.34
+    },
+    {
+      "studio": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
+      "count": 19,
+      "avg_score": 5.58
     },
     {
       "studio": "\u304e\u3083\u308d\u3063\u3077",
       "count": 19,
-      "avg_score": 6.51
+      "avg_score": 6.54
     },
     {
       "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
@@ -56,19 +61,14 @@
       "avg_score": 7.18
     },
     {
-      "studio": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
-      "count": 17,
-      "avg_score": 5.55
-    },
-    {
       "studio": "\u30c8\u30e0\u30b9\u30fb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8",
       "count": 16,
-      "avg_score": 5.83
+      "avg_score": 5.82
     },
     {
       "studio": "NHK\u3001NHK\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba",
       "count": 16,
-      "avg_score": 6.38
+      "avg_score": 6.41
     },
     {
       "studio": "BONES",
@@ -79,15 +79,15 @@
   "by_quality": [
     {
       "studio": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_score": 7.64,
-      "count": 13,
-      "rated_count": 13
+      "avg_score": 7.56,
+      "count": 14,
+      "rated_count": 14
     },
     {
       "studio": "SHAFT",
-      "avg_score": 7.35,
-      "count": 40,
-      "rated_count": 40
+      "avg_score": 7.37,
+      "count": 41,
+      "rated_count": 41
     },
     {
       "studio": "\u4e9c\u7d30\u4e9c\u5802",
@@ -102,20 +102,14 @@
       "rated_count": 18
     },
     {
-      "studio": "NAS",
-      "avg_score": 7.14,
-      "count": 12,
-      "rated_count": 12
-    },
-    {
       "studio": "Production I.G",
-      "avg_score": 7.01,
+      "avg_score": 7.0,
       "count": 22,
       "rated_count": 22
     },
     {
       "studio": "MADHOUSE",
-      "avg_score": 6.93,
+      "avg_score": 6.92,
       "count": 25,
       "rated_count": 25
     },
@@ -127,19 +121,19 @@
     },
     {
       "studio": "OLM TEAM KATO",
-      "avg_score": 6.74,
+      "avg_score": 6.75,
       "count": 10,
       "rated_count": 10
     },
     {
       "studio": "\u30a8\u30a4\u30c8\u30d3\u30c3\u30c8",
-      "avg_score": 6.68,
+      "avg_score": 6.7,
       "count": 12,
       "rated_count": 12
     },
     {
       "studio": "MAPPA",
-      "avg_score": 6.67,
+      "avg_score": 6.69,
       "count": 10,
       "rated_count": 10
     },
@@ -151,9 +145,9 @@
     },
     {
       "studio": "SILVER LINK.",
-      "avg_score": 6.62,
-      "count": 23,
-      "rated_count": 23
+      "avg_score": 6.57,
+      "count": 25,
+      "rated_count": 25
     },
     {
       "studio": "feel.",
@@ -163,9 +157,15 @@
     },
     {
       "studio": "\u304e\u3083\u308d\u3063\u3077",
-      "avg_score": 6.51,
+      "avg_score": 6.54,
       "count": 19,
       "rated_count": 19
+    },
+    {
+      "studio": "A-1 Pictures",
+      "avg_score": 6.5,
+      "count": 25,
+      "rated_count": 25
     }
   ]
 }

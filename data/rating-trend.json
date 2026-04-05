@@ -249,7 +249,7 @@
     7.24,
     6.95,
     7.08,
-    7.38
+    6.95
   ],
   "counts": [
     30,
@@ -333,9 +333,9 @@
     62,
     58,
     58,
-    2
+    21
   ],
-  "overall_average": 6.95,
+  "overall_average": 6.94,
   "min_rating": 6.49,
-  "max_rating": 7.38
+  "max_rating": 7.3
 }

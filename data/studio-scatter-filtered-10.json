@@ -64,7 +64,7 @@
       "name": "Studio Comet",
       "avg_rating": 6.89,
       "anime_count": 27,
-      "rated_count": 24
+      "rated_count": 25
     },
     {
       "name": "Bones",
@@ -152,15 +152,15 @@
     },
     {
       "name": "Satelight",
-      "avg_rating": 6.93,
+      "avg_rating": 6.92,
       "anime_count": 58,
-      "rated_count": 55
+      "rated_count": 56
     },
     {
       "name": "TMS Entertainment",
-      "avg_rating": 7.06,
+      "avg_rating": 7.08,
       "anime_count": 89,
-      "rated_count": 83
+      "rated_count": 84
     },
     {
       "name": "Nomad",
@@ -314,13 +314,13 @@
     },
     {
       "name": "David Production",
-      "avg_rating": 7.48,
+      "avg_rating": 7.49,
       "anime_count": 28,
       "rated_count": 27
     },
     {
       "name": "Kinema Citrus",
-      "avg_rating": 7.13,
+      "avg_rating": 7.12,
       "anime_count": 33,
       "rated_count": 32
     },
@@ -380,21 +380,21 @@
     },
     {
       "name": "8bit",
-      "avg_rating": 7.25,
+      "avg_rating": 7.27,
       "anime_count": 36,
-      "rated_count": 35
+      "rated_count": 36
     },
     {
       "name": "Studio Gokumi",
       "avg_rating": 6.87,
       "anime_count": 33,
-      "rated_count": 32
+      "rated_count": 33
     },
     {
       "name": "Project No.9",
-      "avg_rating": 6.59,
+      "avg_rating": 6.64,
       "anime_count": 34,
-      "rated_count": 32
+      "rated_count": 33
     },
     {
       "name": "Seven",
@@ -404,9 +404,9 @@
     },
     {
       "name": "Lerche",
-      "avg_rating": 7.37,
+      "avg_rating": 7.4,
       "anime_count": 36,
-      "rated_count": 35
+      "rated_count": 36
     },
     {
       "name": "SANZIGEN",
@@ -448,7 +448,7 @@
       "name": "LIDENFILMS",
       "avg_rating": 6.84,
       "anime_count": 75,
-      "rated_count": 70
+      "rated_count": 71
     },
     {
       "name": "Fanworks",
@@ -464,7 +464,7 @@
     },
     {
       "name": "Orange",
-      "avg_rating": 7.34,
+      "avg_rating": 7.33,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -518,9 +518,9 @@
     },
     {
       "name": "TROYCA",
-      "avg_rating": 7.42,
+      "avg_rating": 7.4,
       "anime_count": 16,
-      "rated_count": 15
+      "rated_count": 16
     },
     {
       "name": "Felix Film",
@@ -554,9 +554,9 @@
     },
     {
       "name": "EMT Squared",
-      "avg_rating": 6.24,
+      "avg_rating": 6.26,
       "anime_count": 32,
-      "rated_count": 29
+      "rated_count": 30
     },
     {
       "name": "Millepensee",
@@ -572,13 +572,13 @@
     },
     {
       "name": "AXsiZ",
-      "avg_rating": 6.28,
+      "avg_rating": 6.31,
       "anime_count": 13,
-      "rated_count": 12
+      "rated_count": 13
     },
     {
       "name": "PINE JAM",
-      "avg_rating": 7.04,
+      "avg_rating": 7.05,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -596,7 +596,7 @@
     },
     {
       "name": "Typhoon Graphics",
-      "avg_rating": 6.34,
+      "avg_rating": 6.33,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -604,7 +604,7 @@
       "name": "Studio A-CAT",
       "avg_rating": 6.12,
       "anime_count": 13,
-      "rated_count": 11
+      "rated_count": 12
     },
     {
       "name": "Lesprit",
@@ -662,9 +662,9 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.43,
+      "avg_rating": 7.39,
       "anime_count": 16,
-      "rated_count": 13
+      "rated_count": 15
     },
     {
       "name": "Gift-o\u2019-Animation",
@@ -680,15 +680,15 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.24,
-      "anime_count": 12,
-      "rated_count": 8
+      "avg_rating": 5.94,
+      "anime_count": 13,
+      "rated_count": 10
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.08,
-      "anime_count": 14,
-      "rated_count": 9
+      "avg_rating": 5.84,
+      "anime_count": 15,
+      "rated_count": 11
     }
   ],
   "mean_rating": 6.91,

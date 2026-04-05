@@ -100,12 +100,12 @@
       "name": "Studio Comet",
       "avg_rating": 6.89,
       "anime_count": 27,
-      "rated_count": 24
+      "rated_count": 25
     },
     {
       "name": "Magic Bus",
       "avg_rating": 6.42,
-      "anime_count": 8,
+      "anime_count": 7,
       "rated_count": 5
     },
     {
@@ -224,9 +224,9 @@
     },
     {
       "name": "Satelight",
-      "avg_rating": 6.93,
+      "avg_rating": 6.92,
       "anime_count": 58,
-      "rated_count": 55
+      "rated_count": 56
     },
     {
       "name": "Daewon Media",
@@ -236,9 +236,9 @@
     },
     {
       "name": "TMS Entertainment",
-      "avg_rating": 7.06,
+      "avg_rating": 7.08,
       "anime_count": 89,
-      "rated_count": 83
+      "rated_count": 84
     },
     {
       "name": "Nomad",
@@ -440,9 +440,9 @@
     },
     {
       "name": "Ashi Productions",
-      "avg_rating": 6.86,
+      "avg_rating": 6.91,
       "anime_count": 6,
-      "rated_count": 5
+      "rated_count": 6
     },
     {
       "name": "Sparkly Key Animation Studio",
@@ -620,7 +620,7 @@
     },
     {
       "name": "David Production",
-      "avg_rating": 7.48,
+      "avg_rating": 7.49,
       "anime_count": 28,
       "rated_count": 27
     },
@@ -632,7 +632,7 @@
     },
     {
       "name": "Kinema Citrus",
-      "avg_rating": 7.13,
+      "avg_rating": 7.12,
       "anime_count": 33,
       "rated_count": 32
     },
@@ -770,9 +770,9 @@
     },
     {
       "name": "8bit",
-      "avg_rating": 7.25,
+      "avg_rating": 7.27,
       "anime_count": 36,
-      "rated_count": 35
+      "rated_count": 36
     },
     {
       "name": "AIC Classic",
@@ -790,7 +790,7 @@
       "name": "Studio Gokumi",
       "avg_rating": 6.87,
       "anime_count": 33,
-      "rated_count": 32
+      "rated_count": 33
     },
     {
       "name": "WAO World",
@@ -806,9 +806,9 @@
     },
     {
       "name": "Project No.9",
-      "avg_rating": 6.59,
+      "avg_rating": 6.64,
       "anime_count": 34,
-      "rated_count": 32
+      "rated_count": 33
     },
     {
       "name": "Studio Blanc.",
@@ -830,9 +830,9 @@
     },
     {
       "name": "Lerche",
-      "avg_rating": 7.37,
+      "avg_rating": 7.4,
       "anime_count": 36,
-      "rated_count": 35
+      "rated_count": 36
     },
     {
       "name": "Milky Cartoon",
@@ -964,7 +964,7 @@
       "name": "LIDENFILMS",
       "avg_rating": 6.84,
       "anime_count": 75,
-      "rated_count": 70
+      "rated_count": 71
     },
     {
       "name": "Kazami Gakuen Koushiki Douga-bu",
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "Orange",
-      "avg_rating": 7.34,
+      "avg_rating": 7.33,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -1130,9 +1130,9 @@
     },
     {
       "name": "TROYCA",
-      "avg_rating": 7.42,
+      "avg_rating": 7.4,
       "anime_count": 16,
-      "rated_count": 15
+      "rated_count": 16
     },
     {
       "name": "Fuji TV",
@@ -1190,9 +1190,9 @@
     },
     {
       "name": "EMT Squared",
-      "avg_rating": 6.24,
+      "avg_rating": 6.26,
       "anime_count": 32,
-      "rated_count": 29
+      "rated_count": 30
     },
     {
       "name": "Millepensee",
@@ -1280,13 +1280,13 @@
     },
     {
       "name": "AXsiZ",
-      "avg_rating": 6.28,
+      "avg_rating": 6.31,
       "anime_count": 13,
-      "rated_count": 12
+      "rated_count": 13
     },
     {
       "name": "PINE JAM",
-      "avg_rating": 7.04,
+      "avg_rating": 7.05,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -1424,7 +1424,7 @@
     },
     {
       "name": "Typhoon Graphics",
-      "avg_rating": 6.34,
+      "avg_rating": 6.33,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -1468,7 +1468,7 @@
       "name": "Studio A-CAT",
       "avg_rating": 6.12,
       "anime_count": 13,
-      "rated_count": 11
+      "rated_count": 12
     },
     {
       "name": "Lesprit",
@@ -1538,9 +1538,9 @@
     },
     {
       "name": "Studio Flad",
-      "avg_rating": 6.89,
+      "avg_rating": 6.8,
       "anime_count": 6,
-      "rated_count": 5
+      "rated_count": 6
     },
     {
       "name": "helo.inc",
@@ -1784,9 +1784,9 @@
     },
     {
       "name": "Drive",
-      "avg_rating": 7.32,
+      "avg_rating": 7.37,
       "anime_count": 9,
-      "rated_count": 8
+      "rated_count": 9
     },
     {
       "name": "Nihon Ad Systems",
@@ -1934,9 +1934,9 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.43,
+      "avg_rating": 7.39,
       "anime_count": 16,
-      "rated_count": 13
+      "rated_count": 15
     },
     {
       "name": "Visual Flight",
@@ -2264,9 +2264,9 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.24,
-      "anime_count": 12,
-      "rated_count": 8
+      "avg_rating": 5.94,
+      "anime_count": 13,
+      "rated_count": 10
     },
     {
       "name": "ROLL2",
@@ -2294,9 +2294,9 @@
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 6.08,
-      "anime_count": 14,
-      "rated_count": 9
+      "avg_rating": 5.84,
+      "anime_count": 15,
+      "rated_count": 11
     },
     {
       "name": "Studio Outrigger",
@@ -2438,7 +2438,7 @@
     },
     {
       "name": "animation studio42",
-      "avg_rating": 6.64,
+      "avg_rating": 6.65,
       "anime_count": 2,
       "rated_count": 1
     },
@@ -2450,30 +2450,36 @@
     },
     {
       "name": "Bellnox Films",
-      "avg_rating": 6.92,
+      "avg_rating": 7.03,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Qzil.la",
-      "avg_rating": 6.81,
+      "avg_rating": 6.8,
       "anime_count": 2,
       "rated_count": 1
     },
     {
       "name": "Nyan Pollution",
-      "avg_rating": 6.21,
+      "avg_rating": 6.22,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Doraku",
-      "avg_rating": 5.66,
+      "avg_rating": 5.63,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "BENTEN Film",
+      "avg_rating": 6.56,
       "anime_count": 1,
       "rated_count": 1
     }
   ],
   "mean_rating": 6.52,
   "mean_count": 10.2,
-  "total_studios": 412
+  "total_studios": 413
 }

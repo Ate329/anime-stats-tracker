@@ -7,14 +7,14 @@
   ],
   "avg_scores": {
     "winter": 6.16,
-    "spring": 6.35,
+    "spring": 6.26,
     "summer": 6.17,
     "fall": 6.23
   },
   "counts": {
     "winter": 968,
-    "spring": 1301,
-    "summer": 918,
+    "spring": 1305,
+    "summer": 919,
     "fall": 1156
   },
   "highest_rated_season": "spring",

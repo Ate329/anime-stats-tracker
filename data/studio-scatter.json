@@ -32,9 +32,9 @@
     },
     {
       "name": "Studio Hibari",
-      "avg_rating": 6.86,
+      "avg_rating": 6.84,
       "anime_count": 24,
-      "rated_count": 22
+      "rated_count": 23
     },
     {
       "name": "Tokyo Kids",
@@ -122,15 +122,15 @@
     },
     {
       "name": "Sunrise",
-      "avg_rating": 7.27,
+      "avg_rating": 7.26,
       "anime_count": 80,
-      "rated_count": 79
+      "rated_count": 80
     },
     {
       "name": "Madhouse",
-      "avg_rating": 7.5,
+      "avg_rating": 7.49,
       "anime_count": 100,
-      "rated_count": 98
+      "rated_count": 100
     },
     {
       "name": "Kyoto Animation",
@@ -140,15 +140,15 @@
     },
     {
       "name": "Production I.G",
-      "avg_rating": 7.57,
+      "avg_rating": 7.53,
       "anime_count": 68,
-      "rated_count": 66
+      "rated_count": 68
     },
     {
       "name": "OLM",
-      "avg_rating": 6.83,
+      "avg_rating": 6.85,
       "anime_count": 113,
-      "rated_count": 107
+      "rated_count": 109
     },
     {
       "name": "Gonzo",
@@ -206,7 +206,7 @@
     },
     {
       "name": "SynergySP",
-      "avg_rating": 7.01,
+      "avg_rating": 7.04,
       "anime_count": 33,
       "rated_count": 32
     },
@@ -224,9 +224,9 @@
     },
     {
       "name": "Satelight",
-      "avg_rating": 6.92,
+      "avg_rating": 6.9,
       "anime_count": 58,
-      "rated_count": 56
+      "rated_count": 57
     },
     {
       "name": "Daewon Media",
@@ -236,9 +236,9 @@
     },
     {
       "name": "TMS Entertainment",
-      "avg_rating": 7.08,
+      "avg_rating": 7.07,
       "anime_count": 89,
-      "rated_count": 84
+      "rated_count": 87
     },
     {
       "name": "Nomad",
@@ -256,7 +256,7 @@
       "name": "Tatsunoko Production",
       "avg_rating": 6.73,
       "anime_count": 40,
-      "rated_count": 36
+      "rated_count": 37
     },
     {
       "name": "Three-d",
@@ -368,9 +368,9 @@
     },
     {
       "name": "Zexcs",
-      "avg_rating": 6.75,
+      "avg_rating": 6.79,
       "anime_count": 33,
-      "rated_count": 32
+      "rated_count": 33
     },
     {
       "name": "Gallop",
@@ -416,9 +416,9 @@
     },
     {
       "name": "Studio Pierrot",
-      "avg_rating": 7.33,
+      "avg_rating": 7.32,
       "anime_count": 43,
-      "rated_count": 42
+      "rated_count": 43
     },
     {
       "name": "BeSTACK",
@@ -428,7 +428,7 @@
     },
     {
       "name": "asread.",
-      "avg_rating": 6.72,
+      "avg_rating": 6.75,
       "anime_count": 13,
       "rated_count": 13
     },
@@ -440,7 +440,7 @@
     },
     {
       "name": "Ashi Productions",
-      "avg_rating": 6.91,
+      "avg_rating": 6.92,
       "anime_count": 6,
       "rated_count": 6
     },
@@ -608,9 +608,9 @@
     },
     {
       "name": "White Fox",
-      "avg_rating": 7.61,
+      "avg_rating": 7.66,
       "anime_count": 28,
-      "rated_count": 26
+      "rated_count": 27
     },
     {
       "name": "SILVER LINK.",
@@ -632,7 +632,7 @@
     },
     {
       "name": "Kinema Citrus",
-      "avg_rating": 7.12,
+      "avg_rating": 7.13,
       "anime_count": 33,
       "rated_count": 32
     },
@@ -860,7 +860,7 @@
     },
     {
       "name": "SANZIGEN",
-      "avg_rating": 6.94,
+      "avg_rating": 6.93,
       "anime_count": 23,
       "rated_count": 23
     },
@@ -944,9 +944,9 @@
     },
     {
       "name": "Bandai Namco Pictures",
-      "avg_rating": 7.34,
+      "avg_rating": 7.36,
       "anime_count": 37,
-      "rated_count": 34
+      "rated_count": 35
     },
     {
       "name": "Passione",
@@ -962,7 +962,7 @@
     },
     {
       "name": "LIDENFILMS",
-      "avg_rating": 6.84,
+      "avg_rating": 6.83,
       "anime_count": 75,
       "rated_count": 71
     },
@@ -992,9 +992,9 @@
     },
     {
       "name": "Wit Studio",
-      "avg_rating": 7.59,
+      "avg_rating": 7.61,
       "anime_count": 31,
-      "rated_count": 28
+      "rated_count": 29
     },
     {
       "name": "Seven Arcs Pictures",
@@ -1064,9 +1064,9 @@
     },
     {
       "name": "Connect",
-      "avg_rating": 6.77,
+      "avg_rating": 6.82,
       "anime_count": 14,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "teamKG",
@@ -1130,7 +1130,7 @@
     },
     {
       "name": "TROYCA",
-      "avg_rating": 7.4,
+      "avg_rating": 7.41,
       "anime_count": 16,
       "rated_count": 16
     },
@@ -1250,9 +1250,9 @@
     },
     {
       "name": "Signal.MD",
-      "avg_rating": 6.43,
+      "avg_rating": 6.44,
       "anime_count": 15,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "Kyotoma",
@@ -1358,9 +1358,9 @@
     },
     {
       "name": "Zero-G",
-      "avg_rating": 6.86,
+      "avg_rating": 6.92,
       "anime_count": 30,
-      "rated_count": 26
+      "rated_count": 28
     },
     {
       "name": "Bouncy",
@@ -1466,7 +1466,7 @@
     },
     {
       "name": "Studio A-CAT",
-      "avg_rating": 6.12,
+      "avg_rating": 6.11,
       "anime_count": 13,
       "rated_count": 12
     },
@@ -1538,7 +1538,7 @@
     },
     {
       "name": "Studio Flad",
-      "avg_rating": 6.8,
+      "avg_rating": 6.81,
       "anime_count": 6,
       "rated_count": 6
     },
@@ -1683,7 +1683,7 @@
     {
       "name": "CygamesPictures",
       "avg_rating": 7.78,
-      "anime_count": 10,
+      "anime_count": 9,
       "rated_count": 9
     },
     {
@@ -1754,9 +1754,9 @@
     },
     {
       "name": "ENGI",
-      "avg_rating": 7.04,
+      "avg_rating": 6.96,
       "anime_count": 15,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "Bibury Animation Studios",
@@ -1784,7 +1784,7 @@
     },
     {
       "name": "Drive",
-      "avg_rating": 7.37,
+      "avg_rating": 7.38,
       "anime_count": 9,
       "rated_count": 9
     },
@@ -1934,9 +1934,9 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.39,
+      "avg_rating": 7.38,
       "anime_count": 16,
-      "rated_count": 15
+      "rated_count": 16
     },
     {
       "name": "Visual Flight",
@@ -1958,13 +1958,13 @@
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.75,
+      "avg_rating": 6.76,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.75,
+      "avg_rating": 6.76,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -2025,7 +2025,7 @@
     {
       "name": "studio MOTHER",
       "avg_rating": 7.41,
-      "anime_count": 5,
+      "anime_count": 6,
       "rated_count": 5
     },
     {
@@ -2060,9 +2060,9 @@
     },
     {
       "name": "Jumondou",
-      "avg_rating": 6.7,
+      "avg_rating": 6.75,
       "anime_count": 5,
-      "rated_count": 4
+      "rated_count": 5
     },
     {
       "name": "Bibury Animation CG",
@@ -2108,9 +2108,9 @@
     },
     {
       "name": "Yostar Pictures",
-      "avg_rating": 7.28,
+      "avg_rating": 7.27,
       "anime_count": 8,
-      "rated_count": 7
+      "rated_count": 8
     },
     {
       "name": "UchuPeople",
@@ -2138,9 +2138,9 @@
     },
     {
       "name": "Studio Kafka",
-      "avg_rating": 7.84,
-      "anime_count": 2,
-      "rated_count": 2
+      "avg_rating": 8.02,
+      "anime_count": 3,
+      "rated_count": 3
     },
     {
       "name": "Gekkou",
@@ -2162,9 +2162,9 @@
     },
     {
       "name": "BUG FILMS",
-      "avg_rating": 7.7,
+      "avg_rating": 8.22,
       "anime_count": 2,
-      "rated_count": 1
+      "rated_count": 2
     },
     {
       "name": "New Deer",
@@ -2264,7 +2264,7 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 5.94,
+      "avg_rating": 5.82,
       "anime_count": 13,
       "rated_count": 10
     },
@@ -2282,9 +2282,9 @@
     },
     {
       "name": "Elias",
-      "avg_rating": 5.57,
+      "avg_rating": 5.61,
       "anime_count": 3,
-      "rated_count": 2
+      "rated_count": 3
     },
     {
       "name": "ILCASHIPS",
@@ -2294,7 +2294,7 @@
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 5.84,
+      "avg_rating": 5.73,
       "anime_count": 15,
       "rated_count": 11
     },
@@ -2312,7 +2312,7 @@
     },
     {
       "name": "Ga-Crew",
-      "avg_rating": 7.0,
+      "avg_rating": 6.99,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -2336,9 +2336,9 @@
     },
     {
       "name": "Voil",
-      "avg_rating": 7.1,
+      "avg_rating": 7.01,
       "anime_count": 3,
-      "rated_count": 2
+      "rated_count": 3
     },
     {
       "name": "Ziine Studio",
@@ -2372,9 +2372,9 @@
     },
     {
       "name": "Bones Film",
-      "avg_rating": 7.98,
+      "avg_rating": 7.92,
       "anime_count": 6,
-      "rated_count": 4
+      "rated_count": 6
     },
     {
       "name": "Makaria",
@@ -2396,9 +2396,9 @@
     },
     {
       "name": "Soigne",
-      "avg_rating": 7.72,
+      "avg_rating": 7.61,
       "anime_count": 2,
-      "rated_count": 1
+      "rated_count": 2
     },
     {
       "name": "Reirs",
@@ -2444,21 +2444,21 @@
     },
     {
       "name": "Atelier Peuplier",
-      "avg_rating": 7.49,
+      "avg_rating": 7.48,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Bellnox Films",
-      "avg_rating": 7.03,
+      "avg_rating": 7.04,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Qzil.la",
-      "avg_rating": 6.8,
+      "avg_rating": 6.47,
       "anime_count": 2,
-      "rated_count": 1
+      "rated_count": 2
     },
     {
       "name": "Nyan Pollution",
@@ -2468,18 +2468,36 @@
     },
     {
       "name": "Doraku",
-      "avg_rating": 5.63,
+      "avg_rating": 5.66,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "BENTEN Film",
-      "avg_rating": 6.56,
+      "avg_rating": 6.43,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "Juvenage",
+      "avg_rating": 7.4,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "Studio LEO",
+      "avg_rating": 5.68,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "S.o.K",
+      "avg_rating": 6.16,
       "anime_count": 1,
       "rated_count": 1
     }
   ],
   "mean_rating": 6.52,
-  "mean_count": 10.2,
-  "total_studios": 413
+  "mean_count": 10.1,
+  "total_studios": 416
 }

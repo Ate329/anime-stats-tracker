@@ -26,7 +26,7 @@
     },
     {
       "name": "Studio Hibari",
-      "avg_rating": 6.84,
+      "avg_rating": 6.83,
       "anime_count": 24,
       "rated_count": 23
     },
@@ -38,9 +38,9 @@
     },
     {
       "name": "Actas",
-      "avg_rating": 6.86,
+      "avg_rating": 6.97,
       "anime_count": 10,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "Bee Train",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Studio Comet",
-      "avg_rating": 6.89,
+      "avg_rating": 6.88,
       "anime_count": 27,
       "rated_count": 25
     },
@@ -80,7 +80,7 @@
     },
     {
       "name": "Madhouse",
-      "avg_rating": 7.49,
+      "avg_rating": 7.48,
       "anime_count": 100,
       "rated_count": 100
     },
@@ -176,7 +176,7 @@
     },
     {
       "name": "Tatsunoko Production",
-      "avg_rating": 6.73,
+      "avg_rating": 6.72,
       "anime_count": 40,
       "rated_count": 37
     },
@@ -188,9 +188,9 @@
     },
     {
       "name": "Brain's Base",
-      "avg_rating": 7.25,
+      "avg_rating": 7.24,
       "anime_count": 50,
-      "rated_count": 47
+      "rated_count": 48
     },
     {
       "name": "ufotable",
@@ -308,9 +308,9 @@
     },
     {
       "name": "SILVER LINK.",
-      "avg_rating": 6.93,
+      "avg_rating": 6.94,
       "anime_count": 72,
-      "rated_count": 71
+      "rated_count": 72
     },
     {
       "name": "David Production",
@@ -321,7 +321,7 @@
     {
       "name": "Kinema Citrus",
       "avg_rating": 7.13,
-      "anime_count": 33,
+      "anime_count": 34,
       "rated_count": 32
     },
     {
@@ -434,9 +434,9 @@
     },
     {
       "name": "Bandai Namco Pictures",
-      "avg_rating": 7.36,
+      "avg_rating": 7.38,
       "anime_count": 37,
-      "rated_count": 35
+      "rated_count": 36
     },
     {
       "name": "Passione",
@@ -448,7 +448,7 @@
       "name": "LIDENFILMS",
       "avg_rating": 6.83,
       "anime_count": 75,
-      "rated_count": 71
+      "rated_count": 72
     },
     {
       "name": "Fanworks",
@@ -518,15 +518,15 @@
     },
     {
       "name": "TROYCA",
-      "avg_rating": 7.41,
+      "avg_rating": 7.42,
       "anime_count": 16,
       "rated_count": 16
     },
     {
       "name": "Felix Film",
-      "avg_rating": 7.1,
+      "avg_rating": 7.11,
       "anime_count": 15,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "Studio 3Hz",
@@ -555,7 +555,7 @@
     {
       "name": "EMT Squared",
       "avg_rating": 6.26,
-      "anime_count": 32,
+      "anime_count": 33,
       "rated_count": 30
     },
     {
@@ -566,7 +566,7 @@
     },
     {
       "name": "Signal.MD",
-      "avg_rating": 6.44,
+      "avg_rating": 6.43,
       "anime_count": 15,
       "rated_count": 14
     },
@@ -590,7 +590,7 @@
     },
     {
       "name": "Zero-G",
-      "avg_rating": 6.92,
+      "avg_rating": 6.91,
       "anime_count": 30,
       "rated_count": 28
     },
@@ -602,7 +602,7 @@
     },
     {
       "name": "Studio A-CAT",
-      "avg_rating": 6.11,
+      "avg_rating": 6.09,
       "anime_count": 13,
       "rated_count": 12
     },
@@ -638,7 +638,7 @@
     },
     {
       "name": "ENGI",
-      "avg_rating": 6.96,
+      "avg_rating": 6.95,
       "anime_count": 15,
       "rated_count": 14
     },
@@ -662,25 +662,25 @@
     },
     {
       "name": "Gift-o\u2019-Animation",
-      "avg_rating": 6.76,
+      "avg_rating": 6.77,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Studio Jemi",
-      "avg_rating": 6.76,
+      "avg_rating": 6.77,
       "anime_count": 10,
       "rated_count": 10
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 5.82,
+      "avg_rating": 5.81,
       "anime_count": 13,
       "rated_count": 10
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 5.73,
+      "avg_rating": 5.72,
       "anime_count": 15,
       "rated_count": 11
     }

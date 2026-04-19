@@ -13,7 +13,7 @@
     {
       "studio": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
       "count": 38,
-      "avg_score": 6.24
+      "avg_score": 6.23
     },
     {
       "studio": "MADHOUSE",
@@ -33,7 +33,7 @@
     {
       "studio": "Production I.G",
       "count": 22,
-      "avg_score": 6.88
+      "avg_score": 6.87
     },
     {
       "studio": "NHK\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba",
@@ -79,7 +79,7 @@
   "by_quality": [
     {
       "studio": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_score": 7.56,
+      "avg_score": 7.58,
       "count": 14,
       "rated_count": 14
     },
@@ -115,7 +115,7 @@
     },
     {
       "studio": "Production I.G",
-      "avg_score": 6.88,
+      "avg_score": 6.87,
       "count": 22,
       "rated_count": 22
     },

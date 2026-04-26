@@ -8,12 +8,12 @@
   "avg_scores": {
     "winter": 6.15,
     "spring": 6.24,
-    "summer": 6.17,
+    "summer": 6.18,
     "fall": 6.23
   },
   "counts": {
     "winter": 971,
-    "spring": 1308,
+    "spring": 1309,
     "summer": 920,
     "fall": 1157
   },

@@ -16,9 +16,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3733,
-    "members": 47016,
-    "favorites": 60,
+    "popularity": 3706,
+    "members": 47580,
+    "favorites": 61,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -49,6 +49,59 @@
     "is_kid": false
   },
   {
+    "mal_id": 64058,
+    "title": "Kagurabachi",
+    "title_english": "Kagurabachi",
+    "title_japanese": "カグラバチ",
+    "title_synonyms": [],
+    "image_url": "https://myanimelist.net/images/anime/1653/157089l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/Ppmbg4IoL3g?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Eighteen years ago, during the Seitei War, Kunishige Rokuhira was the most renowned man in Japan. As a master swordsmith, he forged six enchanted blades, each imbued with a special power that secured the nation's victory. After the war, Kunishige retired to the mountains with his son, Chihiro, who began diligently learning the craft. Nearing his 15th birthday, the level-headed Chihiro resolved to one day succeed his father. However, his plans were derailed when he witnessed a group of powerful sorcerers kill his father and steal the sacred blades.\n\nThree years after the incident, Chihiro lives on with hatred in his heart and an intense desire for revenge. Wielding the Enten, the seventh and final enchanted blade Kunishige created in secret, Chihiro cuts down evildoers associated with the Hishaku—the organization he believes to be responsible for his father's death. Chihiro has yet to unlock the Enten's full potential or perfect his swordsmanship, but he will stop at nothing to retrieve the stolen katanas, avenge his father, and honor the legacy he left behind.\n\n[Written by MAL Rewrite]",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 6251,
+    "members": 14425,
+    "favorites": 154,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": "R - 17+ (violence & profanity)",
+    "source": "Manga",
+    "studios": [
+      "Cypic"
+    ],
+    "producers": [
+      "Shochiku",
+      "CyberAgent"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Fantasy"
+    ],
+    "themes": [
+      "Gore",
+      "Urban Fantasy"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2027-04-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/64058/Kagurabachi",
+    "year": 2027,
+    "season": "spring",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 62613,
     "title": "Youchien Wars",
     "title_english": null,
@@ -64,8 +117,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 9080,
-    "members": 5747,
+    "popularity": 9019,
+    "members": 5889,
     "favorites": 14,
     "type": "TV",
     "status": "Not yet aired",

@@ -114,16 +114,16 @@
       "rated_count": 59
     },
     {
-      "studio": "Wit Studio",
-      "avg_score": 7.61,
-      "count": 31,
-      "rated_count": 29
-    },
-    {
       "studio": "Trigger",
       "avg_score": 7.58,
       "count": 11,
       "rated_count": 11
+    },
+    {
+      "studio": "Wit Studio",
+      "avg_score": 7.56,
+      "count": 31,
+      "rated_count": 30
     },
     {
       "studio": "Production I.G",

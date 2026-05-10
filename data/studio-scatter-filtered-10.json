@@ -26,7 +26,7 @@
     },
     {
       "name": "Studio Hibari",
-      "avg_rating": 6.84,
+      "avg_rating": 6.83,
       "anime_count": 24,
       "rated_count": 23
     },
@@ -38,7 +38,7 @@
     },
     {
       "name": "Actas",
-      "avg_rating": 6.98,
+      "avg_rating": 7.0,
       "anime_count": 10,
       "rated_count": 10
     },
@@ -458,9 +458,9 @@
     },
     {
       "name": "Wit Studio",
-      "avg_rating": 7.61,
+      "avg_rating": 7.56,
       "anime_count": 31,
-      "rated_count": 29
+      "rated_count": 30
     },
     {
       "name": "Orange",
@@ -482,7 +482,7 @@
     },
     {
       "name": "Connect",
-      "avg_rating": 6.83,
+      "avg_rating": 6.84,
       "anime_count": 14,
       "rated_count": 14
     },
@@ -674,15 +674,15 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 5.8,
+      "avg_rating": 5.79,
       "anime_count": 13,
-      "rated_count": 10
+      "rated_count": 11
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 5.72,
+      "avg_rating": 5.71,
       "anime_count": 15,
-      "rated_count": 11
+      "rated_count": 12
     }
   ],
   "mean_rating": 6.9,

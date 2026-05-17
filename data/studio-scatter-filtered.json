@@ -315,7 +315,7 @@
     {
       "name": "Doga Kobo",
       "avg_rating": 7.13,
-      "anime_count": 65,
+      "anime_count": 66,
       "rated_count": 62
     },
     {
@@ -554,7 +554,7 @@
     },
     {
       "name": "Wit Studio",
-      "avg_rating": 7.56,
+      "avg_rating": 7.57,
       "anime_count": 31,
       "rated_count": 30
     },
@@ -645,7 +645,7 @@
     {
       "name": "TROYCA",
       "avg_rating": 7.41,
-      "anime_count": 16,
+      "anime_count": 17,
       "rated_count": 16
     },
     {
@@ -872,7 +872,7 @@
     },
     {
       "name": "ENGI",
-      "avg_rating": 6.94,
+      "avg_rating": 6.93,
       "anime_count": 16,
       "rated_count": 14
     },
@@ -884,7 +884,7 @@
     },
     {
       "name": "Drive",
-      "avg_rating": 7.38,
+      "avg_rating": 7.39,
       "anime_count": 9,
       "rated_count": 9
     },
@@ -962,7 +962,7 @@
     },
     {
       "name": "Yostar Pictures",
-      "avg_rating": 7.25,
+      "avg_rating": 7.24,
       "anime_count": 8,
       "rated_count": 8
     },
@@ -992,14 +992,14 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 5.79,
-      "anime_count": 13,
+      "avg_rating": 5.8,
+      "anime_count": 15,
       "rated_count": 11
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 5.71,
-      "anime_count": 15,
+      "avg_rating": 5.72,
+      "anime_count": 17,
       "rated_count": 12
     },
     {
@@ -1010,7 +1010,7 @@
     },
     {
       "name": "Bones Film",
-      "avg_rating": 7.92,
+      "avg_rating": 7.91,
       "anime_count": 6,
       "rated_count": 6
     }

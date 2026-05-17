@@ -62,7 +62,7 @@
     },
     {
       "studio": "Doga Kobo",
-      "count": 65,
+      "count": 66,
       "avg_score": 7.13
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "studio": "Wit Studio",
-      "avg_score": 7.56,
+      "avg_score": 7.57,
       "count": 31,
       "rated_count": 30
     },
@@ -144,21 +144,21 @@
       "rated_count": 27
     },
     {
-      "studio": "Madhouse",
-      "avg_score": 7.48,
-      "count": 100,
-      "rated_count": 100
-    },
-    {
       "studio": "Shaft",
       "avg_score": 7.48,
       "count": 42,
       "rated_count": 42
     },
     {
+      "studio": "Madhouse",
+      "avg_score": 7.48,
+      "count": 100,
+      "rated_count": 100
+    },
+    {
       "studio": "TROYCA",
       "avg_score": 7.41,
-      "count": 16,
+      "count": 17,
       "rated_count": 16
     },
     {

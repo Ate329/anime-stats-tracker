@@ -1,6 +1,42 @@
 {
   "studios": [
     {
+      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 7.58,
+      "anime_count": 14,
+      "rated_count": 14
+    },
+    {
+      "name": "GoHands",
+      "avg_rating": 4.74,
+      "anime_count": 5,
+      "rated_count": 5
+    },
+    {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 5.73,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
+      "name": "Production I.G",
+      "avg_rating": 6.88,
+      "anime_count": 22,
+      "rated_count": 22
+    },
+    {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.23,
+      "anime_count": 38,
+      "rated_count": 38
+    },
+    {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.12,
+      "anime_count": 19,
+      "rated_count": 19
+    },
+    {
       "name": "ZEXCS",
       "avg_rating": 6.46,
       "anime_count": 9,
@@ -13,28 +49,10 @@
       "rated_count": 6
     },
     {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 5.76,
-      "anime_count": 7,
-      "rated_count": 7
-    },
-    {
-      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.47,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.23,
-      "anime_count": 38,
-      "rated_count": 38
-    },
-    {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.13,
-      "anime_count": 19,
-      "rated_count": 19
+      "name": "MADHOUSE",
+      "avg_rating": 6.93,
+      "anime_count": 25,
+      "rated_count": 25
     },
     {
       "name": "WIT STUDIO",
@@ -43,20 +61,20 @@
       "rated_count": 5
     },
     {
-      "name": "Production I.G",
-      "avg_rating": 6.88,
-      "anime_count": 22,
-      "rated_count": 22
-    },
-    {
-      "name": "MADHOUSE",
-      "avg_rating": 6.93,
-      "anime_count": 25,
-      "rated_count": 25
+      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
+      "avg_rating": 5.46,
+      "anime_count": 11,
+      "rated_count": 11
     },
     {
       "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
-      "avg_rating": 6.07,
+      "avg_rating": 6.06,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
+      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
+      "avg_rating": 5.81,
       "anime_count": 7,
       "rated_count": 7
     },
@@ -67,22 +85,22 @@
       "rated_count": 8
     },
     {
+      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
+      "avg_rating": 3.15,
+      "anime_count": 8,
+      "rated_count": 8
+    },
+    {
       "name": "MAPPA",
       "avg_rating": 6.69,
       "anime_count": 10,
       "rated_count": 10
     },
     {
-      "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
-      "avg_rating": 5.81,
-      "anime_count": 7,
-      "rated_count": 7
-    },
-    {
-      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
-      "avg_rating": 3.15,
-      "anime_count": 8,
-      "rated_count": 8
+      "name": "FelixFilm",
+      "avg_rating": 6.04,
+      "anime_count": 5,
+      "rated_count": 5
     },
     {
       "name": "ILCA",
@@ -95,12 +113,6 @@
       "avg_rating": 6.5,
       "anime_count": 25,
       "rated_count": 25
-    },
-    {
-      "name": "FelixFilm",
-      "avg_rating": 6.04,
-      "anime_count": 5,
-      "rated_count": 5
     },
     {
       "name": "\u52dd\u9b28\u30b9\u30bf\u30b8\u30aa",
@@ -179,12 +191,6 @@
       "avg_rating": 6.88,
       "anime_count": 5,
       "rated_count": 5
-    },
-    {
-      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 7.65,
-      "anime_count": 13,
-      "rated_count": 13
     },
     {
       "name": "\u30e9\u30eb\u30b1",
@@ -505,8 +511,8 @@
       "rated_count": 5
     }
   ],
-  "mean_rating": 6.15,
-  "mean_count": 10.8,
-  "total_studios": 84,
+  "mean_rating": 6.13,
+  "mean_count": 10.7,
+  "total_studios": 85,
   "min_anime_count": 5
 }

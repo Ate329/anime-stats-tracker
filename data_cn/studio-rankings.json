@@ -48,7 +48,7 @@
     {
       "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
       "count": 19,
-      "avg_score": 7.13
+      "avg_score": 7.12
     },
     {
       "studio": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
@@ -79,9 +79,9 @@
   "by_quality": [
     {
       "studio": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_score": 7.65,
-      "count": 13,
-      "rated_count": 13
+      "avg_score": 7.58,
+      "count": 14,
+      "rated_count": 14
     },
     {
       "studio": "SHAFT",
@@ -97,7 +97,7 @@
     },
     {
       "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_score": 7.13,
+      "avg_score": 7.12,
       "count": 19,
       "rated_count": 19
     },

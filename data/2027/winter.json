@@ -16,9 +16,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3135,
-    "members": 64711,
-    "favorites": 190,
+    "popularity": 3115,
+    "members": 65118,
+    "favorites": 193,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -68,8 +68,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 6665,
-    "members": 12501,
+    "popularity": 6609,
+    "members": 12640,
     "favorites": 26,
     "type": "TV",
     "status": "Not yet aired",
@@ -114,8 +114,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 8964,
-    "members": 6016,
+    "popularity": 8924,
+    "members": 6030,
     "favorites": 16,
     "type": "TV",
     "status": "Not yet aired",
@@ -145,6 +145,112 @@
     "is_kid": false
   },
   {
+    "mal_id": 63215,
+    "title": "Historie",
+    "title_english": null,
+    "title_japanese": "ヒストリエ",
+    "title_synonyms": [
+      "Historié",
+      "Historie The Animation"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1234/158210l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/GM1Y206Unwg?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "Alexander the Great is a name known around the world as belonging to one of the greatest military commanders in history. But due to the grandeur of his name and enormity of his achievements, his right-hand man Eumenes remains a lesser-known historical figure. Eumenes led a turbulent life, overcoming numerous struggles and traveling great distances to meet and befriend many of the most influential names of his time.\n\nOne does not become the right hand of Alexander the Great by mere birth. Eumenes fought for his position with fierce talent, intellect, and confidence. This is his story.\n\n[Written by MAL Rewrite]",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 9841,
+    "members": 4566,
+    "favorites": 6,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "LIDENFILMS"
+    ],
+    "producers": [],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "themes": [
+      "Historical"
+    ],
+    "demographics": [
+      "Seinen"
+    ],
+    "aired_from": "2027-01-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/63215/Historie",
+    "year": 2027,
+    "season": "winter",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
+    "mal_id": 62808,
+    "title": "Isshiki-san wa Koi wo Shiritai.",
+    "title_english": null,
+    "title_japanese": "一式さんは恋を知りたい。",
+    "title_synonyms": [
+      "Koutetsu no Rinna wa XX Saretai",
+      "Fullmetal Rinna Wants to XX"
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1511/155454l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/M4Hd-y86hIs?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "A maiden who doesn't know what love is tries her hand at dating as a pseudo-couple!\n\nInspector Rinna, who is respected by everyone as a hard-working and serious policewoman, seems to be having trouble with her work lately. The reason for this is because she loses focus. It only happens when Meishi, the detective she works with, is around... So, she makes a choice...?\n\n(Source: Kadokawa, translated)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 9857,
+    "members": 4549,
+    "favorites": 12,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "Sakura Create"
+    ],
+    "producers": [
+      "Kadokawa"
+    ],
+    "licensors": [],
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "themes": [
+      "Adult Cast"
+    ],
+    "demographics": [
+      "Shounen"
+    ],
+    "aired_from": "2027-01-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/62808/Isshiki-san_wa_Koi_wo_Shiritai",
+    "year": 2027,
+    "season": "winter",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": false
+  },
+  {
     "mal_id": 62100,
     "title": "Hirayasumi",
     "title_english": null,
@@ -158,8 +264,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 10506,
-    "members": 3772,
+    "popularity": 10439,
+    "members": 3809,
     "favorites": 9,
     "type": "TV",
     "status": "Not yet aired",
@@ -209,8 +315,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 10733,
-    "members": 3528,
+    "popularity": 10652,
+    "members": 3562,
     "favorites": 6,
     "type": "TV",
     "status": "Not yet aired",
@@ -240,60 +346,6 @@
     "is_kid": false
   },
   {
-    "mal_id": 62808,
-    "title": "Isshiki-san wa Koi wo Shiritai.",
-    "title_english": null,
-    "title_japanese": "一式さんは恋を知りたい。",
-    "title_synonyms": [
-      "Koutetsu no Rinna wa XX Saretai",
-      "Fullmetal Rinna Wants to XX"
-    ],
-    "image_url": "https://cdn.myanimelist.net/images/anime/1511/155454l.jpg",
-    "trailer_url": "https://www.youtube-nocookie.com/embed/M4Hd-y86hIs?enablejsapi=1&wmode=opaque&autoplay=1",
-    "synopsis": "A maiden who doesn't know what love is tries her hand at dating as a pseudo-couple!\n\nInspector Rinna, who is respected by everyone as a hard-working and serious policewoman, seems to be having trouble with her work lately. The reason for this is because she loses focus. It only happens when Meishi, the detective she works with, is around... So, she makes a choice...?\n\n(Source: Kadokawa, translated)",
-    "background": "",
-    "episodes": null,
-    "score": null,
-    "scored_by": null,
-    "rank": null,
-    "popularity": 10798,
-    "members": 3470,
-    "favorites": 12,
-    "type": "TV",
-    "status": "Not yet aired",
-    "airing": false,
-    "approved": true,
-    "duration": "Unknown",
-    "rating": null,
-    "source": "Manga",
-    "studios": [
-      "Sakura Create"
-    ],
-    "producers": [
-      "Kadokawa"
-    ],
-    "licensors": [],
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "themes": [
-      "Adult Cast"
-    ],
-    "demographics": [
-      "Shounen"
-    ],
-    "aired_from": "2027-01-01T00:00:00+00:00",
-    "aired_to": null,
-    "broadcast": "Unknown",
-    "url": "https://myanimelist.net/anime/62808/Isshiki-san_wa_Koi_wo_Shiritai",
-    "year": 2027,
-    "season": "winter",
-    "is_hentai": false,
-    "is_japanese": true,
-    "is_kid": false
-  },
-  {
     "mal_id": 62605,
     "title": "Matsurika Kanriden",
     "title_english": null,
@@ -309,8 +361,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 12201,
-    "members": 2346,
+    "popularity": 12079,
+    "members": 2390,
     "favorites": 3,
     "type": "TV",
     "status": "Not yet aired",
@@ -361,8 +413,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 12414,
-    "members": 2220,
+    "popularity": 12323,
+    "members": 2234,
     "favorites": 1,
     "type": "TV",
     "status": "Not yet aired",
@@ -412,8 +464,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 14701,
-    "members": 1173,
+    "popularity": 14445,
+    "members": 1229,
     "favorites": 4,
     "type": "TV",
     "status": "Not yet aired",
@@ -459,9 +511,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 17863,
-    "members": 570,
-    "favorites": 4,
+    "popularity": 17680,
+    "members": 586,
+    "favorites": 5,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,

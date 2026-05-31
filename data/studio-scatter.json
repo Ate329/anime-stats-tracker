@@ -944,7 +944,7 @@
     },
     {
       "name": "Bandai Namco Pictures",
-      "avg_rating": 7.39,
+      "avg_rating": 7.38,
       "anime_count": 37,
       "rated_count": 36
     },
@@ -992,7 +992,7 @@
     },
     {
       "name": "Wit Studio",
-      "avg_rating": 7.57,
+      "avg_rating": 7.56,
       "anime_count": 31,
       "rated_count": 30
     },
@@ -1251,7 +1251,7 @@
     {
       "name": "Signal.MD",
       "avg_rating": 6.41,
-      "anime_count": 15,
+      "anime_count": 16,
       "rated_count": 14
     },
     {
@@ -1424,7 +1424,7 @@
     },
     {
       "name": "Typhoon Graphics",
-      "avg_rating": 6.33,
+      "avg_rating": 6.32,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -1538,7 +1538,7 @@
     },
     {
       "name": "Studio Flad",
-      "avg_rating": 6.76,
+      "avg_rating": 6.75,
       "anime_count": 6,
       "rated_count": 6
     },
@@ -1754,7 +1754,7 @@
     },
     {
       "name": "ENGI",
-      "avg_rating": 6.93,
+      "avg_rating": 6.92,
       "anime_count": 16,
       "rated_count": 14
     },
@@ -1934,7 +1934,7 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.38,
+      "avg_rating": 7.37,
       "anime_count": 16,
       "rated_count": 16
     },
@@ -2061,7 +2061,7 @@
     {
       "name": "Jumondou",
       "avg_rating": 6.73,
-      "anime_count": 5,
+      "anime_count": 6,
       "rated_count": 5
     },
     {
@@ -2162,7 +2162,7 @@
     },
     {
       "name": "BUG FILMS",
-      "avg_rating": 8.22,
+      "avg_rating": 8.21,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -2186,7 +2186,7 @@
     },
     {
       "name": "CompTown",
-      "avg_rating": 6.98,
+      "avg_rating": 6.97,
       "anime_count": 3,
       "rated_count": 3
     },
@@ -2282,7 +2282,7 @@
     },
     {
       "name": "Elias",
-      "avg_rating": 5.49,
+      "avg_rating": 5.47,
       "anime_count": 3,
       "rated_count": 3
     },
@@ -2318,7 +2318,7 @@
     },
     {
       "name": "Hayabusa Film",
-      "avg_rating": 6.65,
+      "avg_rating": 6.64,
       "anime_count": 5,
       "rated_count": 4
     },
@@ -2336,7 +2336,7 @@
     },
     {
       "name": "Voil",
-      "avg_rating": 7.07,
+      "avg_rating": 7.06,
       "anime_count": 3,
       "rated_count": 3
     },
@@ -2438,13 +2438,13 @@
     },
     {
       "name": "animation studio42",
-      "avg_rating": 6.66,
+      "avg_rating": 6.65,
       "anime_count": 2,
       "rated_count": 1
     },
     {
       "name": "Atelier Peuplier",
-      "avg_rating": 7.5,
+      "avg_rating": 7.48,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -2456,13 +2456,13 @@
     },
     {
       "name": "Qzil.la",
-      "avg_rating": 6.65,
+      "avg_rating": 6.66,
       "anime_count": 2,
       "rated_count": 2
     },
     {
       "name": "Nyan Pollution",
-      "avg_rating": 6.24,
+      "avg_rating": 6.22,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -2474,13 +2474,13 @@
     },
     {
       "name": "Cue",
-      "avg_rating": 7.53,
+      "avg_rating": 7.52,
       "anime_count": 3,
       "rated_count": 1
     },
     {
       "name": "BENTEN Film",
-      "avg_rating": 6.05,
+      "avg_rating": 6.04,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -2492,18 +2492,30 @@
     },
     {
       "name": "S.o.K",
-      "avg_rating": 6.54,
+      "avg_rating": 6.56,
       "anime_count": 1,
       "rated_count": 1
     },
     {
       "name": "Studio LEO",
-      "avg_rating": 5.27,
+      "avg_rating": 5.24,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "Daily Plan.net",
+      "avg_rating": 5.38,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "SO-DO Creative",
+      "avg_rating": 5.38,
       "anime_count": 1,
       "rated_count": 1
     }
   ],
   "mean_rating": 6.52,
-  "mean_count": 10.2,
-  "total_studios": 417
+  "mean_count": 10.1,
+  "total_studios": 419
 }

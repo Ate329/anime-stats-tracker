@@ -1,22 +1,22 @@
 {
   "studios": [
     {
-      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 7.56,
-      "anime_count": 14,
-      "rated_count": 14
-    },
-    {
       "name": "\u52d5\u753b\u5de5\u623f",
       "avg_rating": 6.41,
       "anime_count": 14,
       "rated_count": 14
     },
     {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.12,
-      "anime_count": 19,
-      "rated_count": 19
+      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 7.56,
+      "anime_count": 14,
+      "rated_count": 14
+    },
+    {
+      "name": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
+      "avg_rating": 5.3,
+      "anime_count": 20,
+      "rated_count": 20
     },
     {
       "name": "Production I.G",
@@ -25,10 +25,16 @@
       "rated_count": 22
     },
     {
-      "name": "MADHOUSE",
-      "avg_rating": 6.93,
-      "anime_count": 25,
-      "rated_count": 25
+      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
+      "avg_rating": 5.47,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.12,
+      "anime_count": 19,
+      "rated_count": 19
     },
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
@@ -37,8 +43,14 @@
       "rated_count": 38
     },
     {
-      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.47,
+      "name": "MADHOUSE",
+      "avg_rating": 6.93,
+      "anime_count": 25,
+      "rated_count": 25
+    },
+    {
+      "name": "ILCA",
+      "avg_rating": 5.18,
       "anime_count": 11,
       "rated_count": 11
     },
@@ -53,12 +65,6 @@
       "avg_rating": 6.5,
       "anime_count": 25,
       "rated_count": 25
-    },
-    {
-      "name": "ILCA",
-      "avg_rating": 5.18,
-      "anime_count": 11,
-      "rated_count": 11
     },
     {
       "name": "\u52dd\u9b28\u30b9\u30bf\u30b8\u30aa",
@@ -115,12 +121,6 @@
       "rated_count": 11
     },
     {
-      "name": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
-      "avg_rating": 5.58,
-      "anime_count": 19,
-      "rated_count": 19
-    },
-    {
       "name": "OLM TEAM KATO",
       "avg_rating": 6.75,
       "anime_count": 10,
@@ -175,8 +175,8 @@
       "rated_count": 14
     }
   ],
-  "mean_rating": 6.22,
-  "mean_count": 18.3,
+  "mean_rating": 6.21,
+  "mean_count": 18.4,
   "total_studios": 29,
   "min_anime_count": 10
 }

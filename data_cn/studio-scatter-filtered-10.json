@@ -2,13 +2,7 @@
   "studios": [
     {
       "name": "\u52d5\u753b\u5de5\u623f",
-      "avg_rating": 6.41,
-      "anime_count": 14,
-      "rated_count": 14
-    },
-    {
-      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 7.56,
+      "avg_rating": 6.39,
       "anime_count": 14,
       "rated_count": 14
     },
@@ -19,6 +13,12 @@
       "rated_count": 20
     },
     {
+      "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 7.59,
+      "anime_count": 14,
+      "rated_count": 14
+    },
+    {
       "name": "Production I.G",
       "avg_rating": 6.87,
       "anime_count": 22,
@@ -26,15 +26,9 @@
     },
     {
       "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.47,
+      "avg_rating": 5.46,
       "anime_count": 11,
       "rated_count": 11
-    },
-    {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.12,
-      "anime_count": 19,
-      "rated_count": 19
     },
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
@@ -43,22 +37,28 @@
       "rated_count": 38
     },
     {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.12,
+      "anime_count": 19,
+      "rated_count": 19
+    },
+    {
       "name": "MADHOUSE",
       "avg_rating": 6.93,
       "anime_count": 25,
       "rated_count": 25
     },
     {
-      "name": "ILCA",
-      "avg_rating": 5.18,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
       "name": "MAPPA",
       "avg_rating": 6.69,
       "anime_count": 10,
       "rated_count": 10
+    },
+    {
+      "name": "ILCA",
+      "avg_rating": 5.18,
+      "anime_count": 11,
+      "rated_count": 11
     },
     {
       "name": "A-1 Pictures",

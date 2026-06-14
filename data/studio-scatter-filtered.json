@@ -296,7 +296,7 @@
     },
     {
       "name": "Asahi Production",
-      "avg_rating": 6.4,
+      "avg_rating": 6.41,
       "anime_count": 23,
       "rated_count": 22
     },
@@ -333,7 +333,7 @@
     {
       "name": "P.A. Works",
       "avg_rating": 7.28,
-      "anime_count": 36,
+      "anime_count": 37,
       "rated_count": 36
     },
     {
@@ -356,7 +356,7 @@
     },
     {
       "name": "White Fox",
-      "avg_rating": 7.66,
+      "avg_rating": 7.67,
       "anime_count": 28,
       "rated_count": 27
     },
@@ -536,7 +536,7 @@
     },
     {
       "name": "LIDENFILMS",
-      "avg_rating": 6.83,
+      "avg_rating": 6.82,
       "anime_count": 76,
       "rated_count": 72
     },
@@ -861,7 +861,7 @@
     {
       "name": "Arvo Animation",
       "avg_rating": 7.14,
-      "anime_count": 7,
+      "anime_count": 8,
       "rated_count": 6
     },
     {
@@ -945,12 +945,12 @@
     {
       "name": "Quad",
       "avg_rating": 6.18,
-      "anime_count": 6,
+      "anime_count": 7,
       "rated_count": 6
     },
     {
       "name": "Jumondou",
-      "avg_rating": 6.73,
+      "avg_rating": 6.72,
       "anime_count": 6,
       "rated_count": 5
     },

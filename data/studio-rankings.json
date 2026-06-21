@@ -13,7 +13,7 @@
     {
       "studio": "OLM",
       "count": 113,
-      "avg_score": 6.85
+      "avg_score": 6.84
     },
     {
       "studio": "A-1 Pictures",
@@ -47,12 +47,12 @@
     },
     {
       "studio": "LIDENFILMS",
-      "count": 76,
+      "count": 77,
       "avg_score": 6.82
     },
     {
       "studio": "SILVER LINK.",
-      "count": 72,
+      "count": 73,
       "avg_score": 6.94
     },
     {
@@ -73,7 +73,7 @@
     {
       "studio": "Satelight",
       "count": 58,
-      "avg_score": 6.9
+      "avg_score": 6.91
     }
   ],
   "by_quality": [
@@ -121,7 +121,7 @@
     },
     {
       "studio": "Wit Studio",
-      "avg_score": 7.57,
+      "avg_score": 7.56,
       "count": 31,
       "rated_count": 30
     },

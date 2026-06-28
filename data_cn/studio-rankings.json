@@ -18,7 +18,7 @@
     {
       "studio": "MADHOUSE",
       "count": 25,
-      "avg_score": 6.93
+      "avg_score": 6.94
     },
     {
       "studio": "A-1 Pictures",
@@ -43,7 +43,7 @@
     {
       "studio": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
       "count": 20,
-      "avg_score": 5.55
+      "avg_score": 5.63
     },
     {
       "studio": "GONZO",
@@ -79,7 +79,7 @@
   "by_quality": [
     {
       "studio": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_score": 7.58,
+      "avg_score": 7.59,
       "count": 14,
       "rated_count": 14
     },
@@ -103,7 +103,7 @@
     },
     {
       "studio": "MADHOUSE",
-      "avg_score": 6.93,
+      "avg_score": 6.94,
       "count": 25,
       "rated_count": 25
     },

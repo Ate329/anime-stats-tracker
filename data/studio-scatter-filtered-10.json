@@ -26,7 +26,7 @@
     },
     {
       "name": "Studio Hibari",
-      "avg_rating": 6.84,
+      "avg_rating": 6.86,
       "anime_count": 24,
       "rated_count": 23
     },
@@ -147,7 +147,7 @@
     {
       "name": "Tezuka Productions",
       "avg_rating": 7.1,
-      "anime_count": 24,
+      "anime_count": 25,
       "rated_count": 22
     },
     {
@@ -158,7 +158,7 @@
     },
     {
       "name": "TMS Entertainment",
-      "avg_rating": 7.06,
+      "avg_rating": 7.07,
       "anime_count": 89,
       "rated_count": 87
     },
@@ -176,7 +176,7 @@
     },
     {
       "name": "Tatsunoko Production",
-      "avg_rating": 6.72,
+      "avg_rating": 6.73,
       "anime_count": 40,
       "rated_count": 37
     },
@@ -188,7 +188,7 @@
     },
     {
       "name": "Brain's Base",
-      "avg_rating": 7.23,
+      "avg_rating": 7.24,
       "anime_count": 50,
       "rated_count": 48
     },
@@ -249,7 +249,7 @@
     {
       "name": "Studio Pierrot",
       "avg_rating": 7.32,
-      "anime_count": 44,
+      "anime_count": 45,
       "rated_count": 43
     },
     {
@@ -386,7 +386,7 @@
     },
     {
       "name": "Studio Gokumi",
-      "avg_rating": 6.86,
+      "avg_rating": 6.87,
       "anime_count": 33,
       "rated_count": 33
     },
@@ -434,7 +434,7 @@
     },
     {
       "name": "Bandai Namco Pictures",
-      "avg_rating": 7.38,
+      "avg_rating": 7.39,
       "anime_count": 37,
       "rated_count": 36
     },
@@ -446,7 +446,7 @@
     },
     {
       "name": "LIDENFILMS",
-      "avg_rating": 6.83,
+      "avg_rating": 6.82,
       "anime_count": 77,
       "rated_count": 72
     },
@@ -482,7 +482,7 @@
     },
     {
       "name": "Connect",
-      "avg_rating": 6.85,
+      "avg_rating": 6.84,
       "anime_count": 14,
       "rated_count": 14
     },
@@ -524,7 +524,7 @@
     },
     {
       "name": "Felix Film",
-      "avg_rating": 7.11,
+      "avg_rating": 7.12,
       "anime_count": 15,
       "rated_count": 14
     },
@@ -554,9 +554,9 @@
     },
     {
       "name": "EMT Squared",
-      "avg_rating": 6.27,
+      "avg_rating": 6.31,
       "anime_count": 33,
-      "rated_count": 30
+      "rated_count": 32
     },
     {
       "name": "Millepensee",
@@ -572,7 +572,7 @@
     },
     {
       "name": "AXsiZ",
-      "avg_rating": 6.3,
+      "avg_rating": 6.31,
       "anime_count": 13,
       "rated_count": 13
     },
@@ -602,7 +602,7 @@
     },
     {
       "name": "Studio A-CAT",
-      "avg_rating": 6.09,
+      "avg_rating": 6.14,
       "anime_count": 13,
       "rated_count": 12
     },
@@ -656,7 +656,7 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.38,
+      "avg_rating": 7.41,
       "anime_count": 16,
       "rated_count": 16
     },
@@ -674,14 +674,14 @@
     },
     {
       "name": "Imagica Infos",
-      "avg_rating": 6.06,
-      "anime_count": 15,
+      "avg_rating": 6.07,
+      "anime_count": 16,
       "rated_count": 11
     },
     {
       "name": "Imageworks Studio",
-      "avg_rating": 5.96,
-      "anime_count": 17,
+      "avg_rating": 5.97,
+      "anime_count": 18,
       "rated_count": 12
     }
   ],

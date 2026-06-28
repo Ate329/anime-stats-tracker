@@ -8,51 +8,27 @@
     },
     {
       "name": "\u52d5\u753b\u5de5\u623f",
-      "avg_rating": 6.37,
+      "avg_rating": 6.36,
       "anime_count": 14,
       "rated_count": 14
-    },
-    {
-      "name": "project No.9",
-      "avg_rating": 5.08,
-      "anime_count": 8,
-      "rated_count": 8
     },
     {
       "name": "\u4eac\u90fd\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 7.58,
+      "avg_rating": 7.59,
       "anime_count": 14,
       "rated_count": 14
     },
     {
-      "name": "GoHands",
-      "avg_rating": 5.94,
-      "anime_count": 5,
-      "rated_count": 5
-    },
-    {
       "name": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
-      "avg_rating": 5.55,
+      "avg_rating": 5.63,
       "anime_count": 20,
       "rated_count": 20
     },
     {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "name": "Pie in the sky",
       "avg_rating": 6.23,
-      "anime_count": 38,
-      "rated_count": 38
-    },
-    {
-      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.46,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "ENGI",
-      "avg_rating": 5.95,
-      "anime_count": 6,
-      "rated_count": 6
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "Production I.G",
@@ -61,8 +37,38 @@
       "rated_count": 22
     },
     {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.12,
+      "anime_count": 19,
+      "rated_count": 19
+    },
+    {
+      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
+      "avg_rating": 5.46,
+      "anime_count": 11,
+      "rated_count": 11
+    },
+    {
+      "name": "ZEXCS",
+      "avg_rating": 6.46,
+      "anime_count": 9,
+      "rated_count": 9
+    },
+    {
+      "name": "ENGI",
+      "avg_rating": 5.95,
+      "anime_count": 6,
+      "rated_count": 6
+    },
+    {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 5.69,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
       "name": "MADHOUSE",
-      "avg_rating": 6.93,
+      "avg_rating": 6.94,
       "anime_count": 25,
       "rated_count": 25
     },
@@ -73,26 +79,20 @@
       "rated_count": 7
     },
     {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 5.71,
-      "anime_count": 7,
-      "rated_count": 7
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.23,
+      "anime_count": 38,
+      "rated_count": 38
     },
     {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.12,
-      "anime_count": 19,
-      "rated_count": 19
+      "name": "MAPPA",
+      "avg_rating": 6.69,
+      "anime_count": 10,
+      "rated_count": 10
     },
     {
-      "name": "ZEXCS",
-      "avg_rating": 6.46,
-      "anime_count": 9,
-      "rated_count": 9
-    },
-    {
-      "name": "WIT STUDIO",
-      "avg_rating": 6.1,
+      "name": "FelixFilm",
+      "avg_rating": 6.04,
       "anime_count": 5,
       "rated_count": 5
     },
@@ -103,16 +103,10 @@
       "rated_count": 7
     },
     {
-      "name": "FelixFilm",
-      "avg_rating": 6.04,
-      "anime_count": 5,
-      "rated_count": 5
-    },
-    {
-      "name": "P.A.WORKS",
-      "avg_rating": 6.76,
-      "anime_count": 8,
-      "rated_count": 8
+      "name": "A-1 Pictures",
+      "avg_rating": 6.5,
+      "anime_count": 25,
+      "rated_count": 25
     },
     {
       "name": "ILCA",
@@ -121,22 +115,10 @@
       "rated_count": 11
     },
     {
-      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
-      "avg_rating": 3.15,
+      "name": "P.A.WORKS",
+      "avg_rating": 6.76,
       "anime_count": 8,
       "rated_count": 8
-    },
-    {
-      "name": "MAPPA",
-      "avg_rating": 6.69,
-      "anime_count": 10,
-      "rated_count": 10
-    },
-    {
-      "name": "A-1 Pictures",
-      "avg_rating": 6.5,
-      "anime_count": 25,
-      "rated_count": 25
     },
     {
       "name": "\u52dd\u9b28\u30b9\u30bf\u30b8\u30aa",
@@ -145,10 +127,10 @@
       "rated_count": 14
     },
     {
-      "name": "Pie in the sky",
-      "avg_rating": 7.27,
-      "anime_count": 6,
-      "rated_count": 6
+      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
+      "avg_rating": 3.6,
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "Quad(JFK)",
@@ -245,6 +227,12 @@
       "avg_rating": 6.57,
       "anime_count": 25,
       "rated_count": 25
+    },
+    {
+      "name": "project No.9",
+      "avg_rating": 5.21,
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "Studio\u4e94\u7d44",
@@ -512,7 +500,7 @@
     }
   ],
   "mean_rating": 6.14,
-  "mean_count": 10.8,
-  "total_studios": 85,
+  "mean_count": 10.9,
+  "total_studios": 83,
   "min_anime_count": 5
 }

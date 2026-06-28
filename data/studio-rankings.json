@@ -28,7 +28,7 @@
     {
       "studio": "TMS Entertainment",
       "count": 89,
-      "avg_score": 7.06
+      "avg_score": 7.07
     },
     {
       "studio": "Toei Animation",
@@ -144,21 +144,21 @@
       "rated_count": 27
     },
     {
-      "studio": "Shaft",
-      "avg_score": 7.48,
-      "count": 42,
-      "rated_count": 42
-    },
-    {
       "studio": "Madhouse",
       "avg_score": 7.48,
       "count": 100,
       "rated_count": 100
     },
     {
-      "studio": "TROYCA",
+      "studio": "Shaft",
+      "avg_score": 7.48,
+      "count": 42,
+      "rated_count": 42
+    },
+    {
+      "studio": "Studio KAI",
       "avg_score": 7.41,
-      "count": 17,
+      "count": 16,
       "rated_count": 16
     },
     {

@@ -3,12 +3,12 @@
     {
       "studio": "J.C.Staff",
       "count": 153,
-      "avg_score": 7.22
+      "avg_score": 7.21
     },
     {
       "studio": "Studio Deen",
-      "count": 119,
-      "avg_score": 6.92
+      "count": 120,
+      "avg_score": 6.9
     },
     {
       "studio": "OLM",
@@ -18,7 +18,7 @@
     {
       "studio": "A-1 Pictures",
       "count": 109,
-      "avg_score": 7.41
+      "avg_score": 7.4
     },
     {
       "studio": "Madhouse",
@@ -27,13 +27,13 @@
     },
     {
       "studio": "TMS Entertainment",
-      "count": 89,
-      "avg_score": 7.07
+      "count": 90,
+      "avg_score": 7.06
     },
     {
       "studio": "Toei Animation",
       "count": 85,
-      "avg_score": 7.12
+      "avg_score": 7.1
     },
     {
       "studio": "Sunrise",
@@ -43,7 +43,7 @@
     {
       "studio": "DLE",
       "count": 78,
-      "avg_score": 5.79
+      "avg_score": 5.78
     },
     {
       "studio": "LIDENFILMS",
@@ -52,7 +52,7 @@
     },
     {
       "studio": "SILVER LINK.",
-      "count": 73,
+      "count": 74,
       "avg_score": 6.94
     },
     {
@@ -79,7 +79,7 @@
   "by_quality": [
     {
       "studio": "Shuka",
-      "avg_score": 8.14,
+      "avg_score": 8.13,
       "count": 10,
       "rated_count": 10
     },
@@ -103,7 +103,7 @@
     },
     {
       "studio": "CloverWorks",
-      "avg_score": 7.65,
+      "avg_score": 7.64,
       "count": 37,
       "rated_count": 36
     },
@@ -133,7 +133,7 @@
     },
     {
       "studio": "MAPPA",
-      "avg_score": 7.52,
+      "avg_score": 7.51,
       "count": 56,
       "rated_count": 55
     },
@@ -144,16 +144,16 @@
       "rated_count": 27
     },
     {
-      "studio": "Madhouse",
-      "avg_score": 7.48,
-      "count": 100,
-      "rated_count": 100
-    },
-    {
       "studio": "Shaft",
       "avg_score": 7.48,
       "count": 42,
       "rated_count": 42
+    },
+    {
+      "studio": "Madhouse",
+      "avg_score": 7.48,
+      "count": 100,
+      "rated_count": 100
     },
     {
       "studio": "Studio KAI",
@@ -163,7 +163,7 @@
     },
     {
       "studio": "A-1 Pictures",
-      "avg_score": 7.41,
+      "avg_score": 7.4,
       "count": 109,
       "rated_count": 108
     }

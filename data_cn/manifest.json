@@ -12,67 +12,67 @@
   {
     "year": 2027,
     "season": "spring",
-    "count": 2
+    "count": 3
   },
   {
     "year": 2027,
     "season": "winter",
-    "count": 8
+    "count": 22
   },
   {
     "year": 2026,
     "season": "fall",
-    "count": 0
+    "count": 57
   },
   {
     "year": 2026,
-    "season": "summer",
-    "count": 49
-  },
-  {
-    "year": 2026,
-    "season": "spring",
-    "count": 73
-  },
-  {
-    "year": 2026,
-    "season": "winter",
-    "count": 66
-  },
-  {
-    "year": 2025,
-    "season": "fall",
-    "count": 62
-  },
-  {
-    "year": 2025,
     "season": "summer",
     "count": 76
   },
   {
-    "year": 2025,
+    "year": 2026,
     "season": "spring",
+    "count": 77
+  },
+  {
+    "year": 2026,
+    "season": "winter",
+    "count": 71
+  },
+  {
+    "year": 2025,
+    "season": "fall",
     "count": 67
   },
   {
     "year": 2025,
+    "season": "summer",
+    "count": 78
+  },
+  {
+    "year": 2025,
+    "season": "spring",
+    "count": 68
+  },
+  {
+    "year": 2025,
     "season": "winter",
-    "count": 60
+    "count": 61
   },
   {
     "year": 2024,
     "season": "fall",
-    "count": 73
+    "count": 74
   },
   {
     "year": 2024,
     "season": "summer",
-    "count": 56
+    "count": 58
   },
   {
     "year": 2024,
     "season": "spring",
-    "count": 70
+    "count": 71
   },
   {
     "year": 2024,
@@ -87,22 +87,22 @@
   {
     "year": 2023,
     "season": "summer",
-    "count": 53
+    "count": 56
   },
   {
     "year": 2023,
     "season": "spring",
-    "count": 65
+    "count": 67
   },
   {
     "year": 2023,
     "season": "winter",
-    "count": 67
+    "count": 66
   },
   {
     "year": 2022,
     "season": "fall",
-    "count": 59
+    "count": 58
   },
   {
     "year": 2022,
@@ -112,12 +112,12 @@
   {
     "year": 2022,
     "season": "spring",
-    "count": 64
+    "count": 65
   },
   {
     "year": 2022,
     "season": "winter",
-    "count": 45
+    "count": 46
   },
   {
     "year": 2021,
@@ -132,12 +132,12 @@
   {
     "year": 2021,
     "season": "spring",
-    "count": 64
+    "count": 65
   },
   {
     "year": 2021,
     "season": "winter",
-    "count": 64
+    "count": 65
   },
   {
     "year": 2020,
@@ -162,7 +162,7 @@
   {
     "year": 2019,
     "season": "fall",
-    "count": 56
+    "count": 57
   },
   {
     "year": 2019,
@@ -172,7 +172,7 @@
   {
     "year": 2019,
     "season": "spring",
-    "count": 53
+    "count": 54
   },
   {
     "year": 2019,
@@ -192,12 +192,12 @@
   {
     "year": 2018,
     "season": "spring",
-    "count": 81
+    "count": 82
   },
   {
     "year": 2018,
     "season": "winter",
-    "count": 52
+    "count": 53
   },
   {
     "year": 2017,
@@ -207,12 +207,12 @@
   {
     "year": 2017,
     "season": "summer",
-    "count": 52
+    "count": 53
   },
   {
     "year": 2017,
     "season": "spring",
-    "count": 71
+    "count": 72
   },
   {
     "year": 2017,
@@ -292,12 +292,12 @@
   {
     "year": 2013,
     "season": "spring",
-    "count": 58
+    "count": 59
   },
   {
     "year": 2013,
     "season": "winter",
-    "count": 43
+    "count": 42
   },
   {
     "year": 2012,
@@ -382,7 +382,7 @@
   {
     "year": 2008,
     "season": "fall",
-    "count": 44
+    "count": 43
   },
   {
     "year": 2008,
@@ -417,7 +417,7 @@
   {
     "year": 2007,
     "season": "winter",
-    "count": 27
+    "count": 26
   },
   {
     "year": 2006,
@@ -432,7 +432,7 @@
   {
     "year": 2006,
     "season": "spring",
-    "count": 68
+    "count": 69
   },
   {
     "year": 2006,

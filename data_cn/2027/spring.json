@@ -1,33 +1,5 @@
 [
   {
-    "mal_id": 599893,
-    "title": "药屋少女的呢喃 第三季 第2部分",
-    "title_japanese": "薬屋のひとりごと 第3期 第2クール",
-    "image_url": "https://lain.bgm.tv/pic/cover/l/f9/d7/599893_t3v4T.jpg",
-    "synopsis": "",
-    "score": 2,
-    "scored_by": 1,
-    "rank": 0,
-    "popularity": 0,
-    "members": 211,
-    "genres": [
-      "悬疑"
-    ],
-    "studios": [
-      "OLM"
-    ],
-    "source": [
-      "日向夏（ヒーロー文庫／イマジカインフォス刊）"
-    ],
-    "aired_from": null,
-    "year": null,
-    "is_hentai": false,
-    "title_english": "",
-    "themes": [],
-    "demographics": [],
-    "url": "https://bgm.tv/subject/599893"
-  },
-  {
     "mal_id": 590685,
     "title": "幼儿园战争",
     "title_japanese": "幼稚園WARS",
@@ -37,8 +9,9 @@
     "scored_by": 0,
     "rank": 0,
     "popularity": 0,
-    "members": 152,
+    "members": 243,
     "genres": [
+      "动作",
       "喜剧",
       "爱情"
     ],
@@ -55,5 +28,60 @@
     "themes": [],
     "demographics": [],
     "url": "https://bgm.tv/subject/590685"
+  },
+  {
+    "mal_id": 526576,
+    "title": "神乐钵",
+    "title_japanese": "カグラバチ",
+    "image_url": "https://lain.bgm.tv/pic/cover/l/4c/11/526576_aXwG8.jpg",
+    "synopsis": "少年は憎しみを焚べ、復讐の炎を心に宿す。\r\n刀匠を志す少年・六平千鉱と、高名な刀匠である父・国重。\r\n笑いの絶えない二人の日々は、謎の妖術師組織「毘灼」の\r\n襲撃により、無惨に切り裂かれた。\r\n\r\n奪われたのは、国家の命運を左右するほど絶大な力を持つ\r\n6本の「妖刀」と、優しく温かい日常。\r\n\r\nすべてが変わった“あの日”から、闇が渦巻く世界に残された少年は、\r\n父が遺した7本目の妖刀「淵天」を手に、血塗られた復讐の道を歩む。",
+    "score": 0,
+    "scored_by": 0,
+    "rank": 0,
+    "popularity": 0,
+    "members": 208,
+    "genres": [
+      "动作",
+      "奇幻"
+    ],
+    "studios": [],
+    "source": [
+      "外薗健（集英社「週刊少年ジャンプ」連載）"
+    ],
+    "aired_from": null,
+    "year": null,
+    "is_hentai": false,
+    "title_english": "",
+    "themes": [],
+    "demographics": [],
+    "url": "https://bgm.tv/subject/526576"
+  },
+  {
+    "mal_id": 599893,
+    "title": "药屋少女的呢喃 第三季 第2部分",
+    "title_japanese": "薬屋のひとりごと 第3期 第2クール",
+    "image_url": "https://lain.bgm.tv/pic/cover/l/f9/d7/599893_t3v4T.jpg",
+    "synopsis": "",
+    "score": 2,
+    "scored_by": 1,
+    "rank": 0,
+    "popularity": 0,
+    "members": 290,
+    "genres": [
+      "悬疑"
+    ],
+    "studios": [
+      "OLM"
+    ],
+    "source": [
+      "日向夏（ヒーロー文庫／イマジカインフォス刊）"
+    ],
+    "aired_from": null,
+    "year": null,
+    "is_hentai": false,
+    "title_english": "",
+    "themes": [],
+    "demographics": [],
+    "url": "https://bgm.tv/subject/599893"
   }
 ]

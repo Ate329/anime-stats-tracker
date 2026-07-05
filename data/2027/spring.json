@@ -16,8 +16,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 3543,
-    "members": 52311,
+    "popularity": 3521,
+    "members": 52807,
     "favorites": 67,
     "type": "TV",
     "status": "Not yet aired",
@@ -62,9 +62,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 4954,
-    "members": 26405,
-    "favorites": 234,
+    "popularity": 4905,
+    "members": 27274,
+    "favorites": 239,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -117,8 +117,8 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 7695,
-    "members": 8831,
+    "popularity": 7612,
+    "members": 9101,
     "favorites": 21,
     "type": "TV",
     "status": "Not yet aired",
@@ -165,9 +165,9 @@
     "score": null,
     "scored_by": null,
     "rank": null,
-    "popularity": 11926,
-    "members": 2546,
-    "favorites": 7,
+    "popularity": 10677,
+    "members": 3589,
+    "favorites": 12,
     "type": "TV",
     "status": "Not yet aired",
     "airing": false,
@@ -194,5 +194,58 @@
     "is_hentai": false,
     "is_japanese": true,
     "is_kid": false
+  },
+  {
+    "mal_id": 62024,
+    "title": "Unmei no Makimodoshi",
+    "title_english": "Fate Rewinder",
+    "title_japanese": "運命の巻戻士",
+    "title_synonyms": [
+      "\"All Great Achievements Require Time\""
+    ],
+    "image_url": "https://cdn.myanimelist.net/images/anime/1585/158853l.jpg",
+    "trailer_url": "https://www.youtube-nocookie.com/embed/VJh4cyxN_sM?enablejsapi=1&wmode=opaque&autoplay=1",
+    "synopsis": "A secret organization known as the Spacetime Police Special Task Force, nicknamed the \"Rewinders,\" exists to save those who have died tragic, untimely death. Their weapon, the \"Retry Eye,\" is a time machine implanted in their right eye. To solve each case, they'll rewind time dozens, hundreds, even thousands of times, until the future is changed.\n\n(Source: MAL News)",
+    "background": "",
+    "episodes": null,
+    "score": null,
+    "scored_by": null,
+    "rank": null,
+    "popularity": 13101,
+    "members": 1794,
+    "favorites": 1,
+    "type": "TV",
+    "status": "Not yet aired",
+    "airing": false,
+    "approved": true,
+    "duration": "Unknown",
+    "rating": null,
+    "source": "Manga",
+    "studios": [
+      "Bones Film"
+    ],
+    "producers": [
+      "STORY"
+    ],
+    "licensors": [],
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "themes": [
+      "Time Travel"
+    ],
+    "demographics": [
+      "Kids"
+    ],
+    "aired_from": "2027-04-01T00:00:00+00:00",
+    "aired_to": null,
+    "broadcast": "Unknown",
+    "url": "https://myanimelist.net/anime/62024/Unmei_no_Makimodoshi",
+    "year": 2027,
+    "season": "spring",
+    "is_hentai": false,
+    "is_japanese": true,
+    "is_kid": true
   }
 ]

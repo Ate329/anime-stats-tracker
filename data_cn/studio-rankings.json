@@ -12,8 +12,8 @@
     },
     {
       "studio": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "count": 39,
-      "avg_score": 6.06
+      "count": 37,
+      "avg_score": 6.0
     },
     {
       "studio": "A-1 Pictures",
@@ -27,18 +27,18 @@
     },
     {
       "studio": "MADHOUSE",
-      "count": 25,
-      "avg_score": 6.94
-    },
-    {
-      "studio": "Production I.G",
-      "count": 22,
-      "avg_score": 6.86
+      "count": 24,
+      "avg_score": 6.91
     },
     {
       "studio": "NHK\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba",
       "count": 22,
       "avg_score": 5.6
+    },
+    {
+      "studio": "Production I.G",
+      "count": 21,
+      "avg_score": 6.9
     },
     {
       "studio": "\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
@@ -51,14 +51,14 @@
       "avg_score": 6.34
     },
     {
-      "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "count": 19,
-      "avg_score": 7.11
-    },
-    {
       "studio": "\u304e\u3083\u308d\u3063\u3077",
       "count": 19,
       "avg_score": 6.54
+    },
+    {
+      "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "count": 18,
+      "avg_score": 7.17
     },
     {
       "studio": "BONES",
@@ -97,9 +97,9 @@
     },
     {
       "studio": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_score": 7.11,
-      "count": 19,
-      "rated_count": 19
+      "avg_score": 7.17,
+      "count": 18,
+      "rated_count": 18
     },
     {
       "studio": "BONES",
@@ -109,27 +109,21 @@
     },
     {
       "studio": "MADHOUSE",
-      "avg_score": 6.94,
-      "count": 25,
-      "rated_count": 25
+      "avg_score": 6.91,
+      "count": 24,
+      "rated_count": 24
     },
     {
       "studio": "Production I.G",
-      "avg_score": 6.86,
-      "count": 22,
-      "rated_count": 22
+      "avg_score": 6.9,
+      "count": 21,
+      "rated_count": 21
     },
     {
       "studio": "\u30a8\u30a4\u30c8\u30d3\u30c3\u30c8",
       "avg_score": 6.71,
       "count": 12,
       "rated_count": 12
-    },
-    {
-      "studio": "MAPPA",
-      "avg_score": 6.68,
-      "count": 10,
-      "rated_count": 10
     },
     {
       "studio": "J.C.STAFF",
@@ -166,6 +160,12 @@
       "avg_score": 6.41,
       "count": 16,
       "rated_count": 16
+    },
+    {
+      "studio": "GONZO",
+      "avg_score": 6.34,
+      "count": 20,
+      "rated_count": 20
     }
   ]
 }

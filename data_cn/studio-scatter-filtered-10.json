@@ -25,48 +25,6 @@
       "rated_count": 14
     },
     {
-      "name": "MADHOUSE",
-      "avg_rating": 6.94,
-      "anime_count": 25,
-      "rated_count": 25
-    },
-    {
-      "name": "Production I.G",
-      "avg_rating": 6.86,
-      "anime_count": 22,
-      "rated_count": 22
-    },
-    {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.11,
-      "anime_count": 19,
-      "rated_count": 19
-    },
-    {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.06,
-      "anime_count": 39,
-      "rated_count": 39
-    },
-    {
-      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.47,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "ILCA",
-      "avg_rating": 5.19,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "MAPPA",
-      "avg_rating": 6.68,
-      "anime_count": 10,
-      "rated_count": 10
-    },
-    {
       "name": "A-1 Pictures",
       "avg_rating": 6.5,
       "anime_count": 26,
@@ -79,6 +37,12 @@
       "rated_count": 14
     },
     {
+      "name": "ILCA",
+      "avg_rating": 5.21,
+      "anime_count": 10,
+      "rated_count": 10
+    },
+    {
       "name": "DLE",
       "avg_rating": 3.38,
       "anime_count": 11,
@@ -89,6 +53,12 @@
       "avg_rating": 7.37,
       "anime_count": 41,
       "rated_count": 41
+    },
+    {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.0,
+      "anime_count": 37,
+      "rated_count": 37
     },
     {
       "name": "NHK\u30a8\u30f3\u30bf\u30fc\u30d7\u30e9\u30a4\u30ba",
@@ -109,10 +79,22 @@
       "rated_count": 26
     },
     {
+      "name": "MADHOUSE",
+      "avg_rating": 6.91,
+      "anime_count": 24,
+      "rated_count": 24
+    },
+    {
       "name": "\u30e9\u30a4\u30c7\u30f3\u30d5\u30a3\u30eb\u30e0",
       "avg_rating": 5.88,
       "anime_count": 13,
       "rated_count": 13
+    },
+    {
+      "name": "Production I.G",
+      "avg_rating": 6.9,
+      "anime_count": 21,
+      "rated_count": 21
     },
     {
       "name": "J.C.STAFF",
@@ -125,6 +107,18 @@
       "avg_rating": 7.24,
       "anime_count": 12,
       "rated_count": 12
+    },
+    {
+      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
+      "avg_rating": 5.49,
+      "anime_count": 10,
+      "rated_count": 10
+    },
+    {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.17,
+      "anime_count": 18,
+      "rated_count": 18
     },
     {
       "name": "BONES",
@@ -175,8 +169,8 @@
       "rated_count": 15
     }
   ],
-  "mean_rating": 6.2,
-  "mean_count": 18.7,
-  "total_studios": 29,
+  "mean_rating": 6.18,
+  "mean_count": 18.8,
+  "total_studios": 28,
   "min_anime_count": 10
 }

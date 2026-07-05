@@ -80,15 +80,15 @@
     },
     {
       "name": "Magic Bus",
-      "avg_rating": 6.39,
+      "avg_rating": 6.41,
       "anime_count": 7,
-      "rated_count": 5
+      "rated_count": 6
     },
     {
       "name": "Bones",
-      "avg_rating": 7.61,
+      "avg_rating": 7.6,
       "anime_count": 60,
-      "rated_count": 59
+      "rated_count": 60
     },
     {
       "name": "Sunrise",
@@ -182,9 +182,9 @@
     },
     {
       "name": "Nomad",
-      "avg_rating": 6.78,
+      "avg_rating": 6.79,
       "anime_count": 21,
-      "rated_count": 20
+      "rated_count": 21
     },
     {
       "name": "DLE",
@@ -206,9 +206,9 @@
     },
     {
       "name": "Brain's Base",
-      "avg_rating": 7.23,
+      "avg_rating": 7.22,
       "anime_count": 50,
-      "rated_count": 48
+      "rated_count": 49
     },
     {
       "name": "ufotable",
@@ -296,9 +296,9 @@
     },
     {
       "name": "Asahi Production",
-      "avg_rating": 6.4,
+      "avg_rating": 6.41,
       "anime_count": 24,
-      "rated_count": 23
+      "rated_count": 24
     },
     {
       "name": "Gainax",
@@ -398,9 +398,9 @@
     },
     {
       "name": "GoHands",
-      "avg_rating": 6.71,
+      "avg_rating": 6.73,
       "anime_count": 14,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "AIC PLUS+",
@@ -434,9 +434,9 @@
     },
     {
       "name": "Shin-Ei Animation",
-      "avg_rating": 7.04,
+      "avg_rating": 7.05,
       "anime_count": 35,
-      "rated_count": 33
+      "rated_count": 34
     },
     {
       "name": "8bit",
@@ -531,14 +531,14 @@
     {
       "name": "Passione",
       "avg_rating": 6.84,
-      "anime_count": 25,
+      "anime_count": 26,
       "rated_count": 24
     },
     {
       "name": "LIDENFILMS",
-      "avg_rating": 6.82,
+      "avg_rating": 6.83,
       "anime_count": 77,
-      "rated_count": 72
+      "rated_count": 73
     },
     {
       "name": "Yaoyorozu",
@@ -620,9 +620,9 @@
     },
     {
       "name": "Lay-duce",
-      "avg_rating": 6.95,
+      "avg_rating": 6.94,
       "anime_count": 14,
-      "rated_count": 12
+      "rated_count": 13
     },
     {
       "name": "Polygon Pictures",
@@ -716,9 +716,9 @@
     },
     {
       "name": "Signal.MD",
-      "avg_rating": 6.4,
+      "avg_rating": 6.45,
       "anime_count": 16,
-      "rated_count": 14
+      "rated_count": 15
     },
     {
       "name": "AXsiZ",
@@ -746,9 +746,9 @@
     },
     {
       "name": "Zero-G",
-      "avg_rating": 6.9,
+      "avg_rating": 6.88,
       "anime_count": 32,
-      "rated_count": 28
+      "rated_count": 29
     },
     {
       "name": "Blade",
@@ -776,7 +776,7 @@
     },
     {
       "name": "Studio A-CAT",
-      "avg_rating": 6.13,
+      "avg_rating": 6.14,
       "anime_count": 13,
       "rated_count": 12
     },
@@ -880,7 +880,7 @@
       "name": "Bibury Animation Studios",
       "avg_rating": 7.0,
       "anime_count": 11,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "Drive",
@@ -895,6 +895,12 @@
       "rated_count": 7
     },
     {
+      "name": "HORNETS",
+      "avg_rating": 7.27,
+      "anime_count": 5,
+      "rated_count": 4
+    },
+    {
       "name": "Studio Signpost",
       "avg_rating": 8.08,
       "anime_count": 7,
@@ -902,9 +908,9 @@
     },
     {
       "name": "Yokohama Animation Lab",
-      "avg_rating": 6.78,
+      "avg_rating": 6.81,
       "anime_count": 12,
-      "rated_count": 11
+      "rated_count": 12
     },
     {
       "name": "Studio Bind",
@@ -914,8 +920,8 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.41,
-      "anime_count": 16,
+      "avg_rating": 7.42,
+      "anime_count": 17,
       "rated_count": 16
     },
     {
@@ -962,7 +968,7 @@
     },
     {
       "name": "Yostar Pictures",
-      "avg_rating": 7.25,
+      "avg_rating": 7.24,
       "anime_count": 8,
       "rated_count": 8
     },
@@ -974,9 +980,9 @@
     },
     {
       "name": "Gekkou",
-      "avg_rating": 6.5,
+      "avg_rating": 6.54,
       "anime_count": 9,
-      "rated_count": 8
+      "rated_count": 9
     },
     {
       "name": "TOHO animation STUDIO",
@@ -1010,13 +1016,13 @@
     },
     {
       "name": "Bones Film",
-      "avg_rating": 7.88,
+      "avg_rating": 7.9,
       "anime_count": 6,
       "rated_count": 6
     }
   ],
   "mean_rating": 6.85,
-  "mean_count": 22.5,
-  "total_studios": 169,
+  "mean_count": 22.4,
+  "total_studios": 170,
   "min_anime_count": 5
 }

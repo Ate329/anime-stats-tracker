@@ -48,12 +48,12 @@
     {
       "studio": "LIDENFILMS",
       "count": 77,
-      "avg_score": 6.82
+      "avg_score": 6.83
     },
     {
       "studio": "SILVER LINK.",
       "count": 74,
-      "avg_score": 6.94
+      "avg_score": 6.93
     },
     {
       "studio": "Production I.G",
@@ -68,7 +68,7 @@
     {
       "studio": "Bones",
       "count": 60,
-      "avg_score": 7.61
+      "avg_score": 7.6
     },
     {
       "studio": "Satelight",
@@ -109,9 +109,9 @@
     },
     {
       "studio": "Bones",
-      "avg_score": 7.61,
+      "avg_score": 7.6,
       "count": 60,
-      "rated_count": 59
+      "rated_count": 60
     },
     {
       "studio": "Trigger",
@@ -157,8 +157,8 @@
     },
     {
       "studio": "Studio KAI",
-      "avg_score": 7.41,
-      "count": 16,
+      "avg_score": 7.43,
+      "count": 17,
       "rated_count": 16
     },
     {

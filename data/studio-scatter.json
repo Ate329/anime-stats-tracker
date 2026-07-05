@@ -104,9 +104,9 @@
     },
     {
       "name": "Magic Bus",
-      "avg_rating": 6.39,
+      "avg_rating": 6.41,
       "anime_count": 7,
-      "rated_count": 5
+      "rated_count": 6
     },
     {
       "name": "Ocon Studio",
@@ -116,9 +116,9 @@
     },
     {
       "name": "Bones",
-      "avg_rating": 7.61,
+      "avg_rating": 7.6,
       "anime_count": 60,
-      "rated_count": 59
+      "rated_count": 60
     },
     {
       "name": "Sunrise",
@@ -242,9 +242,9 @@
     },
     {
       "name": "Nomad",
-      "avg_rating": 6.78,
+      "avg_rating": 6.79,
       "anime_count": 21,
-      "rated_count": 20
+      "rated_count": 21
     },
     {
       "name": "DLE",
@@ -284,9 +284,9 @@
     },
     {
       "name": "Brain's Base",
-      "avg_rating": 7.23,
+      "avg_rating": 7.22,
       "anime_count": 50,
-      "rated_count": 48
+      "rated_count": 49
     },
     {
       "name": "ufotable",
@@ -452,9 +452,9 @@
     },
     {
       "name": "Asahi Production",
-      "avg_rating": 6.4,
+      "avg_rating": 6.41,
       "anime_count": 24,
-      "rated_count": 23
+      "rated_count": 24
     },
     {
       "name": "Iyasakadou Film",
@@ -668,9 +668,9 @@
     },
     {
       "name": "GoHands",
-      "avg_rating": 6.71,
+      "avg_rating": 6.73,
       "anime_count": 14,
-      "rated_count": 13
+      "rated_count": 14
     },
     {
       "name": "AIC PLUS+",
@@ -764,9 +764,9 @@
     },
     {
       "name": "Shin-Ei Animation",
-      "avg_rating": 7.04,
+      "avg_rating": 7.05,
       "anime_count": 35,
-      "rated_count": 33
+      "rated_count": 34
     },
     {
       "name": "AIC Build",
@@ -957,7 +957,7 @@
     {
       "name": "Passione",
       "avg_rating": 6.84,
-      "anime_count": 25,
+      "anime_count": 26,
       "rated_count": 24
     },
     {
@@ -968,9 +968,9 @@
     },
     {
       "name": "LIDENFILMS",
-      "avg_rating": 6.82,
+      "avg_rating": 6.83,
       "anime_count": 77,
-      "rated_count": 72
+      "rated_count": 73
     },
     {
       "name": "Kazami Gakuen Koushiki Douga-bu",
@@ -1100,9 +1100,9 @@
     },
     {
       "name": "Lay-duce",
-      "avg_rating": 6.95,
+      "avg_rating": 6.94,
       "anime_count": 14,
-      "rated_count": 12
+      "rated_count": 13
     },
     {
       "name": "Cyclone Graphics",
@@ -1256,9 +1256,9 @@
     },
     {
       "name": "Signal.MD",
-      "avg_rating": 6.4,
+      "avg_rating": 6.45,
       "anime_count": 16,
-      "rated_count": 14
+      "rated_count": 15
     },
     {
       "name": "Kyotoma",
@@ -1364,9 +1364,9 @@
     },
     {
       "name": "Zero-G",
-      "avg_rating": 6.9,
+      "avg_rating": 6.88,
       "anime_count": 32,
-      "rated_count": 28
+      "rated_count": 29
     },
     {
       "name": "Bouncy",
@@ -1472,7 +1472,7 @@
     },
     {
       "name": "Studio A-CAT",
-      "avg_rating": 6.13,
+      "avg_rating": 6.14,
       "anime_count": 13,
       "rated_count": 12
     },
@@ -1768,7 +1768,7 @@
       "name": "Bibury Animation Studios",
       "avg_rating": 7.0,
       "anime_count": 11,
-      "rated_count": 9
+      "rated_count": 10
     },
     {
       "name": "Revoroot",
@@ -1821,7 +1821,7 @@
     {
       "name": "HORNETS",
       "avg_rating": 7.27,
-      "anime_count": 4,
+      "anime_count": 5,
       "rated_count": 4
     },
     {
@@ -1892,9 +1892,9 @@
     },
     {
       "name": "Yokohama Animation Lab",
-      "avg_rating": 6.78,
+      "avg_rating": 6.81,
       "anime_count": 12,
-      "rated_count": 11
+      "rated_count": 12
     },
     {
       "name": "DRAWIZ",
@@ -1946,8 +1946,8 @@
     },
     {
       "name": "Studio KAI",
-      "avg_rating": 7.41,
-      "anime_count": 16,
+      "avg_rating": 7.42,
+      "anime_count": 17,
       "rated_count": 16
     },
     {
@@ -2120,7 +2120,7 @@
     },
     {
       "name": "Yostar Pictures",
-      "avg_rating": 7.25,
+      "avg_rating": 7.24,
       "anime_count": 8,
       "rated_count": 8
     },
@@ -2156,9 +2156,9 @@
     },
     {
       "name": "Gekkou",
-      "avg_rating": 6.5,
+      "avg_rating": 6.54,
       "anime_count": 9,
-      "rated_count": 8
+      "rated_count": 9
     },
     {
       "name": "soket",
@@ -2348,7 +2348,7 @@
     },
     {
       "name": "Voil",
-      "avg_rating": 7.05,
+      "avg_rating": 7.09,
       "anime_count": 3,
       "rated_count": 3
     },
@@ -2390,7 +2390,7 @@
     },
     {
       "name": "Bones Film",
-      "avg_rating": 7.88,
+      "avg_rating": 7.9,
       "anime_count": 6,
       "rated_count": 6
     },
@@ -2462,9 +2462,9 @@
     },
     {
       "name": "animation studio42",
-      "avg_rating": 6.65,
+      "avg_rating": 6.85,
       "anime_count": 2,
-      "rated_count": 1
+      "rated_count": 2
     },
     {
       "name": "Atelier Peuplier",
@@ -2480,7 +2480,7 @@
     },
     {
       "name": "Qzil.la",
-      "avg_rating": 7.08,
+      "avg_rating": 7.07,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -2492,13 +2492,13 @@
     },
     {
       "name": "Doraku",
-      "avg_rating": 5.64,
+      "avg_rating": 5.67,
       "anime_count": 2,
       "rated_count": 1
     },
     {
       "name": "Cue",
-      "avg_rating": 7.37,
+      "avg_rating": 7.35,
       "anime_count": 3,
       "rated_count": 1
     },
@@ -2516,7 +2516,7 @@
     },
     {
       "name": "S.o.K",
-      "avg_rating": 7.4,
+      "avg_rating": 7.39,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -2528,12 +2528,30 @@
     },
     {
       "name": "Cypic",
-      "avg_rating": 7.3,
+      "avg_rating": 7.36,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "Picante Circus",
+      "avg_rating": 6.47,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "Nichicaline",
+      "avg_rating": 7.51,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "ZG-R",
+      "avg_rating": 6.1,
       "anime_count": 1,
       "rated_count": 1
     }
   ],
   "mean_rating": 6.52,
-  "mean_count": 10.1,
-  "total_studios": 422
+  "mean_count": 10.0,
+  "total_studios": 425
 }

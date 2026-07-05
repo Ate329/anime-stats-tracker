@@ -8,9 +8,9 @@
     },
     {
       "name": "Imagica Infos(\u30a4\u30de\u30b8\u30ab\u30a4\u30f3\u30d5\u30a9\u30b9)\u3001Imageworks Studio",
-      "avg_rating": 3.57,
-      "anime_count": 6,
-      "rated_count": 6
+      "avg_rating": 3.4,
+      "anime_count": 3,
+      "rated_count": 3
     },
     {
       "name": "CHOCOLATE Inc.",
@@ -20,9 +20,9 @@
     },
     {
       "name": "\u52d5\u697d",
-      "avg_rating": 7.55,
-      "anime_count": 2,
-      "rated_count": 2
+      "avg_rating": 9.5,
+      "anime_count": 1,
+      "rated_count": 1
     },
     {
       "name": "TROYCA",
@@ -152,9 +152,9 @@
     },
     {
       "name": "\u30d1\u30c3\u30b7\u30e7\u30fc\u30cd\u00d7\u30cf\u30e4\u30d6\u30b5\u30d5\u30a3\u30eb\u30e0",
-      "avg_rating": 5.93,
-      "anime_count": 3,
-      "rated_count": 3
+      "avg_rating": 5.65,
+      "anime_count": 2,
+      "rated_count": 2
     },
     {
       "name": "STUDIO EEK",
@@ -175,202 +175,10 @@
       "rated_count": 14
     },
     {
-      "name": "\u30c9\u30e9\u30a4\u30d6",
-      "avg_rating": 6.62,
-      "anime_count": 4,
-      "rated_count": 4
-    },
-    {
-      "name": "\u307b\u3063\u304b\u3044\u3069\u3046\u3076\u3064\u5236\u4f5c\u59d4\u54e1\u4f1a",
-      "avg_rating": 0,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "ZEXCS",
-      "avg_rating": 6.46,
-      "anime_count": 9,
-      "rated_count": 9
-    },
-    {
-      "name": "MADHOUSE",
-      "avg_rating": 6.94,
-      "anime_count": 25,
-      "rated_count": 25
-    },
-    {
-      "name": "\u8466\u30d7\u30ed\u30c0\u30af\u30b7\u30e7\u30f3 \u2192 \u65e0\u8868\u8bb0",
-      "avg_rating": 6.5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "SIGNAL.MD\u00d7Production I.G",
-      "avg_rating": 6.5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "Creadom8",
-      "avg_rating": 5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "OLM Team Yoshioka",
-      "avg_rating": 5.66,
-      "anime_count": 7,
-      "rated_count": 7
-    },
-    {
-      "name": "Production I.G",
-      "avg_rating": 6.86,
-      "anime_count": 22,
-      "rated_count": 22
-    },
-    {
-      "name": "OLM Division 1\u30fbDONGWOO A&E",
-      "avg_rating": 4.6,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30bd\u30ef\u30cd",
-      "avg_rating": 7.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "Qzil.la \u00d7 S.o.K",
-      "avg_rating": 7.1,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30c8\u30e0\u30b9\u30fb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8/\u7b2c6\u30b9\u30bf\u30b8\u30aa",
-      "avg_rating": 5.6,
-      "anime_count": 2,
-      "rated_count": 2
-    },
-    {
-      "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
-      "avg_rating": 5.97,
-      "anime_count": 8,
-      "rated_count": 8
-    },
-    {
-      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
-      "avg_rating": 7.11,
-      "anime_count": 19,
-      "rated_count": 19
-    },
-    {
-      "name": "\u30a2\u30ab\u30c4\u30ad\u30e1\u30c7\u30a3\u30a2\u30b9\u30bf\u30b8\u30aa",
-      "avg_rating": 1,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 6.06,
-      "anime_count": 39,
-      "rated_count": 39
-    },
-    {
-      "name": "\u30d5\u30b8\u30c6\u30ec\u30d3\u3001\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
-      "avg_rating": 7.37,
-      "anime_count": 3,
-      "rated_count": 3
-    },
-    {
-      "name": "\u30c8\u30e0\u30b9\u30fb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8/ \u7b2c7\u30b9\u30bf\u30b8\u30aa",
-      "avg_rating": 6.8,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30b9\u30bf\u30b8\u30aa \u30d5\u30e9\u30c3\u30c9",
-      "avg_rating": 5.65,
-      "anime_count": 2,
-      "rated_count": 2
-    },
-    {
-      "name": "BN Pictures\u00d7\u30a2\u30af\u30bf\u30b9",
-      "avg_rating": 6.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "BN Pictures\uff08\u4f50\u85e4\u5f18\u5e78\u3001\u4f0a\u85e4\u8cb4\u61b2\uff09\u3001\u30a2\u30af\u30bf\u30b9\uff08\u6ff5\u7530\u5065\u4e8c\u3001\u85e4\u7530\u4fee\u76db\uff09",
-      "avg_rating": 6.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "Yostar Pictures",
-      "avg_rating": 5.6,
-      "anime_count": 4,
-      "rated_count": 4
-    },
-    {
       "name": "\u30de\u30b8\u30c3\u30af\u30d0\u30b9\u00d7\u30d4\u30ab\u30f3\u30c6\u30b5\u30fc\u30ab\u30b9",
-      "avg_rating": 5.5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "Elias",
       "avg_rating": 4.6,
       "anime_count": 1,
       "rated_count": 1
-    },
-    {
-      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
-      "avg_rating": 5.47,
-      "anime_count": 11,
-      "rated_count": 11
-    },
-    {
-      "name": "\u30c7\u30a4\u30ea\u30fc\u30d7\u30e9\u30f3\u30cd\u30c3\u30c8\u3001\u4e00\u822c\u793e\u56e3\u6cd5\u4eba\u307e\u3093\u304c\u30b3\u30f3\u30c6\u30f3\u30c4\u632f\u8208\u6a5f\u69cb\u3001\u682a\u5f0f\u4f1a\u793eSO-DO\u30af\u30ea\u30a8\u30a4\u30c6\u30a3\u30d6",
-      "avg_rating": 3.3,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "TORUKU from WIT STUDIO",
-      "avg_rating": 6.4,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30c7\u30a3\u30fc\u30fb\u30a8\u30eb\u30fb\u30a4\u30fc\uff08DLE\uff09",
-      "avg_rating": 6.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "WIT STUDIO",
-      "avg_rating": 6.04,
-      "anime_count": 5,
-      "rated_count": 5
-    },
-    {
-      "name": "ENGI",
-      "avg_rating": 5.83,
-      "anime_count": 7,
-      "rated_count": 7
-    },
-    {
-      "name": "P.A.WORKS",
-      "avg_rating": 6.76,
-      "anime_count": 8,
-      "rated_count": 8
-    },
-    {
-      "name": "ILCA",
-      "avg_rating": 5.19,
-      "anime_count": 11,
-      "rated_count": 11
     },
     {
       "name": "\u30a4\u30fc\u30b9\u30c8\u30d5\u30a3\u30c3\u30b7\u30e5\u30b9\u30bf\u30b8\u30aa\u3001\u30a2\u30c8\u30ea\u30a8\u30d7\u30d7\u30ea\u30a8",
@@ -379,100 +187,10 @@
       "rated_count": 1
     },
     {
-      "name": "animation studio42",
-      "avg_rating": 5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "Imagica Infos(\u30a4\u30de\u30b8\u30ab\u30a4\u30f3\u30d5\u30a9\u30b9)\uff0fImageworks Studio",
-      "avg_rating": 4.4,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u98b1\u98a8\u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9\u00d7Qzil.la",
-      "avg_rating": 5.1,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "MAPPA",
-      "avg_rating": 6.68,
-      "anime_count": 10,
-      "rated_count": 10
-    },
-    {
-      "name": "\u753b\u72c2\u00d7FelixFilm",
-      "avg_rating": 4.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u6731\u590f",
-      "avg_rating": 7.27,
-      "anime_count": 3,
-      "rated_count": 3
-    },
-    {
-      "name": "OLM TEAM HIKITA",
-      "avg_rating": 5.5,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u682a\u5f0f\u4f1a\u793e\u30e9\u30a4\u30c7\u30f3\u30d5\u30a3\u30eb\u30e0",
-      "avg_rating": 0,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u682a\u5f0f\u4f1a\u793e\uff18\uff11\u30d7\u30ed\u30c7\u30e5\u30fc\u30b9\u3001\u682a\u5f0f\u4f1a\u793e\u30a6\u30eb\u30c8\u30e9\u30b9\u30fc\u30d1\u30fc\u30d4\u30af\u30c1\u30e3\u30fc\u30ba",
-      "avg_rating": 0,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u30b9\u30bf\u30b8\u30aa\u30fb\u30bb\u30d6\u30f3",
-      "avg_rating": 4.2,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u5f00\u53d1\uff1aQualiArts",
-      "avg_rating": 5.9,
-      "anime_count": 1,
-      "rated_count": 1
-    },
-    {
-      "name": "\u30c8\u30a5\u30fc\u30f3\u30cf\u30fc\u30d0\u30fc\u30ef\u30fc\u30af\u30b9",
-      "avg_rating": 4.35,
-      "anime_count": 2,
-      "rated_count": 2
-    },
-    {
       "name": "KINEMA CITRUS\u3001\u304e\u3075\u3068\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001STUDIO JEMI",
       "avg_rating": 5.87,
       "anime_count": 7,
       "rated_count": 7
-    },
-    {
-      "name": "A-1 Pictures",
-      "avg_rating": 6.5,
-      "anime_count": 26,
-      "rated_count": 26
-    },
-    {
-      "name": "FelixFilm",
-      "avg_rating": 6.04,
-      "anime_count": 5,
-      "rated_count": 5
-    },
-    {
-      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
-      "avg_rating": 3.4,
-      "anime_count": 8,
-      "rated_count": 8
     },
     {
       "name": "studio H\u014dKIBOSHI",
@@ -481,8 +199,26 @@
       "rated_count": 1
     },
     {
-      "name": "\u30b9\u30bf\u30b8\u30aaKAI",
-      "avg_rating": 5.7,
+      "name": "FelixFilm",
+      "avg_rating": 6.04,
+      "anime_count": 5,
+      "rated_count": 5
+    },
+    {
+      "name": "A-1 Pictures",
+      "avg_rating": 6.5,
+      "anime_count": 26,
+      "rated_count": 26
+    },
+    {
+      "name": "\u98b1\u98a8\u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30b9\u00d7Qzil.la",
+      "avg_rating": 5.1,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "\u30c8\u30a5\u30fc\u30f3\u30cf\u30fc\u30d0\u30fc\u30ef\u30fc\u30af\u30b9",
+      "avg_rating": 4.35,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -577,6 +313,12 @@
       "rated_count": 1
     },
     {
+      "name": "ILCA",
+      "avg_rating": 5.21,
+      "anime_count": 10,
+      "rated_count": 10
+    },
+    {
       "name": "IMAGICA Infos\uff08Imageworks Studio\uff09",
       "avg_rating": 4.3,
       "anime_count": 1,
@@ -607,6 +349,12 @@
       "rated_count": 3
     },
     {
+      "name": "OLM Team Yoshioka",
+      "avg_rating": 5.44,
+      "anime_count": 5,
+      "rated_count": 5
+    },
+    {
       "name": "\u304f\u3089\u305f\u307f\u3086\u3046",
       "avg_rating": 3.3,
       "anime_count": 1,
@@ -617,6 +365,12 @@
       "avg_rating": 5.4,
       "anime_count": 1,
       "rated_count": 1
+    },
+    {
+      "name": "\u30d5\u30a1\u30f3\u30ef\u30fc\u30af\u30b9",
+      "avg_rating": 3.89,
+      "anime_count": 7,
+      "rated_count": 7
     },
     {
       "name": "\u4e80\u5c71\u967d\u5e73",
@@ -743,6 +497,12 @@
       "avg_rating": 7.5,
       "anime_count": 2,
       "rated_count": 2
+    },
+    {
+      "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 6.0,
+      "anime_count": 37,
+      "rated_count": 37
     },
     {
       "name": "\u30c8\u30e0\u30b9\u30fb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8\u7b2c4\u30b9\u30bf\u30b8\u30aa",
@@ -925,6 +685,12 @@
       "rated_count": 1
     },
     {
+      "name": "\u30c9\u30e9\u30a4\u30d6",
+      "avg_rating": 6.4,
+      "anime_count": 3,
+      "rated_count": 3
+    },
+    {
       "name": "ufotable",
       "avg_rating": 6.96,
       "anime_count": 7,
@@ -1023,6 +789,12 @@
     {
       "name": "Children's Playground Entertainment\uff08Studio GAINA(BENTEN Film)\uff09",
       "avg_rating": 5.5,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "\u30c8\u30e0\u30b9\u30fb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8/\u7b2c6\u30b9\u30bf\u30b8\u30aa",
+      "avg_rating": 4.7,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -1135,6 +907,12 @@
       "rated_count": 1
     },
     {
+      "name": "\u30b9\u30bf\u30b8\u30aaKAI",
+      "avg_rating": 5.6,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
       "name": "\u5236\u7247\uff1a\u85cd\u6ca2\u4eae\uff08Starry Cube\uff09",
       "avg_rating": 3.1,
       "anime_count": 1,
@@ -1181,6 +959,12 @@
       "avg_rating": 5.35,
       "anime_count": 2,
       "rated_count": 2
+    },
+    {
+      "name": "Yostar Pictures",
+      "avg_rating": 5.87,
+      "anime_count": 3,
+      "rated_count": 3
     },
     {
       "name": "\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3\u3001\u30b9\u30bf\u30b8\u30aa\u30c7\u30a3\u30fc\u30f3",
@@ -1237,6 +1021,12 @@
       "rated_count": 1
     },
     {
+      "name": "MADHOUSE",
+      "avg_rating": 6.91,
+      "anime_count": 24,
+      "rated_count": 24
+    },
+    {
       "name": "Studio\u4e94\u7d44\uff58AXsiZ",
       "avg_rating": 5.3,
       "anime_count": 1,
@@ -1277,6 +1067,12 @@
       "avg_rating": 6.5,
       "anime_count": 1,
       "rated_count": 1
+    },
+    {
+      "name": "MAPPA",
+      "avg_rating": 6.54,
+      "anime_count": 9,
+      "rated_count": 9
     },
     {
       "name": "Staple Entertainment(\u30b9\u30c6\u30a4\u30d7\u30eb\u30a8\u30f3\u30bf\u30c6\u30a4\u30f3\u30e1\u30f3\u30c8)",
@@ -1381,6 +1177,12 @@
       "rated_count": 1
     },
     {
+      "name": "Production I.G",
+      "avg_rating": 6.9,
+      "anime_count": 21,
+      "rated_count": 21
+    },
+    {
       "name": "J.C.STAFF",
       "avg_rating": 6.64,
       "anime_count": 47,
@@ -1433,6 +1235,12 @@
       "avg_rating": 6.04,
       "anime_count": 7,
       "rated_count": 7
+    },
+    {
+      "name": "\u30bf\u30c4\u30ce\u30b3\u30d7\u30ed",
+      "avg_rating": 5.49,
+      "anime_count": 10,
+      "rated_count": 10
     },
     {
       "name": "CONNECT",
@@ -1507,6 +1315,12 @@
       "rated_count": 1
     },
     {
+      "name": "P.A.WORKS",
+      "avg_rating": 6.87,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
       "name": "OLM TEAM KATO",
       "avg_rating": 6.8,
       "anime_count": 9,
@@ -1555,6 +1369,12 @@
       "rated_count": 2
     },
     {
+      "name": "\u30b5\u30f3\u30e9\u30a4\u30ba",
+      "avg_rating": 7.17,
+      "anime_count": 18,
+      "rated_count": 18
+    },
+    {
       "name": "studio\u3074\u3048\u308d",
       "avg_rating": 6.8,
       "anime_count": 3,
@@ -1581,6 +1401,12 @@
     {
       "name": "\u30b9\u30da\u30fc\u30b9\u30cd\u30b3\u30ab\u30f3\u30d1\u30cb\u30fc\u30fb\u795e\u98a8\u52d5\u753b\u3001AC\u90e8\uff08#7\uff09",
       "avg_rating": 5.1,
+      "anime_count": 1,
+      "rated_count": 1
+    },
+    {
+      "name": "\u30b9\u30bf\u30b8\u30aa \u30d5\u30e9\u30c3\u30c9",
+      "avg_rating": 6.5,
       "anime_count": 1,
       "rated_count": 1
     },
@@ -1667,6 +1493,12 @@
       "avg_rating": 6.12,
       "anime_count": 10,
       "rated_count": 10
+    },
+    {
+      "name": "ENGI",
+      "avg_rating": 5.7,
+      "anime_count": 6,
+      "rated_count": 6
     },
     {
       "name": "\u30ac\u30ec\u30fc\u30b8\u30d5\u30a3\u30eb\u30e0",
@@ -1975,6 +1807,12 @@
       "rated_count": 1
     },
     {
+      "name": "\u30b5\u30c6\u30e9\u30a4\u30c8",
+      "avg_rating": 6.1,
+      "anime_count": 7,
+      "rated_count": 7
+    },
+    {
       "name": "\u30a2\u30bb\u30f3\u30b7\u30e7\u30f3",
       "avg_rating": 5.7,
       "anime_count": 1,
@@ -2087,6 +1925,12 @@
       "avg_rating": 6.2,
       "anime_count": 1,
       "rated_count": 1
+    },
+    {
+      "name": "WIT STUDIO",
+      "avg_rating": 6.17,
+      "anime_count": 3,
+      "rated_count": 3
     },
     {
       "name": "DOMERICA(\u30c9\u30e1\u30ea\u30ab) \u00d7 SHIN-EI ANIMATION(\u30b7\u30f3\u30a8\u30a4\u52d5\u753b)",
@@ -2415,6 +2259,12 @@
     {
       "name": "\u3074\u3048\u308d",
       "avg_rating": 5.75,
+      "anime_count": 2,
+      "rated_count": 2
+    },
+    {
+      "name": "\u6731\u590f",
+      "avg_rating": 6.7,
       "anime_count": 2,
       "rated_count": 2
     },
@@ -3607,6 +3457,12 @@
       "rated_count": 1
     },
     {
+      "name": "\u30d5\u30b8\u30c6\u30ec\u30d3\u3001\u6771\u6620\u30a2\u30cb\u30e1\u30fc\u30b7\u30e7\u30f3",
+      "avg_rating": 7.2,
+      "anime_count": 2,
+      "rated_count": 2
+    },
+    {
       "name": "feel.\u00d7\u30d4\u30fc\u30fb\u30a2\u30fc\u30eb\u30fb\u30a8\u30fc",
       "avg_rating": 5.9,
       "anime_count": 1,
@@ -4007,6 +3863,12 @@
       "avg_rating": 5.1,
       "anime_count": 1,
       "rated_count": 1
+    },
+    {
+      "name": "ZEXCS",
+      "avg_rating": 6.39,
+      "anime_count": 8,
+      "rated_count": 8
     },
     {
       "name": "\u98a8\u898b\u5b66\u5712\u516c\u5f0f\u52d5\u753b\u90e8(\u30a2\u30af\u30bf\u30b9)",
@@ -5263,7 +5125,7 @@
       "rated_count": 1
     }
   ],
-  "mean_rating": 5.8,
+  "mean_rating": 5.83,
   "mean_count": 2.2,
-  "total_studios": 877
+  "total_studios": 854
 }

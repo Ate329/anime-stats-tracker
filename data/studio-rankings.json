@@ -8,7 +8,7 @@
     {
       "studio": "Studio Deen",
       "count": 120,
-      "avg_score": 6.9
+      "avg_score": 6.89
     },
     {
       "studio": "OLM",
@@ -38,7 +38,7 @@
     {
       "studio": "Sunrise",
       "count": 81,
-      "avg_score": 7.26
+      "avg_score": 7.25
     },
     {
       "studio": "DLE",
@@ -63,12 +63,12 @@
     {
       "studio": "Doga Kobo",
       "count": 66,
-      "avg_score": 7.13
+      "avg_score": 7.1
     },
     {
       "studio": "Bones",
       "count": 60,
-      "avg_score": 7.6
+      "avg_score": 7.61
     },
     {
       "studio": "Satelight",
@@ -87,7 +87,7 @@
       "studio": "Kyoto Animation",
       "avg_score": 7.87,
       "count": 30,
-      "rated_count": 29
+      "rated_count": 30
     },
     {
       "studio": "ufotable",
@@ -109,7 +109,7 @@
     },
     {
       "studio": "Bones",
-      "avg_score": 7.6,
+      "avg_score": 7.61,
       "count": 60,
       "rated_count": 60
     },
@@ -165,7 +165,7 @@
       "studio": "A-1 Pictures",
       "avg_score": 7.4,
       "count": 109,
-      "rated_count": 108
+      "rated_count": 109
     }
   ]
 }

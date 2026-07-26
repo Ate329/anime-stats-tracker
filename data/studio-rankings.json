@@ -2,17 +2,17 @@
   "by_quantity": [
     {
       "studio": "J.C.Staff",
-      "count": 153,
+      "count": 150,
       "avg_score": 7.21
     },
     {
       "studio": "Studio Deen",
-      "count": 120,
-      "avg_score": 6.89
+      "count": 118,
+      "avg_score": 6.9
     },
     {
       "studio": "OLM",
-      "count": 113,
+      "count": 112,
       "avg_score": 6.84
     },
     {
@@ -32,13 +32,13 @@
     },
     {
       "studio": "Toei Animation",
-      "count": 85,
+      "count": 84,
       "avg_score": 7.1
     },
     {
       "studio": "Sunrise",
-      "count": 81,
-      "avg_score": 7.25
+      "count": 80,
+      "avg_score": 7.26
     },
     {
       "studio": "DLE",
@@ -47,13 +47,13 @@
     },
     {
       "studio": "LIDENFILMS",
-      "count": 77,
+      "count": 75,
       "avg_score": 6.83
     },
     {
       "studio": "SILVER LINK.",
-      "count": 74,
-      "avg_score": 6.93
+      "count": 72,
+      "avg_score": 6.94
     },
     {
       "studio": "Production I.G",
@@ -72,7 +72,7 @@
     },
     {
       "studio": "Satelight",
-      "count": 58,
+      "count": 57,
       "avg_score": 6.91
     }
   ],
@@ -98,7 +98,7 @@
     {
       "studio": "White Fox",
       "avg_score": 7.67,
-      "count": 28,
+      "count": 27,
       "rated_count": 27
     },
     {
@@ -157,15 +157,15 @@
     },
     {
       "studio": "Studio KAI",
-      "avg_score": 7.43,
-      "count": 17,
-      "rated_count": 16
+      "avg_score": 7.45,
+      "count": 16,
+      "rated_count": 15
     },
     {
-      "studio": "A-1 Pictures",
-      "avg_score": 7.4,
-      "count": 109,
-      "rated_count": 109
+      "studio": "TROYCA",
+      "avg_score": 7.44,
+      "count": 16,
+      "rated_count": 16
     }
   ]
 }
